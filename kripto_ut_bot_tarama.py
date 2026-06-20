@@ -23,7 +23,7 @@ ATR_PERIOD = 14
 TIMEFRAME  = "30m"
 
 STATE_FILE = "kripto_ut_state.json"
-TOP_N = 30
+TOP_N = 100
 
 exchange = ccxt.okx({
     'enableRateLimit': True,
