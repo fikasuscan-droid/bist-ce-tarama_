@@ -3,7 +3,7 @@ name: Kripto UT Bot Taraması
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: "*/30 * * * *"
 
 jobs:
   tarama:
@@ -15,7 +15,7 @@ jobs:
       - name: Python kurulumu
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Kütüphaneleri yükle
         run: pip install ccxt pandas numpy
@@ -28,8 +28,8 @@ jobs:
 
       - name: Durum dosyasını kaydet
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'actions@github.com'
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
           git add kripto_ut_state.json
           git diff --staged --quiet || git commit -m "Durum güncellendi"
           git push
