@@ -2,8 +2,7 @@
 """
 Pay Vadeli UT Bot Taraması — GitHub Actions için
 UT Bot (KV4/ATR14), 15 dakikalık periyot
-Gerçek VIOP vadeli kontrat fiyatları (borsapy ile)
-AL/SAT (LONG/SHORT) sinyali değiştiğinde Telegram bildirimi gönderir
+TP1/TP2/TP3/SL ile Telegram bildirimi gönderir
 """
 
 import borsapy as bp
@@ -20,6 +19,12 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 KEY_VALUE  = 4.0
 ATR_PERIOD = 14
+
+# TP/SL ATR çarpanları
+ATR_SL_MULT  = 1.0
+ATR_TP1_MULT = 1.0
+ATR_TP2_MULT = 2.0
+ATR_TP3_MULT = 3.0
 
 STATE_FILE = "viop_ut_state.json"
 
@@ -70,6 +75,16 @@ def en_yakin_kontrat_bul(dayanak):
     except Exception as e:
         print(f"{dayanak} kontrat arama hatasi: {e}")
         return None
+
+def atr_hesapla(df, period=14):
+    high  = df['High']
+    low   = df['Low']
+    close = df['Close']
+    tr1 = high - low
+    tr2 = abs(high - close.shift(1))
+    tr3 = abs(low  - close.shift(1))
+    tr  = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+    return tr.rolling(window=period).mean()
 
 def ut_bot_hesapla(df, key_value=4.0, atr_period=14):
     high  = df['High']
@@ -125,6 +140,19 @@ def ut_bot_hesapla(df, key_value=4.0, atr_period=14):
 
     return pos, trailing_stop
 
+def tp_sl_hesapla(fiyat, atr_v, pozisyon):
+    if pozisyon == "LONG":
+        sl  = fiyat - atr_v * ATR_SL_MULT
+        tp1 = fiyat + atr_v * ATR_TP1_MULT
+        tp2 = fiyat + atr_v * ATR_TP2_MULT
+        tp3 = fiyat + atr_v * ATR_TP3_MULT
+    else:
+        sl  = fiyat + atr_v * ATR_SL_MULT
+        tp1 = fiyat - atr_v * ATR_TP1_MULT
+        tp2 = fiyat - atr_v * ATR_TP2_MULT
+        tp3 = fiyat - atr_v * ATR_TP3_MULT
+    return round(tp1, 2), round(tp2, 2), round(tp3, 2), round(sl, 2)
+
 def hisse_sinyal(dayanak):
     try:
         kontrat = en_yakin_kontrat_bul(dayanak)
@@ -143,17 +171,22 @@ def hisse_sinyal(dayanak):
             return None
 
         pos, ts = ut_bot_hesapla(df, KEY_VALUE, ATR_PERIOD)
+        atr_series = atr_hesapla(df, ATR_PERIOD)
 
         curr_pos = pos.iloc[-1]
-        fiyat     = df['Close'].iloc[-1]
+        fiyat    = df['Close'].iloc[-1]
+        atr_v    = atr_series.iloc[-1]
 
         pozisyon = "LONG" if curr_pos == 1 else "SHORT" if curr_pos == -1 else "BEKLE"
+
+        tp1, tp2, tp3, sl = tp_sl_hesapla(fiyat, atr_v, pozisyon) if pozisyon != "BEKLE" else (None, None, None, None)
 
         return {
             'dayanak': dayanak,
             'kontrat': sembol_gosterim,
             'fiyat': round(float(fiyat), 2),
-            'pozisyon': pozisyon
+            'pozisyon': pozisyon,
+            'tp1': tp1, 'tp2': tp2, 'tp3': tp3, 'sl': sl
         }
     except Exception as e:
         print(f"{dayanak} hata: {e}")
@@ -201,14 +234,18 @@ def tarama():
         mesaj += f"Saat: {datetime.now().strftime('%d.%m.%Y %H:%M')}\n\n"
 
         if yeni_long_sinyalleri:
-            mesaj += "LONG Sinyali:\n"
+            mesaj += "🟢 LONG Sinyali:\n"
             for s in yeni_long_sinyalleri:
-                mesaj += f"  {s['dayanak']} ({s['kontrat']}) - {s['fiyat']}\n"
+                mesaj += f"\n<b>{s['dayanak']}</b> ({s['kontrat']}) — {s['fiyat']}\n"
+                mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
+                mesaj += f"  SL: {s['sl']}\n"
 
         if yeni_short_sinyalleri:
-            mesaj += "\nSHORT Sinyali:\n"
+            mesaj += "\n🔴 SHORT Sinyali:\n"
             for s in yeni_short_sinyalleri:
-                mesaj += f"  {s['dayanak']} ({s['kontrat']}) - {s['fiyat']}\n"
+                mesaj += f"\n<b>{s['dayanak']}</b> ({s['kontrat']}) — {s['fiyat']}\n"
+                mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
+                mesaj += f"  SL: {s['sl']}\n"
 
         telegram_gonder(mesaj)
     else:
