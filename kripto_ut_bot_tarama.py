@@ -2,8 +2,7 @@
 """
 Kripto UT Bot Taraması — GitHub Actions için
 UT Bot (KV5/ATR14), 30 dakikalık periyot
-OKX üzerinden en hacimli/likit Top 30 USDT paritesi
-LONG/SHORT sinyali değiştiğinde Telegram bildirimi gönderir
+TP1/TP2/TP3/SL ile Telegram bildirimi gönderir
 """
 
 import ccxt
@@ -21,6 +20,12 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 KEY_VALUE  = 5.0
 ATR_PERIOD = 14
 TIMEFRAME  = "30m"
+
+# TP/SL ATR çarpanları
+ATR_SL_MULT  = 1.0
+ATR_TP1_MULT = 1.0
+ATR_TP2_MULT = 2.0
+ATR_TP3_MULT = 3.0
 
 STATE_FILE = "kripto_ut_state.json"
 TOP_N = 100
@@ -59,7 +64,7 @@ def telegram_gonder(mesaj):
     except Exception as e:
         print(f"Telegram hatasi: {e}")
 
-def get_top_symbols(n=30):
+def get_top_symbols(n=100):
     exchange.load_markets()
     tickers = exchange.fetch_tickers()
 
@@ -82,6 +87,16 @@ def get_ohlcv(symbol, timeframe='30m', limit=100):
         return df
     except Exception as e:
         return None
+
+def atr_hesapla(df, period=14):
+    high  = df['high']
+    low   = df['low']
+    close = df['close']
+    tr1 = high - low
+    tr2 = abs(high - close.shift(1))
+    tr3 = abs(low  - close.shift(1))
+    tr  = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+    return tr.ewm(span=period, adjust=False).mean()
 
 def ut_bot_hesapla(df, key_value=5.0, atr_period=14):
     high  = df['high']
@@ -137,6 +152,19 @@ def ut_bot_hesapla(df, key_value=5.0, atr_period=14):
 
     return pos, ts
 
+def tp_sl_hesapla(fiyat, atr_v, pozisyon):
+    if pozisyon == "LONG":
+        sl  = fiyat - atr_v * ATR_SL_MULT
+        tp1 = fiyat + atr_v * ATR_TP1_MULT
+        tp2 = fiyat + atr_v * ATR_TP2_MULT
+        tp3 = fiyat + atr_v * ATR_TP3_MULT
+    else:
+        sl  = fiyat + atr_v * ATR_SL_MULT
+        tp1 = fiyat - atr_v * ATR_TP1_MULT
+        tp2 = fiyat - atr_v * ATR_TP2_MULT
+        tp3 = fiyat - atr_v * ATR_TP3_MULT
+    return round(tp1, 6), round(tp2, 6), round(tp3, 6), round(sl, 6)
+
 def sembol_sinyal(symbol):
     try:
         df = get_ohlcv(symbol, TIMEFRAME, limit=100)
@@ -145,16 +173,21 @@ def sembol_sinyal(symbol):
             return None
 
         pos, ts = ut_bot_hesapla(df, KEY_VALUE, ATR_PERIOD)
+        atr_series = atr_hesapla(df, ATR_PERIOD)
 
         curr_pos = pos.iloc[-1]
         fiyat    = df['close'].iloc[-1]
+        atr_v    = atr_series.iloc[-1]
 
         pozisyon = "LONG" if curr_pos == 1 else "SHORT" if curr_pos == -1 else "BEKLE"
+
+        tp1, tp2, tp3, sl = tp_sl_hesapla(fiyat, atr_v, pozisyon) if pozisyon != "BEKLE" else (None, None, None, None)
 
         return {
             'symbol': symbol.replace('/USDT', ''),
             'fiyat': round(float(fiyat), 6),
-            'pozisyon': pozisyon
+            'pozisyon': pozisyon,
+            'tp1': tp1, 'tp2': tp2, 'tp3': tp3, 'sl': sl
         }
     except Exception as e:
         print(f"{symbol} hata: {e}")
@@ -206,14 +239,18 @@ def tarama():
         mesaj += f"Saat: {datetime.now().strftime('%d.%m.%Y %H:%M')}\n\n"
 
         if yeni_long_sinyalleri:
-            mesaj += "LONG Sinyali:\n"
+            mesaj += "🟢 LONG Sinyali:\n"
             for s in yeni_long_sinyalleri:
-                mesaj += f"  {s['symbol']} - {s['fiyat']}\n"
+                mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']}\n"
+                mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
+                mesaj += f"  SL: {s['sl']}\n"
 
         if yeni_short_sinyalleri:
-            mesaj += "\nSHORT Sinyali:\n"
+            mesaj += "\n🔴 SHORT Sinyali:\n"
             for s in yeni_short_sinyalleri:
-                mesaj += f"  {s['symbol']} - {s['fiyat']}\n"
+                mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']}\n"
+                mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
+                mesaj += f"  SL: {s['sl']}\n"
 
         telegram_gonder(mesaj)
     else:
