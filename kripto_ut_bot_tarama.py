@@ -1,35 +1,223 @@
-name: Kripto UT Bot Taraması
+#!/usr/bin/env python3
+"""
+Kripto UT Bot Taraması — GitHub Actions için
+UT Bot (KV5/ATR14), 30 dakikalık periyot
+OKX üzerinden en hacimli/likit Top 30 USDT paritesi
+LONG/SHORT sinyali değiştiğinde Telegram bildirimi gönderir
+"""
 
-on:
-  schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+import ccxt
+import pandas as pd
+import numpy as np
+import urllib.request
+import urllib.parse
+from datetime import datetime
+import json
+import os
 
-jobs:
-  tarama:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Repo checkout
-        uses: actions/checkout@v4
+TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
-      - name: Python kurulumu
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+KEY_VALUE  = 5.0
+ATR_PERIOD = 14
+TIMEFRAME  = "30m"
 
-      - name: Kütüphaneleri yükle
-        run: pip install ccxt pandas numpy
+STATE_FILE = "kripto_ut_state.json"
+TOP_N = 30
 
-      - name: Taramayı çalıştır
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python kripto_ut_bot_tarama.py
+exchange = ccxt.okx({
+    'enableRateLimit': True,
+    'options': {'defaultType': 'spot'}
+})
 
-      - name: Durum dosyasını kaydet
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'actions@github.com'
-          git add kripto_ut_state.json
-          git diff --staged --quiet || git commit -m "Durum güncellendi"
-          git push
+def durum_yukle():
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, 'r') as f:
+                return json.load(f)
+        except:
+            return {}
+    return {}
+
+def durum_kaydet(durum):
+    with open(STATE_FILE, 'w') as f:
+        json.dump(durum, f)
+
+def telegram_gonder(mesaj):
+    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
+        print("Telegram token/chat_id eksik!")
+        return
+    url  = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    data = urllib.parse.urlencode({
+        'chat_id':    TELEGRAM_CHAT_ID,
+        'text':       mesaj,
+        'parse_mode': 'HTML'
+    }).encode()
+    try:
+        urllib.request.urlopen(url, data, timeout=10)
+        print("Telegram bildirimi gonderildi")
+    except Exception as e:
+        print(f"Telegram hatasi: {e}")
+
+def get_top_symbols(n=30):
+    exchange.load_markets()
+    tickers = exchange.fetch_tickers()
+
+    usdt_pairs = []
+    for symbol, ticker in tickers.items():
+        if symbol.endswith('/USDT') and ticker.get('quoteVolume'):
+            usdt_pairs.append({
+                'symbol': symbol,
+                'volume': ticker['quoteVolume']
+            })
+
+    usdt_pairs.sort(key=lambda x: x['volume'], reverse=True)
+    return [p['symbol'] for p in usdt_pairs[:n]]
+
+def get_ohlcv(symbol, timeframe='30m', limit=100):
+    try:
+        ohlcv = exchange.fetch_ohlcv(symbol, timeframe=timeframe, limit=limit)
+        df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+        df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+        return df
+    except Exception as e:
+        return None
+
+def ut_bot_hesapla(df, key_value=5.0, atr_period=14):
+    high  = df['high']
+    low   = df['low']
+    close = df['close']
+
+    tr1 = high - low
+    tr2 = abs(high - close.shift(1))
+    tr3 = abs(low  - close.shift(1))
+    tr  = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+    atr = tr.ewm(span=atr_period, adjust=False).mean()
+
+    n_loss = key_value * atr
+    src    = close
+
+    ts = pd.Series(index=df.index, dtype=float)
+    ts.iloc[0] = src.iloc[0]
+
+    for i in range(1, len(df)):
+        prev_ts  = ts.iloc[i-1]
+        prev_src = src.iloc[i-1]
+        curr_src = src.iloc[i]
+        loss     = n_loss.iloc[i]
+
+        if pd.isna(loss):
+            ts.iloc[i] = prev_ts
+            continue
+
+        if curr_src > prev_ts and prev_src > prev_ts:
+            ts.iloc[i] = max(prev_ts, curr_src - loss)
+        elif curr_src < prev_ts and prev_src < prev_ts:
+            ts.iloc[i] = min(prev_ts, curr_src + loss)
+        elif curr_src > prev_ts:
+            ts.iloc[i] = curr_src - loss
+        else:
+            ts.iloc[i] = curr_src + loss
+
+    ema3 = close.ewm(span=3, adjust=False).mean()
+
+    pos = pd.Series(index=df.index, dtype=int)
+    pos.iloc[0] = 0
+
+    for i in range(1, len(df)):
+        above = (ema3.iloc[i-1] <= ts.iloc[i-1]) and (ema3.iloc[i] > ts.iloc[i])
+        below = (ema3.iloc[i-1] >= ts.iloc[i-1]) and (ema3.iloc[i] < ts.iloc[i])
+
+        if above:
+            pos.iloc[i] = 1
+        elif below:
+            pos.iloc[i] = -1
+        else:
+            pos.iloc[i] = pos.iloc[i-1]
+
+    return pos, ts
+
+def sembol_sinyal(symbol):
+    try:
+        df = get_ohlcv(symbol, TIMEFRAME, limit=100)
+
+        if df is None or len(df) < 20:
+            return None
+
+        pos, ts = ut_bot_hesapla(df, KEY_VALUE, ATR_PERIOD)
+
+        curr_pos = pos.iloc[-1]
+        fiyat    = df['close'].iloc[-1]
+
+        pozisyon = "LONG" if curr_pos == 1 else "SHORT" if curr_pos == -1 else "BEKLE"
+
+        return {
+            'symbol': symbol.replace('/USDT', ''),
+            'fiyat': round(float(fiyat), 6),
+            'pozisyon': pozisyon
+        }
+    except Exception as e:
+        print(f"{symbol} hata: {e}")
+        return None
+
+def tarama():
+    print(f"\n{'='*50}")
+    print(f"Kripto UT Bot Taramasi (KV5/ATR14, {TIMEFRAME}) — {datetime.now().strftime('%d.%m.%Y %H:%M')}")
+    print(f"{'='*50}")
+
+    print(f"Top {TOP_N} hacimli/likit coin aliniyor...")
+    symbols = get_top_symbols(TOP_N)
+    print(f"{len(symbols)} sembol bulundu.")
+
+    eski_durum = durum_yukle()
+    yeni_durum = {}
+
+    yeni_long_sinyalleri  = []
+    yeni_short_sinyalleri = []
+
+    for i, symbol in enumerate(symbols):
+        print(f"[{i+1}/{len(symbols)}] {symbol} taraniyor...")
+        sonuc = sembol_sinyal(symbol)
+
+        if sonuc is None or sonuc['pozisyon'] == 'BEKLE':
+            continue
+
+        yeni_durum[sonuc['symbol']] = sonuc['pozisyon']
+
+        onceki_pozisyon = eski_durum.get(sonuc['symbol'])
+
+        if onceki_pozisyon is not None and onceki_pozisyon != sonuc['pozisyon']:
+            if sonuc['pozisyon'] == 'LONG':
+                yeni_long_sinyalleri.append(sonuc)
+            else:
+                yeni_short_sinyalleri.append(sonuc)
+        elif onceki_pozisyon is None:
+            pass
+
+    durum_kaydet(yeni_durum)
+
+    print(f"\nTarama tamamlandi.")
+    print(f"Yeni LONG sinyalleri: {len(yeni_long_sinyalleri)}")
+    print(f"Yeni SHORT sinyalleri: {len(yeni_short_sinyalleri)}")
+
+    if yeni_long_sinyalleri or yeni_short_sinyalleri:
+        mesaj = f"<b>Kripto UT Bot Sinyal Degisikligi</b>\n"
+        mesaj += f"KV5/ATR14, {TIMEFRAME}\n"
+        mesaj += f"Saat: {datetime.now().strftime('%d.%m.%Y %H:%M')}\n\n"
+
+        if yeni_long_sinyalleri:
+            mesaj += "LONG Sinyali:\n"
+            for s in yeni_long_sinyalleri:
+                mesaj += f"  {s['symbol']} - {s['fiyat']}\n"
+
+        if yeni_short_sinyalleri:
+            mesaj += "\nSHORT Sinyali:\n"
+            for s in yeni_short_sinyalleri:
+                mesaj += f"  {s['symbol']} - {s['fiyat']}\n"
+
+        telegram_gonder(mesaj)
+    else:
+        print("Pozisyon degisikligi yok, bildirim gonderilmedi.")
+
+if __name__ == "__main__":
+    tarama()
