@@ -30,7 +30,7 @@ ATR_TP3_MULT = 3.0
 STATE_FILE = "kripto_ut_state.json"
 TOP_N = 100
 
-exchange = ccxt.binancetr({
+exchange = ccxt.binance({
     'enableRateLimit': True,
 })
 
