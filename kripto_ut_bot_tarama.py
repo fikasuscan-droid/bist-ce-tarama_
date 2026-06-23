@@ -2,7 +2,7 @@
 """
 Kripto UT Bot Taraması — GitHub Actions için
 UT Bot (KV5/ATR14), 30 dakikalık periyot
-Binance TR üzerinden en hacimli/likit Top 100 TRY paritesi
+Binance Global üzerinden en hacimli/likit Top 100 USDT paritesi
 LONG/SHORT sinyali değiştiğinde TP1/TP2/TP3/SL ile Telegram bildirimi gönderir
 """
 
@@ -32,6 +32,7 @@ TOP_N = 100
 
 exchange = ccxt.binance({
     'enableRateLimit': True,
+    'options': {'defaultType': 'spot'}
 })
 
 def durum_yukle():
@@ -67,16 +68,16 @@ def get_top_symbols(n=100):
     exchange.load_markets()
     tickers = exchange.fetch_tickers()
 
-    try_pairs = []
+    usdt_pairs = []
     for symbol, ticker in tickers.items():
-        if symbol.endswith('/TRY') and ticker.get('quoteVolume'):
-            try_pairs.append({
+        if symbol.endswith('/USDT') and ticker.get('quoteVolume'):
+            usdt_pairs.append({
                 'symbol': symbol,
                 'volume': ticker['quoteVolume']
             })
 
-    try_pairs.sort(key=lambda x: x['volume'], reverse=True)
-    return [p['symbol'] for p in try_pairs[:n]]
+    usdt_pairs.sort(key=lambda x: x['volume'], reverse=True)
+    return [p['symbol'] for p in usdt_pairs[:n]]
 
 def get_ohlcv(symbol, timeframe='30m', limit=100):
     try:
@@ -162,7 +163,7 @@ def tp_sl_hesapla(fiyat, atr_v, pozisyon):
         tp1 = fiyat - atr_v * ATR_TP1_MULT
         tp2 = fiyat - atr_v * ATR_TP2_MULT
         tp3 = fiyat - atr_v * ATR_TP3_MULT
-    return round(tp1, 2), round(tp2, 2), round(tp3, 2), round(sl, 2)
+    return round(tp1, 6), round(tp2, 6), round(tp3, 6), round(sl, 6)
 
 def sembol_sinyal(symbol):
     try:
@@ -183,8 +184,8 @@ def sembol_sinyal(symbol):
         tp1, tp2, tp3, sl = tp_sl_hesapla(fiyat, atr_v, pozisyon) if pozisyon != "BEKLE" else (None, None, None, None)
 
         return {
-            'symbol': symbol.replace('/TRY', ''),
-            'fiyat': round(float(fiyat), 2),
+            'symbol': symbol.replace('/USDT', ''),
+            'fiyat': round(float(fiyat), 6),
             'pozisyon': pozisyon,
             'tp1': tp1, 'tp2': tp2, 'tp3': tp3, 'sl': sl
         }
@@ -195,16 +196,16 @@ def sembol_sinyal(symbol):
 def tarama():
     print(f"\n{'='*50}")
     print(f"Kripto UT Bot Taramasi (KV5/ATR14, {TIMEFRAME}) — {datetime.now().strftime('%d.%m.%Y %H:%M')}")
-    print(f"Borsa: Binance TR (TRY paritesi)")
+    print(f"Borsa: Binance Global (USDT paritesi)")
     print(f"{'='*50}")
 
-    print(f"Top {TOP_N} hacimli/likit TRY paritesi aliniyor...")
+    print(f"Top {TOP_N} hacimli/likit USDT paritesi aliniyor...")
     try:
         symbols = get_top_symbols(TOP_N)
         print(f"{len(symbols)} sembol bulundu.")
     except Exception as e:
         print(f"Sembol listesi alinamadi: {e}")
-        return []
+        return
 
     eski_durum = durum_yukle()
     yeni_durum = {}
@@ -239,28 +240,26 @@ def tarama():
 
     if yeni_long_sinyalleri or yeni_short_sinyalleri:
         mesaj = f"<b>Kripto UT Bot Sinyal Degisikligi</b>\n"
-        mesaj += f"KV5/ATR14, {TIMEFRAME} | Binance TR\n"
+        mesaj += f"KV5/ATR14, {TIMEFRAME} | Binance Global\n"
         mesaj += f"Saat: {datetime.now().strftime('%d.%m.%Y %H:%M')}\n\n"
 
         if yeni_long_sinyalleri:
-            mesaj += "🟢 LONG Sinyali:\n"
+            mesaj += "LONG Sinyali:\n"
             for s in yeni_long_sinyalleri:
-                mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']} TRY\n"
+                mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']} USDT\n"
                 mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
                 mesaj += f"  SL: {s['sl']}\n"
 
         if yeni_short_sinyalleri:
-            mesaj += "\n🔴 SHORT Sinyali:\n"
+            mesaj += "\nSHORT Sinyali:\n"
             for s in yeni_short_sinyalleri:
-                mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']} TRY\n"
+                mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']} USDT\n"
                 mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
                 mesaj += f"  SL: {s['sl']}\n"
 
         telegram_gonder(mesaj)
     else:
         print("Pozisyon degisikligi yok, bildirim gonderilmedi.")
-
-    return yeni_long_sinyalleri + yeni_short_sinyalleri
 
 if __name__ == "__main__":
     tarama()
