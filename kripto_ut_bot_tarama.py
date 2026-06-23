@@ -2,7 +2,7 @@
 """
 Kripto UT Bot Taraması — GitHub Actions için
 UT Bot (KV5/ATR14), 30 dakikalık periyot
-Binance Global üzerinden en hacimli/likit Top 100 USDT paritesi
+OKX üzerinden en hacimli/likit Top 100 USDT paritesi
 LONG/SHORT sinyali değiştiğinde TP1/TP2/TP3/SL ile Telegram bildirimi gönderir
 """
 
@@ -30,7 +30,7 @@ ATR_TP3_MULT = 3.0
 STATE_FILE = "kripto_ut_state.json"
 TOP_N = 100
 
-exchange = ccxt.binance({
+exchange = ccxt.okx({
     'enableRateLimit': True,
     'options': {'defaultType': 'spot'}
 })
@@ -196,7 +196,7 @@ def sembol_sinyal(symbol):
 def tarama():
     print(f"\n{'='*50}")
     print(f"Kripto UT Bot Taramasi (KV5/ATR14, {TIMEFRAME}) — {datetime.now().strftime('%d.%m.%Y %H:%M')}")
-    print(f"Borsa: Binance Global (USDT paritesi)")
+    print(f"Borsa: OKX (USDT paritesi)")
     print(f"{'='*50}")
 
     print(f"Top {TOP_N} hacimli/likit USDT paritesi aliniyor...")
@@ -240,18 +240,18 @@ def tarama():
 
     if yeni_long_sinyalleri or yeni_short_sinyalleri:
         mesaj = f"<b>Kripto UT Bot Sinyal Degisikligi</b>\n"
-        mesaj += f"KV5/ATR14, {TIMEFRAME} | Binance Global\n"
+        mesaj += f"KV5/ATR14, {TIMEFRAME} | OKX\n"
         mesaj += f"Saat: {datetime.now().strftime('%d.%m.%Y %H:%M')}\n\n"
 
         if yeni_long_sinyalleri:
-            mesaj += "LONG Sinyali:\n"
+            mesaj += "🟢 LONG Sinyali:\n"
             for s in yeni_long_sinyalleri:
                 mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']} USDT\n"
                 mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
                 mesaj += f"  SL: {s['sl']}\n"
 
         if yeni_short_sinyalleri:
-            mesaj += "\nSHORT Sinyali:\n"
+            mesaj += "\n🔴 SHORT Sinyali:\n"
             for s in yeni_short_sinyalleri:
                 mesaj += f"\n<b>{s['symbol']}</b> — {s['fiyat']} USDT\n"
                 mesaj += f"  TP1: {s['tp1']}  |  TP2: {s['tp2']}  |  TP3: {s['tp3']}\n"
