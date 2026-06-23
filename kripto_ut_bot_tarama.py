@@ -52,17 +52,21 @@ def telegram_gonder(mesaj):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("Telegram token/chat_id eksik!")
         return
-    url  = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    data = urllib.parse.urlencode({
-        'chat_id':    TELEGRAM_CHAT_ID,
-        'text':       mesaj,
-        'parse_mode': 'HTML'
-    }).encode()
-    try:
-        urllib.request.urlopen(url, data, timeout=10)
-        print("Telegram bildirimi gonderildi")
-    except Exception as e:
-        print(f"Telegram hatasi: {e}")
+    # Mesajı 4000 karakterlik parçalara böl
+    limit = 4000
+    parcalar = [mesaj[i:i+limit] for i in range(0, len(mesaj), limit)]
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    for parca in parcalar:
+        data = urllib.parse.urlencode({
+            'chat_id':    TELEGRAM_CHAT_ID,
+            'text':       parca,
+            'parse_mode': 'HTML'
+        }).encode()
+        try:
+            urllib.request.urlopen(url, data, timeout=10)
+            print(f"Telegram bildirimi gonderildi ({len(parca)} karakter)")
+        except Exception as e:
+            print(f"Telegram hatasi: {e}")
 
 def get_top_symbols(n=100):
     exchange.load_markets()
