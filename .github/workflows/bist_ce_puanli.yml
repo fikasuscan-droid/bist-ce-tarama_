@@ -3,7 +3,7 @@ name: BIST CE Puanli Sinyal
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 15 * * 1-5'
+    - cron: '0 15 * * 1-5'
 
 jobs:
   tarama:
