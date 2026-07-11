@@ -90,7 +90,7 @@ def telegram_gonder(mesaj):
 def gunluk_haftalik_cevir(df):
     """Günlük veriyi haftalık OHLCV'ye çevir"""
     df.index = pd.to_datetime(df.index)
-    weekly = df.resample('W').agg({
+    weekly = df.resample('W-FRI').agg({
         'Open':   'first',
         'High':   'max',
         'Low':    'min',
