@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 BIST Haftalık CE + EMA200 + ADX Taraması
+Günlük veriyi haftalık resample ile hesaplar — daha güvenilir
 Her Cuma 18:00 TR'de çalışır
-BIST100 + Yıldız Pazar + Ana Pazar
 """
 
 import yfinance as yf
@@ -21,6 +21,7 @@ CE_MULT   = 2.0
 EMA_LEN   = 200
 ADX_LEN   = 14
 ADX_ESIK  = 25
+MIN_HAFTA = 210  # En az 210 haftalık veri (EMA200 için)
 
 HISSE_LISTESI = [
     # BIST100
@@ -32,39 +33,38 @@ HISSE_LISTESI = [
     "MPARK","ODAS","OTKAR","OYAKC","PETKM","PGSUS","SAHOL","SASA","SISE","SKBNK",
     "SOKM","TAVHL","TCELL","THYAO","TKFEN","TOASO","TSKB","TTKOM","TTRAK","TUPRS",
     "TURSG","ULKER","VAKBN","VESBE","VESTL","YKBNK","ZOREN",
-    # Yıldız Pazar
+    # Yıldız Pazar + Ana Pazar
     "ACSEL","ADEL","AKMGY","AKPO","AKSGY","AKTAE","ALBRK","ALGYO","ALKIM","ALTIN",
     "ANGEN","ANHYT","ASUZU","ATAKP","ATATP","AVGYO","AVHOL","AVOD","AYCES","AYEN",
     "BAGFS","BAKAB","BANVT","BARMA","BFREN","BINHO","BJKAS","BMELK","BNTAS","BOSSA",
     "BUCIM","BURCE","BURVA","BVSAN","CASA","CEMAS","CEMTS","CLEBI","CMBTN","CMENT",
     "CONSE","COSMO","CRDFA","CRFSA","CUSAN","DAGHL","DAPGM","DENGE","DERHL","DERIM",
-    "DESA","DESPC","DEVA","DGATE","DGKLB","DGNMO","DMSAS","DNISI","DOAS","DOBUR",
-    "DOCO","DOGUB","DOHOL","DOKTA","DORE","DURDO","DYOBY","DZGYO","EBEBK","EGGUB",
+    "DESA","DESPC","DEVA","DGATE","DGKLB","DGNMO","DMSAS","DNISI","DOBUR",
+    "DOCO","DOGUB","DOKTA","DORE","DURDO","DYOBY","DZGYO","EBEBK","EGGUB",
     "EGPRO","EGSER","EMKEL","EMNIS","ERBOS","ERCB","ERSU","ESCAR","ESCOM","ESEN",
     "ETILR","ETYAT","EUHOL","EUKYO","FENER","FLAP","FMIZP","FONET","FORMT","FORTE",
-    "FRIGO","FROTO","GARAN","GARFA","GEDIK","GEDZA","GENTS","GEREL","GLBMD","GLRYH",
-    "GOLTS","GOODY","GOZDE","GRSEL","GRTHO","GSDDE","GSDHO","GSRAY","GUBRF","GWIND",
-    "HALKB","HATEK","HDFGS","HEDEF","HEKTS","HLGYO","HRKET","HTTBT","HUBVC","HUNER",
+    "FRIGO","GARFA","GEDIK","GEDZA","GENTS","GEREL","GLBMD","GLRYH",
+    "GOLTS","GOODY","GOZDE","GRSEL","GRTHO","GSDDE","GSDHO","GSRAY","GWIND",
+    "HATEK","HDFGS","HEDEF","HLGYO","HRKET","HTTBT","HUBVC","HUNER",
     "HURGZ","ICBCT","ICUGS","IDGYO","IEYHO","IHEVA","IHGZT","IHLAS","IHLGM","IHYAY",
-    "IMASM","INDES","INFO","INTEM","IPEKE","ISATR","ISBIR","ISCTR","ISFIN","ISGSY",
+    "IMASM","INDES","INFO","INTEM","IPEKE","ISATR","ISBIR","ISFIN","ISGSY",
     "ISGYO","ISMEN","ISSEN","ISYAT","ITTFH","IZFAS","IZMDC","JANTS","KAPLM","KARTN",
-    "KATMR","KAYSE","KBORU","KCAER","KCHOL","KENT","KERVN","KERVT","KFEIN","KGYO",
-    "KLKIM","KLMSN","KLRHO","KLSER","KMPUR","KNFRT","KONYA","KORDS","KOZAA","KOZAL",
-    "KRDMA","KRDMB","KRDMD","KRGYO","KRPLS","KRSTL","KRTEK","KSTUR","KTLEV","KUTPO",
+    "KATMR","KAYSE","KBORU","KCAER","KENT","KERVN","KERVT","KFEIN","KGYO",
+    "KLMSN","KLRHO","KLSER","KMPUR","KNFRT","KONYA","KORDS",
+    "KRDMA","KRDMB","KRGYO","KRPLS","KRSTL","KRTEK","KSTUR","KUTPO",
     "LIDER","LIDFA","LMKDC","LOGO","LUKSK","MAALT","MAGEN","MARTI","MAVI","MEDTR",
-    "MEGAP","MEPET","MERKO","METRO","METUR","MGROS","MIATK","MIPAZ","MMCAS","MNDRS",
-    "MPARK","MRGYO","NATEN","NETAS","NIBAS","NTGAZ","NUGYO","NUHCM","OBAMS","OBASE",
-    "ODAS","ONCSM","ORCAY","ORGE","ORMA","OSMEN","OSTIM","OTKAR","OYAKC","OYLUM",
+    "MEGAP","MEPET","MERKO","METRO","METUR","MIATK","MIPAZ","MMCAS","MNDRS",
+    "MRGYO","NATEN","NETAS","NIBAS","NTGAZ","NUGYO","NUHCM","OBAMS","OBASE",
+    "ONCSM","ORCAY","ORGE","ORMA","OSMEN","OSTIM","OYAKC","OYLUM",
     "OZGYO","OZKGY","PAGYO","PAHOL","PAMEL","PAPIL","PARSN","PASEU","PCILT","PEGYO",
-    "PENTA","PETKM","PGSUS","PINSU","PKENT","PLTUR","PNLSN","POLHO","PRKAB","PRKME",
-    "PRZMA","PSDTC","RALYH","RAYSG","RHEAG","RODRG","ROYAL","RYGYO","RYSAS","SAFKR",
-    "SAHOL","SANEL","SASA","SAYAS","SDTTR","SEGYO","SEKFK","SEKUR","SELEC","SEYKM",
-    "SILVR","SISE","SKBNK","SKYLP","SMART","SMRTG","SNKRN","SOKM","SONME","SRVGY",
-    "TATGD","TAVHL","TCELL","THYAO","TKFEN","TLMAN","TMSN","TNZTP","TOASO","TRCAS",
-    "TRGYO","TRILC","TSKB","TTKOM","TTRAK","TUCLK","TUPRS","TURGG","TURSG","ULKER",
-    "ULUUN","UMPAS","UNLU","USAK","USDTR","VAKBN","VAKFN","VAKKO","VANGD","VBTYZ",
-    "VERUS","VESBE","VESTL","VKGYO","VKING","YAPRK","YATAS","YEOTK","YGYO","YKSLN",
-    "YKBNK","YKSLN","YUNSA","ZOREN","ZRGYO"
+    "PENTA","PINSU","PKENT","PLTUR","PNLSN","POLHO","PRKAB","PRKME",
+    "PRZMA","RALYH","RAYSG","RHEAG","RODRG","ROYAL","RYGYO","RYSAS","SAFKR",
+    "SANEL","SAYAS","SDTTR","SEGYO","SEKFK","SEKUR","SELEC","SEYKM",
+    "SILVR","SKYLP","SMART","SMRTG","SNKRN","SONME","SRVGY",
+    "TATGD","TLMAN","TMSN","TNZTP","TRCAS",
+    "TRGYO","TRILC","TUCLK","TURGG","ULUUN","UMPAS","UNLU","USAK","USDTR",
+    "VAKFN","VAKKO","VANGD","VBTYZ","VERUS","VKGYO","VKING",
+    "YAPRK","YATAS","YEOTK","YGYO","YKSLN","YUNSA","ZRGYO"
 ]
 HISSE_LISTESI = list(dict.fromkeys(HISSE_LISTESI))
 
@@ -86,6 +86,18 @@ def telegram_gonder(mesaj):
             print(f"Telegram bildirimi gonderildi")
         except Exception as e:
             print(f"Telegram hatasi: {e}")
+
+def gunluk_haftalik_cevir(df):
+    """Günlük veriyi haftalık OHLCV'ye çevir"""
+    df.index = pd.to_datetime(df.index)
+    weekly = df.resample('W').agg({
+        'Open':   'first',
+        'High':   'max',
+        'Low':    'min',
+        'Close':  'last',
+        'Volume': 'sum'
+    }).dropna()
+    return weekly
 
 def adx_hesapla(df, period=14):
     high  = df['High']
@@ -141,26 +153,45 @@ def ce_hesapla(df, period=5, mult=2.0):
 def hisse_analiz(sembol):
     try:
         ticker = yf.Ticker(f"{sembol}.IS")
-        df = ticker.history(period="5y", interval="1wk")
-        if df is None or len(df) < EMA_LEN + 10 or df['Volume'].iloc[-4:].mean() < 10000:
+        # Günlük veri çek — daha güvenilir
+        df_gun = ticker.history(period="max", interval="1d")
+
+        if df_gun is None or len(df_gun) < 300:
             return None
+
+        # Haftalık veriye çevir
+        df = gunluk_haftalik_cevir(df_gun)
+
+        if len(df) < MIN_HAFTA:
+            return None
+
+        # Minimum haftalık hacim kontrolü
+        if df['Volume'].iloc[-4:].mean() < 10000:
+            return None
+
         ce_dir = ce_hesapla(df, CE_PERIOD, CE_MULT)
         adx    = adx_hesapla(df, ADX_LEN)
         ema200 = df['Close'].ewm(span=EMA_LEN, adjust=False).mean()
+
         curr_dir = ce_dir.iloc[-1]
         prev_dir = ce_dir.iloc[-2]
         fiyat    = df['Close'].iloc[-1]
         adx_val  = adx.iloc[-1]
         ema_val  = ema200.iloc[-1]
+
         yeni_al  = (curr_dir == -1 and prev_dir == 1)
         yeni_sat = (curr_dir == 1  and prev_dir == -1)
+
         ema_long  = fiyat > ema_val
         ema_short = fiyat < ema_val
         adx_guclu = adx_val > ADX_ESIK
+
         filtreli_al  = yeni_al  and ema_long  and adx_guclu
         filtreli_sat = yeni_sat and ema_short and adx_guclu
+
         if not (yeni_al or yeni_sat):
             return None
+
         return {
             'sembol':       sembol,
             'fiyat':        round(float(fiyat), 2),
@@ -208,7 +239,7 @@ def tarama():
     if guclu_al or guclu_sat or zayif_al or zayif_sat:
         mesaj = f"📊 <b>BIST Haftalik CE Sinyali</b>\n"
         mesaj += f"CE({CE_PERIOD},{CE_MULT}) | Haftalik | EMA{EMA_LEN}+ADX>{ADX_ESIK}\n"
-        mesaj += f"Tarih: {datetime.now().strftime('%d.%m.%Y')} | {len(HISSE_LISTESI)} hisse tarandı\n\n"
+        mesaj += f"Tarih: {datetime.now().strftime('%d.%m.%Y')} | {len(HISSE_LISTESI)} hisse\n\n"
 
         if guclu_al:
             mesaj += "🟢 <b>GUCLU AL (CE+EMA200+ADX):</b>\n"
