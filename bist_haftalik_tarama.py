@@ -142,7 +142,7 @@ def hisse_analiz(sembol):
     try:
         ticker = yf.Ticker(f"{sembol}.IS")
         df = ticker.history(period="5y", interval="1wk")
-        if df is None or len(df) < EMA_LEN + 10 or df['Volume'].iloc[-4:].mean() < 1000:
+        if df is None or len(df) < EMA_LEN + 10 or df['Volume'].iloc[-4:].mean() < 10000:
             return None
         ce_dir = ce_hesapla(df, CE_PERIOD, CE_MULT)
         adx    = adx_hesapla(df, ADX_LEN)
