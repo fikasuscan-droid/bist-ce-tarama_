@@ -179,8 +179,9 @@ def hisse_analiz(sembol):
         adx_val  = adx.iloc[-1]
         ema_val  = ema200.iloc[-1]
 
-        yeni_al  = (curr_dir == -1 and prev_dir == 1)
-        yeni_sat = (curr_dir == 1  and prev_dir == -1)
+        # Son 2 haftayı kontrol et
+        yeni_al  = (curr_dir == -1 and prev_dir == 1) or (ce_dir.iloc[-2] == -1 and ce_dir.iloc[-3] == 1)
+        yeni_sat = (curr_dir == 1  and prev_dir == -1) or (ce_dir.iloc[-2] == 1  and ce_dir.iloc[-3] == -1)
 
         ema_long  = fiyat > ema_val
         ema_short = fiyat < ema_val
