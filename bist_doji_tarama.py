@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-BIST Doji Mumu Taraması — Dip/Tepe Filtreli
-Sadece dipte veya tepede oluşan Doji'leri bildirir
-- Dipte Dragonfly/Doji + CE → potansiyel dönüş (AL adayı)
-- Tepede Mezartaşı/Doji + CE → potansiyel dönüş (SAT adayı)
+BIST Doji Onaylı Dönüş Taraması
+Mantık:
+- Önceki bar (dünkü/geçen haftaki) Doji olmalı
+- Doji dip veya tepe bölgesinde olmalı
+- Son bar (bugünkü) onay barı olmalı:
+  * Dipte Doji + bugün yükseliş kapanışı → DONUS AL onayı
+  * Tepede Doji + bugün düşüş kapanışı → DONUS SAT onayı
 """
 
 import yfinance as yf
@@ -18,11 +21,11 @@ import sys
 TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
-CE_PERIOD   = 5
-CE_MULT     = 2.0
-DOJI_ESIK   = 0.1
-DIP_TEPE_PER = 20    # Son 20 bar içinde dip/tepe kontrolü
-DIP_TEPE_ORAN = 0.2  # En düşük/yüksek %20'lik dilim
+CE_PERIOD    = 5
+CE_MULT      = 2.0
+DOJI_ESIK    = 0.1
+DIP_TEPE_PER = 20
+DIP_TEPE_ORAN = 0.2
 
 HISSE_LISTESI = [
     "AEFES","AGHOL","AKBNK","AKSA","AKSEN","ALARK","ALFAS","ALTNY","ANSGR","ARCLK",
@@ -109,24 +112,19 @@ def doji_turu(row):
     else:
         return "Doji"
 
-def dip_tepe_kontrol(df, periyot=20, oran=0.2):
-    """
-    Fiyat son N barın neresinde?
-    'DIP'  → en düşük %20'lik dilimde
-    'TEPE' → en yüksek %20'lik dilimde
-    None   → ortada
-    """
-    son_fiyat = df['Close'].iloc[-1]
-    son_n     = df['Close'].iloc[-periyot:]
-    en_dusuk  = son_n.min()
-    en_yuksek = son_n.max()
+def dip_tepe_kontrol(df, bar_index, periyot=20, oran=0.2):
+    """Belirtilen barın dip/tepe konumunu kontrol et"""
+    fiyat = df['Close'].iloc[bar_index]
+    baslangic = max(0, len(df) + bar_index - periyot)
+    aralik_data = df['Close'].iloc[baslangic:bar_index if bar_index != -1 else len(df)]
+    if len(aralik_data) < 5:
+        return None
+    en_dusuk  = aralik_data.min()
+    en_yuksek = aralik_data.max()
     aralik    = en_yuksek - en_dusuk
-
     if aralik == 0:
         return None
-
-    konum = (son_fiyat - en_dusuk) / aralik
-
+    konum = (fiyat - en_dusuk) / aralik
     if konum <= oran:
         return "DIP"
     elif konum >= (1 - oran):
@@ -159,56 +157,53 @@ def hisse_analiz(sembol, periyot="gunluk"):
         else:
             df = df_gun
 
-        # Son bar Doji mi?
-        son_bar = df.iloc[-1]
-        if not doji_mu(son_bar):
+        # ÖNCEKİ BAR Doji mi? (df.iloc[-2])
+        doji_bar = df.iloc[-2]
+        if not doji_mu(doji_bar):
             return None
 
-        # Dip/tepe kontrolü — SADECE dip veya tepede olanlar geçer
-        konum = dip_tepe_kontrol(df, DIP_TEPE_PER, DIP_TEPE_ORAN)
+        # Doji dip/tepede miydi?
+        konum = dip_tepe_kontrol(df, -2, DIP_TEPE_PER, DIP_TEPE_ORAN)
         if konum is None:
             return None
 
-        tur   = doji_turu(son_bar)
-        fiyat = round(float(son_bar['Close']), 2)
+        # SON BAR onay barı mı?
+        onay_bar = df.iloc[-1]
+        onay_yukselis = onay_bar['Close'] > onay_bar['Open'] and onay_bar['Close'] > doji_bar['Close']
+        onay_dusus    = onay_bar['Close'] < onay_bar['Open'] and onay_bar['Close'] < doji_bar['Close']
+
+        # Onay kontrolü
+        sinyal = None
+        if konum == "DIP" and onay_yukselis:
+            sinyal = "DONUS AL ONAYLANDI"
+        elif konum == "TEPE" and onay_dusus:
+            sinyal = "DONUS SAT ONAYLANDI"
+
+        if sinyal is None:
+            return None
+
+        tur   = doji_turu(doji_bar)
+        fiyat = round(float(onay_bar['Close']), 2)
 
         ce_dir = ce_hesapla(df, CE_PERIOD, CE_MULT)
-        ce_yon = ce_dir.iloc[-1]
-        ce_str = "YUKARI" if ce_yon == -1 else "ASAGI"
+        ce_str = "YUKARI" if ce_dir.iloc[-1] == -1 else "ASAGI"
 
-        # Süper sinyal tespiti
-        super_sinyal = False
-        sinyal_tur   = ""
-
-        # CE henüz dönmemişse sinyal anlamlı
-        if konum == "DIP" and ce_yon == 1:  # dipte + CE hala aşağı
-            if tur == "Dragonfly Doji":
-                super_sinyal = True
-                sinyal_tur   = "DIP DONUS (AL ADAYI)"
-            else:
-                sinyal_tur = "DIPTE DOJI"
-        elif konum == "TEPE" and ce_yon == -1:  # tepede + CE hala yukarı
-            if tur == "Mezartas Doji":
-                super_sinyal = True
-                sinyal_tur   = "TEPE DONUS (SAT ADAYI)"
-            else:
-                sinyal_tur = "TEPEDE DOJI"
-        else:
-            return None  # CE zaten dönmüş, sinyal geç
-                
         son_hacim = df['Volume'].iloc[-1]
         ort_hacim = df['Volume'].iloc[-20:-1].mean()
         hacim_kat = round(son_hacim / ort_hacim, 1) if ort_hacim > 0 else 0
 
+        # Onay barı hacimli mi? (ekstra güç göstergesi)
+        hacim_guclu = hacim_kat >= 1.5
+
         return {
-            'sembol':       sembol,
-            'fiyat':        fiyat,
-            'tur':          tur,
-            'konum':        konum,
-            'sinyal_tur':   sinyal_tur,
-            'super_sinyal': super_sinyal,
-            'ce_yon':       ce_str,
-            'hacim_kat':    hacim_kat
+            'sembol':      sembol,
+            'fiyat':       fiyat,
+            'tur':         tur,
+            'konum':       konum,
+            'sinyal':      sinyal,
+            'ce_yon':      ce_str,
+            'hacim_kat':   hacim_kat,
+            'hacim_guclu': hacim_guclu
         }
 
     except Exception as e:
@@ -217,49 +212,54 @@ def hisse_analiz(sembol, periyot="gunluk"):
 
 def tarama(periyot="gunluk"):
     print(f"\n{'='*50}")
-    print(f"BIST Doji Taramasi ({periyot.upper()}) — {datetime.now().strftime('%d.%m.%Y %H:%M')}")
-    print(f"Sadece DIP/TEPE Doji'leri")
+    print(f"BIST Doji Onayli Donus ({periyot.upper()}) — {datetime.now().strftime('%d.%m.%Y %H:%M')}")
+    print(f"Doji (onceki bar) + Onay (son bar)")
     print(f"{'='*50}")
 
-    super_liste  = []
-    normal_liste = []
+    al_listesi  = []
+    sat_listesi = []
 
     for i, sembol in enumerate(HISSE_LISTESI):
         print(f"[{i+1}/{len(HISSE_LISTESI)}] {sembol}...")
         sonuc = hisse_analiz(sembol, periyot)
         if sonuc is None:
             continue
-        if sonuc['super_sinyal']:
-            super_liste.append(sonuc)
+        if "AL" in sonuc['sinyal']:
+            al_listesi.append(sonuc)
         else:
-            normal_liste.append(sonuc)
+            sat_listesi.append(sonuc)
 
     print(f"\nTarama tamamlandi.")
-    print(f"Super sinyal: {len(super_liste)} | Normal: {len(normal_liste)}")
+    print(f"AL onayi: {len(al_listesi)} | SAT onayi: {len(sat_listesi)}")
 
-    super_liste.sort(key=lambda x: x['hacim_kat'], reverse=True)
-    normal_liste.sort(key=lambda x: x['hacim_kat'], reverse=True)
+    al_listesi.sort(key=lambda x: x['hacim_kat'], reverse=True)
+    sat_listesi.sort(key=lambda x: x['hacim_kat'], reverse=True)
 
-    if super_liste or normal_liste:
+    if al_listesi or sat_listesi:
         periyot_txt = "Günlük" if periyot == "gunluk" else "Haftalık"
-        mesaj = f"🕯 <b>BIST Dip/Tepe Doji ({periyot_txt})</b>\n"
-        mesaj += f"Tarih: {datetime.now().strftime('%d.%m.%Y')}\n\n"
+        mesaj = f"🕯 <b>BIST Doji Onayli Donus ({periyot_txt})</b>\n"
+        mesaj += f"Tarih: {datetime.now().strftime('%d.%m.%Y')}\n"
+        mesaj += f"Dun Doji + Bugun Onay Bari\n\n"
 
-        if super_liste:
-            mesaj += "⭐ <b>SUPER SINYAL (Donus Adayi):</b>\n"
-            for s in super_liste:
-                mesaj += f"\n<b>{s['sembol']}</b> — {s['fiyat']} TL\n"
-                mesaj += f"  {s['sinyal_tur']}\n"
-                mesaj += f"  {s['tur']} | CE: {s['ce_yon']} | Hacim: {s['hacim_kat']}x\n"
+        if al_listesi:
+            mesaj += "🟢 <b>DONUS AL ONAYLANDI:</b>\n"
+            for s in al_listesi:
+                hacim_ikon = " 🔥" if s['hacim_guclu'] else ""
+                mesaj += f"\n<b>{s['sembol']}</b> — {s['fiyat']} TL{hacim_ikon}\n"
+                mesaj += f"  Dipte {s['tur']} + Yukselis Onayi\n"
+                mesaj += f"  CE: {s['ce_yon']} | Hacim: {s['hacim_kat']}x\n"
 
-        if normal_liste:
-            mesaj += "\n🟡 <b>Dip/Tepe Doji:</b>\n"
-            for s in normal_liste:
-                mesaj += f"{s['sembol']} — {s['fiyat']} TL | {s['konum']} | {s['tur']} | CE: {s['ce_yon']}\n"
+        if sat_listesi:
+            mesaj += "\n🔴 <b>DONUS SAT ONAYLANDI:</b>\n"
+            for s in sat_listesi:
+                hacim_ikon = " 🔥" if s['hacim_guclu'] else ""
+                mesaj += f"\n<b>{s['sembol']}</b> — {s['fiyat']} TL{hacim_ikon}\n"
+                mesaj += f"  Tepede {s['tur']} + Dusus Onayi\n"
+                mesaj += f"  CE: {s['ce_yon']} | Hacim: {s['hacim_kat']}x\n"
 
         telegram_gonder(mesaj)
     else:
-        print("Dip/tepe Doji bulunamadi.")
+        print("Onaylanmis donus sinyali yok.")
 
 if __name__ == "__main__":
     periyot = sys.argv[1] if len(sys.argv) > 1 else "gunluk"
