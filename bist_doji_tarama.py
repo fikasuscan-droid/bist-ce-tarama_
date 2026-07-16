@@ -28,6 +28,7 @@ DIP_TEPE_PER = 20
 DIP_TEPE_ORAN = 0.2
 
 HISSE_LISTESI = [
+    # BIST100
     "AEFES","AGHOL","AKBNK","AKSA","AKSEN","ALARK","ALFAS","ALTNY","ANSGR","ARCLK",
     "ASELS","ASTOR","BERA","BIENY","BIMAS","BRSAN","BRYAT","BTCIM","CANTE","CCOLA",
     "CIMSA","CWENE","DOAS","DOHOL","ECILC","ECZYT","EGEEN","EKGYO","ENERY","ENJSA",
@@ -35,7 +36,21 @@ HISSE_LISTESI = [
     "HEKTS","ISCTR","KCHOL","KLKIM","KONTR","KOZAA","KOZAL","KRDMD","KTLEV","MGROS",
     "MPARK","ODAS","OTKAR","OYAKC","PETKM","PGSUS","SAHOL","SASA","SISE","SKBNK",
     "SOKM","TAVHL","TCELL","THYAO","TKFEN","TOASO","TSKB","TTKOM","TTRAK","TUPRS",
-    "TURSG","ULKER","VAKBN","VESBE","VESTL","YKBNK","ZOREN"
+    "TURSG","ULKER","VAKBN","VESBE","VESTL","YKBNK","ZOREN",
+    # Likit Yildiz Pazar hisseleri
+    "ADEL","AKFGY","AKSGY","ALBRK","ALGYO","ALKIM","ANHYT","ASUZU","AYDEM","AYGAZ",
+    "BAGFS","BANVT","BASGZ","BERA","BFREN","BIOEN","BOBET","BORLS","BORSK","BRISA",
+    "BUCIM","CEMTS","CLEBI","CANTE","DEVA","DGATE","DOCO","DYOBY","EBEBK","EGGUB",
+    "EGEEN","ERBOS","ESCAR","FENER","FONET","FORTE","GEDIK","GENTS","GLYHO","GOODY",
+    "GOZDE","GSDHO","GSRAY","HATEK","HDFGS","HLGYO","HRKET","HTTBT","HUNER","HURGZ",
+    "INDES","INFO","IPEKE","ISDMR","ISFIN","ISGYO","ISMEN","IZFAS","IZMDC","JANTS",
+    "KARSN","KARTN","KATMR","KAYSE","KCAER","KLMSN","KLRHO","KLSER","KMPUR","KONYA",
+    "KORDS","KRDMA","KRDMB","LIDER","LOGO","MAGEN","MAVI","MEDTR","MERKO","MIATK",
+    "MNDRS","NATEN","NETAS","NTGAZ","NUHCM","OBAMS","ORGE","OSMEN","OZKGY","PAPIL",
+    "PARSN","PENTA","PETUN","PINSU","PKENT","PNSUT","POLHO","PRKAB","PRKME","QUAGR",
+    "RAYSG","RYGYO","RYSAS","SAFKR","SARKY","SAYAS","SDTTR","SELEC","SMRTG","SNGYO",
+    "SUNTK","TATGD","TERA","TEZOL","TMSN","TRGYO","TRILC","TUKAS","TUREX","ULUUN",
+    "VAKKO","VERUS","YATAS","YEOTK","YYLGD","ZRGYO"
 ]
 HISSE_LISTESI = list(dict.fromkeys(HISSE_LISTESI))
 
@@ -195,6 +210,25 @@ def hisse_analiz(sembol, periyot="gunluk"):
         # Onay barı hacimli mi? (ekstra güç göstergesi)
         hacim_guclu = hacim_kat >= 1.5
 
+        # ATR hesapla
+        tr1 = df['High'] - df['Low']
+        tr2 = abs(df['High'] - df['Close'].shift(1))
+        tr3 = abs(df['Low']  - df['Close'].shift(1))
+        tr  = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+        atr_v = tr.rolling(14).mean().iloc[-1]
+
+        # SL/TP hesapla
+        if "AL" in sinyal:
+            sl  = round(float(doji_bar['Low']), 2)           # Doji dibinin altı
+            tp1 = round(fiyat + atr_v * 1.5, 2)
+            tp2 = round(fiyat + atr_v * 2.5, 2)
+            tp3 = round(fiyat + atr_v * 4.0, 2)
+        else:
+            sl  = round(float(doji_bar['High']), 2)          # Doji tepesinin üstü
+            tp1 = round(fiyat - atr_v * 1.5, 2)
+            tp2 = round(fiyat - atr_v * 2.5, 2)
+            tp3 = round(fiyat - atr_v * 4.0, 2)
+
         return {
             'sembol':      sembol,
             'fiyat':       fiyat,
@@ -203,7 +237,11 @@ def hisse_analiz(sembol, periyot="gunluk"):
             'sinyal':      sinyal,
             'ce_yon':      ce_str,
             'hacim_kat':   hacim_kat,
-            'hacim_guclu': hacim_guclu
+            'hacim_guclu': hacim_guclu,
+            'sl':          sl,
+            'tp1':         tp1,
+            'tp2':         tp2,
+            'tp3':         tp3
         }
 
     except Exception as e:
@@ -248,6 +286,8 @@ def tarama(periyot="gunluk"):
                 mesaj += f"\n<b>{s['sembol']}</b> — {s['fiyat']} TL{hacim_ikon}\n"
                 mesaj += f"  Dipte {s['tur']} + Yukselis Onayi\n"
                 mesaj += f"  CE: {s['ce_yon']} | Hacim: {s['hacim_kat']}x\n"
+                mesaj += f"  SL: {s['sl']} (Doji dibi)\n"
+                mesaj += f"  TP1: {s['tp1']} | TP2: {s['tp2']} | TP3: {s['tp3']}\n"
 
         if sat_listesi:
             mesaj += "\n🔴 <b>DONUS SAT ONAYLANDI:</b>\n"
@@ -256,6 +296,8 @@ def tarama(periyot="gunluk"):
                 mesaj += f"\n<b>{s['sembol']}</b> — {s['fiyat']} TL{hacim_ikon}\n"
                 mesaj += f"  Tepede {s['tur']} + Dusus Onayi\n"
                 mesaj += f"  CE: {s['ce_yon']} | Hacim: {s['hacim_kat']}x\n"
+                mesaj += f"  SL: {s['sl']} (Doji tepesi)\n"
+                mesaj += f"  TP1: {s['tp1']} | TP2: {s['tp2']} | TP3: {s['tp3']}\n"
 
         telegram_gonder(mesaj)
     else:
