@@ -195,16 +195,7 @@ def hisse_analiz(sembol, periyot="gunluk"):
                 sinyal_tur = "TEPEDE DOJI"
         else:
             return None  # CE zaten dönmüş, sinyal geç
-            
-            
-        
-            
-            
-        
-            
-        
-            
-
+                
         son_hacim = df['Volume'].iloc[-1]
         ort_hacim = df['Volume'].iloc[-20:-1].mean()
         hacim_kat = round(son_hacim / ort_hacim, 1) if ort_hacim > 0 else 0
