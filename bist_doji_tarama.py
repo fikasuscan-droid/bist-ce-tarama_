@@ -180,16 +180,30 @@ def hisse_analiz(sembol, periyot="gunluk"):
         super_sinyal = False
         sinyal_tur   = ""
 
-        if konum == "DIP" and tur == "Dragonfly Doji":
-            super_sinyal = True
-            sinyal_tur   = "DIP DONUS (AL ADAYI)"
-        elif konum == "TEPE" and tur == "Mezartas Doji":
-            super_sinyal = True
-            sinyal_tur   = "TEPE DONUS (SAT ADAYI)"
-        elif konum == "DIP":
-            sinyal_tur = "DIPTE DOJI"
-        elif konum == "TEPE":
-            sinyal_tur = "TEPEDE DOJI"
+        # CE henüz dönmemişse sinyal anlamlı
+        if konum == "DIP" and ce_yon == 1:  # dipte + CE hala aşağı
+            if tur == "Dragonfly Doji":
+                super_sinyal = True
+                sinyal_tur   = "DIP DONUS (AL ADAYI)"
+            else:
+                sinyal_tur = "DIPTE DOJI"
+        elif konum == "TEPE" and ce_yon == -1:  # tepede + CE hala yukarı
+            if tur == "Mezartas Doji":
+                super_sinyal = True
+                sinyal_tur   = "TEPE DONUS (SAT ADAYI)"
+            else:
+                sinyal_tur = "TEPEDE DOJI"
+        else:
+            return None  # CE zaten dönmüş, sinyal geç
+            
+            
+        
+            
+            
+        
+            
+        
+            
 
         son_hacim = df['Volume'].iloc[-1]
         ort_hacim = df['Volume'].iloc[-20:-1].mean()
