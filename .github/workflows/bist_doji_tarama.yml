@@ -1,0 +1,41 @@
+name: BIST Doji Tarama
+
+on:
+  workflow_dispatch:
+    inputs:
+      periyot:
+        description: 'Periyot (gunluk veya haftalik)'
+        required: true
+        default: 'gunluk'
+  schedule:
+    - cron: '10 15 * * 1-5'   # Gunluk — 18:10 TR
+    - cron: '15 15 * * 5'     # Haftalik — 18:15 TR Cuma
+
+jobs:
+  tarama:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Kütüphaneleri yükle
+        run: pip install yfinance pandas numpy
+
+      - name: Gunluk tarama
+        if: github.event.schedule == '10 15 * * 1-5' || (github.event_name == 'workflow_dispatch' && github.event.inputs.periyot == 'gunluk')
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bist_doji_tarama.py gunluk
+
+      - name: Haftalik tarama
+        if: github.event.schedule == '15 15 * * 5' || (github.event_name == 'workflow_dispatch' && github.event.inputs.periyot == 'haftalik')
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bist_doji_tarama.py haftalik
