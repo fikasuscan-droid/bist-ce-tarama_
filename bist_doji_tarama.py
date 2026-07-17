@@ -18,6 +18,12 @@ from datetime import datetime
 import os
 import sys
 
+try:
+    from sinyal_kaydet import sinyal_kaydet
+    KAYIT_VAR = True
+except ImportError:
+    KAYIT_VAR = False
+
 TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
@@ -302,6 +308,23 @@ def tarama(periyot="gunluk"):
         telegram_gonder(mesaj)
     else:
         print("Onaylanmis donus sinyali yok.")
+
+    # Web app için JSON kaydet
+    if KAYIT_VAR:
+        json_sinyaller = []
+        for s in al_listesi:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'AL',
+                'tur': s['sinyal'], 'detay': f"{s['tur']} | CE: {s['ce_yon']} | Hacim: {s['hacim_kat']}x",
+                'sl': s['sl'], 'tp1': s['tp1'], 'tp2': s['tp2'], 'tp3': s['tp3']
+            })
+        for s in sat_listesi:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'SAT',
+                'tur': s['sinyal'], 'detay': f"{s['tur']} | CE: {s['ce_yon']} | Hacim: {s['hacim_kat']}x",
+                'sl': s['sl'], 'tp1': s['tp1'], 'tp2': s['tp2'], 'tp3': s['tp3']
+            })
+        sinyal_kaydet(f"doji_{periyot}", json_sinyaller)
 
 if __name__ == "__main__":
     periyot = sys.argv[1] if len(sys.argv) > 1 else "gunluk"
