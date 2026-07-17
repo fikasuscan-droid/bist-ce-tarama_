@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BIST Sinyal Merkezi</title>
+<style>
+:root {
+  --bg: #0d1117; --panel: #161b22; --border: #30363d;
+  --text: #e6edf3; --muted: #8b949e;
+  --green: #3fb950; --red: #f85149; --yellow: #d29922; --blue: #58a6ff;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:-apple-system,'Segoe UI',Roboto,sans-serif; padding-bottom:70px; }
+
+header { background:var(--panel); padding:14px 16px; border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10; }
+header h1 { font-size:18px; display:flex; align-items:center; gap:8px; }
+header .zaman { font-size:11px; color:var(--muted); margin-top:2px; }
+
+.tabs { display:flex; background:var(--panel); border-top:1px solid var(--border); position:fixed; bottom:0; left:0; right:0; z-index:10; }
+.tab { flex:1; padding:12px 4px; text-align:center; font-size:12px; color:var(--muted); cursor:pointer; border:none; background:none; }
+.tab.aktif { color:var(--blue); border-top:2px solid var(--blue); }
+.tab .ikon { font-size:20px; display:block; margin-bottom:2px; }
+
+.sayfa { display:none; padding:12px; }
+.sayfa.aktif { display:block; }
+
+.filtre-bar { display:flex; gap:6px; margin-bottom:12px; overflow-x:auto; padding-bottom:4px; }
+.filtre { padding:6px 12px; border-radius:16px; background:var(--panel); border:1px solid var(--border); color:var(--muted); font-size:12px; white-space:nowrap; cursor:pointer; }
+.filtre.aktif { background:var(--blue); color:#fff; border-color:var(--blue); }
+
+.kart { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px; margin-bottom:8px; }
+.kart-ust { display:flex; justify-content:space-between; align-items:center; }
+.sembol { font-size:16px; font-weight:700; }
+.fiyat { font-size:14px; color:var(--muted); }
+.yon { padding:3px 10px; border-radius:12px; font-size:12px; font-weight:600; }
+.yon.al  { background:rgba(63,185,80,.15); color:var(--green); }
+.yon.sat { background:rgba(248,81,73,.15); color:var(--red); }
+.detay { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.5; }
+.sistem-etiket { font-size:10px; background:rgba(88,166,255,.1); color:var(--blue); padding:2px 8px; border-radius:8px; display:inline-block; margin-top:6px; }
+.seviyeler { display:flex; gap:8px; margin-top:8px; font-size:11px; flex-wrap:wrap; }
+.seviye { padding:3px 8px; border-radius:6px; background:var(--bg); border:1px solid var(--border); }
+.seviye.sl  { color:var(--red); }
+.seviye.tp  { color:var(--green); }
+
+.bos { text-align:center; color:var(--muted); padding:40px 20px; font-size:14px; }
+
+/* Portföy */
+.form-satir { display:flex; gap:8px; margin-bottom:8px; }
+input, select { background:var(--bg); border:1px solid var(--border); color:var(--text); padding:10px; border-radius:8px; font-size:14px; flex:1; min-width:0; }
+button.btn { background:var(--blue); color:#fff; border:none; padding:10px 16px; border-radius:8px; font-size:14px; cursor:pointer; }
+button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
+.ozet-kutu { display:flex; gap:8px; margin-bottom:12px; }
+.ozet { flex:1; background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:10px; text-align:center; }
+.ozet .deger { font-size:16px; font-weight:700; }
+.ozet .baslik { font-size:10px; color:var(--muted); margin-top:2px; }
+.pozitif { color:var(--green); }
+.negatif { color:var(--red); }
+
+.yenile { background:none; border:1px solid var(--border); color:var(--muted); padding:6px 12px; border-radius:8px; font-size:12px; cursor:pointer; float:right; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📊 BIST Sinyal Merkezi <button class="yenile" onclick="verileriYukle()">🔄 Yenile</button></h1>
+  <div class="zaman" id="sonGuncelleme">Yükleniyor...</div>
+</header>
+
+<!-- SİNYALLER -->
+<div class="sayfa aktif" id="sayfa-sinyaller">
+  <div class="filtre-bar" id="sistemFiltreler"></div>
+  <div id="sinyalListe"><div class="bos">Yükleniyor...</div></div>
+</div>
+
+<!-- GEÇMİŞ -->
+<div class="sayfa" id="sayfa-gecmis">
+  <div class="filtre-bar">
+    <button class="filtre aktif" onclick="gecmisFiltre('hepsi', this)">Hepsi</button>
+    <button class="filtre" onclick="gecmisFiltre('AL', this)">Sadece AL</button>
+    <button class="filtre" onclick="gecmisFiltre('SAT', this)">Sadece SAT</button>
+  </div>
+  <div id="gecmisListe"><div class="bos">Yükleniyor...</div></div>
+</div>
+
+<!-- PORTFÖY -->
+<div class="sayfa" id="sayfa-portfoy">
+  <div class="ozet-kutu">
+    <div class="ozet"><div class="deger" id="toplamMaliyet">-</div><div class="baslik">MALİYET</div></div>
+    <div class="ozet"><div class="deger" id="toplamDeger">-</div><div class="baslik">GÜNCEL</div></div>
+    <div class="ozet"><div class="deger" id="toplamKar">-</div><div class="baslik">KAR/ZARAR</div></div>
+  </div>
+
+  <div class="form-satir">
+    <input type="text" id="pfSembol" placeholder="Sembol (AKBNK)">
+    <input type="number" id="pfAdet" placeholder="Adet">
+  </div>
+  <div class="form-satir">
+    <input type="number" id="pfMaliyet" placeholder="Maliyet (TL)" step="0.01">
+    <button class="btn" onclick="portfoyEkle()">+ Ekle</button>
+  </div>
+
+  <div id="portfoyListe"><div class="bos">Henüz hisse eklenmedi</div></div>
+  <div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center">
+    Güncel fiyatlar son sinyal taramasından alınır.<br>Portföy verilerin sadece bu cihazda saklanır.
+  </div>
+</div>
+
+<!-- TAB BAR -->
+<div class="tabs">
+  <button class="tab aktif" onclick="sayfaAc('sinyaller', this)"><span class="ikon">📊</span>Sinyaller</button>
+  <button class="tab" onclick="sayfaAc('gecmis', this)"><span class="ikon">📈</span>Geçmiş</button>
+  <button class="tab" onclick="sayfaAc('portfoy', this)"><span class="ikon">💼</span>Portföy</button>
+</div>
+
+<script>
+const SISTEMLER = {
+  'doji_gunluk':   '🕯 Doji Günlük',
+  'doji_haftalik': '🕯 Doji Haftalık',
+  'ce_puanli':     '⭐ CE Puanlı',
+  'aksam_al':      '🌙 Akşam Al',
+  'haftalik_ce':   '📅 Haftalık CE',
+  'ce_v2':         '📊 CE Saatlik'
+};
+
+let tumSinyaller = [];
+let gecmisData   = [];
+let aktifSistem  = 'hepsi';
+let aktifGecmisFiltre = 'hepsi';
+let fiyatlar = {};  // sembol → son fiyat
+
+function sayfaAc(ad, btn) {
+  document.querySelectorAll('.sayfa').forEach(s => s.classList.remove('aktif'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('aktif'));
+  document.getElementById('sayfa-' + ad).classList.add('aktif');
+  btn.classList.add('aktif');
+  if (ad === 'portfoy') portfoyGoster();
+}
+
+async function verileriYukle() {
+  tumSinyaller = [];
+  fiyatlar = {};
+
+  for (const [sistem, ad] of Object.entries(SISTEMLER)) {
+    try {
+      const r = await fetch(`data/guncel_${sistem}.json?t=` + Date.now());
+      if (!r.ok) continue;
+      const d = await r.json();
+      d.sinyaller.forEach(s => {
+        s._sistem = sistem;
+        s._zaman  = d.zaman;
+        tumSinyaller.push(s);
+        if (s.fiyat) fiyatlar[s.sembol] = s.fiyat;
+      });
+    } catch(e) {}
+  }
+
+  try {
+    const r = await fetch('data/gecmis.json?t=' + Date.now());
+    if (r.ok) {
+      gecmisData = await r.json();
+      gecmisData.forEach(s => { if (s.fiyat) fiyatlar[s.sembol] = fiyatlar[s.sembol] || s.fiyat; });
+    }
+  } catch(e) {}
+
+  const zamanlar = tumSinyaller.map(s => s._zaman).sort();
+  document.getElementById('sonGuncelleme').textContent =
+    zamanlar.length ? 'Son güncelleme: ' + zamanlar[zamanlar.length-1] : 'Henüz veri yok';
+
+  filtreleriCiz();
+  sinyalleriGoster();
+  gecmisiGoster();
+  portfoyGoster();
+}
+
+function filtreleriCiz() {
+  const kutu = document.getElementById('sistemFiltreler');
+  const sistemler = [...new Set(tumSinyaller.map(s => s._sistem))];
+  let html = `<button class="filtre ${aktifSistem==='hepsi'?'aktif':''}" onclick="sistemSec('hepsi', this)">Hepsi (${tumSinyaller.length})</button>`;
+  sistemler.forEach(s => {
+    const n = tumSinyaller.filter(x => x._sistem === s).length;
+    html += `<button class="filtre ${aktifSistem===s?'aktif':''}" onclick="sistemSec('${s}', this)">${SISTEMLER[s]||s} (${n})</button>`;
+  });
+  kutu.innerHTML = html;
+}
+
+function sistemSec(s, btn) {
+  aktifSistem = s;
+  document.querySelectorAll('#sistemFiltreler .filtre').forEach(f => f.classList.remove('aktif'));
+  btn.classList.add('aktif');
+  sinyalleriGoster();
+}
+
+function sinyalKarti(s) {
+  const yon = (s.yon || '').toUpperCase().includes('AL') ? 'al' : 'sat';
+  let seviyeler = '';
+  if (s.sl || s.tp1) {
+    seviyeler = '<div class="seviyeler">';
+    if (s.sl)  seviyeler += `<span class="seviye sl">SL ${s.sl}</span>`;
+    if (s.tp1) seviyeler += `<span class="seviye tp">TP1 ${s.tp1}</span>`;
+    if (s.tp2) seviyeler += `<span class="seviye tp">TP2 ${s.tp2}</span>`;
+    if (s.tp3) seviyeler += `<span class="seviye tp">TP3 ${s.tp3}</span>`;
+    seviyeler += '</div>';
+  }
+  return `<div class="kart">
+    <div class="kart-ust">
+      <div><span class="sembol">${s.sembol}</span> <span class="fiyat">${s.fiyat || ''} TL</span></div>
+      <span class="yon ${yon}">${s.yon || '-'}</span>
+    </div>
+    ${s.tur ? `<div class="detay">${s.tur}${s.detay ? ' — ' + s.detay : ''}</div>` : ''}
+    ${seviyeler}
+    <span class="sistem-etiket">${SISTEMLER[s._sistem] || s._sistem || s.sistem || ''} ${s._zaman || s.zaman || ''}</span>
+  </div>`;
+}
+
+function sinyalleriGoster() {
+  const kutu = document.getElementById('sinyalListe');
+  let liste = tumSinyaller;
+  if (aktifSistem !== 'hepsi') liste = liste.filter(s => s._sistem === aktifSistem);
+  kutu.innerHTML = liste.length ? liste.map(sinyalKarti).join('') : '<div class="bos">Bu sistemde güncel sinyal yok</div>';
+}
+
+function gecmisFiltre(f, btn) {
+  aktifGecmisFiltre = f;
+  document.querySelectorAll('#sayfa-gecmis .filtre').forEach(x => x.classList.remove('aktif'));
+  btn.classList.add('aktif');
+  gecmisiGoster();
+}
+
+function gecmisiGoster() {
+  const kutu = document.getElementById('gecmisListe');
+  let liste = [...gecmisData].reverse();
+  if (aktifGecmisFiltre !== 'hepsi') {
+    liste = liste.filter(s => (s.yon||'').toUpperCase().includes(aktifGecmisFiltre));
+  }
+  liste = liste.slice(0, 100);
+  kutu.innerHTML = liste.length ? liste.map(sinyalKarti).join('') : '<div class="bos">Geçmiş sinyal yok</div>';
+}
+
+// ============ PORTFÖY ============
+function portfoyOku() {
+  try { return JSON.parse(localStorage.getItem('portfoy') || '[]'); }
+  catch(e) { return []; }
+}
+function portfoyYaz(p) { localStorage.setItem('portfoy', JSON.stringify(p)); }
+
+function portfoyEkle() {
+  const sembol  = document.getElementById('pfSembol').value.trim().toUpperCase();
+  const adet    = parseFloat(document.getElementById('pfAdet').value);
+  const maliyet = parseFloat(document.getElementById('pfMaliyet').value);
+  if (!sembol || !adet || !maliyet) { alert('Tüm alanları doldur!'); return; }
+  const p = portfoyOku();
+  p.push({ sembol, adet, maliyet });
+  portfoyYaz(p);
+  document.getElementById('pfSembol').value = '';
+  document.getElementById('pfAdet').value = '';
+  document.getElementById('pfMaliyet').value = '';
+  portfoyGoster();
+}
+
+function portfoySil(i) {
+  const p = portfoyOku();
+  p.splice(i, 1);
+  portfoyYaz(p);
+  portfoyGoster();
+}
+
+function portfoyGoster() {
+  const p = portfoyOku();
+  const kutu = document.getElementById('portfoyListe');
+  if (!p.length) {
+    kutu.innerHTML = '<div class="bos">Henüz hisse eklenmedi</div>';
+    document.getElementById('toplamMaliyet').textContent = '-';
+    document.getElementById('toplamDeger').textContent = '-';
+    document.getElementById('toplamKar').textContent = '-';
+    return;
+  }
+
+  let toplamMaliyet = 0, toplamDeger = 0, html = '';
+
+  p.forEach((h, i) => {
+    const guncelFiyat = fiyatlar[h.sembol] || h.maliyet;
+    const maliyetTop  = h.adet * h.maliyet;
+    const degerTop    = h.adet * guncelFiyat;
+    const kar         = degerTop - maliyetTop;
+    const karYuzde    = (kar / maliyetTop * 100).toFixed(2);
+    toplamMaliyet += maliyetTop;
+    toplamDeger   += degerTop;
+
+    html += `<div class="kart">
+      <div class="kart-ust">
+        <div><span class="sembol">${h.sembol}</span> <span class="fiyat">${h.adet} adet × ${h.maliyet} TL</span></div>
+        <button class="btn sil" onclick="portfoySil(${i})">Sil</button>
+      </div>
+      <div class="detay">
+        Güncel: ${guncelFiyat} TL |
+        <span class="${kar >= 0 ? 'pozitif' : 'negatif'}">
+          ${kar >= 0 ? '+' : ''}${kar.toFixed(2)} TL (%${karYuzde})
+        </span>
+      </div>
+    </div>`;
+  });
+
+  const toplamKar = toplamDeger - toplamMaliyet;
+  document.getElementById('toplamMaliyet').textContent = toplamMaliyet.toFixed(0) + ' TL';
+  document.getElementById('toplamDeger').textContent   = toplamDeger.toFixed(0) + ' TL';
+  const karEl = document.getElementById('toplamKar');
+  karEl.textContent = (toplamKar >= 0 ? '+' : '') + toplamKar.toFixed(0) + ' TL';
+  karEl.className = 'deger ' + (toplamKar >= 0 ? 'pozitif' : 'negatif');
+
+  kutu.innerHTML = html;
+}
+
+verileriYukle();
+</script>
+</body>
+</html>
