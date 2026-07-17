@@ -1,17 +1,5 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-06-28 18:10",
- "sinyaller": [
-  {
-   "sembol": "ORNEK",
-   "fiyat": 100.0,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Bu ornek veridir - ilk tarama sonrasi gercek sinyaller gelecek",
-   "sl": 95.0,
-   "tp1": 105.0,
-   "tp2": 110.0,
-   "tp3": 115.0
-  }
- ]
+ "zaman": "2026-07-17 15:40",
+ "sinyaller": []
 }
