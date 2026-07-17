@@ -1,0 +1,28 @@
+{
+ "sistem": "doji_haftalik",
+ "zaman": "2026-07-17 18:42",
+ "sinyaller": [
+  {
+   "sembol": "ISFIN",
+   "fiyat": 19.65,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.3x",
+   "sl": 19.13,
+   "tp1": 21.42,
+   "tp2": 22.61,
+   "tp3": 24.38
+  },
+  {
+   "sembol": "ENERY",
+   "fiyat": 9.45,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 1.2x",
+   "sl": 10.04,
+   "tp1": 8.16,
+   "tp2": 7.31,
+   "tp3": 6.02
+  }
+ ]
+}
