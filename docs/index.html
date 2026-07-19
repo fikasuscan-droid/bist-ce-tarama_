@@ -86,6 +86,12 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
 <!-- CANLI TARAMA -->
 <div class="sayfa" id="sayfa-canli">
   <div class="filtre-bar">
+    <button class="filtre aktif piyasa-btn" onclick="piyasaSec('bist', this)">🇹🇷 BIST</button>
+    <button class="filtre piyasa-btn" onclick="piyasaSec('abd', this)">🇺🇸 ABD</button>
+    <button class="filtre piyasa-btn" onclick="piyasaSec('emtia', this)">🥇 Emtia</button>
+    <button class="filtre piyasa-btn" onclick="piyasaSec('forex', this)">💱 Forex</button>
+  </div>
+  <div class="filtre-bar">
     <button class="filtre" onclick="periyotSec('5m', this)">5 dk</button>
     <button class="filtre aktif" onclick="periyotSec('15m', this)">15 dk</button>
     <button class="filtre" onclick="periyotSec('60m', this)">60 dk</button>
@@ -103,6 +109,12 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
 
 <!-- MTF TARAMA -->
 <div class="sayfa" id="sayfa-mtf">
+  <div class="filtre-bar">
+    <button class="filtre aktif piyasa-btn2" onclick="piyasaSec2('bist', this)">🇹🇷 BIST</button>
+    <button class="filtre piyasa-btn2" onclick="piyasaSec2('abd', this)">🇺🇸 ABD</button>
+    <button class="filtre piyasa-btn2" onclick="piyasaSec2('emtia', this)">🥇 Emtia</button>
+    <button class="filtre piyasa-btn2" onclick="piyasaSec2('forex', this)">💱 Forex</button>
+  </div>
   <div style="font-size:12px;color:var(--muted);margin-bottom:10px;text-align:center">
     Altin Kural: 15dk YENi sinyal + 60dk + 240dk + Gunluk ayni yonde
   </div>
@@ -347,6 +359,56 @@ function portfoyGoster() {
 }
 
 
+
+// ============ PIYASA LISTELERI ============
+const PIYASALAR = {
+  bist: null,  // CANLI_HISSELER kullanilir
+  abd: [
+    "AAPL","MSFT","NVDA","GOOGL","AMZN","META","TSLA","AVGO","BRK-B","JPM",
+    "V","WMT","UNH","XOM","MA","PG","JNJ","COST","HD","ORCL",
+    "MRK","ABBV","CVX","KO","PEP","BAC","AMD","NFLX","CRM","ADBE",
+    "TMO","DIS","MCD","CSCO","INTC","QCOM","TXN","IBM","CAT","GE",
+    "BA","GS","MS","NKE","PFE","T","VZ","UBER","PLTR","COIN"
+  ],
+  emtia: [
+    "GC=F","SI=F","CL=F","BZ=F","NG=F","HG=F","PL=F","PA=F"
+  ],
+  forex: [
+    "EURUSD=X","GBPUSD=X","USDJPY=X","USDCHF=X","AUDUSD=X","USDCAD=X",
+    "NZDUSD=X","EURGBP=X","EURJPY=X","GBPJPY=X","USDTRY=X","EURTRY=X"
+  ]
+};
+const ENSTRUMAN_ADLARI = {
+  "GC=F":"ALTIN","SI=F":"GUMUS","CL=F":"WTI PETROL","BZ=F":"BRENT","NG=F":"DOGALGAZ",
+  "HG=F":"BAKIR","PL=F":"PLATIN","PA=F":"PALADYUM",
+  "EURUSD=X":"EUR/USD","GBPUSD=X":"GBP/USD","USDJPY=X":"USD/JPY","USDCHF=X":"USD/CHF",
+  "AUDUSD=X":"AUD/USD","USDCAD=X":"USD/CAD","NZDUSD=X":"NZD/USD","EURGBP=X":"EUR/GBP",
+  "EURJPY=X":"EUR/JPY","GBPJPY=X":"GBP/JPY","USDTRY=X":"USD/TRY","EURTRY=X":"EUR/TRY"
+};
+let aktifPiyasa = 'bist';
+
+function aktifListe() {
+  return aktifPiyasa === 'bist' ? CANLI_HISSELER : PIYASALAR[aktifPiyasa];
+}
+function tamSembol(s) {
+  return aktifPiyasa === 'bist' ? s + '.IS' : s;
+}
+function gosterAd(s) {
+  return ENSTRUMAN_ADLARI[s] || s;
+}
+function piyasaSec(p, btn) {
+  aktifPiyasa = p;
+  document.querySelectorAll('.piyasa-btn').forEach(f => f.classList.remove('aktif'));
+  document.querySelectorAll('.piyasa-btn2').forEach(f => f.classList.remove('aktif'));
+  btn.classList.add('aktif');
+  document.querySelectorAll('.piyasa-btn2').forEach(f => { if (f.textContent.includes(btn.textContent.trim().split(' ')[1] || '')) f.classList.add('aktif'); });
+}
+function piyasaSec2(p, btn) {
+  aktifPiyasa = p;
+  document.querySelectorAll('.piyasa-btn2').forEach(f => f.classList.remove('aktif'));
+  btn.classList.add('aktif');
+}
+
 // ============ CANLI TARAMA ============
 const CANLI_HISSELER = [
   "AEFES","AGHOL","AKBNK","AKSA","AKSEN","ALARK","ALFAS","ALTNY","ANSGR","ARCLK",
@@ -493,7 +555,7 @@ async function proxyFetch(yUrl) {
 async function hisseVeriCek(sembol) {
   const interval = canliPeriyot === '240m' ? '60m' : canliPeriyot;
   const range = canliPeriyot === '5m' ? '5d' : canliPeriyot === '15m' ? '5d' : '1mo';
-  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${sembol}.IS?interval=${interval}&range=${range}`;
+  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(tamSembol(sembol))}?interval=${interval}&range=${range}`;
 
   const j = await proxyFetch(yUrl);
   const res = j.chart.result[0];
@@ -540,7 +602,7 @@ async function canliTara() {
       if (sonuc) {
         canliSonuclar.push({
           sembol,
-          fiyat: Math.round(sonuc.fiyat * 100) / 100,
+          fiyat: aktifPiyasa === 'forex' ? Math.round(sonuc.fiyat * 10000) / 10000 : Math.round(sonuc.fiyat * 100) / 100,
           dir: sonuc.dir,
           yeniAl:  sonuc.dir === -1 && sonuc.prevDir === 1,
           yeniSat: sonuc.dir === 1  && sonuc.prevDir === -1
@@ -548,16 +610,17 @@ async function canliTara() {
       }
     } catch(e) { hata++; }
     bitti++;
-    durum.textContent = `Taraniyor... ${bitti}/${CANLI_HISSELER.length}`;
+    durum.textContent = `Taraniyor... ${bitti}/${aktifListe().length}`;
   }
 
-  for (let i = 0; i < CANLI_HISSELER.length; i += GRUP) {
-    const grup = CANLI_HISSELER.slice(i, i + GRUP);
+  const LISTE = aktifListe();
+  for (let i = 0; i < LISTE.length; i += GRUP) {
+    const grup = LISTE.slice(i, i + GRUP);
     await Promise.all(grup.map(birHisse));
     await new Promise(res => setTimeout(res, 100));
   }
 
-  durum.textContent = `Tamamlandi — ${canliSonuclar.length} hisse | ${hata} hata | ${canliPeriyot} | ${new Date().toLocaleTimeString('tr-TR')}`;
+  durum.textContent = `Tamamlandi — ${canliSonuclar.length} enstruman | ${hata} hata | ${canliPeriyot} | ${new Date().toLocaleTimeString('tr-TR')}`;
   document.getElementById('canliFiltreBar').style.display = 'flex';
   btn.disabled = false;
   canliGoster();
@@ -583,7 +646,7 @@ function canliGoster() {
     const vurgu = (s.yeniAl || s.yeniSat) ? 'style="border-color:var(--yellow)"' : '';
     return `<div class="kart" ${vurgu}>
       <div class="kart-ust">
-        <div><span class="sembol">${s.sembol}</span> <span class="fiyat">${s.fiyat} TL</span></div>
+        <div><span class="sembol">${gosterAd(s.sembol)}</span> <span class="fiyat">${s.fiyat}</span></div>
         <span class="yon ${yonCls}">${yonTxt}</span>
       </div>
     </div>`;
@@ -618,7 +681,7 @@ function barlariGrupla(bars, adet) {
 }
 
 async function veriCekRaw(sembol, interval, range) {
-  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${sembol}.IS?interval=${interval}&range=${range}`;
+  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(tamSembol(sembol))}?interval=${interval}&range=${range}`;
   const j = await proxyFetch(yUrl);
   const res = j.chart.result[0];
   const q = res.indicators.quote[0];
@@ -660,7 +723,7 @@ async function mtfHisse(sembol) {
 
   return {
     sembol,
-    fiyat: Math.round(s15.fiyat * 100) / 100,
+    fiyat: aktifPiyasa === 'forex' ? Math.round(s15.fiyat * 10000) / 10000 : Math.round(s15.fiyat * 100) / 100,
     yon: yeniAl ? 'AL' : 'SAT',
     uyum,
     d60:  s60.dir  === -1 ? 'YUK' : 'ASA',
@@ -683,11 +746,12 @@ async function mtfTara() {
       if (r) mtfSonuclar.push(r);
     } catch(e) { hata++; }
     bitti++;
-    durum.textContent = `MTF taraniyor... ${bitti}/${CANLI_HISSELER.length}`;
+    durum.textContent = `MTF taraniyor... ${bitti}/${aktifListe().length}`;
   }
 
-  for (let i = 0; i < CANLI_HISSELER.length; i += GRUP) {
-    await Promise.all(CANLI_HISSELER.slice(i, i + GRUP).map(bir));
+  const LISTE2 = aktifListe();
+  for (let i = 0; i < LISTE2.length; i += GRUP) {
+    await Promise.all(LISTE2.slice(i, i + GRUP).map(bir));
     await new Promise(res => setTimeout(res, 80));
   }
 
@@ -717,7 +781,7 @@ function mtfGoster() {
     const vurgu = s.uyum === 3 ? 'style="border-color:var(--green)"' : '';
     return `<div class="kart" ${vurgu}>
       <div class="kart-ust">
-        <div><span class="sembol">${s.sembol}</span> <span class="fiyat">${s.fiyat} TL</span></div>
+        <div><span class="sembol">${gosterAd(s.sembol)}</span> <span class="fiyat">${s.fiyat}</span></div>
         <span class="yon ${yonCls}">${etiket}</span>
       </div>
       <div class="detay">60dk: ${s.d60} | 240dk: ${s.d240} | Gunluk: ${s.d1d}</div>
