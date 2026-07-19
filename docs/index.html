@@ -92,6 +92,7 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
     <button class="filtre" onclick="periyotSec('240m', this)">240 dk</button>
   </div>
   <button class="btn" style="width:100%;margin-bottom:10px" id="taraBtn" onclick="canliTara()">⚡ TARA</button>
+  <button class="btn" style="width:100%;margin-bottom:10px;background:var(--panel);border:1px solid var(--border)" onclick="proxyTest()">🔧 Bağlantı Testi</button>
   <div id="taraDurum" style="font-size:12px;color:var(--muted);text-align:center;margin-bottom:10px"></div>
   <div class="filtre-bar" id="canliFiltreBar" style="display:none">
     <button class="filtre aktif" onclick="canliFiltre('sinyal', this)">Yeni Sinyaller</button>
@@ -434,11 +435,37 @@ function timeoutFetch(url, ms) {
   });
 }
 
+
+async function proxyTest() {
+  const durum = document.getElementById('taraDurum');
+  const yUrl = 'https://query1.finance.yahoo.com/v8/finance/chart/AKBNK.IS?interval=15m&range=5d';
+  durum.innerHTML = 'Test basliyor...<br>';
+  for (let i = 0; i < PROXYLER.length; i++) {
+    const ad = ['allorigins', 'corsproxy', 'codetabs'][i];
+    durum.innerHTML += ad + ': deneniyor...<br>';
+    try {
+      const bas = Date.now();
+      const r = await timeoutFetch(PROXYLER[i](yUrl), 10000);
+      const sure = ((Date.now() - bas) / 1000).toFixed(1);
+      if (!r.ok) { durum.innerHTML += ad + ': HTTP ' + r.status + ' ❌<br>'; continue; }
+      const j = await r.json();
+      if (j && j.chart) {
+        durum.innerHTML += ad + ': CALISIYOR ✅ (' + sure + 's)<br>';
+      } else {
+        durum.innerHTML += ad + ': gecersiz veri ❌<br>';
+      }
+    } catch(e) {
+      durum.innerHTML += ad + ': ' + e.message + ' ❌<br>';
+    }
+  }
+  durum.innerHTML += 'Test bitti.';
+}
+
 async function proxyFetch(yUrl) {
   for (let deneme = 0; deneme < PROXYLER.length; deneme++) {
     const idx = (aktifProxy + deneme) % PROXYLER.length;
     try {
-      const r = await timeoutFetch(PROXYLER[idx](yUrl), 10000);
+      const r = await timeoutFetch(PROXYLER[idx](yUrl), 6000);
       if (!r.ok) continue;
       const j = await r.json();
       if (j && j.chart) { aktifProxy = idx; return j; }
@@ -487,10 +514,10 @@ async function canliTara() {
   btn.disabled = true;
   canliSonuclar = [];
   let hata = 0;
+  let bitti = 0;
+  const GRUP = 5;  // ayni anda 5 hisse
 
-  for (let i = 0; i < CANLI_HISSELER.length; i++) {
-    const sembol = CANLI_HISSELER[i];
-    durum.textContent = `Taraniyor: ${sembol} (${i+1}/${CANLI_HISSELER.length})`;
+  async function birHisse(sembol) {
     try {
       const bars = await hisseVeriCek(sembol);
       const sonuc = ceHesaplaJS(bars);
@@ -504,7 +531,14 @@ async function canliTara() {
         });
       }
     } catch(e) { hata++; }
-    await new Promise(res => setTimeout(res, 120));  // rate limit onleme
+    bitti++;
+    durum.textContent = `Taraniyor... ${bitti}/${CANLI_HISSELER.length}`;
+  }
+
+  for (let i = 0; i < CANLI_HISSELER.length; i += GRUP) {
+    const grup = CANLI_HISSELER.slice(i, i + GRUP);
+    await Promise.all(grup.map(birHisse));
+    await new Promise(res => setTimeout(res, 100));
   }
 
   durum.textContent = `Tamamlandi — ${canliSonuclar.length} hisse | ${hata} hata | ${canliPeriyot} | ${new Date().toLocaleTimeString('tr-TR')}`;
