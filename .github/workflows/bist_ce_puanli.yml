@@ -3,7 +3,7 @@ name: BIST CE Puanli Sinyal
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 15 * * 1-5'
+    - cron: '45 14 * * 1-5'
 
 jobs:
   tarama:
@@ -26,10 +26,10 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python bist_ce_puanli.py
 
-      - name: Durum dosyasını kaydet
+      - name: Durum ve JSON verileri kaydet
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-          git add bist_ce_puanli_state.json
-          git diff --staged --quiet || git commit -m "Durum güncellendi"
+          git add bist_ce_puanli_state.json docs/data/ || true
+          git diff --staged --quiet || git commit -m "Veriler güncellendi"
           git push || (git pull --rebase origin main && git push)
