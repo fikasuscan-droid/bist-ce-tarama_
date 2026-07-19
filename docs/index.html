@@ -420,16 +420,32 @@ function ceHesaplaJS(bars) {
   return { dir: dir[n-1], prevDir: dir[n-2], fiyat: bars[n-1].c };
 }
 
+const PROXYLER = [
+  u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
+  u => 'https://corsproxy.io/?url=' + encodeURIComponent(u),
+  u => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u)
+];
+let aktifProxy = 0;
+
+async function proxyFetch(yUrl) {
+  for (let deneme = 0; deneme < PROXYLER.length; deneme++) {
+    const idx = (aktifProxy + deneme) % PROXYLER.length;
+    try {
+      const r = await fetch(PROXYLER[idx](yUrl), { signal: AbortSignal.timeout(12000) });
+      if (!r.ok) continue;
+      const j = await r.json();
+      if (j && j.chart) { aktifProxy = idx; return j; }
+    } catch(e) {}
+  }
+  throw new Error('tum proxyler basarisiz');
+}
+
 async function hisseVeriCek(sembol) {
-  // Yahoo Finance chart API - CORS proxy ile
   const interval = canliPeriyot === '240m' ? '60m' : canliPeriyot;
   const range = canliPeriyot === '5m' ? '5d' : canliPeriyot === '15m' ? '5d' : '1mo';
   const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${sembol}.IS?interval=${interval}&range=${range}`;
-  const url = 'https://corsproxy.io/?url=' + encodeURIComponent(yUrl);
 
-  const r = await fetch(url);
-  if (!r.ok) throw new Error('fetch fail');
-  const j = await r.json();
+  const j = await proxyFetch(yUrl);
   const res = j.chart.result[0];
   const q = res.indicators.quote[0];
   const ts = res.timestamp;
@@ -481,6 +497,7 @@ async function canliTara() {
         });
       }
     } catch(e) { hata++; }
+    await new Promise(res => setTimeout(res, 120));  // rate limit onleme
   }
 
   durum.textContent = `Tamamlandi — ${canliSonuclar.length} hisse | ${hata} hata | ${canliPeriyot} | ${new Date().toLocaleTimeString('tr-TR')}`;
