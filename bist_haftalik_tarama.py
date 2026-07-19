@@ -13,6 +13,12 @@ import urllib.parse
 from datetime import datetime
 import os
 
+try:
+    from sinyal_kaydet import sinyal_kaydet
+    KAYIT_VAR = True
+except ImportError:
+    KAYIT_VAR = False
+
 TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
@@ -90,7 +96,7 @@ def telegram_gonder(mesaj):
 def gunluk_haftalik_cevir(df):
     """Günlük veriyi haftalık OHLCV'ye çevir"""
     df.index = pd.to_datetime(df.index)
-    weekly = df.resample('W-FRI').agg({
+    weekly = df.resample('W').agg({
         'Open':   'first',
         'High':   'max',
         'Low':    'min',
@@ -179,9 +185,8 @@ def hisse_analiz(sembol):
         adx_val  = adx.iloc[-1]
         ema_val  = ema200.iloc[-1]
 
-        # Son 2 haftayı kontrol et
-        yeni_al  = (curr_dir == -1 and prev_dir == 1) or (ce_dir.iloc[-2] == -1 and ce_dir.iloc[-3] == 1)
-        yeni_sat = (curr_dir == 1  and prev_dir == -1) or (ce_dir.iloc[-2] == 1  and ce_dir.iloc[-3] == -1)
+        yeni_al  = (curr_dir == -1 and prev_dir == 1)
+        yeni_sat = (curr_dir == 1  and prev_dir == -1)
 
         ema_long  = fiyat > ema_val
         ema_short = fiyat < ema_val
@@ -265,6 +270,35 @@ def tarama():
         telegram_gonder(mesaj)
     else:
         print("Sinyal yok, bildirim gonderilmedi.")
+
+    # Web app icin JSON kaydet
+    if KAYIT_VAR:
+        json_sinyaller = []
+        for s in guclu_al:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'AL',
+                'tur': 'GUCLU AL (CE+EMA200+ADX)',
+                'detay': 'EMA: ' + s['ema_yon'] + ' | ADX: ' + str(s['adx'])
+            })
+        for s in guclu_sat:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'SAT',
+                'tur': 'GUCLU SAT (CE+EMA200+ADX)',
+                'detay': 'EMA: ' + s['ema_yon'] + ' | ADX: ' + str(s['adx'])
+            })
+        for s in zayif_al:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'AL',
+                'tur': 'ZAYIF AL (Sadece CE)',
+                'detay': 'ADX: ' + str(s['adx'])
+            })
+        for s in zayif_sat:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'SAT',
+                'tur': 'ZAYIF SAT (Sadece CE)',
+                'detay': 'ADX: ' + str(s['adx'])
+            })
+        sinyal_kaydet("haftalik_ce", json_sinyaller)
 
 if __name__ == "__main__":
     tarama()
