@@ -427,17 +427,24 @@ const PROXYLER = [
 ];
 let aktifProxy = 0;
 
+function timeoutFetch(url, ms) {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error('timeout')), ms);
+    fetch(url).then(r => { clearTimeout(timer); resolve(r); }).catch(e => { clearTimeout(timer); reject(e); });
+  });
+}
+
 async function proxyFetch(yUrl) {
   for (let deneme = 0; deneme < PROXYLER.length; deneme++) {
     const idx = (aktifProxy + deneme) % PROXYLER.length;
     try {
-      const r = await fetch(PROXYLER[idx](yUrl), { signal: AbortSignal.timeout(12000) });
+      const r = await timeoutFetch(PROXYLER[idx](yUrl), 10000);
       if (!r.ok) continue;
       const j = await r.json();
       if (j && j.chart) { aktifProxy = idx; return j; }
     } catch(e) {}
   }
-  throw new Error('tum proxyler basarisiz');
+  throw new Error('proxy fail');
 }
 
 async function hisseVeriCek(sembol) {
