@@ -422,9 +422,9 @@ function ceHesaplaJS(bars) {
 }
 
 const PROXYLER = [
+  u => 'https://bist-proxy.fikasuscan.workers.dev/?url=' + encodeURIComponent(u),
   u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
-  u => 'https://corsproxy.io/?url=' + encodeURIComponent(u),
-  u => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u)
+  u => 'https://corsproxy.io/?url=' + encodeURIComponent(u)
 ];
 let aktifProxy = 0;
 
@@ -441,7 +441,7 @@ async function proxyTest() {
   const yUrl = 'https://query1.finance.yahoo.com/v8/finance/chart/AKBNK.IS?interval=15m&range=5d';
   durum.innerHTML = 'Test basliyor...<br>';
   for (let i = 0; i < PROXYLER.length; i++) {
-    const ad = ['allorigins', 'corsproxy', 'codetabs'][i];
+    const ad = ['kendi-proxy', 'allorigins', 'corsproxy'][i];
     durum.innerHTML += ad + ': deneniyor...<br>';
     try {
       const bas = Date.now();
