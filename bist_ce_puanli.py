@@ -15,6 +15,12 @@ from datetime import datetime
 import json
 import os
 
+try:
+    from sinyal_kaydet import sinyal_kaydet
+    KAYIT_VAR = True
+except ImportError:
+    KAYIT_VAR = False
+
 TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
@@ -338,6 +344,35 @@ def tarama():
         telegram_gonder(mesaj)
     else:
         print("Sinyal yok, bildirim gonderilmedi.")
+
+    # Web app icin JSON kaydet
+    if KAYIT_VAR:
+        json_sinyaller = []
+        for s in guclu_long:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'AL',
+                'tur': "GUCLU LONG " + str(s['puan']) + "/5 puan",
+                'detay': "ADX: " + str(s['adx']) + " | EMA200: " + str(s['ema200']),
+                'sl': s['sl'], 'tp1': s['tp1'], 'tp2': s['tp2']
+            })
+        for s in guclu_short:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'SAT',
+                'tur': "GUCLU SHORT " + str(s['puan']) + "/5 puan",
+                'detay': "ADX: " + str(s['adx']) + " | EMA200: " + str(s['ema200']),
+                'sl': s['sl'], 'tp1': s['tp1'], 'tp2': s['tp2']
+            })
+        for s in zayif_long:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'AL',
+                'tur': "ZAYIF LONG " + str(s['puan']) + "/5 puan", 'detay': ''
+            })
+        for s in zayif_short:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'SAT',
+                'tur': "ZAYIF SHORT " + str(s['puan']) + "/5 puan", 'detay': ''
+            })
+        sinyal_kaydet("ce_puanli", json_sinyaller)
 
 if __name__ == "__main__":
     tarama()
