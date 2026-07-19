@@ -101,6 +101,21 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   <div id="canliListe"></div>
 </div>
 
+<!-- MTF TARAMA -->
+<div class="sayfa" id="sayfa-mtf">
+  <div style="font-size:12px;color:var(--muted);margin-bottom:10px;text-align:center">
+    Altin Kural: 15dk YENi sinyal + 60dk + 240dk + Gunluk ayni yonde
+  </div>
+  <button class="btn" style="width:100%;margin-bottom:10px" id="mtfBtn" onclick="mtfTara()">🎯 MTF TARA</button>
+  <div id="mtfDurum" style="font-size:12px;color:var(--muted);text-align:center;margin-bottom:10px"></div>
+  <div class="filtre-bar" id="mtfFiltreBar" style="display:none">
+    <button class="filtre aktif" onclick="mtfFiltre('ideal', this)">IDEAL</button>
+    <button class="filtre" onclick="mtfFiltre('kismi', this)">Kismi Uyum</button>
+    <button class="filtre" onclick="mtfFiltre('hepsi', this)">Hepsi</button>
+  </div>
+  <div id="mtfListe"></div>
+</div>
+
 <!-- PORTFÖY -->
 <div class="sayfa" id="sayfa-portfoy">
   <div class="ozet-kutu">
@@ -129,6 +144,7 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   <button class="tab aktif" onclick="sayfaAc('sinyaller', this)"><span class="ikon">📊</span>Sinyaller</button>
   <button class="tab" onclick="sayfaAc('gecmis', this)"><span class="ikon">📈</span>Geçmiş</button>
   <button class="tab" onclick="sayfaAc('canli', this)"><span class="ikon">⚡</span>Canlı</button>
+  <button class="tab" onclick="sayfaAc('mtf', this)"><span class="ikon">🎯</span>MTF</button>
   <button class="tab" onclick="sayfaAc('portfoy', this)"><span class="ikon">💼</span>Portföy</button>
 </div>
 
@@ -574,9 +590,142 @@ function canliGoster() {
   }).join('');
 }
 
+
+// ============ MTF TARAMA ============
+let mtfSonuclar = [];
+let mtfGorunum = 'ideal';
+
+function mtfFiltre(g, btn) {
+  mtfGorunum = g;
+  document.querySelectorAll('#mtfFiltreBar .filtre').forEach(f => f.classList.remove('aktif'));
+  btn.classList.add('aktif');
+  mtfGoster();
+}
+
+function barlariGrupla(bars, adet) {
+  const out = [];
+  for (let i = 0; i < bars.length; i += adet) {
+    const grp = bars.slice(i, i + adet);
+    if (!grp.length) continue;
+    out.push({
+      t: grp[0].t,
+      h: Math.max(...grp.map(b => b.h)),
+      l: Math.min(...grp.map(b => b.l)),
+      c: grp[grp.length - 1].c
+    });
+  }
+  return out;
+}
+
+async function veriCekRaw(sembol, interval, range) {
+  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${sembol}.IS?interval=${interval}&range=${range}`;
+  const j = await proxyFetch(yUrl);
+  const res = j.chart.result[0];
+  const q = res.indicators.quote[0];
+  const ts = res.timestamp;
+  const bars = [];
+  for (let i = 0; i < ts.length; i++) {
+    if (q.high[i] == null || q.low[i] == null || q.close[i] == null) continue;
+    bars.push({ t: ts[i], h: q.high[i], l: q.low[i], c: q.close[i] });
+  }
+  return bars;
+}
+
+async function mtfHisse(sembol) {
+  // 3 istek: 15m, 60m (240m bundan gruplanir), 1d
+  const [b15, b60, b1d] = await Promise.all([
+    veriCekRaw(sembol, '15m', '5d'),
+    veriCekRaw(sembol, '60m', '1mo'),
+    veriCekRaw(sembol, '1d', '3mo')
+  ]);
+  const b240 = barlariGrupla(b60, 4);
+
+  const s15  = ceHesaplaJS(b15);
+  const s60  = ceHesaplaJS(b60);
+  const s240 = ceHesaplaJS(b240);
+  const s1d  = ceHesaplaJS(b1d);
+
+  if (!s15 || !s60 || !s240 || !s1d) return null;
+
+  const yeniAl  = s15.dir === -1 && s15.prevDir === 1;
+  const yeniSat = s15.dir === 1  && s15.prevDir === -1;
+  if (!yeniAl && !yeniSat) return null;  // sadece 15dk yeni sinyaller
+
+  // Ust periyot uyum sayisi
+  let uyum = 0;
+  const hedefYon = yeniAl ? -1 : 1;
+  if (s60.dir  === hedefYon) uyum++;
+  if (s240.dir === hedefYon) uyum++;
+  if (s1d.dir  === hedefYon) uyum++;
+
+  return {
+    sembol,
+    fiyat: Math.round(s15.fiyat * 100) / 100,
+    yon: yeniAl ? 'AL' : 'SAT',
+    uyum,
+    d60:  s60.dir  === -1 ? 'YUK' : 'ASA',
+    d240: s240.dir === -1 ? 'YUK' : 'ASA',
+    d1d:  s1d.dir  === -1 ? 'YUK' : 'ASA'
+  };
+}
+
+async function mtfTara() {
+  const btn = document.getElementById('mtfBtn');
+  const durum = document.getElementById('mtfDurum');
+  btn.disabled = true;
+  mtfSonuclar = [];
+  let bitti = 0, hata = 0;
+  const GRUP = 4;
+
+  async function bir(sembol) {
+    try {
+      const r = await mtfHisse(sembol);
+      if (r) mtfSonuclar.push(r);
+    } catch(e) { hata++; }
+    bitti++;
+    durum.textContent = `MTF taraniyor... ${bitti}/${CANLI_HISSELER.length}`;
+  }
+
+  for (let i = 0; i < CANLI_HISSELER.length; i += GRUP) {
+    await Promise.all(CANLI_HISSELER.slice(i, i + GRUP).map(bir));
+    await new Promise(res => setTimeout(res, 80));
+  }
+
+  const idealSayi = mtfSonuclar.filter(s => s.uyum === 3).length;
+  durum.textContent = `Bitti — ${mtfSonuclar.length} yeni 15dk sinyali | ${idealSayi} IDEAL | ${hata} hata | ${new Date().toLocaleTimeString('tr-TR')}`;
+  document.getElementById('mtfFiltreBar').style.display = 'flex';
+  btn.disabled = false;
+  mtfGoster();
+}
+
+function mtfGoster() {
+  const kutu = document.getElementById('mtfListe');
+  let liste = [...mtfSonuclar].sort((a, b) => b.uyum - a.uyum);
+  if (mtfGorunum === 'ideal') liste = liste.filter(s => s.uyum === 3);
+  else if (mtfGorunum === 'kismi') liste = liste.filter(s => s.uyum === 2);
+
+  if (!liste.length) {
+    kutu.innerHTML = '<div class="bos">' +
+      (mtfGorunum === 'ideal' ? 'IDEAL sinyal yok — tum periyotlar uyumlu 15dk sinyali su an bulunmuyor' : 'Sonuc yok') +
+      '</div>';
+    return;
+  }
+
+  kutu.innerHTML = liste.map(s => {
+    const yonCls = s.yon === 'AL' ? 'al' : 'sat';
+    const etiket = s.uyum === 3 ? '⭐ IDEAL ' + s.yon : s.uyum === 2 ? s.yon + ' (2/3 uyum)' : s.yon + ' (' + s.uyum + '/3)';
+    const vurgu = s.uyum === 3 ? 'style="border-color:var(--green)"' : '';
+    return `<div class="kart" ${vurgu}>
+      <div class="kart-ust">
+        <div><span class="sembol">${s.sembol}</span> <span class="fiyat">${s.fiyat} TL</span></div>
+        <span class="yon ${yonCls}">${etiket}</span>
+      </div>
+      <div class="detay">60dk: ${s.d60} | 240dk: ${s.d240} | Gunluk: ${s.d1d}</div>
+    </div>`;
+  }).join('');
+}
+
 verileriYukle();
 </script>
 </body>
 </html>
-
-
