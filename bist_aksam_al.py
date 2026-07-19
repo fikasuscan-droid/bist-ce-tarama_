@@ -16,6 +16,12 @@ import urllib.parse
 from datetime import datetime
 import os
 
+try:
+    from sinyal_kaydet import sinyal_kaydet
+    KAYIT_VAR = True
+except ImportError:
+    KAYIT_VAR = False
+
 TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
@@ -188,6 +194,23 @@ def tarama():
         telegram_gonder(mesaj)
     else:
         print("Sinyal yok, bildirim gonderilmedi.")
+
+    # Web app icin JSON kaydet
+    if KAYIT_VAR:
+        json_sinyaller = []
+        for s in guclu:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'AL',
+                'tur': 'GUCLU - CE + Hacim + Yukselis',
+                'detay': 'Degisim: %' + str(s['degisim']) + ' | Hacim: ' + str(s['hacim_kat']) + 'x | Sabah %2-3 gorunce sat'
+            })
+        for s in normal[:5]:
+            json_sinyaller.append({
+                'sembol': s['sembol'], 'fiyat': s['fiyat'], 'yon': 'AL',
+                'tur': 'NORMAL - Hacim + Yukselis (CE ters)',
+                'detay': 'Degisim: %' + str(s['degisim']) + ' | Hacim: ' + str(s['hacim_kat']) + 'x'
+            })
+        sinyal_kaydet("aksam_al", json_sinyaller)
 
 if __name__ == "__main__":
     tarama()
