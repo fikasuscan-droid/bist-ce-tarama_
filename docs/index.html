@@ -634,6 +634,43 @@ async function canliTara() {
     await new Promise(res => setTimeout(res, 100));
   }
 
+  // Sinyal verenler icin ust periyot uyum kontrolu
+  const sinyalliler = canliSonuclar.filter(s => s.yeniAl || s.yeniSat);
+  if (sinyalliler.length > 0 && canliPeriyot !== '240m') {
+    durum.textContent = `Uyum kontrolu... 0/${sinyalliler.length}`;
+    let ubitti = 0;
+    async function uyumKontrol(s) {
+      try {
+        const istekler = [veriCekRaw(s.sembol, '1d', '3mo')];
+        const ustler = [];
+        if (canliPeriyot === '5m' || canliPeriyot === '15m') {
+          istekler.push(veriCekRaw(s.sembol, '60m', '1mo'));
+        }
+        const sonuclar = await Promise.all(istekler);
+        const b1d = sonuclar[0];
+        const s1d = ceHesaplaJS(b1d);
+        const hedef = s.yeniAl ? -1 : 1;
+        let uyum = 0, toplam = 0;
+        const parcalar = [];
+        if (sonuclar.length > 1) {
+          const b60 = sonuclar[1];
+          const s60 = ceHesaplaJS(b60);
+          const s240 = ceHesaplaJS(barlariGrupla(b60, 4));
+          if (s60)  { toplam++; if (s60.dir === hedef) uyum++;  parcalar.push('60dk:' + (s60.dir === -1 ? 'YUK' : 'ASA')); }
+          if (s240) { toplam++; if (s240.dir === hedef) uyum++; parcalar.push('240dk:' + (s240.dir === -1 ? 'YUK' : 'ASA')); }
+        }
+        if (s1d) { toplam++; if (s1d.dir === hedef) uyum++; parcalar.push('Gunluk:' + (s1d.dir === -1 ? 'YUK' : 'ASA')); }
+        s.uyum = uyum; s.uyumToplam = toplam;
+        s.uyumDetay = parcalar.join(' | ');
+      } catch(e) {}
+      ubitti++;
+      durum.textContent = `Uyum kontrolu... ${ubitti}/${sinyalliler.length}`;
+    }
+    for (let i = 0; i < sinyalliler.length; i += 4) {
+      await Promise.all(sinyalliler.slice(i, i + 4).map(uyumKontrol));
+    }
+  }
+
   durum.textContent = `Tamamlandi — ${canliSonuclar.length} enstruman | ${hata} hata | ${canliPeriyot} | ${new Date().toLocaleTimeString('tr-TR')}`;
   document.getElementById('canliFiltreBar').style.display = 'flex';
   btn.disabled = false;
@@ -654,15 +691,29 @@ function canliGoster() {
     return;
   }
 
+  // Sinyalliler icinde uyuma gore sirala
+  liste = [...liste].sort((a, b) => {
+    const sa = (a.yeniAl||a.yeniSat)?1:0, sb = (b.yeniAl||b.yeniSat)?1:0;
+    if (sb !== sa) return sb - sa;
+    return (b.uyum||0) - (a.uyum||0);
+  });
+
   kutu.innerHTML = liste.map(s => {
-    const yonTxt = s.yeniAl ? 'YENi AL' : s.yeniSat ? 'YENi SAT' : (s.dir === -1 ? 'CE YUKARI' : 'CE ASAGI');
+    let yonTxt = s.yeniAl ? 'YENi AL' : s.yeniSat ? 'YENi SAT' : (s.dir === -1 ? 'CE YUKARI' : 'CE ASAGI');
     const yonCls = (s.yeniAl || s.dir === -1) ? 'al' : 'sat';
-    const vurgu = (s.yeniAl || s.yeniSat) ? 'style="border-color:var(--yellow)"' : '';
+    let vurgu = (s.yeniAl || s.yeniSat) ? 'style="border-color:var(--yellow)"' : '';
+    let uyumSatir = '';
+    if ((s.yeniAl || s.yeniSat) && s.uyumToplam) {
+      yonTxt += ` (${s.uyum}/${s.uyumToplam})`;
+      if (s.uyum === s.uyumToplam) vurgu = 'style="border-color:var(--green)"';
+      uyumSatir = `<div class="detay">${s.uyumDetay}</div>`;
+    }
     return `<div class="kart" ${vurgu}>
       <div class="kart-ust">
         <div><span class="sembol">${gosterAd(s.sembol)}</span> <span class="fiyat">${s.fiyat}</span></div>
         <span class="yon ${yonCls}">${yonTxt}</span>
       </div>
+      ${uyumSatir}
     </div>`;
   }).join('');
 }
