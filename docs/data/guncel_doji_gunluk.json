@@ -1,5 +1,50 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-07-19 17:26",
- "sinyaller": []
+ "zaman": "2026-07-20 20:16",
+ "sinyaller": [
+  {
+   "sembol": "ASUZU",
+   "fiyat": 55.15,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.0x",
+   "sl": 53.6,
+   "tp1": 57.92,
+   "tp2": 59.77,
+   "tp3": 62.54
+  },
+  {
+   "sembol": "LOGO",
+   "fiyat": 137.8,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 135.6,
+   "tp1": 142.81,
+   "tp2": 146.16,
+   "tp3": 151.17
+  },
+  {
+   "sembol": "OYAKC",
+   "fiyat": 20.26,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 20.04,
+   "tp1": 20.98,
+   "tp2": 21.46,
+   "tp3": 22.18
+  },
+  {
+   "sembol": "ESCAR",
+   "fiyat": 49.16,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
+   "sl": 50.95,
+   "tp1": 46.34,
+   "tp2": 44.45,
+   "tp3": 41.63
+  }
+ ]
 }
