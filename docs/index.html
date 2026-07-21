@@ -942,8 +942,19 @@ function rsiHesapla(kapanislar, period) {
 
 // VWAP hesapla (gun ici - tum barlar)
 function vwapHesapla(bars) {
+  // TradingView gibi: VWAP her gun sifirlanir - sadece son gunun barlarindan hesapla
+  if (!bars.length) return 0;
+  // Son barin gununu bul (UTC tarih)
+  const sonBar = bars[bars.length - 1];
+  const sonGun = sonBar.t ? new Date(sonBar.t * 1000).getUTCDate() : null;
+  const sonAy = sonBar.t ? new Date(sonBar.t * 1000).getUTCMonth() : null;
   let pvSum = 0, vSum = 0;
   for (const b of bars) {
+    // Timestamp yoksa tum barlari kullan (eski davranis)
+    if (b.t && sonGun !== null) {
+      const d = new Date(b.t * 1000);
+      if (d.getUTCDate() !== sonGun || d.getUTCMonth() !== sonAy) continue; // baska gun - atla
+    }
     const tp = (b.h + b.l + b.c) / 3;
     const v = b.v || 1;
     pvSum += tp * v;
@@ -998,7 +1009,7 @@ async function scalpTara() {
       const bars = [];
       for (let i = 0; i < ts.length; i++) {
         if (q.high[i]==null||q.low[i]==null||q.close[i]==null) continue;
-        bars.push({ h:q.high[i], l:q.low[i], c:q.close[i], v:q.volume[i]||0 });
+        bars.push({ t:ts[i], h:q.high[i], l:q.low[i], c:q.close[i], v:q.volume[i]||0 });
       }
       // Son bar henuz kapanmamis olabilir (olusan bar) - at, TradingView ile uyum icin
       if (bars.length > 1) bars.pop();
