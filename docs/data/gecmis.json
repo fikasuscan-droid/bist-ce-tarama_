@@ -442,5 +442,45 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-07-20",
   "zaman": "2026-07-20 20:16"
+ },
+ {
+  "sembol": "ECZYT",
+  "fiyat": 345.5,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %6.64 | Hacim: 2.5x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-21",
+  "zaman": "2026-07-21 16:00"
+ },
+ {
+  "sembol": "EUPWR",
+  "fiyat": 105.6,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %10.0 | Hacim: 2.1x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-21",
+  "zaman": "2026-07-21 16:00"
+ },
+ {
+  "sembol": "BIENY",
+  "fiyat": 22.94,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.97 | Hacim: 2.6x",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-21",
+  "zaman": "2026-07-21 16:00"
+ },
+ {
+  "sembol": "KTLEV",
+  "fiyat": 175.0,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-3.05 | Hacim: 2.6x",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-21",
+  "zaman": "2026-07-21 16:00"
  }
 ]

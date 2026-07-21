@@ -1,48 +1,34 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-07-20 20:11",
+ "zaman": "2026-07-21 16:00",
  "sinyaller": [
   {
-   "sembol": "SASA",
-   "fiyat": 2.54,
+   "sembol": "ECZYT",
+   "fiyat": 345.5,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %4.53 | Hacim: 10.5x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %6.64 | Hacim: 2.5x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "GESAN",
-   "fiyat": 88.3,
+   "sembol": "EUPWR",
+   "fiyat": 105.6,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %9.96 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %10.0 | Hacim: 2.1x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "AGHOL",
-   "fiyat": 35.1,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %3.54 | Hacim: 2.3x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "PETKM",
-   "fiyat": 22.7,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %8.4 | Hacim: 2.3x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "CWENE",
-   "fiyat": 40.12,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %0.5 | Hacim: 2.2x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "ENJSA",
-   "fiyat": 106.8,
+   "sembol": "BIENY",
+   "fiyat": 22.94,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %4.2 | Hacim: 2.9x"
+   "detay": "Degisim: %9.97 | Hacim: 2.6x"
+  },
+  {
+   "sembol": "KTLEV",
+   "fiyat": 175.0,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %-3.05 | Hacim: 2.6x"
   }
  ]
 }
