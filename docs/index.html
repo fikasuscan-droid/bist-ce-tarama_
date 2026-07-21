@@ -1027,6 +1027,9 @@ async function scalpTara() {
           sembol, fiyat: yuvround(fiyat), sinyal,
           vwapUst: fiyat > vwap,
           rsi: Math.round(rsi),
+          ceYon: ce.dir === -1 ? 'YUK' : 'ASA',
+          emaYon: emaYukari ? 'YUK' : 'ASA',
+          tetik: emaAlKesti ? 'EMA-kesisim-AL' : emaSatKesti ? 'EMA-kesisim-SAT' : ceAl ? 'CE-donus-AL' : ceSat ? 'CE-donus-SAT' : '?',
           sl: yuvround(sinyal==='AL' ? fiyat - ce.atr*1.0 : fiyat + ce.atr*1.0),
           tp1: yuvround(sinyal==='AL' ? fiyat + ce.atr*1.0 : fiyat - ce.atr*1.0),
           tp2: yuvround(sinyal==='AL' ? fiyat + ce.atr*2.0 : fiyat - ce.atr*2.0)
@@ -1064,6 +1067,7 @@ function scalpGoster() {
         <span class="yon ${yonCls}">SCALP ${s.sinyal}</span>
       </div>
       <div class="detay">${vwapBilgi} ${vwapUyum ? '✅' : '⚠️'} | RSI: ${s.rsi}</div>
+      <div class="detay" style="font-size:10px;color:var(--muted)">CE:${s.ceYon} | EMA9/21:${s.emaYon} | Tetik: ${s.tetik}</div>
       <div class="seviyeler">
         <span class="seviye sl">SL ${s.sl}</span>
         <span class="seviye tp">TP1 ${s.tp1}</span>
