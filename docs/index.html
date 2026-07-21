@@ -1006,26 +1006,27 @@ async function scalpTara() {
 
       const kapanislar = bars.map(b => b.c);
       const ce = scalpCE(bars);
-      const ema9 = emaHesapla(kapanislar, 9);
-      const ema21 = emaHesapla(kapanislar, 21);
+      // Otomatik EMA - indikatorle ayni: 5dk->8/13, 15dk->9/21
+      const emaHizliP = scalpTf === '5m' ? 8 : 9;
+      const emaYavasP = scalpTf === '5m' ? 13 : 21;
+      const emaH = emaHesapla(kapanislar, emaHizliP);
+      const emaY = emaHesapla(kapanislar, emaYavasP);
       const rsi = rsiHesapla(kapanislar, 14);
       const vwap = vwapHesapla(bars);
       const fiyat = kapanislar[kapanislar.length-1];
 
       const n = kapanislar.length;
-      const emaYukari = ema9[n-1] > ema21[n-1];
-      const emaAlKesti = ema9[n-2] <= ema21[n-2] && ema9[n-1] > ema21[n-1];
-      const emaSatKesti = ema9[n-2] >= ema21[n-2] && ema9[n-1] < ema21[n-1];
-      const ceAl = ce.dir === -1 && ce.prevDir === 1;
-      const ceSat = ce.dir === 1 && ce.prevDir === -1;
+      const emaYukari = emaH[n-1] > emaY[n-1];
+      // Indikator "Kesisim" modu: sadece EMA kesisimi tetikler (son kapanmis barda)
+      const emaAlKesti = emaH[n-2] <= emaY[n-2] && emaH[n-1] > emaY[n-1];
+      const emaSatKesti = emaH[n-2] >= emaY[n-2] && emaH[n-1] < emaY[n-1];
+      // Indikatorde ce_dir: 1=yukari, -1=asagi. App scalpCE: -1=yukari. Cevir:
+      const ceYukari = ce.dir === -1;
 
-      // Yon modu: CE donusu + EMA yonu uyumlu
-      const longTetik = (ceAl && emaYukari) || emaAlKesti;
-      const shortTetik = (ceSat && !emaYukari) || emaSatKesti;
-
+      // Kesisim modu (indikator varsayilani): EMA kesisimi = sinyal
       let sinyal = null;
-      if (longTetik && ce.dir === -1 && rsi < 70) sinyal = 'AL';
-      else if (shortTetik && ce.dir === 1 && rsi > 30) sinyal = 'SAT';
+      if (emaAlKesti && rsi < 70) sinyal = 'AL';
+      else if (emaSatKesti && rsi > 30) sinyal = 'SAT';
 
       if (sinyal) {
         const dp = scalpPiyasaSecim === 'forex' ? 4 : 2;
@@ -1034,9 +1035,10 @@ async function scalpTara() {
           sembol, fiyat: yuvround(fiyat), sinyal,
           vwapUst: fiyat > vwap,
           rsi: Math.round(rsi),
-          ceYon: ce.dir === -1 ? 'YUK' : 'ASA',
+          ceYon: ceYukari ? 'YUK' : 'ASA',
           emaYon: emaYukari ? 'YUK' : 'ASA',
-          tetik: emaAlKesti ? 'EMA-kesisim-AL' : emaSatKesti ? 'EMA-kesisim-SAT' : ceAl ? 'CE-donus-AL' : ceSat ? 'CE-donus-SAT' : '?',
+          emaP: emaHizliP + '/' + emaYavasP,
+          tetik: emaAlKesti ? 'EMA-kesisim-AL' : emaSatKesti ? 'EMA-kesisim-SAT' : '?',
           sl: yuvround(sinyal==='AL' ? fiyat - ce.atr*1.0 : fiyat + ce.atr*1.0),
           tp1: yuvround(sinyal==='AL' ? fiyat + ce.atr*1.0 : fiyat - ce.atr*1.0),
           tp2: yuvround(sinyal==='AL' ? fiyat + ce.atr*2.0 : fiyat - ce.atr*2.0)
@@ -1074,7 +1076,7 @@ function scalpGoster() {
         <span class="yon ${yonCls}">SCALP ${s.sinyal}</span>
       </div>
       <div class="detay">${vwapBilgi} ${vwapUyum ? '✅' : '⚠️'} | RSI: ${s.rsi}</div>
-      <div class="detay" style="font-size:10px;color:var(--muted)">CE:${s.ceYon} | EMA9/21:${s.emaYon} | Tetik: ${s.tetik}</div>
+      <div class="detay" style="font-size:10px;color:var(--muted)">CE:${s.ceYon} | EMA${s.emaP}:${s.emaYon} | ${s.tetik}</div>
       <div class="seviyeler">
         <span class="seviye sl">SL ${s.sl}</span>
         <span class="seviye tp">TP1 ${s.tp1}</span>
