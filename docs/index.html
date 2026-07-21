@@ -604,6 +604,9 @@ async function hisseVeriCek(sembol) {
     bars.push({ t: ts[i], h: q.high[i], l: q.low[i], c: q.close[i] });
   }
 
+  // Son bar henuz kapanmamis olabilir - at
+  if (bars.length > 1) bars.pop();
+
   // 240m için 60m barları 4'erli grupla
   if (canliPeriyot === '240m') {
     const grouped = [];
@@ -778,6 +781,8 @@ async function veriCekRaw(sembol, interval, range) {
     if (q.high[i] == null || q.low[i] == null || q.close[i] == null) continue;
     bars.push({ t: ts[i], h: q.high[i], l: q.low[i], c: q.close[i] });
   }
+  // Son bar henuz kapanmamis olabilir - at (TradingView uyumu)
+  if (bars.length > 1) bars.pop();
   return bars;
 }
 
@@ -995,6 +1000,8 @@ async function scalpTara() {
         if (q.high[i]==null||q.low[i]==null||q.close[i]==null) continue;
         bars.push({ h:q.high[i], l:q.low[i], c:q.close[i], v:q.volume[i]||0 });
       }
+      // Son bar henuz kapanmamis olabilir (olusan bar) - at, TradingView ile uyum icin
+      if (bars.length > 1) bars.pop();
       if (bars.length < 25) { hata++; bitti++; return; }
 
       const kapanislar = bars.map(b => b.c);
