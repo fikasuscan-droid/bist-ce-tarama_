@@ -1,61 +1,83 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-07-21 16:40",
+ "zaman": "2026-07-22 16:41",
  "sinyaller": [
   {
-   "sembol": "ASELS",
-   "fiyat": 360.0,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.8x",
-   "sl": 348.75,
-   "tp1": 385.34,
-   "tp2": 402.23,
-   "tp3": 427.57
-  },
-  {
-   "sembol": "IZFAS",
-   "fiyat": 62.0,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.7x",
-   "sl": 59.75,
-   "tp1": 66.34,
-   "tp2": 69.24,
-   "tp3": 73.59
-  },
-  {
    "sembol": "DYOBY",
-   "fiyat": 13.48,
+   "fiyat": 14.05,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.6x",
-   "sl": 13.35,
-   "tp1": 13.92,
-   "tp2": 14.21,
-   "tp3": 14.65
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.7x",
+   "sl": 13.24,
+   "tp1": 14.57,
+   "tp2": 14.91,
+   "tp3": 15.43
   },
   {
-   "sembol": "DOCO",
-   "fiyat": 10905.0,
+   "sembol": "EUREN",
+   "fiyat": 4.17,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.1x",
+   "sl": 4.08,
+   "tp1": 4.34,
+   "tp2": 4.45,
+   "tp3": 4.62
+  },
+  {
+   "sembol": "SARKY",
+   "fiyat": 26.14,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.0x",
+   "sl": 25.56,
+   "tp1": 27.52,
+   "tp2": 28.44,
+   "tp3": 29.82
+  },
+  {
+   "sembol": "NUHCM",
+   "fiyat": 222.5,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.5x",
+   "sl": 218.5,
+   "tp1": 231.61,
+   "tp2": 237.68,
+   "tp3": 246.79
+  },
+  {
+   "sembol": "GLYHO",
+   "fiyat": 17.37,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
    "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.4x",
-   "sl": 10855.0,
-   "tp1": 11428.66,
-   "tp2": 11777.77,
-   "tp3": 12301.43
+   "sl": 17.2,
+   "tp1": 18.09,
+   "tp2": 18.57,
+   "tp3": 19.28
   },
   {
-   "sembol": "KARTN",
-   "fiyat": 211.0,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
-   "sl": 226.0,
-   "tp1": 187.81,
-   "tp2": 172.36,
-   "tp3": 149.17
+   "sembol": "HRKET",
+   "fiyat": 97.95,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.4x",
+   "sl": 95.75,
+   "tp1": 106.55,
+   "tp2": 112.28,
+   "tp3": 120.88
+  },
+  {
+   "sembol": "BORLS",
+   "fiyat": 6.05,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Doji | CE: ASAGI | Hacim: 0.1x",
+   "sl": 5.8,
+   "tp1": 6.7,
+   "tp2": 7.13,
+   "tp3": 7.78
   }
  ]
 }
