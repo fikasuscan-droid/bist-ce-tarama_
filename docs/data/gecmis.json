@@ -552,5 +552,35 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-07-21",
   "zaman": "2026-07-21 16:40"
+ },
+ {
+  "sembol": "ECZYT",
+  "fiyat": 365.0,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %5.64 | Hacim: 4.9x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-22",
+  "zaman": "2026-07-22 15:57"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.64,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %5.18 | Hacim: 4.8x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-22",
+  "zaman": "2026-07-22 15:57"
+ },
+ {
+  "sembol": "AKSEN",
+  "fiyat": 116.0,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %4.22 | Hacim: 3.9x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-22",
+  "zaman": "2026-07-22 15:57"
  }
 ]
