@@ -490,7 +490,7 @@ const CANLI_HISSELER = [
   "PARSN","PENTA","PETUN","PINSU","PKENT","PNSUT","POLHO","PRKAB","PRKME","QUAGR",
   "RAYSG","RYGYO","RYSAS","SAFKR","SARKY","SAYAS","SDTTR","SELEC","SMRTG","SNGYO",
   "SUNTK","TATGD","TEZOL","TMSN","TRGYO","TRILC","TUKAS","TUREX","ULUUN",
-  "VAKKO","VERUS","YATAS","YEOTK","YYLGD","ZRGYO","TRMET","TRALT","TRENJ"
+  "VAKKO","VERUS","YATAS","YEOTK","YYLGD","ZRGYO"
 ];
 const CE_PERIOD = 5;
 const CE_MULT   = 2.0;
@@ -1211,7 +1211,8 @@ function tavanGoster() {
   }
 
   kutu.innerHTML = liste.map(k => {
-    const ikonlar = (k.hacim_kat >= 2 ? '🔥' : '') + (k.ema200_ust ? '📈' : '') + (k.ce_yukari ? '✅' : '');
+    const ikonlar = (k.tam_tavan ? '🔒' : '') + (k.hacim_kat >= 2 ? '🔥' : '') + (k.ema200_ust ? '📈' : '') + (k.ce_yukari ? '✅' : '');
+    const tipEtiket = k.tam_tavan ? 'TAVAN' : 'GUCLU';
     const kaliteRenk = k.kalite >= 2 ? 'var(--green)' : k.kalite === 1 ? 'var(--yellow)' : 'var(--red)';
     const perf = (k.t1 !== null && k.t1 !== undefined) ? `
       <div class="seviyeler">
@@ -1222,7 +1223,7 @@ function tavanGoster() {
     return `<div class="kart" style="border-color:${kaliteRenk}">
       <div class="kart-ust">
         <div><span class="sembol">${k.sembol}</span> <span class="fiyat">${k.fiyat} TL</span></div>
-        <span class="yon al">+${k.degisim}%</span>
+        <span class="yon al">${tipEtiket} +${k.degisim}%</span>
       </div>
       <div class="detay">${k.tarih} | Hacim: ${k.hacim_kat}x | Kalite: ${k.kalite}/3 ${ikonlar}</div>
       ${perf}
