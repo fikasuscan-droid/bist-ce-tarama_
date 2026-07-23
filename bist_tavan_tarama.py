@@ -42,20 +42,38 @@ HISSE_LISTESI = [
     "MPARK","ODAS","OTKAR","OYAKC","PETKM","PGSUS","SAHOL","SASA","SISE","SKBNK",
     "SOKM","TAVHL","TCELL","THYAO","TKFEN","TOASO","TSKB","TTKOM","TTRAK","TUPRS",
     "TURSG","ULKER","VAKBN","VESBE","VESTL","YKBNK","ZOREN",
-    # Likit Yildiz Pazar hisseleri
-    "ADEL","AKFGY","AKSGY","ALBRK","ALGYO","ALKIM","ANHYT","ASUZU","AYDEM","AYGAZ",
-    "BAGFS","BANVT","BASGZ","BERA","BFREN","BIOEN","BOBET","BORLS","BORSK","BRISA",
-    "BUCIM","CEMTS","CLEBI","CANTE","DEVA","DGATE","DOCO","DYOBY","EBEBK","EGGUB",
-    "EGEEN","ERBOS","ESCAR","FENER","FONET","FORTE","GEDIK","GENTS","GLYHO","GOODY",
-    "GOZDE","GSDHO","GSRAY","HATEK","HDFGS","HLGYO","HRKET","HTTBT","HUNER","HURGZ",
-    "INDES","INFO","IPEKE","ISDMR","ISFIN","ISGYO","ISMEN","IZFAS","IZMDC","JANTS",
-    "KARSN","KARTN","KATMR","KAYSE","KCAER","KLMSN","KLRHO","KLSER","KMPUR","KONYA",
-    "KORDS","KRDMA","KRDMB","LIDER","LOGO","MAGEN","MAVI","MEDTR","MERKO","MIATK",
-    "MNDRS","NATEN","NETAS","NTGAZ","NUHCM","OBAMS","ORGE","OSMEN","OZKGY","PAPIL",
-    "PARSN","PENTA","PETUN","PINSU","PKENT","PNSUT","POLHO","PRKAB","PRKME","QUAGR",
-    "RAYSG","RYGYO","RYSAS","SAFKR","SARKY","SAYAS","SDTTR","SELEC","SMRTG","SNGYO",
-    "SUNTK","TATGD","TERA","TEZOL","TMSN","TRGYO","TRILC","TUKAS","TUREX","ULUUN",
-    "VAKKO","VERUS","YATAS","YEOTK","YYLGD","ZRGYO"
+    # Yıldız Pazar + Ana Pazar
+    "ACSEL","ADEL","AKMGY","AKPO","AKSGY","AKTAE","ALBRK","ALGYO","ALKIM","ALTIN",
+    "ANGEN","ANHYT","ASUZU","ATAKP","ATATP","AVGYO","AVHOL","AVOD","AYCES","AYEN",
+    "BAGFS","BAKAB","BANVT","BARMA","BFREN","BINHO","BJKAS","BMELK","BNTAS","BOSSA",
+    "BUCIM","BURCE","BURVA","BVSAN","CASA","CEMAS","CEMTS","CLEBI","CMBTN","CMENT",
+    "CONSE","COSMO","CRDFA","CRFSA","CUSAN","DAGHL","DAPGM","DENGE","DERHL","DERIM",
+    "DESA","DESPC","DEVA","DGATE","DGKLB","DGNMO","DMSAS","DNISI","DOBUR",
+    "DOCO","DOGUB","DOKTA","DORE","DURDO","DYOBY","DZGYO","EBEBK","EGGUB",
+    "EGPRO","EGSER","EMKEL","EMNIS","ERBOS","ERCB","ERSU","ESCAR","ESCOM","ESEN",
+    "ETILR","ETYAT","EUHOL","EUKYO","FENER","FLAP","FMIZP","FONET","FORMT","FORTE",
+    "FRIGO","GARFA","GEDIK","GEDZA","GENTS","GEREL","GLBMD","GLRYH",
+    "GOLTS","GOODY","GOZDE","GRSEL","GRTHO","GSDDE","GSDHO","GSRAY","GWIND",
+    "HATEK","HDFGS","HEDEF","HLGYO","HRKET","HTTBT","HUBVC","HUNER",
+    "HURGZ","ICBCT","ICUGS","IDGYO","IEYHO","IHEVA","IHGZT","IHLAS","IHLGM","IHYAY",
+    "IMASM","INDES","INFO","INTEM","IPEKE","ISATR","ISBIR","ISFIN","ISGSY",
+    "ISGYO","ISMEN","ISSEN","ISYAT","ITTFH","IZFAS","IZMDC","JANTS","KAPLM","KARTN",
+    "KATMR","KAYSE","KBORU","KCAER","KENT","KERVN","KERVT","KFEIN","KGYO",
+    "KLMSN","KLRHO","KLSER","KMPUR","KNFRT","KONYA","KORDS",
+    "KRDMA","KRDMB","KRGYO","KRPLS","KRSTL","KRTEK","KSTUR","KUTPO",
+    "LIDER","LIDFA","LMKDC","LOGO","LUKSK","MAALT","MAGEN","MARTI","MAVI","MEDTR",
+    "MEGAP","MEPET","MERKO","METRO","METUR","MIATK","MIPAZ","MMCAS","MNDRS",
+    "MRGYO","NATEN","NETAS","NIBAS","NTGAZ","NUGYO","NUHCM","OBAMS","OBASE",
+    "ONCSM","ORCAY","ORGE","ORMA","OSMEN","OSTIM","OYAKC","OYLUM",
+    "OZGYO","OZKGY","PAGYO","PAHOL","PAMEL","PAPIL","PARSN","PASEU","PCILT","PEGYO",
+    "PENTA","PINSU","PKENT","PLTUR","PNLSN","POLHO","PRKAB","PRKME",
+    "PRZMA","RALYH","RAYSG","RHEAG","RODRG","ROYAL","RYGYO","RYSAS","SAFKR",
+    "SANEL","SAYAS","SDTTR","SEGYO","SEKFK","SEKUR","SELEC","SEYKM",
+    "SILVR","SKYLP","SMART","SMRTG","SNKRN","SONME","SRVGY",
+    "TATGD","TLMAN","TMSN","TNZTP","TRCAS",
+    "TRGYO","TRILC","TUCLK","TURGG","ULUUN","UMPAS","UNLU","USAK","USDTR",
+    "VAKFN","VAKKO","VANGD","VBTYZ","VERUS","VKGYO","VKING",
+    "YAPRK","YATAS","YEOTK","YGYO","YKSLN","YUNSA","ZRGYO"
 ]
 HISSE_LISTESI = list(dict.fromkeys(HISSE_LISTESI))
 
@@ -100,6 +118,27 @@ def ce_hesapla(df, period=5, mult=2.0):
         else:                  ce_dir.iloc[i] = ce_dir.iloc[i-1]
     return ce_dir
 
+
+def json_temizle(o):
+    """numpy/pandas tiplerini Python tiplerine cevirir (JSON hatasi onlemi)."""
+    import numpy as np
+    if isinstance(o, dict):
+        return {k: json_temizle(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)):
+        return [json_temizle(x) for x in o]
+    if isinstance(o, (np.bool_, bool)):
+        return bool(o)
+    if isinstance(o, (np.integer,)):
+        return int(o)
+    if isinstance(o, (np.floating,)):
+        return float(o)
+    if hasattr(o, 'item'):
+        try:
+            return o.item()
+        except Exception:
+            return o
+    return o
+
 def takip_yukle():
     if os.path.exists(TAKIP_DOSYA):
         try:
@@ -112,13 +151,13 @@ def takip_yukle():
 def takip_kaydet(kayitlar):
     os.makedirs(os.path.dirname(TAKIP_DOSYA), exist_ok=True)
     with open(TAKIP_DOSYA, 'w', encoding='utf-8') as f:
-        json.dump(kayitlar, f, ensure_ascii=False, indent=1)
+        json.dump(json_temizle(kayitlar), f, ensure_ascii=False, indent=1)
 
 def hisse_tavan_kontrol(sembol):
     """Bugun tavan yapmis mi? Kalite bilgileriyle dondur."""
     try:
         t = yf.Ticker(f"{sembol}.IS")
-        df = t.history(period="2y", interval="1d")
+        df = t.history(period="1y", interval="1d")
         if df is None or len(df) < 60:
             return None
 
@@ -132,14 +171,14 @@ def hisse_tavan_kontrol(sembol):
         # Kalite gostergeleri
         hacim     = float(df['Volume'].iloc[-1])
         ort_hacim = float(df['Volume'].iloc[-21:-1].mean())
-        hacim_kat = round(hacim / ort_hacim, 1) if ort_hacim > 0 else 0
+        hacim_kat = float(round(hacim / ort_hacim, 1)) if ort_hacim > 0 else 0.0
 
         ema200 = df['Close'].ewm(span=EMA_LEN, adjust=False).mean()
         ema_v  = float(ema200.iloc[-1])
-        ema_ust = son_kap > ema_v
+        ema_ust = bool(son_kap > ema_v)
 
         ce_dir  = ce_hesapla(df, CE_PERIOD, CE_MULT)
-        ce_yuk  = ce_dir.iloc[-1] == -1
+        ce_yuk  = bool(ce_dir.iloc[-1] == -1)
 
         # Kalite puani (0-3): hacim + EMA200 + CE
         puan = 0
@@ -154,7 +193,7 @@ def hisse_tavan_kontrol(sembol):
             'hacim_kat': hacim_kat,
             'ema200_ust': ema_ust,
             'ce_yukari': ce_yuk,
-            'kalite': puan
+            'kalite': int(puan)
         }
     except Exception as e:
         print(f"{sembol} hata: {e}")
@@ -258,10 +297,12 @@ def tarama():
     bugun = datetime.now().strftime("%Y-%m-%d")
     tavanlar = []
     for i, s in enumerate(HISSE_LISTESI):
-        print(f"[{i+1}/{len(HISSE_LISTESI)}] {s}...")
+        if (i + 1) % 25 == 0 or i == 0:
+            print(f"[{i+1}/{len(HISSE_LISTESI)}] taraniyor...")
         r = hisse_tavan_kontrol(s)
         if r:
             tavanlar.append(r)
+            print(f"  TAVAN: {r['sembol']} %{r['degisim']:+.2f} | kalite {r['kalite']}/3")
 
     tavanlar.sort(key=lambda x: (x['kalite'], x['hacim_kat']), reverse=True)
     print(f"\nBugun tavan yapan: {len(tavanlar)} hisse")
@@ -288,7 +329,7 @@ def tarama():
     if ist:
         os.makedirs("docs/data", exist_ok=True)
         with open("docs/data/tavan_istatistik.json", 'w', encoding='utf-8') as f:
-            json.dump(ist, f, ensure_ascii=False, indent=1)
+            json.dump(json_temizle(ist), f, ensure_ascii=False, indent=1)
         print(f"\nIstatistik: {ist['toplam_kayit']} kayit uzerinden")
         g = ist['genel']
         print(f"  T+1: ort %{g['t1_ort']} | basari %{g['t1_basari']}")
@@ -314,9 +355,11 @@ def tarama():
                 mesaj += f"  Hacim: {t['hacim_kat']}x | Puan: {t['kalite']}/3 {ikonlar}\n"
 
         if zayif:
-            mesaj += "\n🟡 <b>ZAYIF TAVAN (0-1 puan - dikkat!):</b>\n"
-            for t in zayif:
+            mesaj += f"\n🟡 <b>ZAYIF TAVAN (0-1 puan - dikkat!):</b> {len(zayif)} hisse\n"
+            for t in zayif[:15]:
                 mesaj += f"  {t['sembol']} {t['fiyat']} TL | Hacim: {t['hacim_kat']}x | Puan: {t['kalite']}/3\n"
+            if len(zayif) > 15:
+                mesaj += f"  ... ve {len(zayif)-15} hisse daha (app'te tamami)\n"
 
         if ist:
             g = ist['genel']
