@@ -680,5 +680,15 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-07-22",
   "zaman": "2026-07-22 16:41"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": 9.3,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %0.32 | Hacim: 2.5x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-23",
+  "zaman": "2026-07-23 16:07"
  }
 ]

@@ -1,27 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-07-22 15:57",
+ "zaman": "2026-07-23 16:07",
  "sinyaller": [
   {
-   "sembol": "ECZYT",
-   "fiyat": 365.0,
+   "sembol": "GENIL",
+   "fiyat": 9.3,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %5.64 | Hacim: 4.9x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "SASA",
-   "fiyat": 2.64,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %5.18 | Hacim: 4.8x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "AKSEN",
-   "fiyat": 116.0,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %4.22 | Hacim: 3.9x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %0.32 | Hacim: 2.5x | Sabah %2-3 gorunce sat"
   }
  ]
 }
