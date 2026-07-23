@@ -49,6 +49,27 @@ def telegram_gonder(mesaj):
         except Exception as e:
             print(f"Telegram hatasi: {e}")
 
+
+def json_temizle(o):
+    """numpy/pandas tiplerini Python tiplerine cevirir (JSON hatasi onlemi)."""
+    import numpy as np
+    if isinstance(o, dict):
+        return {k: json_temizle(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)):
+        return [json_temizle(x) for x in o]
+    if isinstance(o, (np.bool_, bool)):
+        return bool(o)
+    if isinstance(o, (np.integer,)):
+        return int(o)
+    if isinstance(o, (np.floating,)):
+        return float(o)
+    if hasattr(o, 'item'):
+        try:
+            return o.item()
+        except Exception:
+            return o
+    return o
+
 def json_yukle(yol, varsayilan):
     if os.path.exists(yol):
         try:
@@ -61,7 +82,7 @@ def json_yukle(yol, varsayilan):
 def json_kaydet(yol, veri):
     os.makedirs(os.path.dirname(yol), exist_ok=True)
     with open(yol, 'w', encoding='utf-8') as f:
-        json.dump(veri, f, ensure_ascii=False, indent=1)
+        json.dump(json_temizle(veri), f, ensure_ascii=False, indent=1)
 
 def arsiv_anahtar(s):
     """Sinyali benzersiz tanimlayan anahtar."""
