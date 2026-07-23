@@ -1,0 +1,41 @@
+{
+ "sistem": "tavan",
+ "zaman": "2026-07-23 17:52",
+ "sinyaller": [
+  {
+   "sembol": "SKYLP",
+   "fiyat": 278.75,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.96)",
+   "detay": "Hacim: 2.4x | Puan: 2/3 | EMA200 UST"
+  },
+  {
+   "sembol": "SMART",
+   "fiyat": 28.78,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.93)",
+   "detay": "Hacim: 2.4x | Puan: 1/3"
+  },
+  {
+   "sembol": "ISBIR",
+   "fiyat": 71.5,
+   "yon": "AL",
+   "tur": "TAVAN (%+10.00)",
+   "detay": "Hacim: 2.3x | Puan: 1/3"
+  },
+  {
+   "sembol": "ERCB",
+   "fiyat": 54.6,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.95)",
+   "detay": "Hacim: 2.1x | Puan: 1/3"
+  },
+  {
+   "sembol": "KONTR",
+   "fiyat": 5.2,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.94)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "sembol": "SKYLP",
+  "tarih": "2026-07-23",
+  "fiyat": 278.75,
+  "degisim": 9.96,
+  "hacim_kat": 2.4,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "SMART",
+  "tarih": "2026-07-23",
+  "fiyat": 28.78,
+  "degisim": 9.93,
+  "hacim_kat": 2.4,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "ISBIR",
+  "tarih": "2026-07-23",
+  "fiyat": 71.5,
+  "degisim": 10.0,
+  "hacim_kat": 2.3,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "ERCB",
+  "tarih": "2026-07-23",
+  "fiyat": 54.6,
+  "degisim": 9.95,
+  "hacim_kat": 2.1,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "KONTR",
+  "tarih": "2026-07-23",
+  "fiyat": 5.2,
+  "degisim": 9.94,
+  "hacim_kat": 0.5,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ }
+]
