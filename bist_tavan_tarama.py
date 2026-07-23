@@ -26,7 +26,7 @@ except ImportError:
 TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
-TAVAN_ESIK = 9.5      # BIST gunluk limit %10, 9.5 uzeri tavan sayilir
+TAVAN_ESIK = 8.5      # %9.5+ = tam tavan, %8.5-9.5 = guclu yukselis
 CE_PERIOD  = 5
 CE_MULT    = 2.0
 EMA_LEN    = 200
@@ -188,6 +188,7 @@ def hisse_tavan_kontrol(sembol):
 
         return {
             'sembol': sembol,
+            'tam_tavan': bool(degisim >= 9.5),
             'fiyat': round(son_kap, 2),
             'degisim': round(degisim, 2),
             'hacim_kat': hacim_kat,
@@ -285,7 +286,7 @@ def istatistik_cikar(kayitlar):
 def tarama():
     print(f"\n{'='*50}")
     print(f"BIST Tavan Tarama - {datetime.now().strftime('%d.%m.%Y %H:%M')}")
-    print(f"Esik: %{TAVAN_ESIK}+ | {len(HISSE_LISTESI)} hisse")
+    print(f"Esik: %{TAVAN_ESIK}+ (tam tavan: %9.5+) | {len(HISSE_LISTESI)} hisse")
     print(f"{'='*50}")
 
     kayitlar = takip_yukle()
@@ -302,7 +303,8 @@ def tarama():
         r = hisse_tavan_kontrol(s)
         if r:
             tavanlar.append(r)
-            print(f"  TAVAN: {r['sembol']} %{r['degisim']:+.2f} | kalite {r['kalite']}/3")
+            etiket = "TAVAN" if r.get('tam_tavan') else "GUCLU"
+            print(f"  {etiket}: {r['sembol']} %{r['degisim']:+.2f} | kalite {r['kalite']}/3")
 
     tavanlar.sort(key=lambda x: (x['kalite'], x['hacim_kat']), reverse=True)
     print(f"\nBugun tavan yapan: {len(tavanlar)} hisse")
@@ -314,6 +316,7 @@ def tarama():
             continue
         kayitlar.append({
             'sembol': t['sembol'], 'tarih': bugun, 'fiyat': t['fiyat'],
+            'tam_tavan': t.get('tam_tavan', False),
             'degisim': t['degisim'], 'hacim_kat': t['hacim_kat'],
             'ema200_ust': t['ema200_ust'], 'ce_yukari': t['ce_yukari'],
             'kalite': t['kalite'],
@@ -338,8 +341,9 @@ def tarama():
 
     # 5) Telegram
     if tavanlar:
-        mesaj = f"🔒 <b>BIST TAVAN LISTESI</b>\n"
-        mesaj += f"Tarih: {datetime.now().strftime('%d.%m.%Y')} | {len(tavanlar)} hisse\n\n"
+        tam_sayi = len([t for t in tavanlar if t.get('tam_tavan')])
+        mesaj = f"🔒 <b>BIST TAVAN / GUCLU YUKSELIS</b>\n"
+        mesaj += f"Tarih: {datetime.now().strftime('%d.%m.%Y')} | {len(tavanlar)} hisse ({tam_sayi} tam tavan)\n\n"
 
         guclu = [t for t in tavanlar if t['kalite'] >= 2]
         zayif = [t for t in tavanlar if t['kalite'] < 2]
@@ -347,7 +351,7 @@ def tarama():
         if guclu:
             mesaj += "🟢 <b>KALITELI TAVAN (2-3 puan):</b>\n"
             for t in guclu:
-                ikonlar = ""
+                ikonlar = "🔒" if t.get('tam_tavan') else ""
                 if t['hacim_kat'] >= 2.0: ikonlar += "🔥"
                 if t['ema200_ust']:       ikonlar += "📈"
                 if t['ce_yukari']:        ikonlar += "✅"
@@ -387,7 +391,7 @@ def tarama():
             if t['ce_yukari']:  detay += " | CE YUK"
             json_sinyaller.append({
                 'sembol': t['sembol'], 'fiyat': t['fiyat'], 'yon': 'AL',
-                'tur': f"TAVAN (%{t['degisim']:+.2f})",
+                'tur': ("TAVAN" if t.get('tam_tavan') else "GUCLU YUKSELIS") + f" (%{t['degisim']:+.2f})",
                 'detay': detay
             })
         sinyal_kaydet("tavan", json_sinyaller)
