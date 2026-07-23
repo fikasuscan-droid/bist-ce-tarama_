@@ -151,6 +151,16 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   <div id="scalpListe"></div>
 </div>
 
+<!-- TAVAN TAKIP -->
+<div class="sayfa" id="sayfa-tavan">
+  <div class="filtre-bar">
+    <button class="filtre aktif" onclick="tavanGorunum('bugun', this)">Bugun</button>
+    <button class="filtre" onclick="tavanGorunum('takip', this)">Takip (T+1/3/5)</button>
+    <button class="filtre" onclick="tavanGorunum('istatistik', this)">Istatistik</button>
+  </div>
+  <div id="tavanIcerik"><div class="bos">Yukleniyor...</div></div>
+</div>
+
 <!-- PORTFÖY -->
 <div class="sayfa" id="sayfa-portfoy">
   <div class="ozet-kutu">
@@ -181,6 +191,7 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   <button class="tab" onclick="sayfaAc('canli', this)"><span class="ikon">⚡</span>Canlı</button>
   <button class="tab" onclick="sayfaAc('mtf', this)"><span class="ikon">🎯</span>MTF</button>
   <button class="tab" onclick="sayfaAc('scalp', this)"><span class="ikon">🔥</span>Scalp</button>
+  <button class="tab" onclick="sayfaAc('tavan', this)"><span class="ikon">🔒</span>Tavan</button>
   <button class="tab" onclick="sayfaAc('portfoy', this)"><span class="ikon">💼</span>Portföy</button>
 </div>
 
@@ -191,6 +202,7 @@ const SISTEMLER = {
   'ce_puanli':     '⭐ CE Puanlı',
   'aksam_al':      '🌙 Akşam Al',
   'haftalik_ce':   '📅 Haftalık CE',
+  'tavan':         '🔒 Tavan',
   'ce_v2':         '📊 CE Saatlik'
 };
 
@@ -206,6 +218,7 @@ function sayfaAc(ad, btn) {
   document.getElementById('sayfa-' + ad).classList.add('aktif');
   btn.classList.add('aktif');
   if (ad === 'portfoy') portfoyGoster();
+  if (ad === 'tavan') tavanVerileriYukle();
 }
 
 async function verileriYukle() {
@@ -1097,7 +1110,118 @@ function scalpGoster() {
   }).join('');
 }
 
+
+// ============ TAVAN TAKIP ============
+let tavanTakip = [];
+let tavanIstatistik = null;
+let tavanAktifGorunum = 'bugun';
+
+function tavanGorunum(g, btn) {
+  tavanAktifGorunum = g;
+  document.querySelectorAll('#sayfa-tavan .filtre').forEach(f => f.classList.remove('aktif'));
+  btn.classList.add('aktif');
+  tavanGoster();
+}
+
+async function tavanVerileriYukle() {
+  try {
+    const r = await fetch('data/tavan_takip.json?t=' + Date.now());
+    if (r.ok) tavanTakip = await r.json();
+  } catch(e) { tavanTakip = []; }
+  try {
+    const r2 = await fetch('data/tavan_istatistik.json?t=' + Date.now());
+    if (r2.ok) tavanIstatistik = await r2.json();
+  } catch(e) { tavanIstatistik = null; }
+  tavanGoster();
+}
+
+function perfRenk(v) {
+  if (v === null || v === undefined) return 'var(--muted)';
+  return v > 0 ? 'var(--green)' : v < 0 ? 'var(--red)' : 'var(--muted)';
+}
+function perfYaz(v) {
+  if (v === null || v === undefined) return '-';
+  return (v > 0 ? '+' : '') + v + '%';
+}
+
+function tavanGoster() {
+  const kutu = document.getElementById('tavanIcerik');
+
+  if (tavanAktifGorunum === 'istatistik') {
+    if (!tavanIstatistik) {
+      kutu.innerHTML = '<div class="bos">Henuz istatistik yok - birkac gun veri birikmesi gerekiyor</div>';
+      return;
+    }
+    const g = tavanIstatistik.genel;
+    let html = `<div class="kart">
+      <div class="sembol" style="margin-bottom:8px">📊 GENEL (${tavanIstatistik.toplam_kayit} kayit)</div>
+      <div class="seviyeler">
+        <span class="seviye" style="color:${perfRenk(g.t1_ort)}">T+1: ${perfYaz(g.t1_ort)} (${g.t1_basari ?? '-'}%)</span>
+        <span class="seviye" style="color:${perfRenk(g.t3_ort)}">T+3: ${perfYaz(g.t3_ort)} (${g.t3_basari ?? '-'}%)</span>
+        <span class="seviye" style="color:${perfRenk(g.t5_ort)}">T+5: ${perfYaz(g.t5_ort)} (${g.t5_basari ?? '-'}%)</span>
+      </div>
+      <div class="detay" style="margin-top:6px">Ortalama getiri (basari orani)</div>
+    </div>`;
+
+    for (const p of [3,2,1,0]) {
+      const k = tavanIstatistik['kalite_' + p];
+      if (!k) continue;
+      html += `<div class="kart">
+        <div class="sembol" style="font-size:14px">Kalite ${p}/3 — ${k.adet} kayit</div>
+        <div class="seviyeler">
+          <span class="seviye" style="color:${perfRenk(k.t1_ort)}">T+1: ${perfYaz(k.t1_ort)} (${k.t1_basari ?? '-'}%)</span>
+          <span class="seviye" style="color:${perfRenk(k.t3_ort)}">T+3: ${perfYaz(k.t3_ort)} (${k.t3_basari ?? '-'}%)</span>
+          <span class="seviye" style="color:${perfRenk(k.t5_ort)}">T+5: ${perfYaz(k.t5_ort)} (${k.t5_basari ?? '-'}%)</span>
+        </div>
+      </div>`;
+    }
+    html += `<div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center">
+      Kalite puani: hacim 2x+ / EMA200 ustu / CE yukari (her biri 1 puan)<br>
+      Yuksek puanli tavanlar genelde daha guvenilir trend baslangicidir.
+    </div>`;
+    kutu.innerHTML = html;
+    return;
+  }
+
+  // Bugun veya takip listesi
+  let liste = [...tavanTakip].reverse();
+  if (tavanAktifGorunum === 'bugun') {
+    if (liste.length) {
+      const sonTarih = liste[0].tarih;
+      liste = liste.filter(k => k.tarih === sonTarih);
+    }
+  } else {
+    liste = liste.filter(k => k.t1 !== null && k.t1 !== undefined).slice(0, 60);
+  }
+
+  if (!liste.length) {
+    kutu.innerHTML = '<div class="bos">' +
+      (tavanAktifGorunum === 'bugun' ? 'Bugun tavan yapan hisse yok' : 'Henuz takip verisi yok') + '</div>';
+    return;
+  }
+
+  kutu.innerHTML = liste.map(k => {
+    const ikonlar = (k.hacim_kat >= 2 ? '🔥' : '') + (k.ema200_ust ? '📈' : '') + (k.ce_yukari ? '✅' : '');
+    const kaliteRenk = k.kalite >= 2 ? 'var(--green)' : k.kalite === 1 ? 'var(--yellow)' : 'var(--red)';
+    const perf = (k.t1 !== null && k.t1 !== undefined) ? `
+      <div class="seviyeler">
+        <span class="seviye" style="color:${perfRenk(k.t1)}">T+1 ${perfYaz(k.t1)}</span>
+        <span class="seviye" style="color:${perfRenk(k.t3)}">T+3 ${perfYaz(k.t3)}</span>
+        <span class="seviye" style="color:${perfRenk(k.t5)}">T+5 ${perfYaz(k.t5)}</span>
+      </div>` : '';
+    return `<div class="kart" style="border-color:${kaliteRenk}">
+      <div class="kart-ust">
+        <div><span class="sembol">${k.sembol}</span> <span class="fiyat">${k.fiyat} TL</span></div>
+        <span class="yon al">+${k.degisim}%</span>
+      </div>
+      <div class="detay">${k.tarih} | Hacim: ${k.hacim_kat}x | Kalite: ${k.kalite}/3 ${ikonlar}</div>
+      ${perf}
+    </div>`;
+  }).join('');
+}
+
 verileriYukle();
+tavanVerileriYukle();
 </script>
 </body>
 </html>
