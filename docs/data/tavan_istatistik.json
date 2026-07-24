@@ -1,0 +1,38 @@
+{
+ "toplam_kayit": 5,
+ "genel": {
+  "t1_ort": -1.55,
+  "t1_basari": 60.0,
+  "t3_ort": null,
+  "t3_basari": null,
+  "t5_ort": null,
+  "t5_basari": null
+ },
+ "kalite_2": {
+  "adet": 1,
+  "t1_ort": 2.69,
+  "t1_basari": 100.0,
+  "t3_ort": null,
+  "t3_basari": null,
+  "t5_ort": null,
+  "t5_basari": null
+ },
+ "kalite_1": {
+  "adet": 3,
+  "t1_ort": -2.19,
+  "t1_basari": 66.7,
+  "t3_ort": null,
+  "t3_basari": null,
+  "t5_ort": null,
+  "t5_basari": null
+ },
+ "kalite_0": {
+  "adet": 1,
+  "t1_ort": -3.85,
+  "t1_basari": 0.0,
+  "t3_ort": null,
+  "t3_basari": null,
+  "t5_ort": null,
+  "t5_basari": null
+ }
+}

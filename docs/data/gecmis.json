@@ -950,5 +950,35 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-07-24",
   "zaman": "2026-07-24 16:54"
+ },
+ {
+  "sembol": "GRSEL",
+  "fiyat": 348.75,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.67)",
+  "detay": "Hacim: 6.2x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-24",
+  "zaman": "2026-07-24 17:00"
+ },
+ {
+  "sembol": "CASA",
+  "fiyat": 79.5,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.66)",
+  "detay": "Hacim: 2.5x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-24",
+  "zaman": "2026-07-24 17:00"
+ },
+ {
+  "sembol": "CMBTN",
+  "fiyat": 1685.0,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.99)",
+  "detay": "Hacim: 1.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-07-24",
+  "zaman": "2026-07-24 17:00"
  }
 ]
