@@ -1,28 +1,72 @@
 {
  "sistem": "doji_haftalik",
- "zaman": "2026-07-17 18:42",
+ "zaman": "2026-07-24 20:03",
  "sinyaller": [
   {
-   "sembol": "ISFIN",
-   "fiyat": 19.65,
+   "sembol": "TUREX",
+   "fiyat": 7.95,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 0.3x",
-   "sl": 19.13,
-   "tp1": 21.42,
-   "tp2": 22.61,
-   "tp3": 24.38
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
+   "sl": 6.73,
+   "tp1": 9.19,
+   "tp2": 10.01,
+   "tp3": 11.24
   },
   {
-   "sembol": "ENERY",
-   "fiyat": 9.45,
+   "sembol": "MIATK",
+   "fiyat": 33.64,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 32.56,
+   "tp1": 42.97,
+   "tp2": 49.18,
+   "tp3": 58.51
+  },
+  {
+   "sembol": "SARKY",
+   "fiyat": 25.76,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.6x",
+   "sl": 25.0,
+   "tp1": 30.62,
+   "tp2": 33.86,
+   "tp3": 38.71
+  },
+  {
+   "sembol": "NATEN",
+   "fiyat": 6.38,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.3x",
+   "sl": 6.21,
+   "tp1": 7.34,
+   "tp2": 7.99,
+   "tp3": 8.95
+  },
+  {
+   "sembol": "DYOBY",
+   "fiyat": 13.72,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Doji | CE: ASAGI | Hacim: 0.2x",
+   "sl": 13.2,
+   "tp1": 16.86,
+   "tp2": 18.95,
+   "tp3": 22.09
+  },
+  {
+   "sembol": "KTLEV",
+   "fiyat": 155.0,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 1.2x",
-   "sl": 10.04,
-   "tp1": 8.16,
-   "tp2": 7.31,
-   "tp3": 6.02
+   "detay": "Doji | CE: YUKARI | Hacim: 0.8x",
+   "sl": 199.69,
+   "tp1": 120.21,
+   "tp2": 97.02,
+   "tp3": 62.23
   }
  ]
 }
