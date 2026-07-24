@@ -1,167 +1,125 @@
 {
  "sistem": "haftalik_ce",
- "zaman": "2026-07-19 17:33",
+ "zaman": "2026-07-24 20:01",
  "sinyaller": [
   {
-   "sembol": "ZRGYO",
-   "fiyat": 17.52,
+   "sembol": "RALYH",
+   "fiyat": 256.0,
    "yon": "AL",
    "tur": "GUCLU AL (CE+EMA200+ADX)",
-   "detay": "EMA: UST | ADX: 41.8"
+   "detay": "EMA: UST | ADX: 29.8"
   },
   {
-   "sembol": "TUPRS",
-   "fiyat": 289.25,
+   "sembol": "ISBIR",
+   "fiyat": 72.45,
    "yon": "AL",
    "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 29.0"
+   "detay": "ADX: 48.5"
   },
   {
-   "sembol": "BRSAN",
-   "fiyat": 549.5,
+   "sembol": "AKBNK",
+   "fiyat": 67.6,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 17.7"
+   "detay": "ADX: 20.0"
   },
   {
-   "sembol": "BTCIM",
-   "fiyat": 5.54,
+   "sembol": "DOAS",
+   "fiyat": 186.3,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 24.7"
+   "detay": "ADX: 12.9"
   },
   {
-   "sembol": "HALKB",
-   "fiyat": 38.22,
+   "sembol": "GARAN",
+   "fiyat": 126.0,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 18.6"
+   "detay": "ADX: 19.3"
   },
   {
-   "sembol": "YKBNK",
-   "fiyat": 33.22,
+   "sembol": "ISCTR",
+   "fiyat": 12.92,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 20.3"
+   "detay": "ADX: 17.1"
   },
   {
-   "sembol": "BURVA",
-   "fiyat": 846.5,
+   "sembol": "OTKAR",
+   "fiyat": 327.0,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 30.9"
+   "detay": "ADX: 14.1"
   },
   {
-   "sembol": "DESPC",
-   "fiyat": 48.02,
+   "sembol": "SAHOL",
+   "fiyat": 87.1,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 14.0"
+   "detay": "ADX: 18.4"
   },
   {
-   "sembol": "DGATE",
-   "fiyat": 104.9,
+   "sembol": "TAVHL",
+   "fiyat": 259.5,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 39.0"
+   "detay": "ADX: 20.4"
   },
   {
-   "sembol": "DGNMO",
-   "fiyat": 8.18,
+   "sembol": "TTKOM",
+   "fiyat": 54.0,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 48.1"
+   "detay": "ADX: 22.5"
   },
   {
-   "sembol": "EGSER",
-   "fiyat": 2.95,
+   "sembol": "AYEN",
+   "fiyat": 35.14,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 21.2"
+   "detay": "ADX: 34.8"
   },
   {
-   "sembol": "ERSU",
-   "fiyat": 22.58,
+   "sembol": "DERIM",
+   "fiyat": 35.28,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 30.0"
+   "detay": "ADX: 14.9"
   },
   {
-   "sembol": "FONET",
-   "fiyat": 5.29,
+   "sembol": "DMSAS",
+   "fiyat": 9.0,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 63.0"
+   "detay": "ADX: 20.5"
   },
   {
-   "sembol": "HTTBT",
-   "fiyat": 37.32,
+   "sembol": "LUKSK",
+   "fiyat": 96.0,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 16.7"
+   "detay": "ADX: 17.5"
   },
   {
-   "sembol": "INDES",
-   "fiyat": 11.2,
+   "sembol": "ORGE",
+   "fiyat": 107.3,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 31.3"
+   "detay": "ADX: 61.7"
   },
   {
-   "sembol": "KAPLM",
-   "fiyat": 465.75,
+   "sembol": "OZKGY",
+   "fiyat": 12.79,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 32.3"
+   "detay": "ADX: 23.2"
   },
   {
-   "sembol": "KGYO",
-   "fiyat": 8.91,
+   "sembol": "SILVR",
+   "fiyat": 2.39,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 43.6"
-  },
-  {
-   "sembol": "KNFRT",
-   "fiyat": 11.89,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 26.8"
-  },
-  {
-   "sembol": "KRSTL",
-   "fiyat": 10.69,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 32.2"
-  },
-  {
-   "sembol": "MEPET",
-   "fiyat": 20.28,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 32.2"
-  },
-  {
-   "sembol": "NUGYO",
-   "fiyat": 9.08,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 22.2"
-  },
-  {
-   "sembol": "PRKME",
-   "fiyat": 18.19,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 35.2"
-  },
-  {
-   "sembol": "RYSAS",
-   "fiyat": 20.8,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 31.5"
+   "detay": "ADX: 18.5"
   }
  ]
 }
