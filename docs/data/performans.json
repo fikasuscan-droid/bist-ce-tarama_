@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-07-23 16:58",
- "toplam_sinyal": 61,
- "olculen": 55,
+ "guncelleme": "2026-07-24 17:05",
+ "toplam_sinyal": 76,
+ "olculen": 66,
  "sistemler": {
   "doji_gunluk": {
    "ad": "Doji Gunluk",
-   "adet": 16,
-   "t1_ort": 0.35,
-   "t1_basari": 50.0,
-   "t1_adet": 16,
-   "t3_ort": 0.21,
-   "t3_basari": 50.0,
-   "t3_adet": 4,
+   "adet": 21,
+   "t1_ort": 0.74,
+   "t1_basari": 52.4,
+   "t1_adet": 21,
+   "t3_ort": 1.14,
+   "t3_basari": 55.6,
+   "t3_adet": 9,
    "t5_ort": null,
    "t5_basari": null,
    "t5_adet": 0
@@ -25,22 +25,22 @@
    "t3_ort": -1.08,
    "t3_basari": 0.0,
    "t3_adet": 2,
-   "t5_ort": null,
-   "t5_basari": null,
-   "t5_adet": 0
+   "t5_ort": -1.17,
+   "t5_basari": 0.0,
+   "t5_adet": 2
   },
   "aksam_al": {
    "ad": "Aksam Al",
-   "adet": 14,
-   "t1_ort": -0.56,
-   "t1_basari": 42.9,
-   "t1_adet": 14,
-   "t3_ort": 0.17,
-   "t3_basari": 42.9,
-   "t3_adet": 7,
-   "t5_ort": null,
-   "t5_basari": null,
-   "t5_adet": 0
+   "adet": 15,
+   "t1_ort": -0.58,
+   "t1_basari": 40.0,
+   "t1_adet": 15,
+   "t3_ort": -1.86,
+   "t3_basari": 27.3,
+   "t3_adet": 11,
+   "t5_ort": -0.19,
+   "t5_basari": 0.0,
+   "t5_adet": 1
   },
   "haftalik_ce": {
    "ad": "Haftalik CE",
@@ -51,17 +51,30 @@
    "t3_ort": -0.37,
    "t3_basari": 52.2,
    "t3_adet": 23,
+   "t5_ort": 0.55,
+   "t5_basari": 60.9,
+   "t5_adet": 23
+  },
+  "tavan": {
+   "ad": "Tavan",
+   "adet": 5,
+   "t1_ort": -1.55,
+   "t1_basari": 60.0,
+   "t1_adet": 5,
+   "t3_ort": null,
+   "t3_basari": null,
+   "t3_adet": 0,
    "t5_ort": null,
    "t5_basari": null,
    "t5_adet": 0
   }
  },
  "genel": {
-  "t1_ort": -0.21,
-  "t1_basari": 43.6,
-  "t3_ort": -0.24,
-  "t3_basari": 47.2,
-  "t5_ort": null,
-  "t5_basari": null
+  "t1_ort": -0.16,
+  "t1_basari": 45.5,
+  "t3_ort": -0.47,
+  "t3_basari": 44.4,
+  "t5_ort": 0.39,
+  "t5_basari": 53.8
  }
 }
