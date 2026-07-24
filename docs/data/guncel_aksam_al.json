@@ -1,13 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-07-23 16:07",
+ "zaman": "2026-07-24 15:52",
  "sinyaller": [
   {
-   "sembol": "GENIL",
-   "fiyat": 9.3,
+   "sembol": "SASA",
+   "fiyat": 2.69,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %0.32 | Hacim: 2.5x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %1.51 | Hacim: 13.7x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "BTCIM",
+   "fiyat": 5.28,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.54 | Hacim: 7.0x"
   }
  ]
 }

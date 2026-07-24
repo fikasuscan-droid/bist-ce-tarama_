@@ -860,5 +860,25 @@
   "sistem": "tavan",
   "tarih": "2026-07-23",
   "zaman": "2026-07-23 18:01"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.69,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %1.51 | Hacim: 13.7x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-24",
+  "zaman": "2026-07-24 15:52"
+ },
+ {
+  "sembol": "BTCIM",
+  "fiyat": 5.28,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.54 | Hacim: 7.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-24",
+  "zaman": "2026-07-24 15:52"
  }
 ]
