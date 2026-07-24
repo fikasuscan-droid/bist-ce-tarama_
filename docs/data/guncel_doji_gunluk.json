@@ -1,61 +1,61 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-07-23 16:43",
+ "zaman": "2026-07-24 16:54",
  "sinyaller": [
   {
-   "sembol": "HURGZ",
-   "fiyat": 6.49,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 4.3x",
-   "sl": 6.01,
-   "tp1": 6.86,
-   "tp2": 7.11,
-   "tp3": 7.48
-  },
-  {
-   "sembol": "ERBOS",
-   "fiyat": 168.5,
+   "sembol": "YKBNK",
+   "fiyat": 33.36,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
    "detay": "Doji | CE: ASAGI | Hacim: 1.2x",
-   "sl": 164.7,
-   "tp1": 179.44,
-   "tp2": 186.73,
-   "tp3": 197.67
+   "sl": 32.86,
+   "tp1": 34.81,
+   "tp2": 35.77,
+   "tp3": 37.22
   },
   {
-   "sembol": "BERA",
-   "fiyat": 13.8,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.8x",
-   "sl": 13.49,
-   "tp1": 14.5,
-   "tp2": 14.96,
-   "tp3": 15.66
-  },
-  {
-   "sembol": "LIDER",
-   "fiyat": 109.5,
+   "sembol": "TATGD",
+   "fiyat": 19.51,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 3.0x",
-   "sl": 124.4,
-   "tp1": 96.99,
-   "tp2": 88.64,
-   "tp3": 76.13
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 2.4x",
+   "sl": 20.6,
+   "tp1": 18.31,
+   "tp2": 17.52,
+   "tp3": 16.32
   },
   {
-   "sembol": "CIMSA",
-   "fiyat": 50.15,
+   "sembol": "TUPRS",
+   "fiyat": 304.25,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
-   "sl": 51.2,
-   "tp1": 47.95,
-   "tp2": 46.48,
-   "tp3": 44.28
+   "detay": "Doji | CE: YUKARI | Hacim: 1.1x",
+   "sl": 320.25,
+   "tp1": 289.08,
+   "tp2": 278.96,
+   "tp3": 263.79
+  },
+  {
+   "sembol": "MAGEN",
+   "fiyat": 40.5,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.8x",
+   "sl": 41.86,
+   "tp1": 37.52,
+   "tp2": 35.53,
+   "tp3": 32.55
+  },
+  {
+   "sembol": "POLHO",
+   "fiyat": 21.42,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.6x",
+   "sl": 22.48,
+   "tp1": 20.11,
+   "tp2": 19.23,
+   "tp3": 17.92
   }
  ]
 }
