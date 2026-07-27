@@ -1244,5 +1244,19 @@
   "sistem": "aksam_al",
   "tarih": "2026-07-27",
   "zaman": "2026-07-27 16:38"
+ },
+ {
+  "sembol": "CCOLA",
+  "fiyat": 89.1,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 1.0x",
+  "sl": 91.7,
+  "tp1": 84.06,
+  "tp2": 80.71,
+  "tp3": 75.67,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-07-27",
+  "zaman": "2026-07-27 17:06"
  }
 ]
