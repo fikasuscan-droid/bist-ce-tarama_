@@ -1258,5 +1258,45 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-07-27",
   "zaman": "2026-07-27 17:06"
+ },
+ {
+  "sembol": "YEOTK",
+  "fiyat": 107.9,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.99)",
+  "detay": "Hacim: 2.6x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-27",
+  "zaman": "2026-07-27 17:13"
+ },
+ {
+  "sembol": "RYSAS",
+  "fiyat": 21.82,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.98)",
+  "detay": "Hacim: 8.3x | Puan: 2/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-07-27",
+  "zaman": "2026-07-27 17:13"
+ },
+ {
+  "sembol": "BURVA",
+  "fiyat": 869.0,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 2.1x | Puan: 2/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-07-27",
+  "zaman": "2026-07-27 17:13"
+ },
+ {
+  "sembol": "KARTN",
+  "fiyat": 233.8,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.97)",
+  "detay": "Hacim: 1.6x | Puan: 2/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-27",
+  "zaman": "2026-07-27 17:13"
  }
 ]
