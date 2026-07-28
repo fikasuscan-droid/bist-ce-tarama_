@@ -1,34 +1,34 @@
 {
  "sistem": "tavan",
- "zaman": "2026-07-27 17:13",
+ "zaman": "2026-07-28 16:54",
  "sinyaller": [
   {
-   "sembol": "YEOTK",
-   "fiyat": 107.9,
+   "sembol": "RYGYO",
+   "fiyat": 37.2,
    "yon": "AL",
-   "tur": "TAVAN (%+9.99)",
-   "detay": "Hacim: 2.6x | Puan: 3/3 | EMA200 UST | CE YUK"
+   "tur": "GUCLU YUKSELIS (%+8.64)",
+   "detay": "Hacim: 5.7x | Puan: 3/3 | EMA200 UST | CE YUK"
   },
   {
-   "sembol": "RYSAS",
-   "fiyat": 21.82,
+   "sembol": "IZFAS",
+   "fiyat": 71.65,
    "yon": "AL",
    "tur": "TAVAN (%+9.98)",
-   "detay": "Hacim: 8.3x | Puan: 2/3 | EMA200 UST"
+   "detay": "Hacim: 3.3x | Puan: 3/3 | EMA200 UST | CE YUK"
   },
   {
-   "sembol": "BURVA",
-   "fiyat": 869.0,
+   "sembol": "ONCSM",
+   "fiyat": 274.5,
    "yon": "AL",
-   "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 2.1x | Puan: 2/3 | EMA200 UST"
+   "tur": "TAVAN (%+9.93)",
+   "detay": "Hacim: 4.8x | Puan: 2/3 | EMA200 UST"
   },
   {
-   "sembol": "KARTN",
-   "fiyat": 233.8,
+   "sembol": "JANTS",
+   "fiyat": 16.67,
    "yon": "AL",
-   "tur": "TAVAN (%+9.97)",
-   "detay": "Hacim: 1.6x | Puan: 2/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+9.96)",
+   "detay": "Hacim: 1.3x | Puan: 0/3"
   }
  ]
 }

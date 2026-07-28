@@ -1346,5 +1346,45 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-07-28",
   "zaman": "2026-07-28 16:49"
+ },
+ {
+  "sembol": "RYGYO",
+  "fiyat": 37.2,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+8.64)",
+  "detay": "Hacim: 5.7x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-28",
+  "zaman": "2026-07-28 16:54"
+ },
+ {
+  "sembol": "IZFAS",
+  "fiyat": 71.65,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.98)",
+  "detay": "Hacim: 3.3x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-28",
+  "zaman": "2026-07-28 16:54"
+ },
+ {
+  "sembol": "ONCSM",
+  "fiyat": 274.5,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.93)",
+  "detay": "Hacim: 4.8x | Puan: 2/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-07-28",
+  "zaman": "2026-07-28 16:54"
+ },
+ {
+  "sembol": "JANTS",
+  "fiyat": 16.67,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.96)",
+  "detay": "Hacim: 1.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-07-28",
+  "zaman": "2026-07-28 16:54"
  }
 ]
