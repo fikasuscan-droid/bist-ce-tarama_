@@ -1298,5 +1298,25 @@
   "sistem": "tavan",
   "tarih": "2026-07-27",
   "zaman": "2026-07-27 17:13"
+ },
+ {
+  "sembol": "OYAKC",
+  "fiyat": 20.94,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %2.95 | Hacim: 2.0x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-28",
+  "zaman": "2026-07-28 16:17"
+ },
+ {
+  "sembol": "VESTL",
+  "fiyat": 24.16,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.34 | Hacim: 2.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-28",
+  "zaman": "2026-07-28 16:17"
  }
 ]
