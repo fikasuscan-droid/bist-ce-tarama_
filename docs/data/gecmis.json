@@ -1386,5 +1386,55 @@
   "sistem": "tavan",
   "tarih": "2026-07-28",
   "zaman": "2026-07-28 16:54"
+ },
+ {
+  "sembol": "RYSAS",
+  "fiyat": 24.14,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.53)",
+  "detay": "Hacim: 8.3x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-29",
+  "zaman": "2026-07-29 16:40"
+ },
+ {
+  "sembol": "HEDEF",
+  "fiyat": 264.0,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 2.0x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-29",
+  "zaman": "2026-07-29 16:40"
+ },
+ {
+  "sembol": "PASEU",
+  "fiyat": 139.0,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+9.45)",
+  "detay": "Hacim: 0.7x | Puan: 2/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-07-29",
+  "zaman": "2026-07-29 16:40"
+ },
+ {
+  "sembol": "BANVT",
+  "fiyat": 168.2,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+9.15)",
+  "detay": "Hacim: 3.6x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-07-29",
+  "zaman": "2026-07-29 16:40"
+ },
+ {
+  "sembol": "KONTR",
+  "fiyat": 4.66,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.65)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-07-29",
+  "zaman": "2026-07-29 16:40"
  }
 ]
