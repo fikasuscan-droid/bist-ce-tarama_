@@ -1,28 +1,5 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-07-28 16:49",
- "sinyaller": [
-  {
-   "sembol": "KTLEV",
-   "fiyat": 157.3,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.4x",
-   "sl": 140.2,
-   "tp1": 175.21,
-   "tp2": 187.15,
-   "tp3": 205.06
-  },
-  {
-   "sembol": "HRKET",
-   "fiyat": 97.95,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.8x",
-   "sl": 93.0,
-   "tp1": 106.42,
-   "tp2": 112.07,
-   "tp3": 120.54
-  }
- ]
+ "zaman": "2026-07-29 16:38",
+ "sinyaller": []
 }
