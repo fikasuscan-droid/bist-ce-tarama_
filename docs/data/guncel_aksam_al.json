@@ -1,20 +1,5 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-07-28 16:17",
- "sinyaller": [
-  {
-   "sembol": "OYAKC",
-   "fiyat": 20.94,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %2.95 | Hacim: 2.0x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "VESTL",
-   "fiyat": 24.16,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %1.34 | Hacim: 2.4x"
-  }
- ]
+ "zaman": "2026-07-29 16:00",
+ "sinyaller": []
 }
