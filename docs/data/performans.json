@@ -1,7 +1,7 @@
 {
- "guncelleme": "2026-07-29 16:50",
- "toplam_sinyal": 118,
- "olculen": 113,
+ "guncelleme": "2026-07-30 17:01",
+ "toplam_sinyal": 131,
+ "olculen": 118,
  "sistemler": {
   "doji_gunluk": {
    "ad": "Doji Gunluk",
@@ -9,12 +9,12 @@
    "t1_ort": 0.74,
    "t1_basari": 51.7,
    "t1_adet": 29,
-   "t3_ort": 0.61,
-   "t3_basari": 46.2,
-   "t3_adet": 26,
-   "t5_ort": -2.6,
-   "t5_basari": 18.8,
-   "t5_adet": 16
+   "t3_ort": 0.52,
+   "t3_basari": 44.4,
+   "t3_adet": 27,
+   "t5_ort": -1.12,
+   "t5_basari": 28.6,
+   "t5_adet": 21
   },
   "doji_haftalik": {
    "ad": "Doji Haftalik",
@@ -35,12 +35,12 @@
    "t1_ort": -0.77,
    "t1_basari": 35.0,
    "t1_adet": 20,
-   "t3_ort": -3.32,
-   "t3_basari": 23.5,
-   "t3_adet": 17,
-   "t5_ort": -8.38,
-   "t5_basari": 7.1,
-   "t5_adet": 14
+   "t3_ort": -3.1,
+   "t3_basari": 27.8,
+   "t3_adet": 18,
+   "t5_ort": -8.0,
+   "t5_basari": 6.7,
+   "t5_adet": 15
   },
   "haftalik_ce": {
    "ad": "Haftalik CE",
@@ -57,24 +57,24 @@
   },
   "tavan": {
    "ad": "Tavan",
-   "adet": 16,
-   "t1_ort": -3.7,
-   "t1_basari": 31.2,
-   "t1_adet": 16,
-   "t3_ort": -8.53,
-   "t3_basari": 12.5,
-   "t3_adet": 8,
-   "t5_ort": null,
-   "t5_basari": null,
-   "t5_adet": 0
+   "adet": 21,
+   "t1_ort": -2.43,
+   "t1_basari": 38.1,
+   "t1_adet": 21,
+   "t3_ort": -7.88,
+   "t3_basari": 16.7,
+   "t3_adet": 12,
+   "t5_ort": -9.29,
+   "t5_basari": 0.0,
+   "t5_adet": 5
   }
  },
  "genel": {
-  "t1_ort": -0.57,
-  "t1_basari": 42.5,
-  "t3_ort": -1.17,
-  "t3_basari": 42.4,
-  "t5_ort": -2.7,
-  "t5_basari": 32.7
+  "t1_ort": -0.48,
+  "t1_basari": 43.2,
+  "t3_ort": -1.37,
+  "t3_basari": 41.9,
+  "t5_ort": -2.72,
+  "t5_basari": 31.8
  }
 }
