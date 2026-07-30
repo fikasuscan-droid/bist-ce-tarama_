@@ -1,5 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-07-29 16:00",
- "sinyaller": []
+ "zaman": "2026-07-30 16:05",
+ "sinyaller": [
+  {
+   "sembol": "SASA",
+   "fiyat": 2.48,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.22 | Hacim: 13.3x"
+  },
+  {
+   "sembol": "EUREN",
+   "fiyat": 3.87,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %0.26 | Hacim: 2.6x"
+  }
+ ]
 }
