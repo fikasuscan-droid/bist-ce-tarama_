@@ -1930,5 +1930,155 @@
   "sistem": "donus",
   "tarih": "2026-07-31",
   "zaman": "2026-07-31 16:26"
+ },
+ {
+  "sembol": "PETKM",
+  "fiyat": 19.12,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 26.0",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "FRIGO",
+  "fiyat": 2.13,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 34.7",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "MAGEN",
+  "fiyat": 36.9,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 46.7",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "PGSUS",
+  "fiyat": 153.0,
+  "yon": "SAT",
+  "tur": "GUCLU SAT (CE+EMA200+ADX)",
+  "detay": "EMA: ALT | ADX: 38.5",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "SOKM",
+  "fiyat": 51.0,
+  "yon": "AL",
+  "tur": "ZAYIF AL (Sadece CE)",
+  "detay": "ADX: 24.5",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "GRSEL",
+  "fiyat": 356.0,
+  "yon": "AL",
+  "tur": "ZAYIF AL (Sadece CE)",
+  "detay": "ADX: 21.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "EKGYO",
+  "fiyat": 17.91,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 20.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "SKBNK",
+  "fiyat": 6.97,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 47.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "THYAO",
+  "fiyat": 314.0,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 18.6",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "VAKBN",
+  "fiyat": 29.22,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 17.8",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "DNISI",
+  "fiyat": 18.87,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 19.3",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "DURDO",
+  "fiyat": 4.95,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 33.8",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "ESCOM",
+  "fiyat": 5.33,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 27.8",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "HLGYO",
+  "fiyat": 4.62,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 32.4",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "ISGSY",
+  "fiyat": 16.21,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 22.9",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:31"
  }
 ]
