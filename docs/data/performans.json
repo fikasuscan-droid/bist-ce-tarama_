@@ -1,20 +1,20 @@
 {
- "guncelleme": "2026-07-30 17:01",
- "toplam_sinyal": 131,
- "olculen": 118,
+ "guncelleme": "2026-07-31 17:06",
+ "toplam_sinyal": 190,
+ "olculen": 131,
  "sistemler": {
   "doji_gunluk": {
    "ad": "Doji Gunluk",
-   "adet": 29,
-   "t1_ort": 0.74,
-   "t1_basari": 51.7,
-   "t1_adet": 29,
-   "t3_ort": 0.52,
-   "t3_basari": 44.4,
-   "t3_adet": 27,
-   "t5_ort": -1.12,
-   "t5_basari": 28.6,
-   "t5_adet": 21
+   "adet": 35,
+   "t1_ort": 0.65,
+   "t1_basari": 51.4,
+   "t1_adet": 35,
+   "t3_ort": 0.37,
+   "t3_basari": 41.4,
+   "t3_adet": 29,
+   "t5_ort": -0.13,
+   "t5_basari": 38.5,
+   "t5_adet": 26
   },
   "doji_haftalik": {
    "ad": "Doji Haftalik",
@@ -25,22 +25,22 @@
    "t3_ort": -5.76,
    "t3_basari": 0.0,
    "t3_adet": 8,
-   "t5_ort": -1.17,
+   "t5_ort": -6.16,
    "t5_basari": 0.0,
-   "t5_adet": 2
+   "t5_adet": 8
   },
   "aksam_al": {
    "ad": "Aksam Al",
-   "adet": 20,
-   "t1_ort": -0.77,
-   "t1_basari": 35.0,
-   "t1_adet": 20,
-   "t3_ort": -3.1,
-   "t3_basari": 27.8,
-   "t3_adet": 18,
-   "t5_ort": -8.0,
-   "t5_basari": 6.7,
-   "t5_adet": 15
+   "adet": 22,
+   "t1_ort": -0.64,
+   "t1_basari": 36.4,
+   "t1_adet": 22,
+   "t3_ort": -3.23,
+   "t3_basari": 25.0,
+   "t3_adet": 20,
+   "t5_ort": -7.97,
+   "t5_basari": 5.9,
+   "t5_adet": 17
   },
   "haftalik_ce": {
    "ad": "Haftalik CE",
@@ -51,30 +51,30 @@
    "t3_ort": 0.97,
    "t3_basari": 62.5,
    "t3_adet": 40,
-   "t5_ort": 0.55,
-   "t5_basari": 60.9,
-   "t5_adet": 23
+   "t5_ort": 1.48,
+   "t5_basari": 67.5,
+   "t5_adet": 40
   },
   "tavan": {
    "ad": "Tavan",
-   "adet": 21,
-   "t1_ort": -2.43,
-   "t1_basari": 38.1,
-   "t1_adet": 21,
-   "t3_ort": -7.88,
-   "t3_basari": 16.7,
-   "t3_adet": 12,
-   "t5_ort": -9.29,
-   "t5_basari": 0.0,
-   "t5_adet": 5
+   "adet": 26,
+   "t1_ort": -1.91,
+   "t1_basari": 42.3,
+   "t1_adet": 26,
+   "t3_ort": -7.45,
+   "t3_basari": 18.8,
+   "t3_adet": 16,
+   "t5_ort": -8.39,
+   "t5_basari": 12.5,
+   "t5_adet": 8
   }
  },
  "genel": {
-  "t1_ort": -0.48,
-  "t1_basari": 43.2,
-  "t3_ort": -1.37,
-  "t3_basari": 41.9,
-  "t5_ort": -2.72,
-  "t5_basari": 31.8
+  "t1_ort": -0.4,
+  "t1_basari": 44.3,
+  "t3_ort": -1.59,
+  "t3_basari": 39.8,
+  "t5_ort": -1.98,
+  "t5_basari": 39.4
  }
 }
