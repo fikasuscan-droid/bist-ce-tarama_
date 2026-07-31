@@ -81,8 +81,8 @@
   "kalite": 3,
   "t1": -1.36,
   "t3": 4.09,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 2.08,
+  "tamamlandi": true
  },
  {
   "sembol": "CASA",
@@ -96,8 +96,8 @@
   "kalite": 2,
   "t1": -7.55,
   "t3": -13.21,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -15.35,
+  "tamamlandi": true
  },
  {
   "sembol": "CMBTN",
@@ -111,8 +111,8 @@
   "kalite": 0,
   "t1": -0.53,
   "t3": -7.06,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -7.36,
+  "tamamlandi": true
  },
  {
   "sembol": "YEOTK",
@@ -185,7 +185,7 @@
   "ce_yukari": true,
   "kalite": 3,
   "t1": 1.45,
-  "t3": null,
+  "t3": 2.96,
   "t5": null,
   "tamamlandi": false
  },
@@ -200,7 +200,7 @@
   "ce_yukari": true,
   "kalite": 3,
   "t1": -9.98,
-  "t3": null,
+  "t3": -9.28,
   "t5": null,
   "tamamlandi": false
  },
@@ -215,7 +215,7 @@
   "ce_yukari": false,
   "kalite": 2,
   "t1": -4.55,
-  "t3": null,
+  "t3": -7.92,
   "t5": null,
   "tamamlandi": false
  },
@@ -230,7 +230,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -7.92,
-  "t3": null,
+  "t3": -10.38,
   "t5": null,
   "tamamlandi": false
  },
@@ -319,7 +319,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": 0.61,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -334,7 +334,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": -4.51,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -349,7 +349,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": 2.01,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -364,7 +364,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": 7.34,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -376,6 +376,36 @@
   "tam_tavan": true,
   "degisim": 9.98,
   "hacim_kat": 0.9,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": -4.03,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "ATATP",
+  "tarih": "2026-07-31",
+  "fiyat": 251.0,
+  "tam_tavan": true,
+  "degisim": 9.94,
+  "hacim_kat": 1.9,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "BJKAS",
+  "tarih": "2026-07-31",
+  "fiyat": 1.91,
+  "tam_tavan": false,
+  "degisim": 8.52,
+  "hacim_kat": 1.3,
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,

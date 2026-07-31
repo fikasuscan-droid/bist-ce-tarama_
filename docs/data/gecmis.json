@@ -2192,5 +2192,25 @@
   "sistem": "doji_haftalik",
   "tarih": "2026-07-31",
   "zaman": "2026-07-31 16:55"
+ },
+ {
+  "sembol": "ATATP",
+  "fiyat": 251.0,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.94)",
+  "detay": "Hacim: 1.9x | Puan: 1/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:59"
+ },
+ {
+  "sembol": "BJKAS",
+  "fiyat": 1.91,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+8.52)",
+  "detay": "Hacim: 1.3x | Puan: 1/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:59"
  }
 ]
