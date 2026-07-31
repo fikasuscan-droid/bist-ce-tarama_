@@ -2136,5 +2136,61 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-07-31",
   "zaman": "2026-07-31 16:53"
+ },
+ {
+  "sembol": "AKSEN",
+  "fiyat": 94.15,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.0x",
+  "sl": 117.5,
+  "tp1": 79.72,
+  "tp2": 70.11,
+  "tp3": 55.68,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:55"
+ },
+ {
+  "sembol": "ODAS",
+  "fiyat": 7.84,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.0x",
+  "sl": 9.26,
+  "tp1": 6.41,
+  "tp2": 5.45,
+  "tp3": 4.02,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:55"
+ },
+ {
+  "sembol": "INDES",
+  "fiyat": 10.1,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 0.9x",
+  "sl": 11.41,
+  "tp1": 8.61,
+  "tp2": 7.62,
+  "tp3": 6.12,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:55"
+ },
+ {
+  "sembol": "GESAN",
+  "fiyat": 74.75,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
+  "sl": 92.0,
+  "tp1": 55.82,
+  "tp2": 43.2,
+  "tp3": 24.27,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:55"
  }
 ]
