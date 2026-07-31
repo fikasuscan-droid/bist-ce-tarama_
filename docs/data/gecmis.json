@@ -1590,5 +1590,15 @@
   "sistem": "tavan",
   "tarih": "2026-07-30",
   "zaman": "2026-07-30 16:52"
+ },
+ {
+  "sembol": "AKSA",
+  "fiyat": 13.0,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %5.52 | Hacim: 2.5x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:16"
  }
 ]

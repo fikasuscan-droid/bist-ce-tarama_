@@ -1,20 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-07-30 16:05",
+ "zaman": "2026-07-31 16:16",
  "sinyaller": [
   {
-   "sembol": "SASA",
-   "fiyat": 2.48,
+   "sembol": "AKSA",
+   "fiyat": 13.0,
    "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %1.22 | Hacim: 13.3x"
-  },
-  {
-   "sembol": "EUREN",
-   "fiyat": 3.87,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %0.26 | Hacim: 2.6x"
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %5.52 | Hacim: 2.5x | Sabah %2-3 gorunce sat"
   }
  ]
 }
