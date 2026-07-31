@@ -2080,5 +2080,61 @@
   "sistem": "haftalik_ce",
   "tarih": "2026-07-31",
   "zaman": "2026-07-31 16:31"
+ },
+ {
+  "sembol": "LIDER",
+  "fiyat": 97.35,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.2x",
+  "sl": 91.1,
+  "tp1": 107.65,
+  "tp2": 114.51,
+  "tp3": 124.81,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:53"
+ },
+ {
+  "sembol": "BUCIM",
+  "fiyat": 5.04,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 1.0x",
+  "sl": 4.96,
+  "tp1": 5.19,
+  "tp2": 5.29,
+  "tp3": 5.44,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:53"
+ },
+ {
+  "sembol": "EUREN",
+  "fiyat": 3.93,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
+  "sl": 3.79,
+  "tp1": 4.12,
+  "tp2": 4.24,
+  "tp3": 4.43,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:53"
+ },
+ {
+  "sembol": "BRISA",
+  "fiyat": 80.15,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 0.6x",
+  "sl": 78.0,
+  "tp1": 83.39,
+  "tp2": 85.55,
+  "tp3": 88.79,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-07-31",
+  "zaman": "2026-07-31 16:53"
  }
 ]
