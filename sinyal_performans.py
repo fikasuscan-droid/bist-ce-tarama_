@@ -30,6 +30,7 @@ SISTEM_ADLARI = {
     'aksam_al':      'Aksam Al',
     'haftalik_ce':   'Haftalik CE',
     'tavan':         'Tavan',
+    'donus':         'Donus Avcisi',
 }
 
 def telegram_gonder(mesaj):
