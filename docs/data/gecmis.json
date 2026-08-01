@@ -2212,5 +2212,15 @@
   "sistem": "tavan",
   "tarih": "2026-07-31",
   "zaman": "2026-07-31 16:59"
+ },
+ {
+  "sembol": "GARAN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "CiftDip + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-08-01",
+  "zaman": "2026-08-01 04:55"
  }
 ]
