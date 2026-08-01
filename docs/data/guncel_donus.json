@@ -1,6 +1,6 @@
 {
  "sistem": "donus",
- "zaman": "2026-08-01 05:24",
+ "zaman": "2026-08-01 05:43",
  "sinyaller": [
   {
    "sembol": "HUBVC",
@@ -94,13 +94,6 @@
    "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "EGGUB",
-   "fiyat": 91.65,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + CiftTepe"
-  },
-  {
    "sembol": "EGSER",
    "fiyat": 2.78,
    "yon": "AL",
@@ -108,18 +101,11 @@
    "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "ESCAR",
-   "fiyat": 46.6,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + CiftTepe"
-  },
-  {
    "sembol": "INFO",
    "fiyat": 5.9,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
   },
   {
    "sembol": "ISFIN",
@@ -141,13 +127,6 @@
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "PCILT",
-   "fiyat": 30.6,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + CiftTepe"
   },
   {
    "sembol": "SELEC",
