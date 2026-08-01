@@ -94,7 +94,17 @@ def analiz(sembol):
         if df is None or len(df) < 60:
             return None
 
+        # NaN temizligi - bozuk barlari at (yfinance BIST'te bazen NaN dondurur)
+        df = df.dropna(subset=['Open','High','Low','Close'])
+        if len(df) < 60:
+            return None
+        # Son bar fiyati gecerli mi kontrol
+        if pd.isna(df['Close'].iloc[-1]) or df['Close'].iloc[-1] <= 0:
+            return None
+
         close = df['Close']; high = df['High']; low = df['Low']; openp = df['Open']; vol = df['Volume']
+        # Hacim NaN'lari 0 yap (hesap bozulmasin)
+        vol = vol.fillna(0)
         son_bar = len(df) - 1
         rsi = rsi_hesapla(close, RSI_LEN)
 
@@ -121,12 +131,14 @@ def analiz(sembol):
             (i_son, f_son) = dipler[-1]
             # son dip taze mi? (son_bar_filtre icinde)
             dip_taze = (son_bar - i_son) <= SON_BAR_FILTRE
+            # iki dip arasinda en az PIVOT_BAR*2 bar olmali (yan yana pivotlar cift dip sayilmaz)
+            yeterli_mesafe = (i_son - i_onceki) >= PIVOT_BAR * 2
             if dip_taze:
                 # RSI diverjansi: fiyat daha dusuk dip, RSI daha yuksek dip
                 if f_son < f_onceki and rsi.iloc[i_son] > rsi.iloc[i_onceki]:
                     boga_div = True
-                # Cift dip: iki dip tolerans icinde
-                if abs(f_son - f_onceki) / f_onceki * 100 < CIFT_TOLERANS:
+                # Cift dip: iki dip tolerans icinde VE aralarinda yeterli mesafe
+                if yeterli_mesafe and abs(f_son - f_onceki) / f_onceki * 100 < CIFT_TOLERANS:
                     cift_dip = True
 
         # ---- KATMAN 2 & 3: TEPE tarafi ----
@@ -134,10 +146,11 @@ def analiz(sembol):
             (i_onceki, f_onceki) = tepeler[-2]
             (i_son, f_son) = tepeler[-1]
             tepe_taze = (son_bar - i_son) <= SON_BAR_FILTRE
+            yeterli_mesafe = (i_son - i_onceki) >= PIVOT_BAR * 2
             if tepe_taze:
                 if f_son > f_onceki and rsi.iloc[i_son] < rsi.iloc[i_onceki]:
                     ayi_div = True
-                if abs(f_son - f_onceki) / f_onceki * 100 < CIFT_TOLERANS:
+                if yeterli_mesafe and abs(f_son - f_onceki) / f_onceki * 100 < CIFT_TOLERANS:
                     cift_tepe = True
 
         # ---- KATMAN 4: CE ----
@@ -152,6 +165,11 @@ def analiz(sembol):
         # ---- PUANLAMA (Pine ile birebir) ----
         puan_al = (1 if mum_al else 0) + (2 if boga_div else 0) + (2 if cift_dip else 0) + (1 if ce_al else 0) + (1 if hacim_yuksek else 0)
         puan_sat = (1 if mum_sat else 0) + (2 if ayi_div else 0) + (2 if cift_tepe else 0) + (1 if ce_sat else 0) + (1 if hacim_yuksek else 0)
+
+        # Fiyat gecerli degilse sinyal verme
+        son_fiyat = float(close.iloc[-1])
+        if pd.isna(son_fiyat) or son_fiyat <= 0:
+            return None
 
         if puan_al >= MIN_PUAN and puan_al >= puan_sat:
             detay = []
