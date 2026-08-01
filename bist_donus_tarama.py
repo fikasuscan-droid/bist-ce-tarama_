@@ -29,6 +29,8 @@ MIN_PUAN       = 3
 PIVOT_BAR      = 5      # Pine: pivot_bar
 SON_BAR_FILTRE = 15     # Pine: son_bar_filtre
 CIFT_TOLERANS  = 2.0    # Pine: cift_tolerans (%)
+VADI_MIN       = 3.0    # iki tepe/dip arasi min fiyat farki (%) - vadi/tepe belirginligi
+TREND_MIN      = 2.0    # formasyon oncesi min trend hareketi (%)
 RSI_LEN        = 14
 CE_PERIOD      = 5
 CE_MULT        = 2.0
@@ -169,17 +171,22 @@ def analiz(sembol):
         if len(dipler) >= 2:
             (i_onceki, f_onceki) = dipler[-2]
             (i_son, f_son) = dipler[-1]
-            # son dip taze mi? (son_bar_filtre icinde)
             dip_taze = (son_bar - i_son) <= SON_BAR_FILTRE
-            # iki dip arasinda en az PIVOT_BAR*2 bar olmali (yan yana pivotlar cift dip sayilmaz)
             yeterli_mesafe = (i_son - i_onceki) >= PIVOT_BAR * 2
             if dip_taze:
-                # RSI diverjansi: fiyat daha dusuk dip, RSI daha yuksek dip
+                # RSI diverjansi
                 if f_son < f_onceki and rsi.iloc[i_son] > rsi.iloc[i_onceki]:
                     boga_div = True
-                # Cift dip: iki dip tolerans icinde VE aralarinda yeterli mesafe
+                # Cift dip: tolerans + mesafe + VADI (aralarinda belirgin tepe) + TREND (once dusus)
                 if yeterli_mesafe and abs(f_son - f_onceki) / f_onceki * 100 < CIFT_TOLERANS:
-                    cift_dip = True
+                    # Vadi: iki dip arasindaki en yuksek nokta, diplerden %VADI_MIN yukarida olmali
+                    ara_tepe = high.iloc[i_onceki:i_son+1].max()
+                    vadi_ok = (ara_tepe - max(f_son, f_onceki)) / max(f_son, f_onceki) * 100 >= VADI_MIN
+                    # Trend: ilk dipten once dusus olmali (formasyon dusus sonrasi)
+                    onceki_pencere = close.iloc[max(0, i_onceki-10):i_onceki]
+                    trend_ok = len(onceki_pencere) > 0 and (onceki_pencere.iloc[0] - f_onceki) / f_onceki * 100 >= TREND_MIN
+                    if vadi_ok and trend_ok:
+                        cift_dip = True
 
         # ---- KATMAN 2 & 3: TEPE tarafi ----
         if len(tepeler) >= 2:
@@ -191,7 +198,14 @@ def analiz(sembol):
                 if f_son > f_onceki and rsi.iloc[i_son] < rsi.iloc[i_onceki]:
                     ayi_div = True
                 if yeterli_mesafe and abs(f_son - f_onceki) / f_onceki * 100 < CIFT_TOLERANS:
-                    cift_tepe = True
+                    # Vadi: iki tepe arasindaki en dusuk nokta, tepelerden %VADI_MIN asagida olmali
+                    ara_dip = low.iloc[i_onceki:i_son+1].min()
+                    vadi_ok = (min(f_son, f_onceki) - ara_dip) / ara_dip * 100 >= VADI_MIN
+                    # Trend: ilk tepeden once yukselis olmali
+                    onceki_pencere = close.iloc[max(0, i_onceki-10):i_onceki]
+                    trend_ok = len(onceki_pencere) > 0 and (f_onceki - onceki_pencere.iloc[0]) / onceki_pencere.iloc[0] * 100 >= TREND_MIN
+                    if vadi_ok and trend_ok:
+                        cift_tepe = True
 
         # ---- KATMAN 4: CE ----
         ce = ce_yon(df, CE_PERIOD, CE_MULT)
