@@ -2632,5 +2632,25 @@
   "sistem": "donus",
   "tarih": "2026-08-01",
   "zaman": "2026-08-01 05:43"
+ },
+ {
+  "sembol": "TKFEN",
+  "fiyat": 164.0,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %6.15 | Hacim: 3.0x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-03",
+  "zaman": "2026-08-03 16:55"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.52,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %2.02 | Hacim: 12.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-03",
+  "zaman": "2026-08-03 16:55"
  }
 ]
