@@ -1,50 +1,72 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-07-31 16:53",
+ "zaman": "2026-08-03 17:18",
  "sinyaller": [
   {
-   "sembol": "LIDER",
-   "fiyat": 97.35,
+   "sembol": "BAGFS",
+   "fiyat": 23.86,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.2x",
-   "sl": 91.1,
-   "tp1": 107.65,
-   "tp2": 114.51,
-   "tp3": 124.81
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.6x",
+   "sl": 22.92,
+   "tp1": 25.06,
+   "tp2": 25.85,
+   "tp3": 27.05
   },
   {
-   "sembol": "BUCIM",
-   "fiyat": 5.04,
+   "sembol": "GARAN",
+   "fiyat": 127.9,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.0x",
-   "sl": 4.96,
-   "tp1": 5.19,
-   "tp2": 5.29,
-   "tp3": 5.44
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.5x",
+   "sl": 120.0,
+   "tp1": 132.82,
+   "tp2": 136.1,
+   "tp3": 141.01
   },
   {
-   "sembol": "EUREN",
-   "fiyat": 3.93,
+   "sembol": "TSKB",
+   "fiyat": 11.22,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
-   "sl": 3.79,
-   "tp1": 4.12,
-   "tp2": 4.24,
-   "tp3": 4.43
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.4x",
+   "sl": 10.77,
+   "tp1": 11.67,
+   "tp2": 11.98,
+   "tp3": 12.43
   },
   {
-   "sembol": "BRISA",
-   "fiyat": 80.15,
+   "sembol": "NUHCM",
+   "fiyat": 221.5,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.6x",
-   "sl": 78.0,
-   "tp1": 83.39,
-   "tp2": 85.55,
-   "tp3": 88.79
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.2x",
+   "sl": 214.1,
+   "tp1": 227.91,
+   "tp2": 232.18,
+   "tp3": 238.59
+  },
+  {
+   "sembol": "EKGYO",
+   "fiyat": 18.19,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.1x",
+   "sl": 17.56,
+   "tp1": 19.13,
+   "tp2": 19.75,
+   "tp3": 20.69
+  },
+  {
+   "sembol": "BORLS",
+   "fiyat": 5.48,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.4x",
+   "sl": 5.31,
+   "tp1": 5.99,
+   "tp2": 6.33,
+   "tp3": 6.84
   }
  ]
 }
