@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -12,23 +13,18 @@
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 body { background:var(--bg); color:var(--text); font-family:-apple-system,'Segoe UI',Roboto,sans-serif; padding-bottom:70px; }
-
 header { background:var(--panel); padding:14px 16px; border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10; }
 header h1 { font-size:18px; display:flex; align-items:center; gap:8px; }
 header .zaman { font-size:11px; color:var(--muted); margin-top:2px; }
-
 .tabs { display:flex; background:var(--panel); border-top:1px solid var(--border); position:fixed; bottom:0; left:0; right:0; z-index:10; }
 .tab { flex:1; padding:12px 4px; text-align:center; font-size:12px; color:var(--muted); cursor:pointer; border:none; background:none; }
 .tab.aktif { color:var(--blue); border-top:2px solid var(--blue); }
 .tab .ikon { font-size:20px; display:block; margin-bottom:2px; }
-
 .sayfa { display:none; padding:12px; }
 .sayfa.aktif { display:block; }
-
 .filtre-bar { display:flex; gap:6px; margin-bottom:12px; overflow-x:auto; padding-bottom:4px; }
 .filtre { padding:6px 12px; border-radius:16px; background:var(--panel); border:1px solid var(--border); color:var(--muted); font-size:12px; white-space:nowrap; cursor:pointer; }
 .filtre.aktif { background:var(--blue); color:#fff; border-color:var(--blue); }
-
 .kart { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px; margin-bottom:8px; }
 .kart-ust { display:flex; justify-content:space-between; align-items:center; }
 .sembol { font-size:16px; font-weight:700; }
@@ -42,9 +38,7 @@ header .zaman { font-size:11px; color:var(--muted); margin-top:2px; }
 .seviye { padding:3px 8px; border-radius:6px; background:var(--bg); border:1px solid var(--border); }
 .seviye.sl  { color:var(--red); }
 .seviye.tp  { color:var(--green); }
-
 .bos { text-align:center; color:var(--muted); padding:40px 20px; font-size:14px; }
-
 /* Portföy */
 .form-satir { display:flex; gap:8px; margin-bottom:8px; }
 input, select { background:var(--bg); border:1px solid var(--border); color:var(--text); padding:10px; border-radius:8px; font-size:14px; flex:1; min-width:0; }
@@ -56,23 +50,19 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
 .ozet .baslik { font-size:10px; color:var(--muted); margin-top:2px; }
 .pozitif { color:var(--green); }
 .negatif { color:var(--red); }
-
 .yenile { background:none; border:1px solid var(--border); color:var(--muted); padding:6px 12px; border-radius:8px; font-size:12px; cursor:pointer; float:right; }
 </style>
 </head>
 <body>
-
 <header>
   <h1>📊 BIST Sinyal Merkezi <button class="yenile" onclick="verileriYukle()">🔄 Yenile</button></h1>
   <div class="zaman" id="sonGuncelleme">Yükleniyor...</div>
 </header>
-
 <!-- SİNYALLER -->
 <div class="sayfa aktif" id="sayfa-sinyaller">
   <div class="filtre-bar" id="sistemFiltreler"></div>
   <div id="sinyalListe"><div class="bos">Yükleniyor...</div></div>
 </div>
-
 <!-- GEÇMİŞ -->
 <div class="sayfa" id="sayfa-gecmis">
   <div class="filtre-bar">
@@ -82,7 +72,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   </div>
   <div id="gecmisListe"><div class="bos">Yükleniyor...</div></div>
 </div>
-
 <!-- CANLI TARAMA -->
 <div class="sayfa" id="sayfa-canli">
   <div class="filtre-bar">
@@ -107,7 +96,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   </div>
   <div id="canliListe"></div>
 </div>
-
 <!-- MTF TARAMA -->
 <div class="sayfa" id="sayfa-mtf">
   <div class="filtre-bar">
@@ -129,7 +117,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   </div>
   <div id="mtfListe"></div>
 </div>
-
 <!-- SCALP TARAMA -->
 <div class="sayfa" id="sayfa-scalp">
   <div class="filtre-bar">
@@ -150,7 +137,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   <div id="scalpDurum" style="font-size:12px;color:var(--muted);text-align:center;margin-bottom:10px"></div>
   <div id="scalpListe"></div>
 </div>
-
 <!-- TAVAN TAKIP -->
 <div class="sayfa" id="sayfa-tavan">
   <div class="filtre-bar">
@@ -160,7 +146,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   </div>
   <div id="tavanIcerik"><div class="bos">Yukleniyor...</div></div>
 </div>
-
 <!-- PERFORMANS -->
 <div class="sayfa" id="sayfa-performans">
   <div style="font-size:12px;color:var(--muted);margin-bottom:10px;text-align:center">
@@ -168,7 +153,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   </div>
   <div id="performansIcerik"><div class="bos">Yukleniyor...</div></div>
 </div>
-
 <!-- PORTFÖY -->
 <div class="sayfa" id="sayfa-portfoy">
   <div class="ozet-kutu">
@@ -176,7 +160,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
     <div class="ozet"><div class="deger" id="toplamDeger">-</div><div class="baslik">GÜNCEL</div></div>
     <div class="ozet"><div class="deger" id="toplamKar">-</div><div class="baslik">KAR/ZARAR</div></div>
   </div>
-
   <div class="form-satir">
     <input type="text" id="pfSembol" placeholder="Sembol (AKBNK)">
     <input type="number" id="pfAdet" placeholder="Adet">
@@ -185,13 +168,11 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
     <input type="number" id="pfMaliyet" placeholder="Maliyet (TL)" step="0.01">
     <button class="btn" onclick="portfoyEkle()">+ Ekle</button>
   </div>
-
   <div id="portfoyListe"><div class="bos">Henüz hisse eklenmedi</div></div>
   <div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center">
     Güncel fiyatlar son sinyal taramasından alınır.<br>Portföy verilerin sadece bu cihazda saklanır.
   </div>
 </div>
-
 <!-- TAB BAR -->
 <div class="tabs">
   <button class="tab aktif" onclick="sayfaAc('sinyaller', this)"><span class="ikon">📊</span>Sinyaller</button>
@@ -203,7 +184,6 @@ button.btn.sil { background:var(--red); padding:6px 10px; font-size:12px; }
   <button class="tab" onclick="sayfaAc('performans', this)"><span class="ikon">📊</span>Perf</button>
   <button class="tab" onclick="sayfaAc('portfoy', this)"><span class="ikon">💼</span>Portföy</button>
 </div>
-
 <script>
 const SISTEMLER = {
   'doji_gunluk':   '🕯 Doji Günlük',
@@ -215,13 +195,11 @@ const SISTEMLER = {
   'donus':         '🔄 Dönüş Avcısı',
   'ce_v2':         '📊 CE Saatlik'
 };
-
 let tumSinyaller = [];
 let gecmisData   = [];
 let aktifSistem  = 'hepsi';
 let aktifGecmisFiltre = 'hepsi';
 let fiyatlar = {};  // sembol → son fiyat
-
 function sayfaAc(ad, btn) {
   document.querySelectorAll('.sayfa').forEach(s => s.classList.remove('aktif'));
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('aktif'));
@@ -231,11 +209,9 @@ function sayfaAc(ad, btn) {
   if (ad === 'tavan') tavanVerileriYukle();
   if (ad === 'performans') performansYukle();
 }
-
 async function verileriYukle() {
   tumSinyaller = [];
   fiyatlar = {};
-
   for (const [sistem, ad] of Object.entries(SISTEMLER)) {
     try {
       const r = await fetch(`data/guncel_${sistem}.json?t=` + Date.now());
@@ -249,7 +225,6 @@ async function verileriYukle() {
       });
     } catch(e) {}
   }
-
   try {
     const r = await fetch('data/gecmis.json?t=' + Date.now());
     if (r.ok) {
@@ -257,17 +232,14 @@ async function verileriYukle() {
       gecmisData.forEach(s => { if (s.fiyat) fiyatlar[s.sembol] = fiyatlar[s.sembol] || s.fiyat; });
     }
   } catch(e) {}
-
   const zamanlar = tumSinyaller.map(s => s._zaman).sort();
   document.getElementById('sonGuncelleme').textContent =
     zamanlar.length ? 'Son güncelleme: ' + zamanlar[zamanlar.length-1] : 'Henüz veri yok';
-
   filtreleriCiz();
   sinyalleriGoster();
   gecmisiGoster();
   portfoyGoster();
 }
-
 function filtreleriCiz() {
   const kutu = document.getElementById('sistemFiltreler');
   const sistemler = [...new Set(tumSinyaller.map(s => s._sistem))];
@@ -278,14 +250,12 @@ function filtreleriCiz() {
   });
   kutu.innerHTML = html;
 }
-
 function sistemSec(s, btn) {
   aktifSistem = s;
   document.querySelectorAll('#sistemFiltreler .filtre').forEach(f => f.classList.remove('aktif'));
   btn.classList.add('aktif');
   sinyalleriGoster();
 }
-
 function sinyalKarti(s) {
   const yon = (s.yon || '').toUpperCase().includes('AL') ? 'al' : 'sat';
   let seviyeler = '';
@@ -307,21 +277,18 @@ function sinyalKarti(s) {
     <span class="sistem-etiket">${SISTEMLER[s._sistem] || s._sistem || s.sistem || ''} ${s._zaman || s.zaman || ''}</span>
   </div>`;
 }
-
 function sinyalleriGoster() {
   const kutu = document.getElementById('sinyalListe');
   let liste = tumSinyaller;
   if (aktifSistem !== 'hepsi') liste = liste.filter(s => s._sistem === aktifSistem);
   kutu.innerHTML = liste.length ? liste.map(sinyalKarti).join('') : '<div class="bos">Bu sistemde güncel sinyal yok</div>';
 }
-
 function gecmisFiltre(f, btn) {
   aktifGecmisFiltre = f;
   document.querySelectorAll('#sayfa-gecmis .filtre').forEach(x => x.classList.remove('aktif'));
   btn.classList.add('aktif');
   gecmisiGoster();
 }
-
 function gecmisiGoster() {
   const kutu = document.getElementById('gecmisListe');
   let liste = [...gecmisData].reverse();
@@ -331,14 +298,12 @@ function gecmisiGoster() {
   liste = liste.slice(0, 100);
   kutu.innerHTML = liste.length ? liste.map(sinyalKarti).join('') : '<div class="bos">Geçmiş sinyal yok</div>';
 }
-
 // ============ PORTFÖY ============
 function portfoyOku() {
   try { return JSON.parse(localStorage.getItem('portfoy') || '[]'); }
   catch(e) { return []; }
 }
 function portfoyYaz(p) { localStorage.setItem('portfoy', JSON.stringify(p)); }
-
 function portfoyEkle() {
   const sembol  = document.getElementById('pfSembol').value.trim().toUpperCase();
   const adet    = parseFloat(document.getElementById('pfAdet').value);
@@ -352,14 +317,12 @@ function portfoyEkle() {
   document.getElementById('pfMaliyet').value = '';
   portfoyGoster();
 }
-
 function portfoySil(i) {
   const p = portfoyOku();
   p.splice(i, 1);
   portfoyYaz(p);
   portfoyGoster();
 }
-
 function portfoyGoster() {
   const p = portfoyOku();
   const kutu = document.getElementById('portfoyListe');
@@ -370,9 +333,7 @@ function portfoyGoster() {
     document.getElementById('toplamKar').textContent = '-';
     return;
   }
-
   let toplamMaliyet = 0, toplamDeger = 0, html = '';
-
   p.forEach((h, i) => {
     const guncelFiyat = fiyatlar[h.sembol] || h.maliyet;
     const maliyetTop  = h.adet * h.maliyet;
@@ -381,7 +342,6 @@ function portfoyGoster() {
     const karYuzde    = (kar / maliyetTop * 100).toFixed(2);
     toplamMaliyet += maliyetTop;
     toplamDeger   += degerTop;
-
     html += `<div class="kart">
       <div class="kart-ust">
         <div><span class="sembol">${h.sembol}</span> <span class="fiyat">${h.adet} adet × ${h.maliyet} TL</span></div>
@@ -395,22 +355,17 @@ function portfoyGoster() {
       </div>
     </div>`;
   });
-
   const toplamKar = toplamDeger - toplamMaliyet;
   document.getElementById('toplamMaliyet').textContent = toplamMaliyet.toFixed(0) + ' TL';
   document.getElementById('toplamDeger').textContent   = toplamDeger.toFixed(0) + ' TL';
   const karEl = document.getElementById('toplamKar');
   karEl.textContent = (toplamKar >= 0 ? '+' : '') + toplamKar.toFixed(0) + ' TL';
   karEl.className = 'deger ' + (toplamKar >= 0 ? 'pozitif' : 'negatif');
-
   kutu.innerHTML = html;
 }
-
-
-
 // ============ PIYASA LISTELERI ============
 const PIYASALAR = {
-  bist: null,  // CANLI_HISSELER kullanilir
+  bist: null,
   abd: [
     "AAPL","MSFT","NVDA","GOOGL","AMZN","META","TSLA","AVGO","BRK-B","JPM",
     "V","WMT","UNH","XOM","MA","PG","JNJ","COST","HD","ORCL",
@@ -444,13 +399,12 @@ const ENSTRUMAN_ADLARI = {
   "EURJPY=X":"EUR/JPY","GBPJPY=X":"GBP/JPY","USDTRY=X":"USD/TRY","EURTRY=X":"EUR/TRY"
 };
 let aktifPiyasa = 'bist';
-
 function aktifListe() {
   return aktifPiyasa === 'bist' ? CANLI_HISSELER : PIYASALAR[aktifPiyasa];
 }
 function tamSembol(s) {
   if (aktifPiyasa === 'bist') return s + '.IS';
-  return s;  // viop listesi zaten .IS icerir, diger piyasalar uzantisiz
+  return s;
 }
 function gosterAd(s) {
   if (ENSTRUMAN_ADLARI[s]) return ENSTRUMAN_ADLARI[s];
@@ -468,7 +422,6 @@ function piyasaSec2(p, btn) {
   document.querySelectorAll('.piyasa-btn2').forEach(f => f.classList.remove('aktif'));
   btn.classList.add('aktif');
 }
-
 // ============ CANLI TARAMA ============
 const CANLI_HISSELER = [
   "AEFES","AGHOL","AKBNK","AKSA","AKSEN","ALARK","ALFAS","ALTNY","ANSGR","ARCLK",
@@ -498,26 +451,20 @@ const CE_MULT   = 2.0;
 let canliPeriyot = '15m';
 let canliSonuclar = [];
 let canliGorunum = 'sinyal';
-
 function periyotSec(p, btn) {
   canliPeriyot = p;
   document.querySelectorAll('#sayfa-canli .filtre-bar:first-of-type .filtre').forEach(f => f.classList.remove('aktif'));
   btn.classList.add('aktif');
 }
-
 function canliFiltre(g, btn) {
   canliGorunum = g;
   document.querySelectorAll('#canliFiltreBar .filtre').forEach(f => f.classList.remove('aktif'));
   btn.classList.add('aktif');
   canliGoster();
 }
-
 function ceHesaplaJS(bars) {
-  // bars: [{h,l,c}, ...] eskiden yeniye
   const n = bars.length;
   if (n < CE_PERIOD + 3) return null;
-
-  // ATR (SMA of TR, period=CE_PERIOD)
   const tr = [];
   for (let i = 0; i < n; i++) {
     if (i === 0) { tr.push(bars[i].h - bars[i].l); continue; }
@@ -532,20 +479,17 @@ function ceHesaplaJS(bars) {
     for (let j = i - CE_PERIOD + 1; j <= i; j++) s += tr[j];
     atr[i] = s / CE_PERIOD;
   }
-
-  // Kapanmis bar mantigi: onceki barin h/l/c kullan
   const longStop = new Array(n).fill(NaN);
   const shortStop = new Array(n).fill(NaN);
   for (let i = CE_PERIOD; i < n; i++) {
     let hh = -Infinity, ll = Infinity;
-    for (let j = i - CE_PERIOD; j < i; j++) {  // onceki CE_PERIOD bar (shift 1)
+    for (let j = i - CE_PERIOD; j < i; j++) {
       hh = Math.max(hh, bars[j].h);
       ll = Math.min(ll, bars[j].l);
     }
     longStop[i]  = hh - CE_MULT * atr[i];
     shortStop[i] = ll + CE_MULT * atr[i];
   }
-
   const dir = new Array(n).fill(1);
   for (let i = 1; i < n; i++) {
     const cPrev = i >= 1 ? bars[i-1].c : NaN;
@@ -555,25 +499,20 @@ function ceHesaplaJS(bars) {
     else if (cPrev < lsPrev) dir[i] = 1;
     else dir[i] = dir[i-1];
   }
-
   return { dir: dir[n-1], prevDir: dir[n-2], fiyat: bars[n-1].c };
 }
-
 const PROXYLER = [
   u => 'https://bist-proxy.fikasuscan.workers.dev/?url=' + encodeURIComponent(u),
   u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
   u => 'https://corsproxy.io/?url=' + encodeURIComponent(u)
 ];
 let aktifProxy = 0;
-
 function timeoutFetch(url, ms) {
   return new Promise((resolve, reject) => {
     const timer = setTimeout(() => reject(new Error('timeout')), ms);
     fetch(url).then(r => { clearTimeout(timer); resolve(r); }).catch(e => { clearTimeout(timer); reject(e); });
   });
 }
-
-
 async function proxyTest() {
   const durum = document.getElementById('taraDurum');
   const yUrl = 'https://query1.finance.yahoo.com/v8/finance/chart/AKBNK.IS?interval=15m&range=5d';
@@ -598,7 +537,6 @@ async function proxyTest() {
   }
   durum.innerHTML += 'Test bitti.';
 }
-
 async function proxyFetch(yUrl) {
   for (let deneme = 0; deneme < PROXYLER.length; deneme++) {
     const idx = (aktifProxy + deneme) % PROXYLER.length;
@@ -611,27 +549,20 @@ async function proxyFetch(yUrl) {
   }
   throw new Error('proxy fail');
 }
-
 async function hisseVeriCek(sembol) {
   const interval = canliPeriyot === '240m' ? '60m' : canliPeriyot;
   const range = canliPeriyot === '5m' ? '5d' : canliPeriyot === '15m' ? '5d' : '1mo';
   const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(tamSembol(sembol))}?interval=${interval}&range=${range}`;
-
   const j = await proxyFetch(yUrl);
   const res = j.chart.result[0];
   const q = res.indicators.quote[0];
   const ts = res.timestamp;
-
   let bars = [];
   for (let i = 0; i < ts.length; i++) {
     if (q.high[i] == null || q.low[i] == null || q.close[i] == null) continue;
     bars.push({ t: ts[i], h: q.high[i], l: q.low[i], c: q.close[i] });
   }
-
-  // Son bar henuz kapanmamis olabilir - at
   if (bars.length > 1) bars.pop();
-
-  // 240m için 60m barları 4'erli grupla
   if (canliPeriyot === '240m') {
     const grouped = [];
     for (let i = 0; i < bars.length; i += 4) {
@@ -648,7 +579,6 @@ async function hisseVeriCek(sembol) {
   }
   return bars;
 }
-
 async function canliTara() {
   const btn = document.getElementById('taraBtn');
   const durum = document.getElementById('taraDurum');
@@ -656,8 +586,7 @@ async function canliTara() {
   canliSonuclar = [];
   let hata = 0;
   let bitti = 0;
-  const GRUP = 5;  // ayni anda 5 hisse
-
+  const GRUP = 5;
   async function birHisse(sembol) {
     try {
       const bars = await hisseVeriCek(sembol);
@@ -675,15 +604,12 @@ async function canliTara() {
     bitti++;
     durum.textContent = `Taraniyor... ${bitti}/${aktifListe().length}`;
   }
-
   const LISTE = aktifListe();
   for (let i = 0; i < LISTE.length; i += GRUP) {
     const grup = LISTE.slice(i, i + GRUP);
     await Promise.all(grup.map(birHisse));
     await new Promise(res => setTimeout(res, 100));
   }
-
-  // Sinyal verenler icin ust periyot uyum kontrolu
   const sinyalliler = canliSonuclar.filter(s => s.yeniAl || s.yeniSat);
   if (sinyalliler.length > 0 && canliPeriyot !== '240m') {
     durum.textContent = `Uyum kontrolu... 0/${sinyalliler.length}`;
@@ -691,7 +617,6 @@ async function canliTara() {
     async function uyumKontrol(s) {
       try {
         const istekler = [veriCekRaw(s.sembol, '1d', '3mo')];
-        const ustler = [];
         if (canliPeriyot === '5m' || canliPeriyot === '15m') {
           istekler.push(veriCekRaw(s.sembol, '60m', '1mo'));
         }
@@ -719,34 +644,27 @@ async function canliTara() {
       await Promise.all(sinyalliler.slice(i, i + 4).map(uyumKontrol));
     }
   }
-
   durum.textContent = `Tamamlandi — ${canliSonuclar.length} enstruman | ${hata} hata | ${canliPeriyot} | ${new Date().toLocaleTimeString('tr-TR')}`;
   document.getElementById('canliFiltreBar').style.display = 'flex';
   btn.disabled = false;
   canliGoster();
 }
-
 function canliGoster() {
   const kutu = document.getElementById('canliListe');
   let liste = canliSonuclar;
   if (canliGorunum === 'sinyal') {
     liste = liste.filter(s => s.yeniAl || s.yeniSat);
   }
-  // Sinyalliler üste
   liste = [...liste].sort((a, b) => ((b.yeniAl||b.yeniSat)?1:0) - ((a.yeniAl||a.yeniSat)?1:0));
-
   if (!liste.length) {
     kutu.innerHTML = '<div class="bos">' + (canliGorunum === 'sinyal' ? 'Yeni sinyal yok — Tum Liste sekmesinden CE yonlerini gorebilirsin' : 'Sonuc yok') + '</div>';
     return;
   }
-
-  // Sinyalliler icinde uyuma gore sirala
   liste = [...liste].sort((a, b) => {
     const sa = (a.yeniAl||a.yeniSat)?1:0, sb = (b.yeniAl||b.yeniSat)?1:0;
     if (sb !== sa) return sb - sa;
     return (b.uyum||0) - (a.uyum||0);
   });
-
   kutu.innerHTML = liste.map(s => {
     let yonTxt = s.yeniAl ? 'YENi AL' : s.yeniSat ? 'YENi SAT' : (s.dir === -1 ? 'CE YUKARI' : 'CE ASAGI');
     const yonCls = (s.yeniAl || s.dir === -1) ? 'al' : 'sat';
@@ -766,19 +684,15 @@ function canliGoster() {
     </div>`;
   }).join('');
 }
-
-
 // ============ MTF TARAMA ============
 let mtfSonuclar = [];
 let mtfGorunum = 'ideal';
-
 function mtfFiltre(g, btn) {
   mtfGorunum = g;
   document.querySelectorAll('#mtfFiltreBar .filtre').forEach(f => f.classList.remove('aktif'));
   btn.classList.add('aktif');
   mtfGoster();
 }
-
 function barlariGrupla(bars, adet) {
   const out = [];
   for (let i = 0; i < bars.length; i += adet) {
@@ -793,7 +707,6 @@ function barlariGrupla(bars, adet) {
   }
   return out;
 }
-
 async function veriCekRaw(sembol, interval, range) {
   const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(tamSembol(sembol))}?interval=${interval}&range=${range}`;
   const j = await proxyFetch(yUrl);
@@ -805,38 +718,29 @@ async function veriCekRaw(sembol, interval, range) {
     if (q.high[i] == null || q.low[i] == null || q.close[i] == null) continue;
     bars.push({ t: ts[i], h: q.high[i], l: q.low[i], c: q.close[i] });
   }
-  // Son bar henuz kapanmamis olabilir - at (TradingView uyumu)
   if (bars.length > 1) bars.pop();
   return bars;
 }
-
 async function mtfHisse(sembol) {
-  // 3 istek: 15m, 60m (240m bundan gruplanir), 1d
   const [b15, b60, b1d] = await Promise.all([
     veriCekRaw(sembol, '15m', '5d'),
     veriCekRaw(sembol, '60m', '1mo'),
     veriCekRaw(sembol, '1d', '3mo')
   ]);
   const b240 = barlariGrupla(b60, 4);
-
   const s15  = ceHesaplaJS(b15);
   const s60  = ceHesaplaJS(b60);
   const s240 = ceHesaplaJS(b240);
   const s1d  = ceHesaplaJS(b1d);
-
   if (!s15 || !s60 || !s240 || !s1d) return null;
-
   const yeniAl  = s15.dir === -1 && s15.prevDir === 1;
   const yeniSat = s15.dir === 1  && s15.prevDir === -1;
-  if (!yeniAl && !yeniSat) return null;  // sadece 15dk yeni sinyaller
-
-  // Ust periyot uyum sayisi
+  if (!yeniAl && !yeniSat) return null;
   let uyum = 0;
   const hedefYon = yeniAl ? -1 : 1;
   if (s60.dir  === hedefYon) uyum++;
   if (s240.dir === hedefYon) uyum++;
   if (s1d.dir  === hedefYon) uyum++;
-
   return {
     sembol,
     fiyat: aktifPiyasa === 'forex' ? Math.round(s15.fiyat * 10000) / 10000 : Math.round(s15.fiyat * 100) / 100,
@@ -847,7 +751,6 @@ async function mtfHisse(sembol) {
     d1d:  s1d.dir  === -1 ? 'YUK' : 'ASA'
   };
 }
-
 async function mtfTara() {
   const btn = document.getElementById('mtfBtn');
   const durum = document.getElementById('mtfDurum');
@@ -855,7 +758,6 @@ async function mtfTara() {
   mtfSonuclar = [];
   let bitti = 0, hata = 0;
   const GRUP = 4;
-
   async function bir(sembol) {
     try {
       const r = await mtfHisse(sembol);
@@ -864,33 +766,28 @@ async function mtfTara() {
     bitti++;
     durum.textContent = `MTF taraniyor... ${bitti}/${aktifListe().length}`;
   }
-
   const LISTE2 = aktifListe();
   for (let i = 0; i < LISTE2.length; i += GRUP) {
     await Promise.all(LISTE2.slice(i, i + GRUP).map(bir));
     await new Promise(res => setTimeout(res, 80));
   }
-
   const idealSayi = mtfSonuclar.filter(s => s.uyum === 3).length;
   durum.textContent = `Bitti — ${mtfSonuclar.length} yeni 15dk sinyali | ${idealSayi} IDEAL | ${hata} hata | ${new Date().toLocaleTimeString('tr-TR')}`;
   document.getElementById('mtfFiltreBar').style.display = 'flex';
   btn.disabled = false;
   mtfGoster();
 }
-
 function mtfGoster() {
   const kutu = document.getElementById('mtfListe');
   let liste = [...mtfSonuclar].sort((a, b) => b.uyum - a.uyum);
   if (mtfGorunum === 'ideal') liste = liste.filter(s => s.uyum === 3);
   else if (mtfGorunum === 'kismi') liste = liste.filter(s => s.uyum === 2);
-
   if (!liste.length) {
     kutu.innerHTML = '<div class="bos">' +
       (mtfGorunum === 'ideal' ? 'IDEAL sinyal yok — tum periyotlar uyumlu 15dk sinyali su an bulunmuyor' : 'Sonuc yok') +
       '</div>';
     return;
   }
-
   kutu.innerHTML = liste.map(s => {
     const yonCls = s.yon === 'AL' ? 'al' : 'sat';
     const etiket = s.uyum === 3 ? '⭐ IDEAL ' + s.yon : s.uyum === 2 ? s.yon + ' (2/3 uyum)' : s.yon + ' (' + s.uyum + '/3)';
@@ -904,14 +801,11 @@ function mtfGoster() {
     </div>`;
   }).join('');
 }
-
-
 // ============ SCALP TARAMA ============
 const SCALP_CE_MULT = 1.5;
 let scalpPiyasaSecim = 'bist';
 let scalpTf = '5m';
 let scalpSonuclar = [];
-
 function piyasaSec3(p, btn) {
   scalpPiyasaSecim = p;
   document.querySelectorAll('.piyasa-btn3').forEach(f => f.classList.remove('aktif'));
@@ -932,8 +826,6 @@ function scalpGosterAd(s) {
   if (ENSTRUMAN_ADLARI[s]) return ENSTRUMAN_ADLARI[s];
   return s.replace('.IS', '');
 }
-
-// EMA hesapla
 function emaHesapla(kapanislar, period) {
   const k = 2 / (period + 1);
   let ema = kapanislar[0];
@@ -944,8 +836,6 @@ function emaHesapla(kapanislar, period) {
   }
   return out;
 }
-
-// RSI hesapla
 function rsiHesapla(kapanislar, period) {
   if (kapanislar.length < period + 1) return null;
   let kazanc = 0, kayip = 0;
@@ -963,21 +853,16 @@ function rsiHesapla(kapanislar, period) {
   const rs = avgK / avgL;
   return 100 - (100 / (1 + rs));
 }
-
-// VWAP hesapla (gun ici - tum barlar)
 function vwapHesapla(bars) {
-  // TradingView gibi: VWAP her gun sifirlanir - sadece son gunun barlarindan hesapla
   if (!bars.length) return 0;
-  // Son barin gununu bul (UTC tarih)
   const sonBar = bars[bars.length - 1];
   const sonGun = sonBar.t ? new Date(sonBar.t * 1000).getUTCDate() : null;
   const sonAy = sonBar.t ? new Date(sonBar.t * 1000).getUTCMonth() : null;
   let pvSum = 0, vSum = 0;
   for (const b of bars) {
-    // Timestamp yoksa tum barlari kullan (eski davranis)
     if (b.t && sonGun !== null) {
       const d = new Date(b.t * 1000);
-      if (d.getUTCDate() !== sonGun || d.getUTCMonth() !== sonAy) continue; // baska gun - atla
+      if (d.getUTCDate() !== sonGun || d.getUTCMonth() !== sonAy) continue;
     }
     const tp = (b.h + b.l + b.c) / 3;
     const v = b.v || 1;
@@ -986,8 +871,6 @@ function vwapHesapla(bars) {
   }
   return vSum > 0 ? pvSum / vSum : bars[bars.length-1].c;
 }
-
-// Scalp CE (mult 1.5)
 function scalpCE(bars) {
   const n = bars.length;
   if (n < 25) return null;
@@ -1012,7 +895,6 @@ function scalpCE(bars) {
   }
   return { dir: dir[n-1], prevDir: dir[n-2], atr: atr[n-1] };
 }
-
 async function scalpTara() {
   const btn = document.getElementById('scalpBtn');
   const durum = document.getElementById('scalpDurum');
@@ -1021,7 +903,6 @@ async function scalpTara() {
   const liste = scalpListe();
   let bitti = 0, hata = 0;
   const GRUP = 5;
-
   async function bir(sembol) {
     try {
       const range = scalpTf === '5m' ? '5d' : '5d';
@@ -1035,13 +916,10 @@ async function scalpTara() {
         if (q.high[i]==null||q.low[i]==null||q.close[i]==null) continue;
         bars.push({ t:ts[i], h:q.high[i], l:q.low[i], c:q.close[i], v:q.volume[i]||0 });
       }
-      // Son bar henuz kapanmamis olabilir (olusan bar) - at, TradingView ile uyum icin
       if (bars.length > 1) bars.pop();
       if (bars.length < 25) { hata++; bitti++; return; }
-
       const kapanislar = bars.map(b => b.c);
       const ce = scalpCE(bars);
-      // Otomatik EMA - indikatorle ayni: 5dk->8/13, 15dk->9/21
       const emaHizliP = scalpTf === '5m' ? 8 : 9;
       const emaYavasP = scalpTf === '5m' ? 13 : 21;
       const emaH = emaHesapla(kapanislar, emaHizliP);
@@ -1049,20 +927,14 @@ async function scalpTara() {
       const rsi = rsiHesapla(kapanislar, 14);
       const vwap = vwapHesapla(bars);
       const fiyat = kapanislar[kapanislar.length-1];
-
       const n = kapanislar.length;
       const emaYukari = emaH[n-1] > emaY[n-1];
-      // Indikator "Kesisim" modu: sadece EMA kesisimi tetikler (son kapanmis barda)
       const emaAlKesti = emaH[n-2] <= emaY[n-2] && emaH[n-1] > emaY[n-1];
       const emaSatKesti = emaH[n-2] >= emaY[n-2] && emaH[n-1] < emaY[n-1];
-      // Indikatorde ce_dir: 1=yukari, -1=asagi. App scalpCE: -1=yukari. Cevir:
       const ceYukari = ce.dir === -1;
-
-      // Kesisim modu (indikator varsayilani): EMA kesisimi = sinyal
       let sinyal = null;
       if (emaAlKesti && rsi < 70) sinyal = 'AL';
       else if (emaSatKesti && rsi > 30) sinyal = 'SAT';
-
       if (sinyal) {
         const dp = scalpPiyasaSecim === 'forex' ? 4 : 2;
         const yuvround = (v) => Math.round(v * Math.pow(10,dp)) / Math.pow(10,dp);
@@ -1083,17 +955,14 @@ async function scalpTara() {
     bitti++;
     durum.textContent = `Scalp taraniyor... ${bitti}/${liste.length}`;
   }
-
   for (let i = 0; i < liste.length; i += GRUP) {
     await Promise.all(liste.slice(i, i+GRUP).map(bir));
     await new Promise(r => setTimeout(r, 100));
   }
-
   durum.textContent = `Bitti — ${scalpSonuclar.length} scalp sinyali | ${hata} hata | ${scalpTf} | ${new Date().toLocaleTimeString('tr-TR')}`;
   btn.disabled = false;
   scalpGoster();
 }
-
 function scalpGoster() {
   const kutu = document.getElementById('scalpListe');
   if (!scalpSonuclar.length) {
@@ -1120,20 +989,16 @@ function scalpGoster() {
     </div>`;
   }).join('');
 }
-
-
 // ============ TAVAN TAKIP ============
 let tavanTakip = [];
 let tavanIstatistik = null;
 let tavanAktifGorunum = 'bugun';
-
 function tavanGorunum(g, btn) {
   tavanAktifGorunum = g;
   document.querySelectorAll('#sayfa-tavan .filtre').forEach(f => f.classList.remove('aktif'));
   btn.classList.add('aktif');
   tavanGoster();
 }
-
 async function tavanVerileriYukle() {
   try {
     const r = await fetch('data/tavan_takip.json?t=' + Date.now());
@@ -1145,7 +1010,6 @@ async function tavanVerileriYukle() {
   } catch(e) { tavanIstatistik = null; }
   tavanGoster();
 }
-
 function perfRenk(v) {
   if (v === null || v === undefined) return 'var(--muted)';
   return v > 0 ? 'var(--green)' : v < 0 ? 'var(--red)' : 'var(--muted)';
@@ -1154,10 +1018,8 @@ function perfYaz(v) {
   if (v === null || v === undefined) return '-';
   return (v > 0 ? '+' : '') + v + '%';
 }
-
 function tavanGoster() {
   const kutu = document.getElementById('tavanIcerik');
-
   if (tavanAktifGorunum === 'istatistik') {
     if (!tavanIstatistik) {
       kutu.innerHTML = '<div class="bos">Henuz istatistik yok - birkac gun veri birikmesi gerekiyor</div>';
@@ -1173,7 +1035,6 @@ function tavanGoster() {
       </div>
       <div class="detay" style="margin-top:6px">Ortalama getiri (basari orani)</div>
     </div>`;
-
     for (const p of [3,2,1,0]) {
       const k = tavanIstatistik['kalite_' + p];
       if (!k) continue;
@@ -1193,8 +1054,6 @@ function tavanGoster() {
     kutu.innerHTML = html;
     return;
   }
-
-  // Bugun veya takip listesi
   let liste = [...tavanTakip].reverse();
   if (tavanAktifGorunum === 'bugun') {
     if (liste.length) {
@@ -1204,13 +1063,11 @@ function tavanGoster() {
   } else {
     liste = liste.filter(k => k.t1 !== null && k.t1 !== undefined).slice(0, 60);
   }
-
   if (!liste.length) {
     kutu.innerHTML = '<div class="bos">' +
       (tavanAktifGorunum === 'bugun' ? 'Bugun tavan yapan hisse yok' : 'Henuz takip verisi yok') + '</div>';
     return;
   }
-
   kutu.innerHTML = liste.map(k => {
     const ikonlar = (k.tam_tavan ? '🔒' : '') + (k.hacim_kat >= 2 ? '🔥' : '') + (k.ema200_ust ? '📈' : '') + (k.ce_yukari ? '✅' : '');
     const tipEtiket = k.tam_tavan ? 'TAVAN' : 'GUCLU';
@@ -1231,12 +1088,9 @@ function tavanGoster() {
     </div>`;
   }).join('');
 }
-
-
 // ============ PERFORMANS ============
 let performansVeri = null;
-let perfGorunum = 'sistem';  
-
+let perfGorunum = 'sistem';
 async function performansYukle() {
   try {
     const r = await fetch('data/performans.json?t=' + Date.now());
@@ -1244,7 +1098,10 @@ async function performansYukle() {
   } catch(e) { performansVeri = null; }
   performansGoster();
 }
-
+function perfGorunumSec(g, btn) {
+  perfGorunum = g;
+  performansGoster();
+}
 function pRenk(v) {
   if (v === null || v === undefined) return 'var(--muted)';
   return v > 0 ? 'var(--green)' : v < 0 ? 'var(--red)' : 'var(--muted)';
@@ -1256,11 +1113,6 @@ function pYaz(v) {
 function bYaz(v) {
   return (v === null || v === undefined) ? '-' : v + '%';
 }
-
-// ============================================================
-// BU FONKSİYONU index.html'de ESKİ performansGoster'ın
-// YERİNE koy (function performansGoster() {...} bloğunu değiştir)
-// ============================================================
 function performansGoster() {
   const kutu = document.getElementById('performansIcerik');
   if (!performansVeri || !performansVeri.sistemler || !Object.keys(performansVeri.sistemler).length) {
@@ -1269,7 +1121,6 @@ function performansGoster() {
   }
   const v = performansVeri;
   let html = '';
-  // Genel ozet
   if (v.genel) {
     const g = v.genel;
     html += `<div class="kart" style="border-color:var(--blue)">
@@ -1282,15 +1133,11 @@ function performansGoster() {
       <div class="detay" style="margin-top:6px">ortalama getiri / basari orani</div>
     </div>`;
   }
-
-  // ===== GORUNUM SECICI: Sistemler / Hisseler =====
   html += `<div class="filtre-bar" style="margin-top:4px">
     <button class="filtre ${perfGorunum==='sistem'?'aktif':''}" onclick="perfGorunumSec('sistem', this)">Sistemler</button>
     <button class="filtre ${perfGorunum==='hisse'?'aktif':''}" onclick="perfGorunumSec('hisse', this)">Hisse Bazinda</button>
   </div>`;
-
   if (perfGorunum === 'sistem') {
-    // ---- SISTEM BAZINDA (mevcut) ----
     const sistemler = Object.values(v.sistemler).sort((a,b) => {
       const av = a.t5_ort ?? a.t1_ort ?? -99;
       const bv = b.t5_ort ?? b.t1_ort ?? -99;
@@ -1313,12 +1160,10 @@ function performansGoster() {
       </div>`;
     });
   } else {
-    // ---- HISSE BAZINDA (yeni) ----
     const hisseler = v.hisseler ? Object.values(v.hisseler) : [];
     if (!hisseler.length) {
       html += '<div class="bos">Hisse bazinda veri yok.</div>';
     } else {
-      // T+5 ortalamasina gore sirala (yoksa T+1)
       hisseler.sort((a,b) => {
         const av = a.t5_ort ?? a.t1_ort ?? -99;
         const bv = b.t5_ort ?? b.t1_ort ?? -99;
@@ -1347,7 +1192,6 @@ function performansGoster() {
       });
     }
   }
-
   html += `<div style="font-size:11px;color:var(--muted);margin-top:12px;text-align:center;line-height:1.5">
     Guncelleme: ${v.guncelleme || '-'}<br>
     Toplam takip edilen: ${v.toplam_sinyal} sinyal<br><br>
@@ -1357,69 +1201,6 @@ function performansGoster() {
   </div>`;
   kutu.innerHTML = html;
 }
-
-// ============================================================
-// BU İKİ SATIRI da ekle: performansVeri değişkeninin
-// tanımlandığı yerin YANINA (let performansVeri = null; satırının altına)
-// ============================================================
-let perfGorunum = 'sistem';
-function perfGorunumSec(g, btn) {
-  perfGorunum = g;
-  performansGoster();
-}
-
-  const v = performansVeri;
-  let html = '';
-
-  // Genel ozet
-  if (v.genel) {
-    const g = v.genel;
-    html += `<div class="kart" style="border-color:var(--blue)">
-      <div class="sembol" style="margin-bottom:8px">GENEL (${v.olculen} olculen sinyal)</div>
-      <div class="seviyeler">
-        <span class="seviye" style="color:${pRenk(g.t1_ort)}">T+1 ${pYaz(g.t1_ort)} / ${bYaz(g.t1_basari)}</span>
-        <span class="seviye" style="color:${pRenk(g.t3_ort)}">T+3 ${pYaz(g.t3_ort)} / ${bYaz(g.t3_basari)}</span>
-        <span class="seviye" style="color:${pRenk(g.t5_ort)}">T+5 ${pYaz(g.t5_ort)} / ${bYaz(g.t5_basari)}</span>
-      </div>
-      <div class="detay" style="margin-top:6px">ortalama getiri / basari orani</div>
-    </div>`;
-  }
-
-  // Sistemleri T+5'e (yoksa T+1) gore sirala
-  const sistemler = Object.values(v.sistemler).sort((a,b) => {
-    const av = a.t5_ort ?? a.t1_ort ?? -99;
-    const bv = b.t5_ort ?? b.t1_ort ?? -99;
-    return bv - av;
-  });
-
-  sistemler.forEach((d, i) => {
-    const anaDeger = d.t5_ort ?? d.t1_ort;
-    const cerceve = anaDeger > 0 ? 'var(--green)' : anaDeger < 0 ? 'var(--red)' : 'var(--border)';
-    const madalya = i === 0 ? '🥇 ' : i === 1 ? '🥈 ' : i === 2 ? '🥉 ' : '';
-    html += `<div class="kart" style="border-color:${cerceve}">
-      <div class="kart-ust">
-        <div><span class="sembol">${madalya}${d.ad}</span></div>
-        <span class="fiyat">${d.adet} sinyal</span>
-      </div>
-      <div class="seviyeler">
-        <span class="seviye" style="color:${pRenk(d.t1_ort)}">T+1 ${pYaz(d.t1_ort)} / ${bYaz(d.t1_basari)}</span>
-        <span class="seviye" style="color:${pRenk(d.t3_ort)}">T+3 ${pYaz(d.t3_ort)} / ${bYaz(d.t3_basari)}</span>
-        <span class="seviye" style="color:${pRenk(d.t5_ort)}">T+5 ${pYaz(d.t5_ort)} / ${bYaz(d.t5_basari)}</span>
-      </div>
-    </div>`;
-  });
-
-  html += `<div style="font-size:11px;color:var(--muted);margin-top:12px;text-align:center;line-height:1.5">
-    Guncelleme: ${v.guncelleme || '-'}<br>
-    Toplam takip edilen: ${v.toplam_sinyal} sinyal<br><br>
-    ⚠️ Az sayida kayitla cikan sonuclar yaniltici olabilir.<br>
-    Sistem basina 20-30 sinyal biriktikten sonra guvenilir olur.<br>
-    SAT sinyallerinde getiri ters hesaplanir (dususten kazanc).
-  </div>`;
-
-  kutu.innerHTML = html;
-}
-
 verileriYukle();
 tavanVerileriYukle();
 </script>
