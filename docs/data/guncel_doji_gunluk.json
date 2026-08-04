@@ -1,72 +1,72 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-08-03 17:18",
+ "zaman": "2026-08-04 17:01",
  "sinyaller": [
   {
-   "sembol": "BAGFS",
-   "fiyat": 23.86,
+   "sembol": "SNGYO",
+   "fiyat": 3.36,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.6x",
-   "sl": 22.92,
-   "tp1": 25.06,
-   "tp2": 25.85,
-   "tp3": 27.05
+   "detay": "Doji | CE: ASAGI | Hacim: 1.5x",
+   "sl": 3.12,
+   "tp1": 3.56,
+   "tp2": 3.69,
+   "tp3": 3.89
   },
   {
-   "sembol": "GARAN",
-   "fiyat": 127.9,
+   "sembol": "SDTTR",
+   "fiyat": 240.7,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.5x",
-   "sl": 120.0,
-   "tp1": 132.82,
-   "tp2": 136.1,
-   "tp3": 141.01
+   "detay": "Doji | CE: ASAGI | Hacim: 1.2x",
+   "sl": 220.9,
+   "tp1": 258.43,
+   "tp2": 270.25,
+   "tp3": 287.99
   },
   {
-   "sembol": "TSKB",
-   "fiyat": 11.22,
+   "sembol": "HLGYO",
+   "fiyat": 4.84,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.4x",
-   "sl": 10.77,
-   "tp1": 11.67,
-   "tp2": 11.98,
-   "tp3": 12.43
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.1x",
+   "sl": 4.68,
+   "tp1": 5.07,
+   "tp2": 5.22,
+   "tp3": 5.44
   },
   {
-   "sembol": "NUHCM",
-   "fiyat": 221.5,
+   "sembol": "SARKY",
+   "fiyat": 24.8,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.2x",
-   "sl": 214.1,
-   "tp1": 227.91,
-   "tp2": 232.18,
-   "tp3": 238.59
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 23.6,
+   "tp1": 26.17,
+   "tp2": 27.08,
+   "tp3": 28.45
   },
   {
-   "sembol": "EKGYO",
-   "fiyat": 18.19,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.1x",
-   "sl": 17.56,
-   "tp1": 19.13,
-   "tp2": 19.75,
-   "tp3": 20.69
-  },
-  {
-   "sembol": "BORLS",
-   "fiyat": 5.48,
+   "sembol": "ERBOS",
+   "fiyat": 155.9,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
    "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.4x",
-   "sl": 5.31,
-   "tp1": 5.99,
-   "tp2": 6.33,
-   "tp3": 6.84
+   "sl": 152.6,
+   "tp1": 163.83,
+   "tp2": 169.11,
+   "tp3": 177.04
+  },
+  {
+   "sembol": "AEFES",
+   "fiyat": 21.54,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 1.6x",
+   "sl": 22.52,
+   "tp1": 20.36,
+   "tp2": 19.58,
+   "tp3": 18.4
   }
  ]
 }
