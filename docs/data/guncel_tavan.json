@@ -1,62 +1,76 @@
 {
  "sistem": "tavan",
- "zaman": "2026-08-03 17:21",
+ "zaman": "2026-08-04 17:05",
  "sinyaller": [
   {
-   "sembol": "PASEU",
-   "fiyat": 169.0,
+   "sembol": "PAMEL",
+   "fiyat": 90.45,
    "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+9.03)",
-   "detay": "Hacim: 2.5x | Puan: 3/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+9.64)",
+   "detay": "Hacim: 2.9x | Puan: 3/3 | EMA200 UST | CE YUK"
   },
   {
-   "sembol": "KERVN",
-   "fiyat": 9.13,
+   "sembol": "SAYAS",
+   "fiyat": 52.25,
    "yon": "AL",
    "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 2.3x | Puan: 3/3 | EMA200 UST | CE YUK"
-  },
-  {
-   "sembol": "DGATE",
-   "fiyat": 117.7,
-   "yon": "AL",
-   "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 2.3x | Puan: 2/3 | EMA200 UST"
-  },
-  {
-   "sembol": "ISGSY",
-   "fiyat": 17.83,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.99)",
-   "detay": "Hacim: 2.0x | Puan: 2/3 | EMA200 UST"
-  },
-  {
-   "sembol": "HEDEF",
-   "fiyat": 334.0,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.78)",
-   "detay": "Hacim: 0.6x | Puan: 2/3 | EMA200 UST | CE YUK"
+   "detay": "Hacim: 3.4x | Puan: 2/3 | EMA200 UST"
   },
   {
    "sembol": "BURVA",
-   "fiyat": 775.5,
+   "fiyat": 853.0,
    "yon": "AL",
-   "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 1.9x | Puan: 1/3 | EMA200 UST"
+   "tur": "TAVAN (%+9.99)",
+   "detay": "Hacim: 2.3x | Puan: 2/3 | EMA200 UST"
   },
   {
-   "sembol": "SANEL",
-   "fiyat": 71.85,
+   "sembol": "HEDEF",
+   "fiyat": 366.0,
    "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+8.86)",
-   "detay": "Hacim: 0.8x | Puan: 1/3 | EMA200 UST"
+   "tur": "TAVAN (%+9.58)",
+   "detay": "Hacim: 0.8x | Puan: 2/3 | EMA200 UST | CE YUK"
+  },
+  {
+   "sembol": "KRTEK",
+   "fiyat": 6.65,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+9.38)",
+   "detay": "Hacim: 11.0x | Puan: 1/3"
+  },
+  {
+   "sembol": "PAHOL",
+   "fiyat": 1.4,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+9.38)",
+   "detay": "Hacim: 2.0x | Puan: 1/3"
   },
   {
    "sembol": "CWENE",
-   "fiyat": 37.4,
+   "fiyat": 41.14,
    "yon": "AL",
    "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 0.6x | Puan: 1/3 | EMA200 UST"
+   "detay": "Hacim: 1.4x | Puan: 1/3 | EMA200 UST"
+  },
+  {
+   "sembol": "OZGYO",
+   "fiyat": 2.26,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+8.65)",
+   "detay": "Hacim: 1.2x | Puan: 1/3 | EMA200 UST"
+  },
+  {
+   "sembol": "GSDDE",
+   "fiyat": 13.22,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.98)",
+   "detay": "Hacim: 0.8x | Puan: 1/3 | EMA200 UST"
+  },
+  {
+   "sembol": "HDFGS",
+   "fiyat": 2.72,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.68)",
+   "detay": "Hacim: 1.4x | Puan: 0/3"
   }
  ]
 }
