@@ -1235,6 +1235,7 @@ function tavanGoster() {
 
 // ============ PERFORMANS ============
 let performansVeri = null;
+let perfGorunum = 'sistem';  
 
 async function performansYukle() {
   try {
@@ -1256,12 +1257,116 @@ function bYaz(v) {
   return (v === null || v === undefined) ? '-' : v + '%';
 }
 
+// ============================================================
+// BU FONKSİYONU index.html'de ESKİ performansGoster'ın
+// YERİNE koy (function performansGoster() {...} bloğunu değiştir)
+// ============================================================
 function performansGoster() {
   const kutu = document.getElementById('performansIcerik');
   if (!performansVeri || !performansVeri.sistemler || !Object.keys(performansVeri.sistemler).length) {
     kutu.innerHTML = '<div class="bos">Henuz performans verisi yok.<br><br>Sinyaller birikip en az 1 islem gunu gectikten sonra sonuclar gorunur.</div>';
     return;
   }
+  const v = performansVeri;
+  let html = '';
+  // Genel ozet
+  if (v.genel) {
+    const g = v.genel;
+    html += `<div class="kart" style="border-color:var(--blue)">
+      <div class="sembol" style="margin-bottom:8px">GENEL (${v.olculen} olculen sinyal)</div>
+      <div class="seviyeler">
+        <span class="seviye" style="color:${pRenk(g.t1_ort)}">T+1 ${pYaz(g.t1_ort)} / ${bYaz(g.t1_basari)}</span>
+        <span class="seviye" style="color:${pRenk(g.t3_ort)}">T+3 ${pYaz(g.t3_ort)} / ${bYaz(g.t3_basari)}</span>
+        <span class="seviye" style="color:${pRenk(g.t5_ort)}">T+5 ${pYaz(g.t5_ort)} / ${bYaz(g.t5_basari)}</span>
+      </div>
+      <div class="detay" style="margin-top:6px">ortalama getiri / basari orani</div>
+    </div>`;
+  }
+
+  // ===== GORUNUM SECICI: Sistemler / Hisseler =====
+  html += `<div class="filtre-bar" style="margin-top:4px">
+    <button class="filtre ${perfGorunum==='sistem'?'aktif':''}" onclick="perfGorunumSec('sistem', this)">Sistemler</button>
+    <button class="filtre ${perfGorunum==='hisse'?'aktif':''}" onclick="perfGorunumSec('hisse', this)">Hisse Bazinda</button>
+  </div>`;
+
+  if (perfGorunum === 'sistem') {
+    // ---- SISTEM BAZINDA (mevcut) ----
+    const sistemler = Object.values(v.sistemler).sort((a,b) => {
+      const av = a.t5_ort ?? a.t1_ort ?? -99;
+      const bv = b.t5_ort ?? b.t1_ort ?? -99;
+      return bv - av;
+    });
+    sistemler.forEach((d, i) => {
+      const anaDeger = d.t5_ort ?? d.t1_ort;
+      const cerceve = anaDeger > 0 ? 'var(--green)' : anaDeger < 0 ? 'var(--red)' : 'var(--border)';
+      const madalya = i === 0 ? '🥇 ' : i === 1 ? '🥈 ' : i === 2 ? '🥉 ' : '';
+      html += `<div class="kart" style="border-color:${cerceve}">
+        <div class="kart-ust">
+          <div><span class="sembol">${madalya}${d.ad}</span></div>
+          <span class="fiyat">${d.adet} sinyal</span>
+        </div>
+        <div class="seviyeler">
+          <span class="seviye" style="color:${pRenk(d.t1_ort)}">T+1 ${pYaz(d.t1_ort)} / ${bYaz(d.t1_basari)}</span>
+          <span class="seviye" style="color:${pRenk(d.t3_ort)}">T+3 ${pYaz(d.t3_ort)} / ${bYaz(d.t3_basari)}</span>
+          <span class="seviye" style="color:${pRenk(d.t5_ort)}">T+5 ${pYaz(d.t5_ort)} / ${bYaz(d.t5_basari)}</span>
+        </div>
+      </div>`;
+    });
+  } else {
+    // ---- HISSE BAZINDA (yeni) ----
+    const hisseler = v.hisseler ? Object.values(v.hisseler) : [];
+    if (!hisseler.length) {
+      html += '<div class="bos">Hisse bazinda veri yok.</div>';
+    } else {
+      // T+5 ortalamasina gore sirala (yoksa T+1)
+      hisseler.sort((a,b) => {
+        const av = a.t5_ort ?? a.t1_ort ?? -99;
+        const bv = b.t5_ort ?? b.t1_ort ?? -99;
+        return bv - av;
+      });
+      html += `<div class="detay" style="margin:6px 0;text-align:center">
+        Az sinyalli hisseler soluk gosterilir — 3'ten az sinyalle cikan sonuc guvenilmezdir.
+      </div>`;
+      hisseler.forEach(d => {
+        const azVeri = d.adet < 3;
+        const solukluk = azVeri ? 'opacity:0.5' : '';
+        const anaDeger = d.t5_ort ?? d.t1_ort;
+        const cerceve = azVeri ? 'var(--border)' : (anaDeger > 0 ? 'var(--green)' : anaDeger < 0 ? 'var(--red)' : 'var(--border)');
+        const uyari = azVeri ? ' ⚠️' : '';
+        html += `<div class="kart" style="border-color:${cerceve};${solukluk}">
+          <div class="kart-ust">
+            <div><span class="sembol">${d.sembol}</span></div>
+            <span class="fiyat">${d.adet} sinyal${uyari}</span>
+          </div>
+          <div class="seviyeler">
+            <span class="seviye" style="color:${pRenk(d.t1_ort)}">T+1 ${pYaz(d.t1_ort)} / ${bYaz(d.t1_basari)}</span>
+            <span class="seviye" style="color:${pRenk(d.t3_ort)}">T+3 ${pYaz(d.t3_ort)} / ${bYaz(d.t3_basari)}</span>
+            <span class="seviye" style="color:${pRenk(d.t5_ort)}">T+5 ${pYaz(d.t5_ort)} / ${bYaz(d.t5_basari)}</span>
+          </div>
+        </div>`;
+      });
+    }
+  }
+
+  html += `<div style="font-size:11px;color:var(--muted);margin-top:12px;text-align:center;line-height:1.5">
+    Guncelleme: ${v.guncelleme || '-'}<br>
+    Toplam takip edilen: ${v.toplam_sinyal} sinyal<br><br>
+    ⚠️ Az sayida kayitla cikan sonuclar yaniltici olabilir.<br>
+    Sistem/hisse basina 20-30 sinyal biriktikten sonra guvenilir olur.<br>
+    SAT sinyallerinde getiri ters hesaplanir (dususten kazanc).
+  </div>`;
+  kutu.innerHTML = html;
+}
+
+// ============================================================
+// BU İKİ SATIRI da ekle: performansVeri değişkeninin
+// tanımlandığı yerin YANINA (let performansVeri = null; satırının altına)
+// ============================================================
+let perfGorunum = 'sistem';
+function perfGorunumSec(g, btn) {
+  perfGorunum = g;
+  performansGoster();
+}
 
   const v = performansVeri;
   let html = '';
