@@ -257,6 +257,22 @@ def performans_hesapla():
             't3_ort': ort('t3', olculebilir), 't3_basari': basari('t3', olculebilir),
             't5_ort': ort('t5', olculebilir), 't5_basari': basari('t5', olculebilir),
         }
+    # ===== HISSE BAZINDA ISTATISTIK =====
+    # Her sembol icin ozet. adet = kac sinyalle olculdu (az ise guvenilmez).
+    semboller_set = sorted(set(a.get('sembol', '') for a in olculebilir if a.get('sembol')))
+    hisseler = {}
+    for sem in semboller_set:
+        grup = [a for a in olculebilir if a.get('sembol') == sem]
+        if not grup:
+            continue
+        hisseler[sem] = {
+            'sembol': sem,
+            'adet': len(grup),
+            't1_ort': ort('t1', grup), 't1_basari': basari('t1', grup),
+            't3_ort': ort('t3', grup), 't3_basari': basari('t3', grup),
+            't5_ort': ort('t5', grup), 't5_basari': basari('t5', grup),
+        }
+    istatistik['hisseler'] = hisseler
     json_kaydet(PERFORMANS_DOSYA, istatistik)
     # ===== RAPOR =====
     print(f"\nOlculen sinyal: {len(olculebilir)}")
