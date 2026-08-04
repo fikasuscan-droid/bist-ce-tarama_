@@ -3046,5 +3046,25 @@
   "sistem": "donus",
   "tarih": "2026-08-03",
   "zaman": "2026-08-03 17:23"
+ },
+ {
+  "sembol": "SKBNK",
+  "fiyat": 6.44,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %2.55 | Hacim: 4.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-04",
+  "zaman": "2026-08-04 16:26"
+ },
+ {
+  "sembol": "KTLEV",
+  "fiyat": 41.52,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %0.24 | Hacim: 2.5x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-04",
+  "zaman": "2026-08-04 16:26"
  }
 ]
