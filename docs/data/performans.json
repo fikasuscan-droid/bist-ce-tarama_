@@ -1,7 +1,7 @@
 {
- "guncelleme": "2026-08-03 17:26",
- "toplam_sinyal": 253,
- "olculen": 214,
+ "guncelleme": "2026-08-04 05:29",
+ "toplam_sinyal": 252,
+ "olculen": 213,
  "sistemler": {
   "doji_gunluk": {
    "ad": "Doji Gunluk",
@@ -70,10 +70,10 @@
   },
   "donus": {
    "ad": "Donus Avcisi",
-   "adet": 57,
-   "t1_ort": NaN,
-   "t1_basari": 50.9,
-   "t1_adet": 57,
+   "adet": 56,
+   "t1_ort": 0.55,
+   "t1_basari": 51.8,
+   "t1_adet": 56,
    "t3_ort": null,
    "t3_basari": null,
    "t3_adet": 0,
@@ -83,8 +83,8 @@
   }
  },
  "genel": {
-  "t1_ort": NaN,
-  "t1_basari": 43.0,
+  "t1_ort": -0.3,
+  "t1_basari": 43.2,
   "t3_ort": -1.33,
   "t3_basari": 39.8,
   "t5_ort": -3.35,

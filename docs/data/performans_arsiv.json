@@ -2091,17 +2091,6 @@
  },
  {
   "sistem": "donus",
-  "sembol": "GARAN",
-  "tarih": "2026-08-01",
-  "yon": "AL",
-  "fiyat": NaN,
-  "t1": NaN,
-  "t3": null,
-  "t5": null,
-  "tamamlandi": false
- },
- {
-  "sistem": "donus",
   "sembol": "HUBVC",
   "tarih": "2026-08-01",
   "yon": "AL",
