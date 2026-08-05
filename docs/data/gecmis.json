@@ -3490,5 +3490,47 @@
   "sistem": "aksam_al",
   "tarih": "2026-08-05",
   "zaman": "2026-08-05 16:14"
+ },
+ {
+  "sembol": "GSRAY",
+  "fiyat": 0.99,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 1.0x",
+  "sl": 0.96,
+  "tp1": 1.03,
+  "tp2": 1.06,
+  "tp3": 1.1,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-05",
+  "zaman": "2026-08-05 16:50"
+ },
+ {
+  "sembol": "AYDEM",
+  "fiyat": 23.5,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
+  "sl": 22.92,
+  "tp1": 25.08,
+  "tp2": 26.14,
+  "tp3": 27.72,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-05",
+  "zaman": "2026-08-05 16:50"
+ },
+ {
+  "sembol": "TATGD",
+  "fiyat": 17.05,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 0.8x",
+  "sl": 16.66,
+  "tp1": 18.49,
+  "tp2": 19.45,
+  "tp3": 20.9,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-05",
+  "zaman": "2026-08-05 16:50"
  }
 ]

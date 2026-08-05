@@ -1,72 +1,39 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-08-04 17:01",
+ "zaman": "2026-08-05 16:50",
  "sinyaller": [
   {
-   "sembol": "SNGYO",
-   "fiyat": 3.36,
+   "sembol": "GSRAY",
+   "fiyat": 0.99,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.5x",
-   "sl": 3.12,
-   "tp1": 3.56,
-   "tp2": 3.69,
-   "tp3": 3.89
+   "detay": "Doji | CE: ASAGI | Hacim: 1.0x",
+   "sl": 0.96,
+   "tp1": 1.03,
+   "tp2": 1.06,
+   "tp3": 1.1
   },
   {
-   "sembol": "SDTTR",
-   "fiyat": 240.7,
+   "sembol": "AYDEM",
+   "fiyat": 23.5,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.2x",
-   "sl": 220.9,
-   "tp1": 258.43,
-   "tp2": 270.25,
-   "tp3": 287.99
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
+   "sl": 22.92,
+   "tp1": 25.08,
+   "tp2": 26.14,
+   "tp3": 27.72
   },
   {
-   "sembol": "HLGYO",
-   "fiyat": 4.84,
+   "sembol": "TATGD",
+   "fiyat": 17.05,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.1x",
-   "sl": 4.68,
-   "tp1": 5.07,
-   "tp2": 5.22,
-   "tp3": 5.44
-  },
-  {
-   "sembol": "SARKY",
-   "fiyat": 24.8,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
-   "sl": 23.6,
-   "tp1": 26.17,
-   "tp2": 27.08,
-   "tp3": 28.45
-  },
-  {
-   "sembol": "ERBOS",
-   "fiyat": 155.9,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.4x",
-   "sl": 152.6,
-   "tp1": 163.83,
-   "tp2": 169.11,
-   "tp3": 177.04
-  },
-  {
-   "sembol": "AEFES",
-   "fiyat": 21.54,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 1.6x",
-   "sl": 22.52,
-   "tp1": 20.36,
-   "tp2": 19.58,
-   "tp3": 18.4
+   "detay": "Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 16.66,
+   "tp1": 18.49,
+   "tp2": 19.45,
+   "tp3": 20.9
   }
  ]
 }
