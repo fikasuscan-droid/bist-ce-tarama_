@@ -1,20 +1,34 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-04 16:26",
+ "zaman": "2026-08-05 16:14",
  "sinyaller": [
   {
-   "sembol": "SKBNK",
-   "fiyat": 6.44,
+   "sembol": "CWENE",
+   "fiyat": 44.2,
    "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %2.55 | Hacim: 4.2x"
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %7.44 | Hacim: 3.6x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "KTLEV",
-   "fiyat": 41.52,
+   "sembol": "TKFEN",
+   "fiyat": 185.1,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %9.98 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "SASA",
+   "fiyat": 2.56,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %0.24 | Hacim: 2.5x"
+   "detay": "Degisim: %1.59 | Hacim: 16.7x"
+  },
+  {
+   "sembol": "TUPRS",
+   "fiyat": 303.75,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %4.65 | Hacim: 2.1x"
   }
  ]
 }

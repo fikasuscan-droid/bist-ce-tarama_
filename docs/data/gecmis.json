@@ -3450,5 +3450,45 @@
   "sistem": "donus",
   "tarih": "2026-08-04",
   "zaman": "2026-08-04 17:10"
+ },
+ {
+  "sembol": "CWENE",
+  "fiyat": 44.2,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %7.44 | Hacim: 3.6x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-05",
+  "zaman": "2026-08-05 16:14"
+ },
+ {
+  "sembol": "TKFEN",
+  "fiyat": 185.1,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %9.98 | Hacim: 2.4x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-05",
+  "zaman": "2026-08-05 16:14"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.56,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.59 | Hacim: 16.7x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-05",
+  "zaman": "2026-08-05 16:14"
+ },
+ {
+  "sembol": "TUPRS",
+  "fiyat": 303.75,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %4.65 | Hacim: 2.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-05",
+  "zaman": "2026-08-05 16:14"
  }
 ]
