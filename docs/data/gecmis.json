@@ -3862,5 +3862,135 @@
   "sistem": "aksam_al",
   "tarih": "2026-08-07",
   "zaman": "2026-08-07 15:23"
+ },
+ {
+  "sembol": "RYGYO",
+  "fiyat": 40.36,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 37.9",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "ANHYT",
+  "fiyat": 111.9,
+  "yon": "AL",
+  "tur": "ZAYIF AL (Sadece CE)",
+  "detay": "ADX: 23.1",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "PETKM",
+  "fiyat": 18.52,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 23.4",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "TSKB",
+  "fiyat": 11.12,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 17.4",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "AVGYO",
+  "fiyat": 14.5,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 39.4",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "BAKAB",
+  "fiyat": 44.68,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 36.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "DOCO",
+  "fiyat": 11352.5,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 30.3",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "GLBMD",
+  "fiyat": 11.7,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 24.7",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "GSDHO",
+  "fiyat": 4.79,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 39.3",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "KONYA",
+  "fiyat": 3650.0,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 16.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "METRO",
+  "fiyat": 7.6,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 41.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "OBASE",
+  "fiyat": 41.02,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 27.6",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
+ },
+ {
+  "sembol": "TRGYO",
+  "fiyat": 91.45,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 39.5",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-08-07",
+  "zaman": "2026-08-07 15:44"
  }
 ]
