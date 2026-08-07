@@ -1,34 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-05 16:14",
+ "zaman": "2026-08-07 15:23",
  "sinyaller": [
   {
-   "sembol": "CWENE",
-   "fiyat": 44.2,
+   "sembol": "MPARK",
+   "fiyat": 426.75,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %7.44 | Hacim: 3.6x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "TKFEN",
-   "fiyat": 185.1,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %9.98 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "SASA",
-   "fiyat": 2.56,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %1.59 | Hacim: 16.7x"
-  },
-  {
-   "sembol": "TUPRS",
-   "fiyat": 303.75,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %4.65 | Hacim: 2.1x"
+   "detay": "Degisim: %6.69 | Hacim: 2.6x | Sabah %2-3 gorunce sat"
   }
  ]
 }
