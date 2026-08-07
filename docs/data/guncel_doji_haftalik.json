@@ -1,50 +1,61 @@
 {
  "sistem": "doji_haftalik",
- "zaman": "2026-07-31 16:55",
+ "zaman": "2026-08-07 16:08",
  "sinyaller": [
   {
-   "sembol": "AKSEN",
-   "fiyat": 94.15,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.0x",
-   "sl": 117.5,
-   "tp1": 79.72,
-   "tp2": 70.11,
-   "tp3": 55.68
+   "sembol": "MPARK",
+   "fiyat": 426.75,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.2x",
+   "sl": 394.0,
+   "tp1": 476.57,
+   "tp2": 509.79,
+   "tp3": 559.61
   },
   {
-   "sembol": "ODAS",
-   "fiyat": 7.84,
+   "sembol": "KARTN",
+   "fiyat": 188.0,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.0x",
-   "sl": 9.26,
-   "tp1": 6.41,
-   "tp2": 5.45,
-   "tp3": 4.02
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.1x",
+   "sl": 238.3,
+   "tp1": 146.54,
+   "tp2": 118.9,
+   "tp3": 77.44
   },
   {
-   "sembol": "INDES",
-   "fiyat": 10.1,
+   "sembol": "CCOLA",
+   "fiyat": 89.0,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.9x",
-   "sl": 11.41,
-   "tp1": 8.61,
-   "tp2": 7.62,
-   "tp3": 6.12
+   "detay": "Doji | CE: YUKARI | Hacim: 0.9x",
+   "sl": 93.4,
+   "tp1": 78.54,
+   "tp2": 71.57,
+   "tp3": 61.11
   },
   {
-   "sembol": "GESAN",
-   "fiyat": 74.75,
+   "sembol": "KCAER",
+   "fiyat": 14.9,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
-   "sl": 92.0,
-   "tp1": 55.82,
-   "tp2": 43.2,
-   "tp3": 24.27
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.7x",
+   "sl": 16.32,
+   "tp1": 12.76,
+   "tp2": 11.33,
+   "tp3": 9.19
+  },
+  {
+   "sembol": "KRDMB",
+   "fiyat": 126.1,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.2x",
+   "sl": 137.3,
+   "tp1": 106.64,
+   "tp2": 93.66,
+   "tp3": 74.2
   }
  ]
 }
