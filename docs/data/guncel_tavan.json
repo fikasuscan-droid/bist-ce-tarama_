@@ -1,55 +1,41 @@
 {
  "sistem": "tavan",
- "zaman": "2026-08-05 16:55",
+ "zaman": "2026-08-07 16:11",
  "sinyaller": [
   {
-   "sembol": "RYSAS",
-   "fiyat": 25.02,
+   "sembol": "BNTAS",
+   "fiyat": 6.8,
    "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+8.78)",
-   "detay": "Hacim: 2.9x | Puan: 3/3 | EMA200 UST | CE YUK"
+   "tur": "GUCLU YUKSELIS (%+8.63)",
+   "detay": "Hacim: 4.7x | Puan: 2/3 | EMA200 UST"
   },
   {
-   "sembol": "TKFEN",
-   "fiyat": 185.1,
+   "sembol": "ISBIR",
+   "fiyat": 75.75,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.94)",
+   "detay": "Hacim: 3.8x | Puan: 2/3 | CE YUK"
+  },
+  {
+   "sembol": "CRFSA",
+   "fiyat": 210.5,
    "yon": "AL",
    "tur": "TAVAN (%+9.98)",
-   "detay": "Hacim: 2.4x | Puan: 3/3 | EMA200 UST | CE YUK"
+   "detay": "Hacim: 0.9x | Puan: 2/3 | EMA200 UST | CE YUK"
   },
   {
-   "sembol": "BURVA",
-   "fiyat": 930.0,
+   "sembol": "ADEL",
+   "fiyat": 32.42,
    "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+9.03)",
-   "detay": "Hacim: 2.2x | Puan: 3/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+9.97)",
+   "detay": "Hacim: 3.3x | Puan: 1/3"
   },
   {
-   "sembol": "YAPRK",
-   "fiyat": 11.26,
+   "sembol": "INTEM",
+   "fiyat": 267.25,
    "yon": "AL",
-   "tur": "TAVAN (%+9.96)",
-   "detay": "Hacim: 5.1x | Puan: 1/3"
-  },
-  {
-   "sembol": "INFO",
-   "fiyat": 6.89,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.89)",
-   "detay": "Hacim: 1.7x | Puan: 1/3 | EMA200 UST"
-  },
-  {
-   "sembol": "ESCOM",
-   "fiyat": 5.94,
-   "yon": "AL",
-   "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 0.6x | Puan: 1/3 | EMA200 UST"
-  },
-  {
-   "sembol": "KENT",
-   "fiyat": 355.0,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.99)",
-   "detay": "Hacim: 1.8x | Puan: 0/3"
+   "tur": "TAVAN (%+9.93)",
+   "detay": "Hacim: 1.7x | Puan: 0/3"
   }
  ]
 }
