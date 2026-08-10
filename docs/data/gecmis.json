@@ -4608,5 +4608,35 @@
   "sistem": "donus",
   "tarih": "2026-08-07",
   "zaman": "2026-08-07 16:13"
+ },
+ {
+  "sembol": "BRYAT",
+  "fiyat": 1912.0,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %8.21 | Hacim: 4.9x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 15:30"
+ },
+ {
+  "sembol": "BRSAN",
+  "fiyat": 629.0,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %9.97 | Hacim: 3.1x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 15:30"
+ },
+ {
+  "sembol": "TKFEN",
+  "fiyat": 221.9,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %6.17 | Hacim: 2.4x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 15:30"
  }
 ]
