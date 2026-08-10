@@ -4764,5 +4764,115 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-08-10",
   "zaman": "2026-08-10 16:08"
+ },
+ {
+  "sembol": "KRPLS",
+  "fiyat": 10.29,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.94)",
+  "detay": "Hacim: 5.3x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "CRFSA",
+  "fiyat": 231.5,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.98)",
+  "detay": "Hacim: 4.6x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "CUSAN",
+  "fiyat": 27.22,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.94)",
+  "detay": "Hacim: 3.3x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "BRSAN",
+  "fiyat": 629.0,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.97)",
+  "detay": "Hacim: 3.1x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "FORTE",
+  "fiyat": 124.6,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.97)",
+  "detay": "Hacim: 2.9x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "SAYAS",
+  "fiyat": 57.55,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.93)",
+  "detay": "Hacim: 2.6x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "ISGSY",
+  "fiyat": 20.92,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.99)",
+  "detay": "Hacim: 2.3x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "EUHOL",
+  "fiyat": 11.68,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.98)",
+  "detay": "Hacim: 1.1x | Puan: 2/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "KRGYO",
+  "fiyat": 2.72,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+9.24)",
+  "detay": "Hacim: 10.3x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "SKYLP",
+  "fiyat": 271.25,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.73)",
+  "detay": "Hacim: 0.9x | Puan: 1/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
+ },
+ {
+  "sembol": "DERHL",
+  "fiyat": 2.36,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.57)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-08-10",
+  "zaman": "2026-08-10 16:11"
  }
 ]
