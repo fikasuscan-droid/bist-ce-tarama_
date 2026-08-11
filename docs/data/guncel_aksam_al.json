@@ -1,27 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-10 15:30",
+ "zaman": "2026-08-11 15:27",
  "sinyaller": [
   {
-   "sembol": "BRYAT",
-   "fiyat": 1912.0,
+   "sembol": "SASA",
+   "fiyat": 2.36,
    "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %8.21 | Hacim: 4.9x | Sabah %2-3 gorunce sat"
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.29 | Hacim: 11.4x"
   },
   {
-   "sembol": "BRSAN",
-   "fiyat": 629.0,
+   "sembol": "CWENE",
+   "fiyat": 41.22,
    "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %9.97 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "TKFEN",
-   "fiyat": 221.9,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %6.17 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %5.69 | Hacim: 2.2x"
   }
  ]
 }

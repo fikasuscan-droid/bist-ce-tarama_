@@ -5224,5 +5224,25 @@
   "sistem": "donus",
   "tarih": "2026-08-10",
   "zaman": "2026-08-10 16:14"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.36,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.29 | Hacim: 11.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-11",
+  "zaman": "2026-08-11 15:27"
+ },
+ {
+  "sembol": "CWENE",
+  "fiyat": 41.22,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %5.69 | Hacim: 2.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-11",
+  "zaman": "2026-08-11 15:27"
  }
 ]
