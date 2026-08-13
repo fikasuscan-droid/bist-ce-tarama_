@@ -1,55 +1,5 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-12 15:27",
- "sinyaller": [
-  {
-   "sembol": "GENIL",
-   "fiyat": 11.39,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %5.86 | Hacim: 3.7x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "DOAS",
-   "fiyat": 194.4,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %0.26 | Hacim: 2.6x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "OTKAR",
-   "fiyat": 320.25,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %9.96 | Hacim: 2.5x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "ECILC",
-   "fiyat": 76.0,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %8.11 | Hacim: 2.2x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "AKSEN",
-   "fiyat": 82.3,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %4.44 | Hacim: 9.2x"
-  },
-  {
-   "sembol": "DOHOL",
-   "fiyat": 21.56,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %3.65 | Hacim: 3.2x"
-  },
-  {
-   "sembol": "OYAKC",
-   "fiyat": 21.52,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %3.26 | Hacim: 2.3x"
-  }
- ]
+ "zaman": "2026-08-13 15:29",
+ "sinyaller": []
 }
