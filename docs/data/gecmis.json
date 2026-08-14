@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "ASUZU",
-  "fiyat": 50.9,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "CiftTepe + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-07-31",
-  "zaman": "2026-07-31 16:26"
- },
- {
-  "sembol": "AVHOL",
-  "fiyat": 39.0,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-07-31",
-  "zaman": "2026-07-31 16:26"
- },
- {
   "sembol": "EUHOL",
   "fiyat": 10.0,
   "yon": "AL",
@@ -5286,5 +5266,25 @@
   "sistem": "donus",
   "tarih": "2026-08-13",
   "zaman": "2026-08-13 16:15"
+ },
+ {
+  "sembol": "BRSAN",
+  "fiyat": 662.5,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %5.49 | Hacim: 2.8x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-14",
+  "zaman": "2026-08-14 15:13"
+ },
+ {
+  "sembol": "AEFES",
+  "fiyat": 19.24,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-0.05 | Hacim: 2.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-14",
+  "zaman": "2026-08-14 15:13"
  }
 ]
