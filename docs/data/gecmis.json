@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "ESCOM",
-  "fiyat": 5.33,
-  "yon": "SAT",
-  "tur": "ZAYIF SAT (Sadece CE)",
-  "detay": "ADX: 27.8",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-07-31",
-  "zaman": "2026-07-31 16:31"
- },
- {
-  "sembol": "HLGYO",
-  "fiyat": 4.62,
-  "yon": "SAT",
-  "tur": "ZAYIF SAT (Sadece CE)",
-  "detay": "ADX: 32.4",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-07-31",
-  "zaman": "2026-07-31 16:31"
- },
- {
-  "sembol": "ISGSY",
-  "fiyat": 16.21,
-  "yon": "SAT",
-  "tur": "ZAYIF SAT (Sadece CE)",
-  "detay": "ADX: 22.9",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-07-31",
-  "zaman": "2026-07-31 16:31"
- },
- {
   "sembol": "LIDER",
   "fiyat": 97.35,
   "yon": "AL",
@@ -5322,5 +5292,47 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-08-14",
   "zaman": "2026-08-14 16:02"
+ },
+ {
+  "sembol": "GOODY",
+  "fiyat": 3.02,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.0x",
+  "sl": 2.44,
+  "tp1": 3.51,
+  "tp2": 3.84,
+  "tp3": 4.34,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-08-14",
+  "zaman": "2026-08-14 16:04"
+ },
+ {
+  "sembol": "CEMTS",
+  "fiyat": 8.89,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 0.8x",
+  "sl": 8.72,
+  "tp1": 9.8,
+  "tp2": 10.4,
+  "tp3": 11.31,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-08-14",
+  "zaman": "2026-08-14 16:04"
+ },
+ {
+  "sembol": "SNGYO",
+  "fiyat": 3.24,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+  "sl": 3.11,
+  "tp1": 3.69,
+  "tp2": 3.99,
+  "tp3": 4.44,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-08-14",
+  "zaman": "2026-08-14 16:04"
  }
 ]
