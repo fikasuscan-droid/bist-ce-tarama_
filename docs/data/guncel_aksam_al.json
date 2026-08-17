@@ -1,20 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-14 15:13",
+ "zaman": "2026-08-17 14:52",
  "sinyaller": [
   {
-   "sembol": "BRSAN",
-   "fiyat": 662.5,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %5.49 | Hacim: 2.8x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "AEFES",
-   "fiyat": 19.24,
+   "sembol": "SKBNK",
+   "fiyat": 6.14,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %-0.05 | Hacim: 2.0x"
+   "detay": "Degisim: %2.85 | Hacim: 2.5x"
+  },
+  {
+   "sembol": "KRDMD",
+   "fiyat": 45.62,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %9.98 | Hacim: 2.2x"
   }
  ]
 }

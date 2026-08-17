@@ -1,33 +1,5 @@
 [
  {
-  "sembol": "TSKB",
-  "fiyat": 11.22,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.4x",
-  "sl": 10.77,
-  "tp1": 11.67,
-  "tp2": 11.98,
-  "tp3": 12.43,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-08-03",
-  "zaman": "2026-08-03 17:18"
- },
- {
-  "sembol": "NUHCM",
-  "fiyat": 221.5,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.2x",
-  "sl": 214.1,
-  "tp1": 227.91,
-  "tp2": 232.18,
-  "tp3": 238.59,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-08-03",
-  "zaman": "2026-08-03 17:18"
- },
- {
   "sembol": "EKGYO",
   "fiyat": 18.19,
   "yon": "AL",
@@ -5294,5 +5266,25 @@
   "sistem": "donus",
   "tarih": "2026-08-14",
   "zaman": "2026-08-14 16:10"
+ },
+ {
+  "sembol": "SKBNK",
+  "fiyat": 6.14,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %2.85 | Hacim: 2.5x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-17",
+  "zaman": "2026-08-17 14:52"
+ },
+ {
+  "sembol": "KRDMD",
+  "fiyat": 45.62,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.98 | Hacim: 2.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-17",
+  "zaman": "2026-08-17 14:52"
  }
 ]
