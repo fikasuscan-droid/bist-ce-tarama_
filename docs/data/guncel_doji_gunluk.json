@@ -1,83 +1,50 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-08-17 15:36",
+ "zaman": "2026-08-18 15:43",
  "sinyaller": [
   {
-   "sembol": "PARSN",
-   "fiyat": 72.05,
+   "sembol": "BASGZ",
+   "fiyat": 44.7,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.4x",
-   "sl": 70.9,
-   "tp1": 75.24,
-   "tp2": 77.37,
-   "tp3": 80.56
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 2.8x",
+   "sl": 42.64,
+   "tp1": 46.42,
+   "tp2": 47.56,
+   "tp3": 49.28
   },
   {
-   "sembol": "BTCIM",
-   "fiyat": 4.79,
+   "sembol": "PETKM",
+   "fiyat": 19.82,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.8x",
-   "sl": 4.65,
-   "tp1": 5.1,
-   "tp2": 5.31,
-   "tp3": 5.63
+   "detay": "Doji | CE: ASAGI | Hacim: 1.0x",
+   "sl": 18.97,
+   "tp1": 20.96,
+   "tp2": 21.72,
+   "tp3": 22.86
   },
   {
-   "sembol": "ODAS",
-   "fiyat": 7.68,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.7x",
-   "sl": 7.36,
-   "tp1": 8.19,
-   "tp2": 8.54,
-   "tp3": 9.05
-  },
-  {
-   "sembol": "HATEK",
-   "fiyat": 12.46,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.5x",
-   "sl": 11.78,
-   "tp1": 13.84,
-   "tp2": 14.76,
-   "tp3": 16.14
-  },
-  {
-   "sembol": "PRKAB",
-   "fiyat": 33.5,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.3x",
-   "sl": 33.02,
-   "tp1": 35.78,
-   "tp2": 37.3,
-   "tp3": 39.59
-  },
-  {
-   "sembol": "DOCO",
-   "fiyat": 11540.0,
+   "sembol": "ECILC",
+   "fiyat": 74.2,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.1x",
-   "sl": 11715.0,
-   "tp1": 11097.23,
-   "tp2": 10802.05,
-   "tp3": 10359.29
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
+   "sl": 79.05,
+   "tp1": 69.68,
+   "tp2": 66.66,
+   "tp3": 62.14
   },
   {
-   "sembol": "YKBNK",
-   "fiyat": 34.92,
+   "sembol": "AYGAZ",
+   "fiyat": 310.5,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
    "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
-   "sl": 35.82,
-   "tp1": 32.98,
-   "tp2": 31.69,
-   "tp3": 29.75
+   "sl": 317.0,
+   "tp1": 289.79,
+   "tp2": 275.99,
+   "tp3": 255.29
   }
  ]
 }
