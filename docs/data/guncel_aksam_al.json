@@ -1,20 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-17 14:52",
+ "zaman": "2026-08-18 15:00",
  "sinyaller": [
   {
-   "sembol": "SKBNK",
-   "fiyat": 6.14,
+   "sembol": "ENKAI",
+   "fiyat": 81.3,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %2.85 | Hacim: 2.5x"
+   "detay": "Degisim: %1.43 | Hacim: 2.4x"
   },
   {
-   "sembol": "KRDMD",
-   "fiyat": 45.62,
+   "sembol": "BIMAS",
+   "fiyat": 405.75,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %9.98 | Hacim: 2.2x"
+   "detay": "Degisim: %6.22 | Hacim: 2.2x"
   }
  ]
 }

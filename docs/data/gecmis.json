@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "BURVA",
-  "fiyat": 853.0,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.99)",
-  "detay": "Hacim: 2.3x | Puan: 2/3 | EMA200 UST",
-  "sistem": "tavan",
-  "tarih": "2026-08-04",
-  "zaman": "2026-08-04 17:05"
- },
- {
-  "sembol": "HEDEF",
-  "fiyat": 366.0,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.58)",
-  "detay": "Hacim: 0.8x | Puan: 2/3 | EMA200 UST | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-04",
-  "zaman": "2026-08-04 17:05"
- },
- {
   "sembol": "KRTEK",
   "fiyat": 6.65,
   "yon": "AL",
@@ -5282,5 +5262,25 @@
   "sistem": "donus",
   "tarih": "2026-08-17",
   "zaman": "2026-08-17 15:47"
+ },
+ {
+  "sembol": "ENKAI",
+  "fiyat": 81.3,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.43 | Hacim: 2.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-18",
+  "zaman": "2026-08-18 15:00"
+ },
+ {
+  "sembol": "BIMAS",
+  "fiyat": 405.75,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %6.22 | Hacim: 2.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-18",
+  "zaman": "2026-08-18 15:00"
  }
 ]
