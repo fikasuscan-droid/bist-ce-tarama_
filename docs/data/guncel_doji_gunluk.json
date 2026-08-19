@@ -1,50 +1,94 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-08-18 15:43",
+ "zaman": "2026-08-19 15:42",
  "sinyaller": [
   {
-   "sembol": "BASGZ",
-   "fiyat": 44.7,
+   "sembol": "BRISA",
+   "fiyat": 79.35,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 2.8x",
-   "sl": 42.64,
-   "tp1": 46.42,
-   "tp2": 47.56,
-   "tp3": 49.28
+   "detay": "Doji | CE: ASAGI | Hacim: 2.0x",
+   "sl": 78.15,
+   "tp1": 83.0,
+   "tp2": 85.44,
+   "tp3": 89.09
   },
   {
-   "sembol": "PETKM",
-   "fiyat": 19.82,
+   "sembol": "EGEEN",
+   "fiyat": 5275.0,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.1x",
+   "sl": 5212.5,
+   "tp1": 5426.34,
+   "tp2": 5527.23,
+   "tp3": 5678.57
+  },
+  {
+   "sembol": "TSKB",
+   "fiyat": 11.05,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.1x",
+   "sl": 10.85,
+   "tp1": 11.4,
+   "tp2": 11.64,
+   "tp3": 11.99
+  },
+  {
+   "sembol": "EREGL",
+   "fiyat": 37.76,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
    "detay": "Doji | CE: ASAGI | Hacim: 1.0x",
-   "sl": 18.97,
-   "tp1": 20.96,
-   "tp2": 21.72,
-   "tp3": 22.86
+   "sl": 37.36,
+   "tp1": 39.82,
+   "tp2": 41.19,
+   "tp3": 43.25
   },
   {
-   "sembol": "ECILC",
-   "fiyat": 74.2,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
-   "sl": 79.05,
-   "tp1": 69.68,
-   "tp2": 66.66,
-   "tp3": 62.14
+   "sembol": "TOASO",
+   "fiyat": 270.0,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 264.5,
+   "tp1": 284.04,
+   "tp2": 293.39,
+   "tp3": 307.43
   },
   {
-   "sembol": "AYGAZ",
-   "fiyat": 310.5,
+   "sembol": "AKSEN",
+   "fiyat": 85.6,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.6x",
+   "sl": 82.9,
+   "tp1": 92.9,
+   "tp2": 97.77,
+   "tp3": 105.07
+  },
+  {
+   "sembol": "SNGYO",
+   "fiyat": 3.19,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Doji | CE: ASAGI | Hacim: 0.5x",
+   "sl": 3.1,
+   "tp1": 3.36,
+   "tp2": 3.48,
+   "tp3": 3.65
+  },
+  {
+   "sembol": "TKFEN",
+   "fiyat": 231.0,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
-   "sl": 317.0,
-   "tp1": 289.79,
-   "tp2": 275.99,
-   "tp3": 255.29
+   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.8x",
+   "sl": 234.9,
+   "tp1": 208.7,
+   "tp2": 193.84,
+   "tp3": 171.54
   }
  ]
 }
