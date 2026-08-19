@@ -1,55 +1,5 @@
 [
  {
-  "sembol": "GRTHO",
-  "fiyat": 240.5,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (4/6)",
-  "detay": "Diverjans + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-08-05",
-  "zaman": "2026-08-05 16:57"
- },
- {
-  "sembol": "HUBVC",
-  "fiyat": 2.76,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-08-05",
-  "zaman": "2026-08-05 16:57"
- },
- {
-  "sembol": "SEKUR",
-  "fiyat": 11.29,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Mum + CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-05",
-  "zaman": "2026-08-05 16:57"
- },
- {
-  "sembol": "ULUUN",
-  "fiyat": 7.96,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (4/6)",
-  "detay": "Diverjans + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-08-05",
-  "zaman": "2026-08-05 16:57"
- },
- {
-  "sembol": "BRSAN",
-  "fiyat": 575.5,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + CE",
-  "sistem": "donus",
-  "tarih": "2026-08-05",
-  "zaman": "2026-08-05 16:57"
- },
- {
   "sembol": "ENJSA",
   "fiyat": 113.0,
   "yon": "SAT",
@@ -5286,5 +5236,55 @@
   "sistem": "donus",
   "tarih": "2026-08-18",
   "zaman": "2026-08-18 15:53"
+ },
+ {
+  "sembol": "ULKER",
+  "fiyat": 98.35,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %7.49 | Hacim: 5.0x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-19",
+  "zaman": "2026-08-19 15:01"
+ },
+ {
+  "sembol": "BIENY",
+  "fiyat": 21.96,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %1.29 | Hacim: 3.4x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-19",
+  "zaman": "2026-08-19 15:01"
+ },
+ {
+  "sembol": "KLKIM",
+  "fiyat": 26.9,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %2.59 | Hacim: 3.1x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-19",
+  "zaman": "2026-08-19 15:01"
+ },
+ {
+  "sembol": "ALARK",
+  "fiyat": 113.2,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %5.79 | Hacim: 2.9x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-19",
+  "zaman": "2026-08-19 15:01"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.28,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.33 | Hacim: 10.8x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-19",
+  "zaman": "2026-08-19 15:01"
  }
 ]
