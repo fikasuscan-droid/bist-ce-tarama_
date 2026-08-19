@@ -1161,8 +1161,8 @@
   "kalite": 2,
   "t1": -9.93,
   "t3": -13.48,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -14.89,
+  "tamamlandi": true
  },
  {
   "sembol": "TKFEN",
@@ -1176,8 +1176,8 @@
   "kalite": 2,
   "t1": -4.94,
   "t3": -4.44,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -4.94,
+  "tamamlandi": true
  },
  {
   "sembol": "ASTOR",
@@ -1191,8 +1191,8 @@
   "kalite": 2,
   "t1": 4.14,
   "t3": 2.34,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -0.08,
+  "tamamlandi": true
  },
  {
   "sembol": "CRFSA",
@@ -1206,8 +1206,8 @@
   "kalite": 2,
   "t1": 9.92,
   "t3": 8.85,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -8.76,
+  "tamamlandi": true
  },
  {
   "sembol": "SONME",
@@ -1221,8 +1221,8 @@
   "kalite": 1,
   "t1": 2.28,
   "t3": 2.13,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 13.23,
+  "tamamlandi": true
  },
  {
   "sembol": "OTKAR",
@@ -1236,8 +1236,8 @@
   "kalite": 1,
   "t1": 0.16,
   "t3": -1.01,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 0.94,
+  "tamamlandi": true
  },
  {
   "sembol": "KGYO",
@@ -1251,8 +1251,8 @@
   "kalite": 1,
   "t1": 9.93,
   "t3": 21.01,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 8.95,
+  "tamamlandi": true
  },
  {
   "sembol": "GEREL",
@@ -1266,8 +1266,8 @@
   "kalite": 1,
   "t1": 1.54,
   "t3": 3.57,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -5.2,
+  "tamamlandi": true
  },
  {
   "sembol": "KORDS",
@@ -1281,8 +1281,8 @@
   "kalite": 1,
   "t1": 9.95,
   "t3": 24.97,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 21.21,
+  "tamamlandi": true
  },
  {
   "sembol": "PRZMA",
@@ -1296,8 +1296,8 @@
   "kalite": 1,
   "t1": 9.28,
   "t3": 24.53,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 32.55,
+  "tamamlandi": true
  },
  {
   "sembol": "ETILR",
@@ -1311,8 +1311,8 @@
   "kalite": 1,
   "t1": 3.99,
   "t3": 9.19,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 5.37,
+  "tamamlandi": true
  },
  {
   "sembol": "KGYO",
@@ -1445,7 +1445,7 @@
   "ce_yukari": true,
   "kalite": 3,
   "t1": -0.0,
-  "t3": null,
+  "t3": -8.28,
   "t5": null,
   "tamamlandi": false
  },
@@ -1460,7 +1460,7 @@
   "ce_yukari": true,
   "kalite": 3,
   "t1": -9.98,
-  "t3": null,
+  "t3": -24.54,
   "t5": null,
   "tamamlandi": false
  },
@@ -1475,7 +1475,7 @@
   "ce_yukari": true,
   "kalite": 3,
   "t1": 0.7,
-  "t3": null,
+  "t3": -3.48,
   "t5": null,
   "tamamlandi": false
  },
@@ -1490,7 +1490,7 @@
   "ce_yukari": true,
   "kalite": 3,
   "t1": 3.38,
-  "t3": null,
+  "t3": 0.27,
   "t5": null,
   "tamamlandi": false
  },
@@ -1505,7 +1505,7 @@
   "ce_yukari": false,
   "kalite": 2,
   "t1": 2.98,
-  "t3": null,
+  "t3": -79.55,
   "t5": null,
   "tamamlandi": false
  },
@@ -1520,7 +1520,7 @@
   "ce_yukari": true,
   "kalite": 2,
   "t1": -3.61,
-  "t3": null,
+  "t3": -5.38,
   "t5": null,
   "tamamlandi": false
  },
@@ -1535,7 +1535,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 0.29,
-  "t3": null,
+  "t3": 0.88,
   "t5": null,
   "tamamlandi": false
  },
@@ -1550,7 +1550,7 @@
   "ce_yukari": true,
   "kalite": 1,
   "t1": -9.58,
-  "t3": null,
+  "t3": -16.93,
   "t5": null,
   "tamamlandi": false
  },
@@ -1565,7 +1565,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": -2.96,
-  "t3": null,
+  "t3": 10.06,
   "t5": null,
   "tamamlandi": false
  },
@@ -1580,7 +1580,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 1.38,
-  "t3": null,
+  "t3": -5.17,
   "t5": null,
   "tamamlandi": false
  },
@@ -1595,7 +1595,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -5.46,
-  "t3": null,
+  "t3": -6.18,
   "t5": null,
   "tamamlandi": false
  },
@@ -1714,7 +1714,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": 0.78,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -1729,7 +1729,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": 9.99,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -1744,7 +1744,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": -2.76,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -1759,7 +1759,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 2,
-  "t1": null,
+  "t1": -2.77,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -1774,7 +1774,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": 1.72,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -1789,7 +1789,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": -3.21,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -1804,7 +1804,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": 9.91,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -1816,6 +1816,81 @@
   "tam_tavan": true,
   "degisim": 9.82,
   "hacim_kat": 0.9,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": 3.28,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "NETAS",
+  "tarih": "2026-08-19",
+  "fiyat": 82.6,
+  "tam_tavan": true,
+  "degisim": 9.99,
+  "hacim_kat": 7.7,
+  "ema200_ust": true,
+  "ce_yukari": true,
+  "kalite": 3,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "DOKTA",
+  "tarih": "2026-08-19",
+  "fiyat": 25.12,
+  "tam_tavan": true,
+  "degisim": 9.98,
+  "hacim_kat": 4.8,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "BJKAS",
+  "tarih": "2026-08-19",
+  "fiyat": 2.44,
+  "tam_tavan": true,
+  "degisim": 9.91,
+  "hacim_kat": 1.9,
+  "ema200_ust": true,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "ALTNY",
+  "tarih": "2026-08-19",
+  "fiyat": 17.12,
+  "tam_tavan": true,
+  "degisim": 9.96,
+  "hacim_kat": 1.9,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "GUBRF",
+  "tarih": "2026-08-19",
+  "fiyat": 471.75,
+  "tam_tavan": true,
+  "degisim": 9.97,
+  "hacim_kat": 1.6,
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
