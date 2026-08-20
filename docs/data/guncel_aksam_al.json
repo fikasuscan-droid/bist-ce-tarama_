@@ -1,41 +1,27 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-19 15:01",
+ "zaman": "2026-08-20 15:03",
  "sinyaller": [
   {
-   "sembol": "ULKER",
-   "fiyat": 98.35,
+   "sembol": "ALTNY",
+   "fiyat": 18.74,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %7.49 | Hacim: 5.0x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "BIENY",
-   "fiyat": 21.96,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %1.29 | Hacim: 3.4x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %9.46 | Hacim: 5.0x | Sabah %2-3 gorunce sat"
   },
   {
    "sembol": "KLKIM",
-   "fiyat": 26.9,
+   "fiyat": 28.26,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %2.59 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %5.06 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "ALARK",
-   "fiyat": 113.2,
+   "sembol": "GENIL",
+   "fiyat": 11.92,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %5.79 | Hacim: 2.9x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "SASA",
-   "fiyat": 2.28,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %1.33 | Hacim: 10.8x"
+   "detay": "Degisim: %7.0 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
   }
  ]
 }

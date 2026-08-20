@@ -1,43 +1,5 @@
 [
  {
-  "sembol": "KCAER",
-  "fiyat": 14.9,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.7x",
-  "sl": 16.32,
-  "tp1": 12.76,
-  "tp2": 11.33,
-  "tp3": 9.19,
-  "sistem": "doji_haftalik",
-  "tarih": "2026-08-07",
-  "zaman": "2026-08-07 16:08"
- },
- {
-  "sembol": "KRDMB",
-  "fiyat": 126.1,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.2x",
-  "sl": 137.3,
-  "tp1": 106.64,
-  "tp2": 93.66,
-  "tp3": 74.2,
-  "sistem": "doji_haftalik",
-  "tarih": "2026-08-07",
-  "zaman": "2026-08-07 16:08"
- },
- {
-  "sembol": "BNTAS",
-  "fiyat": 6.8,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+8.63)",
-  "detay": "Hacim: 4.7x | Puan: 2/3 | EMA200 UST",
-  "sistem": "tavan",
-  "tarih": "2026-08-07",
-  "zaman": "2026-08-07 16:11"
- },
- {
   "sembol": "ISBIR",
   "fiyat": 75.75,
   "yon": "AL",
@@ -5270,5 +5232,35 @@
   "sistem": "donus",
   "tarih": "2026-08-19",
   "zaman": "2026-08-19 15:53"
+ },
+ {
+  "sembol": "ALTNY",
+  "fiyat": 18.74,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %9.46 | Hacim: 5.0x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-20",
+  "zaman": "2026-08-20 15:03"
+ },
+ {
+  "sembol": "KLKIM",
+  "fiyat": 28.26,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %5.06 | Hacim: 3.1x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-20",
+  "zaman": "2026-08-20 15:03"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": 11.92,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %7.0 | Hacim: 2.4x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-20",
+  "zaman": "2026-08-20 15:03"
  }
 ]
