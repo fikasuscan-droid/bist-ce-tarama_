@@ -1,27 +1,41 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-20 15:03",
+ "zaman": "2026-08-21 15:01",
  "sinyaller": [
   {
    "sembol": "ALTNY",
-   "fiyat": 18.74,
+   "fiyat": 19.01,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %9.46 | Hacim: 5.0x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %2.04 | Hacim: 3.8x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "GUBRF",
+   "fiyat": 475.25,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %2.7 | Hacim: 2.5x | Sabah %2-3 gorunce sat"
   },
   {
    "sembol": "KLKIM",
-   "fiyat": 28.26,
+   "fiyat": 28.6,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %5.06 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %2.58 | Hacim: 2.3x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "GENIL",
-   "fiyat": 11.92,
+   "sembol": "SASA",
+   "fiyat": 2.32,
    "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %7.0 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %2.2 | Hacim: 11.3x"
+  },
+  {
+   "sembol": "BERA",
+   "fiyat": 14.15,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %6.63 | Hacim: 3.3x"
   }
  ]
 }
