@@ -1,45 +1,5 @@
 [
  {
-  "sembol": "BRSAN",
-  "fiyat": 629.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Diverjans + CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "EMNIS",
-  "fiyat": 169.5,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Diverjans + CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "KRGYO",
-  "fiyat": 2.72,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Mum + Diverjans + CE + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "SAYAS",
-  "fiyat": 57.55,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Diverjans + CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
   "sembol": "ANSGR",
   "fiyat": 29.38,
   "yon": "AL",
@@ -5246,5 +5206,61 @@
   "sistem": "haftalik_ce",
   "tarih": "2026-08-21",
   "zaman": "2026-08-21 15:25"
+ },
+ {
+  "sembol": "KLSER",
+  "fiyat": 25.3,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 6.3x",
+  "sl": 24.36,
+  "tp1": 26.34,
+  "tp2": 27.03,
+  "tp3": 28.07,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:45"
+ },
+ {
+  "sembol": "KATMR",
+  "fiyat": 2.11,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
+  "sl": 2.07,
+  "tp1": 2.21,
+  "tp2": 2.28,
+  "tp3": 2.38,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:45"
+ },
+ {
+  "sembol": "DGATE",
+  "fiyat": 103.7,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 0.6x",
+  "sl": 100.5,
+  "tp1": 113.91,
+  "tp2": 120.72,
+  "tp3": 130.93,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:45"
+ },
+ {
+  "sembol": "EGGUB",
+  "fiyat": 103.7,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 1.6x",
+  "sl": 106.0,
+  "tp1": 98.17,
+  "tp2": 94.48,
+  "tp3": 88.94,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:45"
  }
 ]
