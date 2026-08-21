@@ -1,97 +1,48 @@
 {
  "sistem": "tavan",
- "zaman": "2026-08-20 15:51",
+ "zaman": "2026-08-21 15:51",
  "sinyaller": [
   {
    "sembol": "NETAS",
-   "fiyat": 90.85,
+   "fiyat": 99.15,
    "yon": "AL",
-   "tur": "TAVAN (%+9.99)",
-   "detay": "Hacim: 11.4x | Puan: 3/3 | EMA200 UST | CE YUK"
-  },
-  {
-   "sembol": "GENIL",
-   "fiyat": 12.09,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+8.53)",
-   "detay": "Hacim: 2.5x | Puan: 3/3 | EMA200 UST | CE YUK"
-  },
-  {
-   "sembol": "ALTNY",
-   "fiyat": 18.63,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+8.82)",
-   "detay": "Hacim: 5.7x | Puan: 2/3 | EMA200 UST"
-  },
-  {
-   "sembol": "PCILT",
-   "fiyat": 35.06,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.97)",
-   "detay": "Hacim: 4.4x | Puan: 2/3 | EMA200 UST"
-  },
-  {
-   "sembol": "ONCSM",
-   "fiyat": 255.75,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.91)",
-   "detay": "Hacim: 4.2x | Puan: 2/3 | EMA200 UST"
-  },
-  {
-   "sembol": "DNISI",
-   "fiyat": 4.82,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.79)",
-   "detay": "Hacim: 2.5x | Puan: 2/3 | EMA200 UST"
+   "tur": "GUCLU YUKSELIS (%+9.14)",
+   "detay": "Hacim: 8.0x | Puan: 3/3 | EMA200 UST | CE YUK"
   },
   {
    "sembol": "BJKAS",
-   "fiyat": 2.68,
+   "fiyat": 2.94,
    "yon": "AL",
-   "tur": "TAVAN (%+9.84)",
-   "detay": "Hacim: 1.4x | Puan: 2/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+9.70)",
+   "detay": "Hacim: 7.2x | Puan: 3/3 | EMA200 UST | CE YUK"
   },
   {
-   "sembol": "PASEU",
-   "fiyat": 202.3,
+   "sembol": "PAGYO",
+   "fiyat": 168.6,
    "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+8.76)",
-   "detay": "Hacim: 1.1x | Puan: 2/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+9.77)",
+   "detay": "Hacim: 3.9x | Puan: 2/3 | EMA200 UST"
   },
   {
-   "sembol": "OZKGY",
-   "fiyat": 13.25,
+   "sembol": "NIBAS",
+   "fiyat": 3.85,
    "yon": "AL",
-   "tur": "TAVAN (%+9.96)",
-   "detay": "Hacim: 5.9x | Puan: 1/3"
+   "tur": "TAVAN (%+10.00)",
+   "detay": "Hacim: 3.0x | Puan: 1/3"
   },
   {
    "sembol": "SANEL",
-   "fiyat": 58.3,
+   "fiyat": 64.1,
    "yon": "AL",
-   "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 1.9x | Puan: 1/3 | EMA200 UST"
-  },
-  {
-   "sembol": "CRFSA",
-   "fiyat": 280.75,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.99)",
+   "tur": "TAVAN (%+9.95)",
    "detay": "Hacim: 1.8x | Puan: 1/3 | EMA200 UST"
   },
   {
-   "sembol": "JANTS",
-   "fiyat": 16.52,
+   "sembol": "HATEK",
+   "fiyat": 14.11,
    "yon": "AL",
-   "tur": "TAVAN (%+9.99)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "ALFAS",
-   "fiyat": 43.46,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.97)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
+   "tur": "TAVAN (%+9.98)",
+   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
   }
  ]
 }

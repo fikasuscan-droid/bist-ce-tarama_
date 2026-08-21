@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "ULUUN",
-  "fiyat": 8.14,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (4/6)",
-  "detay": "Diverjans + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "ALARK",
-  "fiyat": 107.0,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "CiftTepe + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "ALTNY",
-  "fiyat": 16.2,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + CE",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "BRYAT",
-  "fiyat": 1912.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "CWENE",
-  "fiyat": 39.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
-  "sembol": "ECZYT",
-  "fiyat": 322.75,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-08-10",
-  "zaman": "2026-08-10 16:14"
- },
- {
   "sembol": "EREGL",
   "fiyat": 36.88,
   "yon": "SAT",
@@ -5290,5 +5230,65 @@
   "sistem": "doji_haftalik",
   "tarih": "2026-08-21",
   "zaman": "2026-08-21 15:46"
+ },
+ {
+  "sembol": "NETAS",
+  "fiyat": 99.15,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+9.14)",
+  "detay": "Hacim: 8.0x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:51"
+ },
+ {
+  "sembol": "BJKAS",
+  "fiyat": 2.94,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.70)",
+  "detay": "Hacim: 7.2x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:51"
+ },
+ {
+  "sembol": "PAGYO",
+  "fiyat": 168.6,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.77)",
+  "detay": "Hacim: 3.9x | Puan: 2/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:51"
+ },
+ {
+  "sembol": "NIBAS",
+  "fiyat": 3.85,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 3.0x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:51"
+ },
+ {
+  "sembol": "SANEL",
+  "fiyat": 64.1,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.95)",
+  "detay": "Hacim: 1.8x | Puan: 1/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:51"
+ },
+ {
+  "sembol": "HATEK",
+  "fiyat": 14.11,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.98)",
+  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-21",
+  "zaman": "2026-08-21 15:51"
  }
 ]
