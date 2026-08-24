@@ -1,50 +1,61 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-08-21 15:45",
+ "zaman": "2026-08-24 15:52",
  "sinyaller": [
   {
-   "sembol": "KLSER",
-   "fiyat": 25.3,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 6.3x",
-   "sl": 24.36,
-   "tp1": 26.34,
-   "tp2": 27.03,
-   "tp3": 28.07
-  },
-  {
-   "sembol": "KATMR",
-   "fiyat": 2.11,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
-   "sl": 2.07,
-   "tp1": 2.21,
-   "tp2": 2.28,
-   "tp3": 2.38
-  },
-  {
-   "sembol": "DGATE",
-   "fiyat": 103.7,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.6x",
-   "sl": 100.5,
-   "tp1": 113.91,
-   "tp2": 120.72,
-   "tp3": 130.93
-  },
-  {
-   "sembol": "EGGUB",
-   "fiyat": 103.7,
+   "sembol": "FENER",
+   "fiyat": 3.13,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 1.6x",
-   "sl": 106.0,
-   "tp1": 98.17,
-   "tp2": 94.48,
-   "tp3": 88.94
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.6x",
+   "sl": 3.22,
+   "tp1": 2.96,
+   "tp2": 2.85,
+   "tp3": 2.68
+  },
+  {
+   "sembol": "ASELS",
+   "fiyat": 399.75,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.9x",
+   "sl": 408.0,
+   "tp1": 374.87,
+   "tp2": 358.28,
+   "tp3": 333.39
+  },
+  {
+   "sembol": "BAGFS",
+   "fiyat": 26.6,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.8x",
+   "sl": 26.9,
+   "tp1": 25.33,
+   "tp2": 24.48,
+   "tp3": 23.2
+  },
+  {
+   "sembol": "GENIL",
+   "fiyat": 11.9,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.7x",
+   "sl": 12.66,
+   "tp1": 10.82,
+   "tp2": 10.09,
+   "tp3": 9.01
+  },
+  {
+   "sembol": "ZRGYO",
+   "fiyat": 19.79,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.7x",
+   "sl": 19.91,
+   "tp1": 18.98,
+   "tp2": 18.44,
+   "tp3": 17.63
   }
  ]
 }
