@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "CRFSA",
-  "fiyat": 254.5,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.94)",
-  "detay": "Hacim: 1.7x | Puan: 2/3 | EMA200 UST | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-11",
-  "zaman": "2026-08-11 16:12"
- },
- {
-  "sembol": "KTLEV",
-  "fiyat": 48.94,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.98)",
-  "detay": "Hacim: 1.2x | Puan: 2/3 | EMA200 UST | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-11",
-  "zaman": "2026-08-11 16:12"
- },
- {
-  "sembol": "IMASM",
-  "fiyat": 2.57,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.83)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-11",
-  "zaman": "2026-08-11 16:12"
- },
- {
-  "sembol": "DESPC",
-  "fiyat": 41.46,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.97)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-11",
-  "zaman": "2026-08-11 16:12"
- },
- {
-  "sembol": "BRSAN",
-  "fiyat": 632.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Diverjans + CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-11",
-  "zaman": "2026-08-11 16:16"
- },
- {
-  "sembol": "DEVA",
-  "fiyat": 72.85,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Diverjans + CiftDip + CE",
-  "sistem": "donus",
-  "tarih": "2026-08-11",
-  "zaman": "2026-08-11 16:16"
- },
- {
   "sembol": "EMNIS",
   "fiyat": 166.1,
   "yon": "AL",
@@ -5290,5 +5230,65 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-08-24",
   "zaman": "2026-08-24 15:52"
+ },
+ {
+  "sembol": "BRSAN",
+  "fiyat": 753.0,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+9.05)",
+  "detay": "Hacim: 2.2x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-24",
+  "zaman": "2026-08-24 15:59"
+ },
+ {
+  "sembol": "PASEU",
+  "fiyat": 220.0,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+8.75)",
+  "detay": "Hacim: 0.9x | Puan: 2/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-24",
+  "zaman": "2026-08-24 15:59"
+ },
+ {
+  "sembol": "PLTUR",
+  "fiyat": 22.56,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.94)",
+  "detay": "Hacim: 7.5x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-08-24",
+  "zaman": "2026-08-24 15:59"
+ },
+ {
+  "sembol": "COSMO",
+  "fiyat": 125.4,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 2.1x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-08-24",
+  "zaman": "2026-08-24 15:59"
+ },
+ {
+  "sembol": "PAPIL",
+  "fiyat": 13.47,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.96)",
+  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-24",
+  "zaman": "2026-08-24 15:59"
+ },
+ {
+  "sembol": "DENGE",
+  "fiyat": 2.51,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.61)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-08-24",
+  "zaman": "2026-08-24 15:59"
  }
 ]

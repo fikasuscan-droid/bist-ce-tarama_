@@ -1611,8 +1611,8 @@
   "kalite": 3,
   "t1": 9.9,
   "t3": 32.67,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 35.64,
+  "tamamlandi": true
  },
  {
   "sembol": "HEDEF",
@@ -1626,8 +1626,8 @@
   "kalite": 2,
   "t1": -9.95,
   "t3": -13.12,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -26.58,
+  "tamamlandi": true
  },
  {
   "sembol": "KRDMD",
@@ -1641,8 +1641,8 @@
   "kalite": 2,
   "t1": -3.55,
   "t3": -1.36,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -0.92,
+  "tamamlandi": true
  },
  {
   "sembol": "DEVA",
@@ -1656,8 +1656,8 @@
   "kalite": 2,
   "t1": 5.89,
   "t3": 11.72,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 5.64,
+  "tamamlandi": true
  },
  {
   "sembol": "PRZMA",
@@ -1671,8 +1671,8 @@
   "kalite": 2,
   "t1": 9.97,
   "t3": 13.51,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -0.06,
+  "tamamlandi": true
  },
  {
   "sembol": "KRDMA",
@@ -1686,8 +1686,8 @@
   "kalite": 1,
   "t1": -0.0,
   "t3": 7.67,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 16.82,
+  "tamamlandi": true
  },
  {
   "sembol": "NETAS",
@@ -1701,8 +1701,8 @@
   "kalite": 1,
   "t1": 9.96,
   "t3": 33.02,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 57.1,
+  "tamamlandi": true
  },
  {
   "sembol": "SONME",
@@ -1835,7 +1835,7 @@
   "ce_yukari": true,
   "kalite": 3,
   "t1": 9.99,
-  "t3": null,
+  "t3": 29.9,
   "t5": null,
   "tamamlandi": false
  },
@@ -1850,7 +1850,7 @@
   "ce_yukari": false,
   "kalite": 2,
   "t1": -2.87,
-  "t3": null,
+  "t3": -5.02,
   "t5": null,
   "tamamlandi": false
  },
@@ -1865,7 +1865,7 @@
   "ce_yukari": true,
   "kalite": 2,
   "t1": 9.84,
-  "t3": null,
+  "t3": 12.3,
   "t5": null,
   "tamamlandi": false
  },
@@ -1880,7 +1880,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 8.82,
-  "t3": null,
+  "t3": 9.81,
   "t5": null,
   "tamamlandi": false
  },
@@ -1895,7 +1895,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": -1.91,
-  "t3": null,
+  "t3": 4.35,
   "t5": null,
   "tamamlandi": false
  },
@@ -2104,7 +2104,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": 8.22,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2119,7 +2119,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": -6.8,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2134,7 +2134,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 2,
-  "t1": null,
+  "t1": -8.6,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2149,7 +2149,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -2.6,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2164,7 +2164,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -6.47,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2179,6 +2179,96 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
+  "t1": -7.51,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "BRSAN",
+  "tarih": "2026-08-24",
+  "fiyat": 753.0,
+  "tam_tavan": false,
+  "degisim": 9.05,
+  "hacim_kat": 2.2,
+  "ema200_ust": true,
+  "ce_yukari": true,
+  "kalite": 3,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "PASEU",
+  "tarih": "2026-08-24",
+  "fiyat": 220.0,
+  "tam_tavan": false,
+  "degisim": 8.75,
+  "hacim_kat": 0.9,
+  "ema200_ust": true,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "PLTUR",
+  "tarih": "2026-08-24",
+  "fiyat": 22.56,
+  "tam_tavan": true,
+  "degisim": 9.94,
+  "hacim_kat": 7.5,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "COSMO",
+  "tarih": "2026-08-24",
+  "fiyat": 125.4,
+  "tam_tavan": true,
+  "degisim": 10.0,
+  "hacim_kat": 2.1,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "PAPIL",
+  "tarih": "2026-08-24",
+  "fiyat": 13.47,
+  "tam_tavan": true,
+  "degisim": 9.96,
+  "hacim_kat": 1.0,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "DENGE",
+  "tarih": "2026-08-24",
+  "fiyat": 2.51,
+  "tam_tavan": true,
+  "degisim": 9.61,
+  "hacim_kat": 1.0,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
   "t1": null,
   "t3": null,
   "t5": null,
