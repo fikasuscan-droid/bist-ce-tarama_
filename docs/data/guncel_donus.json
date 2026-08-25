@@ -1,66 +1,101 @@
 {
  "sistem": "donus",
- "zaman": "2026-08-24 16:01",
+ "zaman": "2026-08-25 16:06",
  "sinyaller": [
   {
    "sembol": "AVHOL",
-   "fiyat": 36.1,
+   "fiyat": 35.96,
    "yon": "AL",
-   "tur": "DIP DONUS (5/6)",
-   "detay": "Diverjans + CiftDip + Hacim"
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "VANGD",
-   "fiyat": 103.2,
+   "fiyat": 103.5,
    "yon": "AL",
-   "tur": "DIP DONUS (5/6)",
-   "detay": "Mum + Diverjans + CiftDip"
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CiftDip"
   },
   {
-   "sembol": "ENJSA",
-   "fiyat": 110.6,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + Diverjans"
-  },
-  {
-   "sembol": "ALBRK",
-   "fiyat": 8.94,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "CiftTepe + Hacim"
-  },
-  {
-   "sembol": "EMNIS",
-   "fiyat": 159.0,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + CE"
-  },
-  {
-   "sembol": "EUKYO",
-   "fiyat": 14.1,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "CiftTepe + Hacim"
-  },
-  {
-   "sembol": "IMASM",
-   "fiyat": 2.37,
+   "sembol": "DOHOL",
+   "fiyat": 21.02,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
    "detay": "Mum + CiftTepe"
   },
   {
-   "sembol": "NETAS",
-   "fiyat": 107.3,
+   "sembol": "EKGYO",
+   "fiyat": 20.04,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "ENJSA",
+   "fiyat": 108.1,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Mum + Diverjans"
+  },
+  {
+   "sembol": "TSKB",
+   "fiyat": 10.96,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "DEVA",
+   "fiyat": 88.4,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "CiftDip + Hacim"
+  },
+  {
+   "sembol": "DOGUB",
+   "fiyat": 70.4,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Diverjans + CE"
+  },
+  {
+   "sembol": "EMNIS",
+   "fiyat": 158.0,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Diverjans + CE"
+  },
+  {
+   "sembol": "ERSU",
+   "fiyat": 25.72,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Mum + Diverjans"
+  },
+  {
+   "sembol": "EUKYO",
+   "fiyat": 13.71,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
    "detay": "CiftTepe + Hacim"
   },
   {
-   "sembol": "PENTA",
-   "fiyat": 13.34,
+   "sembol": "KUTPO",
+   "fiyat": 81.35,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Mum + Diverjans"
+  },
+  {
+   "sembol": "NETAS",
+   "fiyat": 96.6,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "CiftTepe + Hacim"
+  },
+  {
+   "sembol": "TURGG",
+   "fiyat": 26.94,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
    "detay": "Mum + CiftTepe"
