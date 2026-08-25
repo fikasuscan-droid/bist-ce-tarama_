@@ -1,48 +1,62 @@
 {
  "sistem": "tavan",
- "zaman": "2026-08-24 15:59",
+ "zaman": "2026-08-25 16:03",
  "sinyaller": [
   {
-   "sembol": "BRSAN",
-   "fiyat": 753.0,
+   "sembol": "ADEL",
+   "fiyat": 37.4,
    "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+9.05)",
-   "detay": "Hacim: 2.2x | Puan: 3/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+12.31)",
+   "detay": "Hacim: 4.4x | Puan: 3/3 | EMA200 UST | CE YUK"
   },
   {
-   "sembol": "PASEU",
-   "fiyat": 220.0,
+   "sembol": "KRGYO",
+   "fiyat": 3.05,
    "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+8.75)",
-   "detay": "Hacim: 0.9x | Puan: 2/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+9.71)",
+   "detay": "Hacim: 4.4x | Puan: 3/3 | EMA200 UST | CE YUK"
+  },
+  {
+   "sembol": "KRDMA",
+   "fiyat": 59.65,
+   "yon": "AL",
+   "tur": "TAVAN (%+11.50)",
+   "detay": "Hacim: 3.4x | Puan: 3/3 | EMA200 UST | CE YUK"
   },
   {
    "sembol": "PLTUR",
-   "fiyat": 22.56,
+   "fiyat": 23.44,
    "yon": "AL",
-   "tur": "TAVAN (%+9.94)",
-   "detay": "Hacim: 7.5x | Puan: 1/3"
+   "tur": "TAVAN (%+14.23)",
+   "detay": "Hacim: 12.4x | Puan: 2/3 | EMA200 UST"
+  },
+  {
+   "sembol": "KBORU",
+   "fiyat": 24.2,
+   "yon": "AL",
+   "tur": "TAVAN (%+13.72)",
+   "detay": "Hacim: 10.7x | Puan: 2/3 | EMA200 UST"
+  },
+  {
+   "sembol": "ATATP",
+   "fiyat": 335.0,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+8.85)",
+   "detay": "Hacim: 0.9x | Puan: 2/3 | EMA200 UST | CE YUK"
+  },
+  {
+   "sembol": "PASEU",
+   "fiyat": 232.0,
+   "yon": "AL",
+   "tur": "TAVAN (%+14.68)",
+   "detay": "Hacim: 0.8x | Puan: 2/3 | EMA200 UST | CE YUK"
   },
   {
    "sembol": "COSMO",
-   "fiyat": 125.4,
+   "fiyat": 137.9,
    "yon": "AL",
-   "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 2.1x | Puan: 1/3"
-  },
-  {
-   "sembol": "PAPIL",
-   "fiyat": 13.47,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.96)",
-   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "DENGE",
-   "fiyat": 2.51,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.61)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
+   "tur": "TAVAN (%+20.96)",
+   "detay": "Hacim: 3.4x | Puan: 1/3"
   }
  ]
 }
