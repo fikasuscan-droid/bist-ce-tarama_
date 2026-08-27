@@ -1,34 +1,5 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-26 15:58",
- "sinyaller": [
-  {
-   "sembol": "VAKBN",
-   "fiyat": 32.1,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %1.9 | Hacim: 2.6x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "ENJSA",
-   "fiyat": 115.0,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %6.38 | Hacim: 2.3x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "ENKAI",
-   "fiyat": 87.75,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %4.53 | Hacim: 2.2x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "SASA",
-   "fiyat": 2.34,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %1.3 | Hacim: 6.0x"
-  }
- ]
+ "zaman": "2026-08-27 23:51",
+ "sinyaller": []
 }
