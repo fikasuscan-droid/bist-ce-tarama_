@@ -1,28 +1,5 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-08-26 16:33",
- "sinyaller": [
-  {
-   "sembol": "PGSUS",
-   "fiyat": 153.3,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.9x",
-   "sl": 149.1,
-   "tp1": 158.08,
-   "tp2": 161.26,
-   "tp3": 166.04
-  },
-  {
-   "sembol": "EREGL",
-   "fiyat": 38.7,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.4x",
-   "sl": 37.88,
-   "tp1": 40.56,
-   "tp2": 41.8,
-   "tp3": 43.65
-  }
- ]
+ "zaman": "2026-08-28 00:23",
+ "sinyaller": []
 }
