@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "FENER",
-  "fiyat": 3.18,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-20",
-  "zaman": "2026-08-20 15:54"
- },
- {
-  "sembol": "KRPLS",
-  "fiyat": 10.96,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-20",
-  "zaman": "2026-08-20 15:54"
- },
- {
-  "sembol": "KRTEK",
-  "fiyat": 5.58,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-20",
-  "zaman": "2026-08-20 15:54"
- },
- {
-  "sembol": "KUTPO",
-  "fiyat": 81.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-20",
-  "zaman": "2026-08-20 15:54"
- },
- {
-  "sembol": "SEGYO",
-  "fiyat": 3.7,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-20",
-  "zaman": "2026-08-20 15:54"
- },
- {
-  "sembol": "VAKKO",
-  "fiyat": 69.4,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + CE",
-  "sistem": "donus",
-  "tarih": "2026-08-20",
-  "zaman": "2026-08-20 15:54"
- },
- {
   "sembol": "ZRGYO",
   "fiyat": 19.86,
   "yon": "AL",
@@ -5098,5 +5038,65 @@
   "sistem": "donus",
   "tarih": "2026-08-29",
   "zaman": "2026-08-29 00:04"
+ },
+ {
+  "sembol": "CANTE",
+  "fiyat": 1.38,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %6.15 | Hacim: 6.5x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:14"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": 2.32,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %0.43 | Hacim: 5.0x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:14"
+ },
+ {
+  "sembol": "ENERY",
+  "fiyat": 9.88,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %0.51 | Hacim: 2.1x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:14"
+ },
+ {
+  "sembol": "VESTL",
+  "fiyat": 22.96,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %3.05 | Hacim: 5.7x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:14"
+ },
+ {
+  "sembol": "VESBE",
+  "fiyat": 5.35,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.13 | Hacim: 4.8x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:14"
+ },
+ {
+  "sembol": "AGHOL",
+  "fiyat": 32.0,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %4.37 | Hacim: 3.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:14"
  }
 ]

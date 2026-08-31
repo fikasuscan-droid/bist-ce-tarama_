@@ -1,5 +1,48 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-08-28 23:36",
- "sinyaller": []
+ "zaman": "2026-08-31 20:14",
+ "sinyaller": [
+  {
+   "sembol": "CANTE",
+   "fiyat": 1.38,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %6.15 | Hacim: 6.5x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "ZOREN",
+   "fiyat": 2.32,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %0.43 | Hacim: 5.0x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "ENERY",
+   "fiyat": 9.88,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %0.51 | Hacim: 2.1x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "VESTL",
+   "fiyat": 22.96,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %3.05 | Hacim: 5.7x"
+  },
+  {
+   "sembol": "VESBE",
+   "fiyat": 5.35,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.13 | Hacim: 4.8x"
+  },
+  {
+   "sembol": "AGHOL",
+   "fiyat": 32.0,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %4.37 | Hacim: 3.2x"
+  }
+ ]
 }
