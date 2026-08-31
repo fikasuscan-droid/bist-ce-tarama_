@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "ZRGYO",
-  "fiyat": 19.86,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Mum + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-08-20",
-  "zaman": "2026-08-20 15:54"
- },
- {
-  "sembol": "ALTNY",
-  "fiyat": 19.01,
-  "yon": "AL",
-  "tur": "GUCLU - CE + Hacim + Yukselis",
-  "detay": "Degisim: %2.04 | Hacim: 3.8x | Sabah %2-3 gorunce sat",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:01"
- },
- {
-  "sembol": "GUBRF",
-  "fiyat": 475.25,
-  "yon": "AL",
-  "tur": "GUCLU - CE + Hacim + Yukselis",
-  "detay": "Degisim: %2.7 | Hacim: 2.5x | Sabah %2-3 gorunce sat",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:01"
- },
- {
-  "sembol": "KLKIM",
-  "fiyat": 28.6,
-  "yon": "AL",
-  "tur": "GUCLU - CE + Hacim + Yukselis",
-  "detay": "Degisim: %2.58 | Hacim: 2.3x | Sabah %2-3 gorunce sat",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:01"
- },
- {
-  "sembol": "SASA",
-  "fiyat": 2.32,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %2.2 | Hacim: 11.3x",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:01"
- },
- {
-  "sembol": "BERA",
-  "fiyat": 14.15,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %6.63 | Hacim: 3.3x",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:01"
- },
- {
   "sembol": "GENIL",
   "fiyat": 12.15,
   "yon": "AL",
@@ -5098,5 +5038,89 @@
   "sistem": "aksam_al",
   "tarih": "2026-08-31",
   "zaman": "2026-08-31 20:14"
+ },
+ {
+  "sembol": "SAHOL",
+  "fiyat": 93.2,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.4x",
+  "sl": 94.35,
+  "tp1": 90.05,
+  "tp2": 87.95,
+  "tp3": 84.8,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:48"
+ },
+ {
+  "sembol": "AKBNK",
+  "fiyat": 71.85,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 1.1x",
+  "sl": 73.4,
+  "tp1": 68.6,
+  "tp2": 66.44,
+  "tp3": 63.19,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:48"
+ },
+ {
+  "sembol": "ASELS",
+  "fiyat": 386.25,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.0x",
+  "sl": 411.0,
+  "tp1": 362.57,
+  "tp2": 346.79,
+  "tp3": 323.11,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:48"
+ },
+ {
+  "sembol": "BUCIM",
+  "fiyat": 5.72,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.9x",
+  "sl": 5.82,
+  "tp1": 5.48,
+  "tp2": 5.31,
+  "tp3": 5.07,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:48"
+ },
+ {
+  "sembol": "ALTNY",
+  "fiyat": 17.74,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.6x",
+  "sl": 19.12,
+  "tp1": 16.25,
+  "tp2": 15.26,
+  "tp3": 13.77,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:48"
+ },
+ {
+  "sembol": "BIENY",
+  "fiyat": 22.1,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.4x",
+  "sl": 22.7,
+  "tp1": 20.84,
+  "tp2": 19.99,
+  "tp3": 18.73,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:48"
  }
 ]
