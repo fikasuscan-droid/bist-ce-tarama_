@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "GENIL",
-  "fiyat": 12.15,
-  "yon": "AL",
-  "tur": "GUCLU AL (CE+EMA200+ADX)",
-  "detay": "EMA: UST | ADX: 28.0",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
-  "sembol": "KGYO",
-  "fiyat": 12.9,
-  "yon": "AL",
-  "tur": "GUCLU AL (CE+EMA200+ADX)",
-  "detay": "EMA: UST | ADX: 31.0",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
   "sembol": "KORDS",
   "fiyat": 92.65,
   "yon": "AL",
@@ -5122,5 +5102,25 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-08-31",
   "zaman": "2026-08-31 20:48"
+ },
+ {
+  "sembol": "KRDMA",
+  "fiyat": 66.65,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.98)",
+  "detay": "Hacim: 2.3x | Puan: 3/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:53"
+ },
+ {
+  "sembol": "MARTI",
+  "fiyat": 1.7,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.68)",
+  "detay": "Hacim: 2.8x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-08-31",
+  "zaman": "2026-08-31 20:53"
  }
 ]
