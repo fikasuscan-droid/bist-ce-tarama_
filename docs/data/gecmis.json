@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "CMBTN",
-  "fiyat": 1585.0,
-  "yon": "SAT",
-  "tur": "GUCLU SAT (CE+EMA200+ADX)",
-  "detay": "EMA: ALT | ADX: 29.2",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
-  "sembol": "OSMEN",
-  "fiyat": 7.86,
-  "yon": "SAT",
-  "tur": "GUCLU SAT (CE+EMA200+ADX)",
-  "detay": "EMA: ALT | ADX: 48.2",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
-  "sembol": "BRSAN",
-  "fiyat": 690.5,
-  "yon": "AL",
-  "tur": "ZAYIF AL (Sadece CE)",
-  "detay": "ADX: 19.6",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
-  "sembol": "AKMGY",
-  "fiyat": 276.25,
-  "yon": "AL",
-  "tur": "ZAYIF AL (Sadece CE)",
-  "detay": "ADX: 24.3",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
-  "sembol": "GOODY",
-  "fiyat": 2.63,
-  "yon": "AL",
-  "tur": "ZAYIF AL (Sadece CE)",
-  "detay": "ADX: 31.7",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
-  "sembol": "KRGYO",
-  "fiyat": 2.78,
-  "yon": "AL",
-  "tur": "ZAYIF AL (Sadece CE)",
-  "detay": "ADX: 32.1",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
   "sembol": "AKSEN",
   "fiyat": 82.6,
   "yon": "SAT",
@@ -5126,5 +5066,65 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-01",
   "zaman": "2026-09-01 18:25"
+ },
+ {
+  "sembol": "MARTI",
+  "fiyat": 1.87,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 3.6x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 18:37"
+ },
+ {
+  "sembol": "CRFSA",
+  "fiyat": 317.5,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.96)",
+  "detay": "Hacim: 1.7x | Puan: 1/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 18:37"
+ },
+ {
+  "sembol": "SEKUR",
+  "fiyat": 10.94,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.95)",
+  "detay": "Hacim: 1.4x | Puan: 1/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 18:37"
+ },
+ {
+  "sembol": "NIBAS",
+  "fiyat": 4.46,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.85)",
+  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 18:37"
+ },
+ {
+  "sembol": "CRDFA",
+  "fiyat": 27.5,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 1.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 18:37"
+ },
+ {
+  "sembol": "DOGUB",
+  "fiyat": 67.3,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.97)",
+  "detay": "Hacim: 1.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 18:37"
  }
 ]

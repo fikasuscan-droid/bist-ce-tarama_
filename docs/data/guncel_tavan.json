@@ -1,20 +1,48 @@
 {
  "sistem": "tavan",
- "zaman": "2026-08-31 20:53",
+ "zaman": "2026-09-01 18:37",
  "sinyaller": [
   {
-   "sembol": "KRDMA",
-   "fiyat": 66.65,
+   "sembol": "MARTI",
+   "fiyat": 1.87,
    "yon": "AL",
-   "tur": "TAVAN (%+9.98)",
-   "detay": "Hacim: 2.3x | Puan: 3/3 | EMA200 UST | CE YUK"
+   "tur": "TAVAN (%+10.00)",
+   "detay": "Hacim: 3.6x | Puan: 2/3 | CE YUK"
   },
   {
-   "sembol": "MARTI",
-   "fiyat": 1.7,
+   "sembol": "CRFSA",
+   "fiyat": 317.5,
    "yon": "AL",
-   "tur": "TAVAN (%+9.68)",
-   "detay": "Hacim: 2.8x | Puan: 1/3"
+   "tur": "TAVAN (%+9.96)",
+   "detay": "Hacim: 1.7x | Puan: 1/3 | EMA200 UST"
+  },
+  {
+   "sembol": "SEKUR",
+   "fiyat": 10.94,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.95)",
+   "detay": "Hacim: 1.4x | Puan: 1/3 | EMA200 UST"
+  },
+  {
+   "sembol": "NIBAS",
+   "fiyat": 4.46,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.85)",
+   "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "CRDFA",
+   "fiyat": 27.5,
+   "yon": "AL",
+   "tur": "TAVAN (%+10.00)",
+   "detay": "Hacim: 1.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "DOGUB",
+   "fiyat": 67.3,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.97)",
+   "detay": "Hacim: 1.3x | Puan: 0/3"
   }
  ]
 }

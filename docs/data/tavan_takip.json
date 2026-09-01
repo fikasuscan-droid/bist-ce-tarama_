@@ -2286,8 +2286,8 @@
   "kalite": 3,
   "t1": -1.66,
   "t3": -5.24,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -12.09,
+  "tamamlandi": true
  },
  {
   "sembol": "KRGYO",
@@ -2301,8 +2301,8 @@
   "kalite": 3,
   "t1": 5.25,
   "t3": 4.92,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 1.97,
+  "tamamlandi": true
  },
  {
   "sembol": "KRDMA",
@@ -2316,8 +2316,8 @@
   "kalite": 3,
   "t1": -1.76,
   "t3": 1.59,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 5.7,
+  "tamamlandi": true
  },
  {
   "sembol": "PLTUR",
@@ -2331,8 +2331,8 @@
   "kalite": 2,
   "t1": -9.73,
   "t3": -10.41,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -13.57,
+  "tamamlandi": true
  },
  {
   "sembol": "KBORU",
@@ -2346,8 +2346,8 @@
   "kalite": 2,
   "t1": -3.31,
   "t3": -0.74,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -19.59,
+  "tamamlandi": true
  },
  {
   "sembol": "ATATP",
@@ -2361,8 +2361,8 @@
   "kalite": 2,
   "t1": -8.36,
   "t3": -6.49,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -11.34,
+  "tamamlandi": true
  },
  {
   "sembol": "PASEU",
@@ -2376,8 +2376,8 @@
   "kalite": 2,
   "t1": 4.31,
   "t3": 15.52,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -6.42,
+  "tamamlandi": true
  },
  {
   "sembol": "COSMO",
@@ -2391,8 +2391,8 @@
   "kalite": 1,
   "t1": 5.08,
   "t3": -5.0,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -9.64,
+  "tamamlandi": true
  },
  {
   "sembol": "NIBAS",
@@ -7324,7 +7324,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": -5.4,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7339,6 +7339,96 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
+  "t1": 10.0,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "MARTI",
+  "tarih": "2026-09-01",
+  "fiyat": 1.87,
+  "tam_tavan": true,
+  "degisim": 10.0,
+  "hacim_kat": 3.6,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "CRFSA",
+  "tarih": "2026-09-01",
+  "fiyat": 317.5,
+  "tam_tavan": true,
+  "degisim": 9.96,
+  "hacim_kat": 1.7,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "SEKUR",
+  "tarih": "2026-09-01",
+  "fiyat": 10.94,
+  "tam_tavan": true,
+  "degisim": 9.95,
+  "hacim_kat": 1.4,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "NIBAS",
+  "tarih": "2026-09-01",
+  "fiyat": 4.46,
+  "tam_tavan": true,
+  "degisim": 9.85,
+  "hacim_kat": 0.9,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "CRDFA",
+  "tarih": "2026-09-01",
+  "fiyat": 27.5,
+  "tam_tavan": true,
+  "degisim": 10.0,
+  "hacim_kat": 1.9,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "DOGUB",
+  "tarih": "2026-09-01",
+  "fiyat": 67.3,
+  "tam_tavan": true,
+  "degisim": 9.97,
+  "hacim_kat": 1.3,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
   "t1": null,
   "t3": null,
   "t5": null,
