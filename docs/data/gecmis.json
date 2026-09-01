@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "SAYAS",
-  "fiyat": 58.95,
-  "yon": "AL",
-  "tur": "GUCLU AL (CE+EMA200+ADX)",
-  "detay": "EMA: UST | ADX: 31.4",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
   "sembol": "CMBTN",
   "fiyat": 1585.0,
   "yon": "SAT",
@@ -5122,5 +5112,19 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-01",
   "zaman": "2026-09-01 17:54"
+ },
+ {
+  "sembol": "KLRHO",
+  "fiyat": 66.0,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.3x",
+  "sl": 64.7,
+  "tp1": 71.62,
+  "tp2": 75.37,
+  "tp3": 81.0,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 18:25"
  }
 ]
