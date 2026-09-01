@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "KORDS",
-  "fiyat": 92.65,
-  "yon": "AL",
-  "tur": "GUCLU AL (CE+EMA200+ADX)",
-  "detay": "EMA: UST | ADX: 30.9",
-  "sistem": "haftalik_ce",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:25"
- },
- {
   "sembol": "SAYAS",
   "fiyat": 58.95,
   "yon": "AL",
@@ -5122,5 +5112,15 @@
   "sistem": "tavan",
   "tarih": "2026-08-31",
   "zaman": "2026-08-31 20:53"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.36,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %0.43 | Hacim: 6.7x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-01",
+  "zaman": "2026-09-01 17:54"
  }
 ]
