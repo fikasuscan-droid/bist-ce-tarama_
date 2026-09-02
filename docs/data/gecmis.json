@@ -1,45 +1,5 @@
 [
  {
-  "sembol": "SISE",
-  "fiyat": 39.9,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:55"
- },
- {
-  "sembol": "ALFAS",
-  "fiyat": 42.24,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:55"
- },
- {
-  "sembol": "ALTNY",
-  "fiyat": 19.21,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:55"
- },
- {
-  "sembol": "ASUZU",
-  "fiyat": 48.3,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + CE",
-  "sistem": "donus",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:55"
- },
- {
   "sembol": "DAPGM",
   "fiyat": 8.87,
   "yon": "AL",
@@ -5082,5 +5042,45 @@
   "sistem": "donus",
   "tarih": "2026-09-01",
   "zaman": "2026-09-01 18:40"
+ },
+ {
+  "sembol": "VESBE",
+  "fiyat": 5.8,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.85 | Hacim: 4.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-02",
+  "zaman": "2026-09-02 17:58"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": 2.44,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %5.63 | Hacim: 3.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-02",
+  "zaman": "2026-09-02 17:58"
+ },
+ {
+  "sembol": "VESTL",
+  "fiyat": 24.86,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %10.0 | Hacim: 2.5x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-02",
+  "zaman": "2026-09-02 17:58"
+ },
+ {
+  "sembol": "CANTE",
+  "fiyat": 1.33,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %2.31 | Hacim: 2.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-02",
+  "zaman": "2026-09-02 17:58"
  }
 ]

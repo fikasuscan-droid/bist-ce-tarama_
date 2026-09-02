@@ -1,13 +1,34 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-01 17:54",
+ "zaman": "2026-09-02 17:58",
  "sinyaller": [
   {
-   "sembol": "SASA",
-   "fiyat": 2.36,
+   "sembol": "VESBE",
+   "fiyat": 5.8,
    "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %0.43 | Hacim: 6.7x | Sabah %2-3 gorunce sat"
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %9.85 | Hacim: 4.4x"
+  },
+  {
+   "sembol": "ZOREN",
+   "fiyat": 2.44,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %5.63 | Hacim: 3.4x"
+  },
+  {
+   "sembol": "VESTL",
+   "fiyat": 24.86,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %10.0 | Hacim: 2.5x"
+  },
+  {
+   "sembol": "CANTE",
+   "fiyat": 1.33,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %2.31 | Hacim: 2.0x"
   }
  ]
 }
