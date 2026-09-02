@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "DAPGM",
-  "fiyat": 8.87,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + CE",
-  "sistem": "donus",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:55"
- },
- {
-  "sembol": "DEVA",
-  "fiyat": 84.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-08-21",
-  "zaman": "2026-08-21 15:55"
- },
- {
   "sembol": "DMSAS",
   "fiyat": 9.01,
   "yon": "AL",
@@ -5082,5 +5062,33 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-02",
   "zaman": "2026-09-02 17:58"
+ },
+ {
+  "sembol": "TUPRS",
+  "fiyat": 392.25,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.1x",
+  "sl": 417.25,
+  "tp1": 369.7,
+  "tp2": 354.66,
+  "tp3": 332.11,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-02",
+  "zaman": "2026-09-02 18:37"
+ },
+ {
+  "sembol": "NTGAZ",
+  "fiyat": 11.35,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+  "sl": 11.98,
+  "tp1": 10.71,
+  "tp2": 10.29,
+  "tp3": 9.66,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-02",
+  "zaman": "2026-09-02 18:37"
  }
 ]
