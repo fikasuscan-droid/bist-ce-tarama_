@@ -1,19 +1,5 @@
 [
  {
-  "sembol": "GENIL",
-  "fiyat": 11.9,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.7x",
-  "sl": 12.66,
-  "tp1": 10.82,
-  "tp2": 10.09,
-  "tp3": 9.01,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-08-24",
-  "zaman": "2026-08-24 15:52"
- },
- {
   "sembol": "ZRGYO",
   "fiyat": 19.79,
   "yon": "SAT",
@@ -5078,5 +5064,15 @@
   "sistem": "donus",
   "tarih": "2026-09-02",
   "zaman": "2026-09-02 18:49"
+ },
+ {
+  "sembol": "CANTE",
+  "fiyat": 1.34,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %0.75 | Hacim: 2.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-03",
+  "zaman": "2026-09-03 17:56"
  }
 ]
