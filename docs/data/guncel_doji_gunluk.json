@@ -1,28 +1,39 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-02 18:37",
+ "zaman": "2026-09-03 18:34",
  "sinyaller": [
   {
-   "sembol": "TUPRS",
-   "fiyat": 392.25,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.1x",
-   "sl": 417.25,
-   "tp1": 369.7,
-   "tp2": 354.66,
-   "tp3": 332.11
+   "sembol": "MAGEN",
+   "fiyat": 33.9,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 1.0x",
+   "sl": 31.5,
+   "tp1": 36.58,
+   "tp2": 38.37,
+   "tp3": 41.05
   },
   {
-   "sembol": "NTGAZ",
-   "fiyat": 11.35,
+   "sembol": "AEFES",
+   "fiyat": 18.21,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 17.74,
+   "tp1": 18.88,
+   "tp2": 19.32,
+   "tp3": 19.99
+  },
+  {
+   "sembol": "BUCIM",
+   "fiyat": 5.77,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
-   "sl": 11.98,
-   "tp1": 10.71,
-   "tp2": 10.29,
-   "tp3": 9.66
+   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.7x",
+   "sl": 5.89,
+   "tp1": 5.48,
+   "tp2": 5.28,
+   "tp3": 4.99
   }
  ]
 }
