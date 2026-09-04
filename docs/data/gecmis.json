@@ -1,45 +1,5 @@
 [
  {
-  "sembol": "IZFAS",
-  "fiyat": 58.9,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.99)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | EMA200 UST",
-  "sistem": "tavan",
-  "tarih": "2026-08-26",
-  "zaman": "2026-08-26 16:36"
- },
- {
-  "sembol": "HALKB",
-  "fiyat": 38.12,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.98)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-26",
-  "zaman": "2026-08-26 16:36"
- },
- {
-  "sembol": "EGPRO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 5.5x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "NIBAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 5.3x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "CEMAS",
   "fiyat": NaN,
   "yon": "AL",
@@ -5054,5 +5014,61 @@
   "sistem": "haftalik_ce",
   "tarih": "2026-09-04",
   "zaman": "2026-09-04 17:54"
+ },
+ {
+  "sembol": "FENER",
+  "fiyat": 3.09,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+  "sl": 3.03,
+  "tp1": 3.27,
+  "tp2": 3.4,
+  "tp3": 3.58,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:20"
+ },
+ {
+  "sembol": "IZMDC",
+  "fiyat": 10.0,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+  "sl": 9.41,
+  "tp1": 11.25,
+  "tp2": 12.09,
+  "tp3": 13.34,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:20"
+ },
+ {
+  "sembol": "VAKKO",
+  "fiyat": 66.0,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.2x",
+  "sl": 63.95,
+  "tp1": 70.81,
+  "tp2": 74.02,
+  "tp3": 78.83,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:20"
+ },
+ {
+  "sembol": "GUBRF",
+  "fiyat": 478.75,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.9x",
+  "sl": 487.5,
+  "tp1": 444.79,
+  "tp2": 422.14,
+  "tp3": 388.18,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:20"
  }
 ]

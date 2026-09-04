@@ -1,39 +1,50 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-03 18:34",
+ "zaman": "2026-09-04 18:20",
  "sinyaller": [
   {
-   "sembol": "MAGEN",
-   "fiyat": 33.9,
+   "sembol": "FENER",
+   "fiyat": 3.09,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 1.0x",
-   "sl": 31.5,
-   "tp1": 36.58,
-   "tp2": 38.37,
-   "tp3": 41.05
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 3.03,
+   "tp1": 3.27,
+   "tp2": 3.4,
+   "tp3": 3.58
   },
   {
-   "sembol": "AEFES",
-   "fiyat": 18.21,
+   "sembol": "IZMDC",
+   "fiyat": 10.0,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.7x",
-   "sl": 17.74,
-   "tp1": 18.88,
-   "tp2": 19.32,
-   "tp3": 19.99
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 9.41,
+   "tp1": 11.25,
+   "tp2": 12.09,
+   "tp3": 13.34
   },
   {
-   "sembol": "BUCIM",
-   "fiyat": 5.77,
+   "sembol": "VAKKO",
+   "fiyat": 66.0,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.2x",
+   "sl": 63.95,
+   "tp1": 70.81,
+   "tp2": 74.02,
+   "tp3": 78.83
+  },
+  {
+   "sembol": "GUBRF",
+   "fiyat": 478.75,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.7x",
-   "sl": 5.89,
-   "tp1": 5.48,
-   "tp2": 5.28,
-   "tp3": 4.99
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.9x",
+   "sl": 487.5,
+   "tp1": 444.79,
+   "tp2": 422.14,
+   "tp3": 388.18
   }
  ]
 }
