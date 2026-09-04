@@ -1,55 +1,5 @@
 [
  {
-  "sembol": "CEMAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 3.0x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "MRGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.9x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "BJKAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.5x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "ULUUN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.5x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "COSMO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.3x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "NETAS",
   "fiyat": NaN,
   "yon": "AL",
@@ -5070,5 +5020,75 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-04",
   "zaman": "2026-09-04 18:20"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": 2.35,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.2x",
+  "sl": 2.26,
+  "tp1": 2.64,
+  "tp2": 2.84,
+  "tp3": 3.13,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:22"
+ },
+ {
+  "sembol": "ISMEN",
+  "fiyat": 34.5,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.4x",
+  "sl": 32.1,
+  "tp1": 37.37,
+  "tp2": 39.29,
+  "tp3": 42.16,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:22"
+ },
+ {
+  "sembol": "ISCTR",
+  "fiyat": 13.01,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.3x",
+  "sl": 12.46,
+  "tp1": 14.37,
+  "tp2": 15.27,
+  "tp3": 16.63,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:22"
+ },
+ {
+  "sembol": "BRSAN",
+  "fiyat": 715.5,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.8x",
+  "sl": 759.5,
+  "tp1": 613.29,
+  "tp2": 545.14,
+  "tp3": 442.93,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:22"
+ },
+ {
+  "sembol": "SAYAS",
+  "fiyat": 55.8,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
+  "sl": 64.95,
+  "tp1": 43.8,
+  "tp2": 35.8,
+  "tp3": 23.8,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-04",
+  "zaman": "2026-09-04 18:22"
  }
 ]
