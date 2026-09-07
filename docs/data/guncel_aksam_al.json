@@ -1,34 +1,41 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-04 17:41",
+ "zaman": "2026-09-07 18:47",
  "sinyaller": [
   {
-   "sembol": "VESBE",
-   "fiyat": 5.99,
+   "sembol": "SASA",
+   "fiyat": 2.51,
    "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %9.91 | Hacim: 2.9x | Sabah %2-3 gorunce sat"
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %9.61 | Hacim: 11.1x"
+  },
+  {
+   "sembol": "HEKTS",
+   "fiyat": 2.81,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %6.44 | Hacim: 2.8x"
   },
   {
    "sembol": "EUPWR",
-   "fiyat": 69.4,
+   "fiyat": 72.85,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %-7.28 | Hacim: 6.9x"
+   "detay": "Degisim: %4.97 | Hacim: 2.6x"
   },
   {
-   "sembol": "SASA",
-   "fiyat": 2.29,
+   "sembol": "ZOREN",
+   "fiyat": 2.36,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %2.69 | Hacim: 6.4x"
+   "detay": "Degisim: %0.43 | Hacim: 2.5x"
   },
   {
-   "sembol": "EGEEN",
-   "fiyat": 5140.0,
+   "sembol": "SISE",
+   "fiyat": 41.66,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %6.86 | Hacim: 3.0x"
+   "detay": "Degisim: %6.6 | Hacim: 2.1x"
   }
  ]
 }
