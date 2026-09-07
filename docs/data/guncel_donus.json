@@ -1,150 +1,122 @@
 {
  "sistem": "donus",
- "zaman": "2026-09-03 18:48",
+ "zaman": "2026-09-07 19:16",
  "sinyaller": [
   {
-   "sembol": "ASTOR",
-   "fiyat": 293.5,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (5/6)",
-   "detay": "Mum + Diverjans + CiftTepe"
-  },
-  {
-   "sembol": "DMSAS",
-   "fiyat": 8.19,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (5/6)",
-   "detay": "Mum + Diverjans + CiftTepe"
+   "sembol": "ORCAY",
+   "fiyat": 3.39,
+   "yon": "AL",
+   "tur": "DIP DONUS (6/6)",
+   "detay": "Mum + Diverjans + CiftDip + Hacim"
   },
   {
    "sembol": "ALFAS",
-   "fiyat": 37.8,
+   "fiyat": 39.68,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
+  },
+  {
+   "sembol": "ASTOR",
+   "fiyat": 301.0,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (4/6)",
+   "detay": "Diverjans + CiftTepe"
   },
   {
    "sembol": "EUREN",
-   "fiyat": 3.74,
-   "yon": "AL",
-   "tur": "DIP DONUS (4/6)",
-   "detay": "Diverjans + CiftDip"
-  },
-  {
-   "sembol": "PGSUS",
-   "fiyat": 148.2,
+   "fiyat": 3.87,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "TURSG",
-   "fiyat": 6.0,
+   "fiyat": 6.15,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
-   "sembol": "DZGYO",
-   "fiyat": 7.62,
-   "yon": "AL",
-   "tur": "DIP DONUS (4/6)",
-   "detay": "Diverjans + CE + Hacim"
+   "sembol": "DMSAS",
+   "fiyat": 8.15,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (4/6)",
+   "detay": "Diverjans + CiftTepe"
   },
   {
    "sembol": "GOZDE",
-   "fiyat": 21.72,
-   "yon": "AL",
-   "tur": "DIP DONUS (4/6)",
-   "detay": "Diverjans + CiftDip"
-  },
-  {
-   "sembol": "ORCAY",
-   "fiyat": 3.3,
+   "fiyat": 21.94,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "VKING",
-   "fiyat": 19.92,
+   "fiyat": 20.42,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
-   "sembol": "TUPRS",
-   "fiyat": 391.0,
+   "sembol": "GESAN",
+   "fiyat": 64.0,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + CE"
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "TUPRS",
+   "fiyat": 394.25,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Mum + Diverjans"
   },
   {
    "sembol": "VESTL",
-   "fiyat": 24.06,
+   "fiyat": 26.62,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "HLGYO",
-   "fiyat": 4.43,
+   "sembol": "DGATE",
+   "fiyat": 94.65,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "IMASM",
-   "fiyat": 2.22,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + CiftTepe"
-  },
-  {
-   "sembol": "ISSEN",
-   "fiyat": 6.93,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
-  },
-  {
-   "sembol": "JANTS",
-   "fiyat": 15.2,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
-  },
-  {
-   "sembol": "KATMR",
-   "fiyat": 1.86,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "KSTUR",
-   "fiyat": 2285.0,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "LMKDC",
-   "fiyat": 21.54,
+   "sembol": "KAPLM",
+   "fiyat": 379.75,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
    "detay": "CiftTepe + Hacim"
   },
   {
-   "sembol": "NIBAS",
-   "fiyat": 4.39,
+   "sembol": "KGYO",
+   "fiyat": 11.89,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Mum + Diverjans"
+  },
+  {
+   "sembol": "PLTUR",
+   "fiyat": 21.12,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "RODRG",
+   "fiyat": 26.36,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
   },
   {
    "sembol": "TURGG",
-   "fiyat": 28.08,
+   "fiyat": 31.22,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "CiftDip + Hacim"
