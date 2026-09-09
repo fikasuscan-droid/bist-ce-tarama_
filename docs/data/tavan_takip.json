@@ -1,110 +1,5 @@
 [
  {
-  "sembol": "BNTAS",
-  "tarih": "2026-08-07",
-  "fiyat": 6.8,
-  "tam_tavan": false,
-  "degisim": 8.63,
-  "hacim_kat": 4.7,
-  "ema200_ust": true,
-  "ce_yukari": false,
-  "kalite": 2,
-  "t1": -3.97,
-  "t3": -5.74,
-  "t5": -7.65,
-  "tamamlandi": true
- },
- {
-  "sembol": "ISBIR",
-  "tarih": "2026-08-07",
-  "fiyat": 75.75,
-  "tam_tavan": true,
-  "degisim": 9.94,
-  "hacim_kat": 3.8,
-  "ema200_ust": false,
-  "ce_yukari": true,
-  "kalite": 2,
-  "t1": 4.29,
-  "t3": -0.99,
-  "t5": -5.35,
-  "tamamlandi": true
- },
- {
-  "sembol": "CRFSA",
-  "tarih": "2026-08-07",
-  "fiyat": 210.5,
-  "tam_tavan": true,
-  "degisim": 9.98,
-  "hacim_kat": 0.9,
-  "ema200_ust": true,
-  "ce_yukari": true,
-  "kalite": 2,
-  "t1": 9.98,
-  "t3": 32.9,
-  "t5": 60.69,
-  "tamamlandi": true
- },
- {
-  "sembol": "ADEL",
-  "tarih": "2026-08-07",
-  "fiyat": 32.42,
-  "tam_tavan": true,
-  "degisim": 9.97,
-  "hacim_kat": 3.3,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 1,
-  "t1": -2.1,
-  "t3": -2.53,
-  "t5": 2.22,
-  "tamamlandi": true
- },
- {
-  "sembol": "INTEM",
-  "tarih": "2026-08-07",
-  "fiyat": 267.25,
-  "tam_tavan": true,
-  "degisim": 9.93,
-  "hacim_kat": 1.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": -5.52,
-  "t3": -5.33,
-  "t5": -3.27,
-  "tamamlandi": true
- },
- {
-  "sembol": "KRPLS",
-  "tarih": "2026-08-10",
-  "fiyat": 10.29,
-  "tam_tavan": true,
-  "degisim": 9.94,
-  "hacim_kat": 5.3,
-  "ema200_ust": true,
-  "ce_yukari": true,
-  "kalite": 3,
-  "t1": -4.57,
-  "t3": -3.6,
-  "t5": -2.33,
-  "tamamlandi": true
- },
- {
-  "sembol": "CRFSA",
-  "tarih": "2026-08-10",
-  "fiyat": 231.5,
-  "tam_tavan": true,
-  "degisim": 9.98,
-  "hacim_kat": 4.6,
-  "ema200_ust": true,
-  "ce_yukari": true,
-  "kalite": 3,
-  "t1": 9.94,
-  "t3": 32.83,
-  "t5": 31.53,
-  "tamamlandi": true
- },
- {
   "sembol": "CUSAN",
   "tarih": "2026-08-10",
   "fiyat": 27.22,
@@ -6566,8 +6461,8 @@
   "kalite": 2,
   "t1": 9.63,
   "t3": 7.49,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 24.06,
+  "tamamlandi": true
  },
  {
   "sembol": "CRFSA",
@@ -6581,8 +6476,8 @@
   "kalite": 1,
   "t1": -6.22,
   "t3": -11.65,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -16.3,
+  "tamamlandi": true
  },
  {
   "sembol": "SEKUR",
@@ -6596,8 +6491,8 @@
   "kalite": 1,
   "t1": -5.39,
   "t3": -9.32,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -11.24,
+  "tamamlandi": true
  },
  {
   "sembol": "NIBAS",
@@ -6611,8 +6506,8 @@
   "kalite": 1,
   "t1": -2.24,
   "t3": -3.14,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 2.24,
+  "tamamlandi": true
  },
  {
   "sembol": "CRDFA",
@@ -6626,8 +6521,8 @@
   "kalite": 0,
   "t1": -1.82,
   "t3": -5.45,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -8.73,
+  "tamamlandi": true
  },
  {
   "sembol": "DOGUB",
@@ -6641,8 +6536,8 @@
   "kalite": 0,
   "t1": -0.52,
   "t3": -1.49,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -4.01,
+  "tamamlandi": true
  },
  {
   "sembol": "HALKB",
@@ -6730,7 +6625,7 @@
   "ce_yukari": false,
   "kalite": 2,
   "t1": 7.78,
-  "t3": null,
+  "t3": -1.37,
   "t5": null,
   "tamamlandi": false
  },
@@ -6745,7 +6640,7 @@
   "ce_yukari": true,
   "kalite": 2,
   "t1": 9.93,
-  "t3": null,
+  "t3": 1.54,
   "t5": null,
   "tamamlandi": false
  },
@@ -7134,7 +7029,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": 6.76,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7149,7 +7044,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": -4.76,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7164,7 +7059,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": -6.94,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7179,7 +7074,7 @@
   "ema200_ust": true,
   "ce_yukari": true,
   "kalite": 3,
-  "t1": null,
+  "t1": -3.06,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7194,7 +7089,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 2,
-  "t1": null,
+  "t1": -1.09,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7209,7 +7104,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 2,
-  "t1": null,
+  "t1": -2.1,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7224,7 +7119,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 2,
-  "t1": null,
+  "t1": -3.0,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7239,7 +7134,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -3.15,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7254,7 +7149,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -4.67,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7269,7 +7164,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": 9.78,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7284,7 +7179,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -3.33,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7299,7 +7194,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": 1.12,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7314,7 +7209,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -5.9,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7329,7 +7224,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": 3.07,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7344,7 +7239,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -7.82,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7359,7 +7254,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -0.22,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7374,7 +7269,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -8.88,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7389,7 +7284,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": 9.94,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7404,7 +7299,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -4.24,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7419,7 +7314,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -0.9,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7434,7 +7329,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -1.18,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7449,7 +7344,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -8.29,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7464,7 +7359,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": -9.98,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7479,7 +7374,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": -4.51,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7494,6 +7389,111 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
+  "t1": 0.38,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "BVSAN",
+  "tarih": "2026-09-09",
+  "fiyat": 133.8,
+  "tam_tavan": true,
+  "degisim": 9.94,
+  "hacim_kat": 8.4,
+  "ema200_ust": true,
+  "ce_yukari": true,
+  "kalite": 3,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "EKGYO",
+  "tarih": "2026-09-09",
+  "fiyat": 22.48,
+  "tam_tavan": true,
+  "degisim": 9.98,
+  "hacim_kat": 4.4,
+  "ema200_ust": true,
+  "ce_yukari": true,
+  "kalite": 3,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "YKSLN",
+  "tarih": "2026-09-09",
+  "fiyat": 3.48,
+  "tam_tavan": true,
+  "degisim": 9.78,
+  "hacim_kat": 4.8,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "MRGYO",
+  "tarih": "2026-09-09",
+  "fiyat": 1.78,
+  "tam_tavan": true,
+  "degisim": 9.88,
+  "hacim_kat": 2.6,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "MEPET",
+  "tarih": "2026-09-09",
+  "fiyat": 21.82,
+  "tam_tavan": false,
+  "degisim": 8.67,
+  "hacim_kat": 2.4,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "KTLEV",
+  "tarih": "2026-09-09",
+  "fiyat": 38.02,
+  "tam_tavan": true,
+  "degisim": 9.95,
+  "hacim_kat": 1.4,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "IZFAS",
+  "tarih": "2026-09-09",
+  "fiyat": 58.0,
+  "tam_tavan": true,
+  "degisim": 9.54,
+  "hacim_kat": 0.9,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
   "t1": null,
   "t3": null,
   "t5": null,
