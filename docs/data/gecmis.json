@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "GENIL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "OTKAR",
   "fiyat": NaN,
   "yon": "AL",
@@ -5150,5 +5140,18 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-09",
   "zaman": "2026-09-09 17:53"
+ },
+ {
+  "sembol": "SKBNK",
+  "fiyat": 6.38,
+  "yon": "AL",
+  "tur": "GUCLU LONG 4/5 puan",
+  "detay": "ADX: 39.4 | EMA200: 10.32",
+  "sl": 5.96,
+  "tp1": 6.94,
+  "tp2": 7.36,
+  "sistem": "ce_puanli",
+  "tarih": "2026-09-09",
+  "zaman": "2026-09-09 18:00"
  }
 ]

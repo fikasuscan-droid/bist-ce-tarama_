@@ -1,5 +1,16 @@
 {
  "sistem": "ce_puanli",
- "zaman": "2026-09-08 18:06",
- "sinyaller": []
+ "zaman": "2026-09-09 18:00",
+ "sinyaller": [
+  {
+   "sembol": "SKBNK",
+   "fiyat": 6.38,
+   "yon": "AL",
+   "tur": "GUCLU LONG 4/5 puan",
+   "detay": "ADX: 39.4 | EMA200: 10.32",
+   "sl": 5.96,
+   "tp1": 6.94,
+   "tp2": 7.36
+  }
+ ]
 }
