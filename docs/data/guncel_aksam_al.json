@@ -1,62 +1,62 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-08 17:59",
+ "zaman": "2026-09-09 17:53",
  "sinyaller": [
   {
-   "sembol": "ISCTR",
-   "fiyat": 14.35,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %10.3 | Hacim: 3.2x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "HALKB",
-   "fiyat": 50.8,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %-6.53 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
-  },
-  {
    "sembol": "EGEEN",
-   "fiyat": 5537.5,
+   "fiyat": 5777.5,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %7.73 | Hacim: 2.2x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %4.33 | Hacim: 4.9x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "SASA",
-   "fiyat": 2.76,
+   "sembol": "EKGYO",
+   "fiyat": 22.48,
    "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %20.52 | Hacim: 12.2x"
-  },
-  {
-   "sembol": "HEKTS",
-   "fiyat": 3.0,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %13.64 | Hacim: 4.4x"
-  },
-  {
-   "sembol": "SISE",
-   "fiyat": 45.82,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %17.25 | Hacim: 4.0x"
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %9.98 | Hacim: 4.4x | Sabah %2-3 gorunce sat"
   },
   {
    "sembol": "PETKM",
-   "fiyat": 24.26,
+   "fiyat": 25.9,
    "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %20.94 | Hacim: 3.2x"
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %6.76 | Hacim: 3.8x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "AKSA",
-   "fiyat": 11.55,
+   "sembol": "VESBE",
+   "fiyat": 5.85,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %2.27 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "VESTL",
+   "fiyat": 26.96,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %3.69 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "ZOREN",
+   "fiyat": 2.48,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %7.44 | Hacim: 2.5x"
+   "detay": "Degisim: %3.33 | Hacim: 2.7x"
+  },
+  {
+   "sembol": "BTCIM",
+   "fiyat": 3.93,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %5.65 | Hacim: 2.4x"
+  },
+  {
+   "sembol": "EUPWR",
+   "fiyat": 75.6,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %7.31 | Hacim: 2.2x"
   }
  ]
 }
