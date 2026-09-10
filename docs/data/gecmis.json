@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "LUKSK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "MAVI",
   "fiyat": NaN,
   "yon": "AL",
@@ -5181,5 +5171,15 @@
   "sistem": "donus",
   "tarih": "2026-09-09",
   "zaman": "2026-09-09 18:44"
+ },
+ {
+  "sembol": "HEKTS",
+  "fiyat": 2.89,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %1.05 | Hacim: 2.6x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-10",
+  "zaman": "2026-09-10 17:46"
  }
 ]

@@ -1,62 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-09 17:53",
+ "zaman": "2026-09-10 17:46",
  "sinyaller": [
   {
-   "sembol": "EGEEN",
-   "fiyat": 5777.5,
+   "sembol": "HEKTS",
+   "fiyat": 2.89,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %4.33 | Hacim: 4.9x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "EKGYO",
-   "fiyat": 22.48,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %9.98 | Hacim: 4.4x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "PETKM",
-   "fiyat": 25.9,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %6.76 | Hacim: 3.8x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "VESBE",
-   "fiyat": 5.85,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %2.27 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "VESTL",
-   "fiyat": 26.96,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %3.69 | Hacim: 2.4x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "ZOREN",
-   "fiyat": 2.48,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %3.33 | Hacim: 2.7x"
-  },
-  {
-   "sembol": "BTCIM",
-   "fiyat": 3.93,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %5.65 | Hacim: 2.4x"
-  },
-  {
-   "sembol": "EUPWR",
-   "fiyat": 75.6,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %7.31 | Hacim: 2.2x"
+   "detay": "Degisim: %1.05 | Hacim: 2.6x | Sabah %2-3 gorunce sat"
   }
  ]
 }
