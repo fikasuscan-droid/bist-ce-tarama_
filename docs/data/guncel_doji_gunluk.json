@@ -1,94 +1,83 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-10 18:22",
+ "zaman": "2026-09-11 18:25",
  "sinyaller": [
   {
-   "sembol": "SMRTG",
-   "fiyat": 8.46,
+   "sembol": "VERUS",
+   "fiyat": 549.5,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.5x",
-   "sl": 8.4,
-   "tp1": 9.16,
-   "tp2": 9.63,
-   "tp3": 10.34
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 534.0,
+   "tp1": 625.14,
+   "tp2": 675.57,
+   "tp3": 751.21
   },
   {
-   "sembol": "EGEEN",
-   "fiyat": 5480.0,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 2.3x",
-   "sl": 6070.0,
-   "tp1": 5150.0,
-   "tp2": 4930.0,
-   "tp3": 4600.0
-  },
-  {
-   "sembol": "TURSG",
-   "fiyat": 6.15,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.5x",
-   "sl": 6.32,
-   "tp1": 5.85,
-   "tp2": 5.65,
-   "tp3": 5.36
-  },
-  {
-   "sembol": "HALKB",
-   "fiyat": 50.05,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.2x",
-   "sl": 52.5,
-   "tp1": 45.14,
-   "tp2": 41.87,
-   "tp3": 36.96
-  },
-  {
-   "sembol": "SARKY",
-   "fiyat": 24.66,
+   "sembol": "MAGEN",
+   "fiyat": 36.0,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
    "detay": "Doji | CE: YUKARI | Hacim: 1.1x",
-   "sl": 26.88,
-   "tp1": 22.75,
-   "tp2": 21.47,
-   "tp3": 19.56
+   "sl": 38.12,
+   "tp1": 33.05,
+   "tp2": 31.09,
+   "tp3": 28.14
   },
   {
-   "sembol": "SISE",
-   "fiyat": 44.06,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.9x",
-   "sl": 48.28,
-   "tp1": 41.74,
-   "tp2": 40.19,
-   "tp3": 37.87
-  },
-  {
-   "sembol": "AGHOL",
-   "fiyat": 34.0,
+   "sembol": "ALBRK",
+   "fiyat": 9.15,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
    "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.6x",
-   "sl": 35.7,
-   "tp1": 32.4,
-   "tp2": 31.33,
-   "tp3": 29.73
+   "sl": 9.3,
+   "tp1": 8.66,
+   "tp2": 8.33,
+   "tp3": 7.84
   },
   {
-   "sembol": "PGSUS",
-   "fiyat": 153.3,
+   "sembol": "BAGFS",
+   "fiyat": 28.0,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
    "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
-   "sl": 156.8,
-   "tp1": 147.43,
-   "tp2": 143.51,
-   "tp3": 137.64
+   "sl": 29.32,
+   "tp1": 26.44,
+   "tp2": 25.41,
+   "tp3": 23.85
+  },
+  {
+   "sembol": "NTGAZ",
+   "fiyat": 11.32,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+   "sl": 11.69,
+   "tp1": 10.84,
+   "tp2": 10.52,
+   "tp3": 10.03
+  },
+  {
+   "sembol": "PNSUT",
+   "fiyat": 12.03,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.6x",
+   "sl": 13.0,
+   "tp1": 10.93,
+   "tp2": 10.2,
+   "tp3": 9.11
+  },
+  {
+   "sembol": "ORGE",
+   "fiyat": 23.0,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.4x",
+   "sl": 23.72,
+   "tp1": 21.37,
+   "tp2": 20.28,
+   "tp3": 18.65
   }
  ]
 }
