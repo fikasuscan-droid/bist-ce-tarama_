@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "GWIND",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "HUBVC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "INTEM",
   "fiyat": NaN,
   "yon": "AL",
@@ -5241,5 +5221,33 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-11",
   "zaman": "2026-09-11 18:25"
+ },
+ {
+  "sembol": "EGEEN",
+  "fiyat": 6027.5,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.4x",
+  "sl": 4802.5,
+  "tp1": 6538.04,
+  "tp2": 6878.39,
+  "tp3": 7388.93,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-11",
+  "zaman": "2026-09-11 18:30"
+ },
+ {
+  "sembol": "AEFES",
+  "fiyat": 19.74,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.0x",
+  "sl": 17.74,
+  "tp1": 21.89,
+  "tp2": 23.33,
+  "tp3": 25.48,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-11",
+  "zaman": "2026-09-11 18:30"
  }
 ]
