@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "YEOTK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "AKSEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "CANTE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "CCOLA",
   "fiyat": NaN,
   "yon": "AL",
@@ -5249,5 +5219,35 @@
   "sistem": "donus",
   "tarih": "2026-09-11",
   "zaman": "2026-09-11 18:40"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.94,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %4.26 | Hacim: 6.4x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-14",
+  "zaman": "2026-09-14 19:30"
+ },
+ {
+  "sembol": "EGEEN",
+  "fiyat": 6522.5,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %8.21 | Hacim: 5.6x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-14",
+  "zaman": "2026-09-14 19:30"
+ },
+ {
+  "sembol": "HEKTS",
+  "fiyat": 2.84,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %0.0 | Hacim: 2.2x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-14",
+  "zaman": "2026-09-14 19:30"
  }
 ]
