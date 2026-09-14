@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "CCOLA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "DOAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "SISE",
   "fiyat": NaN,
   "yon": "AL",
@@ -5249,5 +5229,33 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-14",
   "zaman": "2026-09-14 19:30"
+ },
+ {
+  "sembol": "INDES",
+  "fiyat": 11.66,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+  "sl": 11.91,
+  "tp1": 11.14,
+  "tp2": 10.79,
+  "tp3": 10.27,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-14",
+  "zaman": "2026-09-14 19:50"
+ },
+ {
+  "sembol": "ALARK",
+  "fiyat": 113.2,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.5x",
+  "sl": 118.5,
+  "tp1": 107.67,
+  "tp2": 103.99,
+  "tp3": 98.46,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-14",
+  "zaman": "2026-09-14 19:50"
  }
 ]
