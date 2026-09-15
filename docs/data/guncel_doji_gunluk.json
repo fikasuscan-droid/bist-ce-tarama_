@@ -1,28 +1,50 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-14 19:50",
+ "zaman": "2026-09-15 18:55",
  "sinyaller": [
   {
-   "sembol": "INDES",
-   "fiyat": 11.66,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
-   "sl": 11.91,
-   "tp1": 11.14,
-   "tp2": 10.79,
-   "tp3": 10.27
+   "sembol": "IZFAS",
+   "fiyat": 51.0,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.6x",
+   "sl": 46.94,
+   "tp1": 59.9,
+   "tp2": 65.83,
+   "tp3": 74.72
   },
   {
-   "sembol": "ALARK",
-   "fiyat": 113.2,
+   "sembol": "BIMAS",
+   "fiyat": 415.75,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 0.5x",
-   "sl": 118.5,
-   "tp1": 107.67,
-   "tp2": 103.99,
-   "tp3": 98.46
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
+   "sl": 434.75,
+   "tp1": 400.86,
+   "tp2": 390.93,
+   "tp3": 376.04
+  },
+  {
+   "sembol": "DEVA",
+   "fiyat": 97.2,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
+   "sl": 108.4,
+   "tp1": 89.71,
+   "tp2": 84.72,
+   "tp3": 77.23
+  },
+  {
+   "sembol": "EGGUB",
+   "fiyat": 109.4,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
+   "sl": 113.3,
+   "tp1": 103.52,
+   "tp2": 99.6,
+   "tp3": 93.71
   }
  ]
 }

@@ -1,45 +1,5 @@
 [
  {
-  "sembol": "BFREN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "DERHL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "ERCB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "FORMT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "GEREL",
   "fiyat": NaN,
   "yon": "AL",
@@ -5257,5 +5217,61 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-15",
   "zaman": "2026-09-15 18:20"
+ },
+ {
+  "sembol": "IZFAS",
+  "fiyat": 51.0,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.6x",
+  "sl": 46.94,
+  "tp1": 59.9,
+  "tp2": 65.83,
+  "tp3": 74.72,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 18:55"
+ },
+ {
+  "sembol": "BIMAS",
+  "fiyat": 415.75,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.8x",
+  "sl": 434.75,
+  "tp1": 400.86,
+  "tp2": 390.93,
+  "tp3": 376.04,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 18:55"
+ },
+ {
+  "sembol": "DEVA",
+  "fiyat": 97.2,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
+  "sl": 108.4,
+  "tp1": 89.71,
+  "tp2": 84.72,
+  "tp3": 77.23,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 18:55"
+ },
+ {
+  "sembol": "EGGUB",
+  "fiyat": 109.4,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
+  "sl": 113.3,
+  "tp1": 103.52,
+  "tp2": 99.6,
+  "tp3": 93.71,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 18:55"
  }
 ]
