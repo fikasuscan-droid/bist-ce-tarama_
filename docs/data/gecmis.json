@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "GEREL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "ISGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "ISSEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "KMPUR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "MERKO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "PKENT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "SKYLP",
   "fiyat": NaN,
   "yon": "AL",
@@ -5273,5 +5213,65 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-15",
   "zaman": "2026-09-15 18:55"
+ },
+ {
+  "sembol": "YKSLN",
+  "fiyat": 5.08,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.96)",
+  "detay": "Hacim: 1.2x | Puan: 2/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 19:03"
+ },
+ {
+  "sembol": "MRGYO",
+  "fiyat": 2.36,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.77)",
+  "detay": "Hacim: 0.6x | Puan: 2/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 19:03"
+ },
+ {
+  "sembol": "MARTI",
+  "fiyat": 3.04,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.75)",
+  "detay": "Hacim: 0.4x | Puan: 2/3 | EMA200 UST | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 19:03"
+ },
+ {
+  "sembol": "IZFAS",
+  "fiyat": 51.0,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+8.65)",
+  "detay": "Hacim: 1.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 19:03"
+ },
+ {
+  "sembol": "AYCES",
+  "fiyat": 466.75,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.95)",
+  "detay": "Hacim: 1.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 19:03"
+ },
+ {
+  "sembol": "INFO",
+  "fiyat": 2.42,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 19:03"
  }
 ]

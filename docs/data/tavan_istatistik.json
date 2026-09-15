@@ -1,46 +1,46 @@
 {
- "toplam_kayit": 496,
+ "toplam_kayit": 494,
  "genel": {
   "t1_ort": NaN,
-  "t1_basari": 16.3,
+  "t1_basari": 15.6,
   "t3_ort": NaN,
-  "t3_basari": 14.3,
+  "t3_basari": 14.2,
   "t5_ort": NaN,
-  "t5_basari": 11.3
+  "t5_basari": 10.4
  },
  "kalite_3": {
-  "adet": 32,
-  "t1_ort": 0.32,
-  "t1_basari": 50.0,
+  "adet": 31,
+  "t1_ort": 0.9,
+  "t1_basari": 51.6,
   "t3_ort": NaN,
-  "t3_basari": 44.0,
+  "t3_basari": 40.7,
   "t5_ort": NaN,
-  "t5_basari": 42.1
+  "t5_basari": 28.6
  },
  "kalite_2": {
   "adet": 63,
   "t1_ort": NaN,
-  "t1_basari": 41.3,
+  "t1_basari": 38.1,
   "t3_ort": NaN,
-  "t3_basari": 39.3,
+  "t3_basari": 36.8,
   "t5_ort": NaN,
-  "t5_basari": 30.0
+  "t5_basari": 27.5
  },
  "kalite_1": {
-  "adet": 207,
+  "adet": 206,
   "t1_ort": NaN,
-  "t1_basari": 15.9,
+  "t1_basari": 15.0,
   "t3_ort": NaN,
-  "t3_basari": 14.9,
+  "t3_basari": 14.4,
   "t5_ort": NaN,
-  "t5_basari": 12.4
+  "t5_basari": 12.1
  },
  "kalite_0": {
   "adet": 194,
   "t1_ort": NaN,
   "t1_basari": 3.1,
   "t3_ort": NaN,
-  "t3_basari": 2.6,
+  "t3_basari": 3.6,
   "t5_ort": NaN,
   "t5_basari": 2.1
  }
