@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "BAKAB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
-  "sembol": "BANVT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:26"
- },
- {
   "sembol": "BFREN",
   "fiyat": NaN,
   "yon": "AL",
@@ -5257,5 +5237,25 @@
   "sistem": "tavan",
   "tarih": "2026-09-14",
   "zaman": "2026-09-14 19:53"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": 2.52,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %4.56 | Hacim: 5.0x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 18:20"
+ },
+ {
+  "sembol": "TKFEN",
+  "fiyat": 230.0,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %6.33 | Hacim: 2.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-15",
+  "zaman": "2026-09-15 18:20"
  }
 ]

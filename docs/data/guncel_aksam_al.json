@@ -1,27 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-14 19:30",
+ "zaman": "2026-09-15 18:20",
  "sinyaller": [
   {
-   "sembol": "SASA",
-   "fiyat": 2.94,
+   "sembol": "ZOREN",
+   "fiyat": 2.52,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %4.26 | Hacim: 6.4x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %4.56 | Hacim: 5.0x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "EGEEN",
-   "fiyat": 6522.5,
+   "sembol": "TKFEN",
+   "fiyat": 230.0,
    "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %8.21 | Hacim: 5.6x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "HEKTS",
-   "fiyat": 2.84,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %0.0 | Hacim: 2.2x | Sabah %2-3 gorunce sat"
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %6.33 | Hacim: 2.0x"
   }
  ]
 }
