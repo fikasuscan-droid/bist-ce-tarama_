@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "EUREN",
-  "fiyat": 3.89,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:28"
- },
- {
-  "sembol": "AVHOL",
-  "fiyat": 35.4,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-08-28",
-  "zaman": "2026-08-28 00:28"
- },
- {
   "sembol": "BFREN",
   "fiyat": 131.4,
   "yon": "SAT",
@@ -5273,5 +5253,25 @@
   "sistem": "donus",
   "tarih": "2026-09-15",
   "zaman": "2026-09-15 19:07"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": 2.55,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %1.19 | Hacim: 4.4x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-16",
+  "zaman": "2026-09-16 18:16"
+ },
+ {
+  "sembol": "CANTE",
+  "fiyat": 1.35,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %6.3 | Hacim: 4.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-16",
+  "zaman": "2026-09-16 18:16"
  }
 ]

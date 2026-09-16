@@ -1,20 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-15 18:20",
+ "zaman": "2026-09-16 18:16",
  "sinyaller": [
   {
    "sembol": "ZOREN",
-   "fiyat": 2.52,
+   "fiyat": 2.55,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %4.56 | Hacim: 5.0x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %1.19 | Hacim: 4.4x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "TKFEN",
-   "fiyat": 230.0,
+   "sembol": "CANTE",
+   "fiyat": 1.35,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %6.33 | Hacim: 2.0x"
+   "detay": "Degisim: %6.3 | Hacim: 4.1x"
   }
  ]
 }
