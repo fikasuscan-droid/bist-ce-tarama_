@@ -1,33 +1,5 @@
 [
  {
-  "sembol": "AKBNK",
-  "fiyat": 71.85,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 1.1x",
-  "sl": 73.4,
-  "tp1": 68.6,
-  "tp2": 66.44,
-  "tp3": 63.19,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-08-31",
-  "zaman": "2026-08-31 20:48"
- },
- {
-  "sembol": "ASELS",
-  "fiyat": 386.25,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.0x",
-  "sl": 411.0,
-  "tp1": 362.57,
-  "tp2": 346.79,
-  "tp3": 323.11,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-08-31",
-  "zaman": "2026-08-31 20:48"
- },
- {
   "sembol": "BUCIM",
   "fiyat": 5.72,
   "yon": "SAT",
@@ -5261,5 +5233,33 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-17",
   "zaman": "2026-09-17 18:24"
+ },
+ {
+  "sembol": "RYGYO",
+  "fiyat": 42.94,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.5x",
+  "sl": 40.38,
+  "tp1": 47.94,
+  "tp2": 51.27,
+  "tp3": 56.26,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-17",
+  "zaman": "2026-09-17 18:59"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": 2.45,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 1.1x",
+  "sl": 2.67,
+  "tp1": 2.23,
+  "tp2": 2.08,
+  "tp3": 1.86,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-17",
+  "zaman": "2026-09-17 18:59"
  }
 ]

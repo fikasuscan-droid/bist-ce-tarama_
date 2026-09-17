@@ -1,5 +1,28 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-16 18:52",
- "sinyaller": []
+ "zaman": "2026-09-17 18:59",
+ "sinyaller": [
+  {
+   "sembol": "RYGYO",
+   "fiyat": 42.94,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.5x",
+   "sl": 40.38,
+   "tp1": 47.94,
+   "tp2": 51.27,
+   "tp3": 56.26
+  },
+  {
+   "sembol": "ZOREN",
+   "fiyat": 2.45,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 1.1x",
+   "sl": 2.67,
+   "tp1": 2.23,
+   "tp2": 2.08,
+   "tp3": 1.86
+  }
+ ]
 }
