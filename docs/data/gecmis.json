@@ -1,49 +1,5 @@
 [
  {
-  "sembol": "VESTL",
-  "fiyat": 22.96,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %3.05 | Hacim: 5.7x",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-31",
-  "zaman": "2026-08-31 20:14"
- },
- {
-  "sembol": "VESBE",
-  "fiyat": 5.35,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %1.13 | Hacim: 4.8x",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-31",
-  "zaman": "2026-08-31 20:14"
- },
- {
-  "sembol": "AGHOL",
-  "fiyat": 32.0,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %4.37 | Hacim: 3.2x",
-  "sistem": "aksam_al",
-  "tarih": "2026-08-31",
-  "zaman": "2026-08-31 20:14"
- },
- {
-  "sembol": "SAHOL",
-  "fiyat": 93.2,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.4x",
-  "sl": 94.35,
-  "tp1": 90.05,
-  "tp2": 87.95,
-  "tp3": 84.8,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-08-31",
-  "zaman": "2026-08-31 20:48"
- },
- {
   "sembol": "AKBNK",
   "fiyat": 71.85,
   "yon": "SAT",
@@ -5265,5 +5221,45 @@
   "sistem": "donus",
   "tarih": "2026-09-16",
   "zaman": "2026-09-16 18:58"
+ },
+ {
+  "sembol": "ENERY",
+  "fiyat": 12.66,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %6.03 | Hacim: 2.6x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-17",
+  "zaman": "2026-09-17 18:24"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 2.42,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-3.97 | Hacim: 12.5x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-17",
+  "zaman": "2026-09-17 18:24"
+ },
+ {
+  "sembol": "TURSG",
+  "fiyat": 6.0,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %0.33 | Hacim: 5.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-17",
+  "zaman": "2026-09-17 18:24"
+ },
+ {
+  "sembol": "GUBRF",
+  "fiyat": 429.25,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %3.43 | Hacim: 3.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-17",
+  "zaman": "2026-09-17 18:24"
  }
 ]

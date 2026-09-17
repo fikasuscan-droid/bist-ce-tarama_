@@ -1,20 +1,34 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-16 18:16",
+ "zaman": "2026-09-17 18:24",
  "sinyaller": [
   {
-   "sembol": "ZOREN",
-   "fiyat": 2.55,
+   "sembol": "ENERY",
+   "fiyat": 12.66,
    "yon": "AL",
    "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %1.19 | Hacim: 4.4x | Sabah %2-3 gorunce sat"
+   "detay": "Degisim: %6.03 | Hacim: 2.6x | Sabah %2-3 gorunce sat"
   },
   {
-   "sembol": "CANTE",
-   "fiyat": 1.35,
+   "sembol": "SASA",
+   "fiyat": 2.42,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %6.3 | Hacim: 4.1x"
+   "detay": "Degisim: %-3.97 | Hacim: 12.5x"
+  },
+  {
+   "sembol": "TURSG",
+   "fiyat": 6.0,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %0.33 | Hacim: 5.1x"
+  },
+  {
+   "sembol": "GUBRF",
+   "fiyat": 429.25,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %3.43 | Hacim: 3.0x"
   }
  ]
 }
