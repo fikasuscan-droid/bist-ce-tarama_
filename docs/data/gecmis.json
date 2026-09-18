@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "ALFAS",
-  "fiyat": 37.8,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-03",
-  "zaman": "2026-09-03 18:48"
- },
- {
-  "sembol": "EUREN",
-  "fiyat": 3.74,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-03",
-  "zaman": "2026-09-03 18:48"
- },
- {
   "sembol": "PGSUS",
   "fiyat": 148.2,
   "yon": "AL",
@@ -5233,5 +5213,33 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-18",
   "zaman": "2026-09-18 18:22"
+ },
+ {
+  "sembol": "AYGAZ",
+  "fiyat": 324.25,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 1.0x",
+  "sl": 341.25,
+  "tp1": 284.03,
+  "tp2": 257.21,
+  "tp3": 216.99,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-18",
+  "zaman": "2026-09-18 18:26"
+ },
+ {
+  "sembol": "SELEC",
+  "fiyat": 212.9,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.0x",
+  "sl": 402.5,
+  "tp1": 129.89,
+  "tp2": 74.55,
+  "tp3": -8.46,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-09-18",
+  "zaman": "2026-09-18 18:26"
  }
 ]
