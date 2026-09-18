@@ -1,290 +1,269 @@
 {
  "sistem": "donus",
- "zaman": "2026-09-17 19:08",
+ "zaman": "2026-09-18 18:34",
  "sinyaller": [
   {
-   "sembol": "CLEBI",
-   "fiyat": 1417.0,
-   "yon": "AL",
-   "tur": "DIP DONUS (6/6)",
-   "detay": "Diverjans + CiftDip + CE + Hacim"
-  },
-  {
-   "sembol": "AKSEN",
-   "fiyat": 68.5,
-   "yon": "AL",
-   "tur": "DIP DONUS (5/6)",
-   "detay": "Diverjans + CiftDip + Hacim"
-  },
-  {
-   "sembol": "ASTOR",
-   "fiyat": 255.5,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (5/6)",
-   "detay": "Diverjans + CiftTepe + Hacim"
-  },
-  {
    "sembol": "ASUZU",
-   "fiyat": 46.32,
-   "yon": "AL",
-   "tur": "DIP DONUS (5/6)",
-   "detay": "Diverjans + CiftDip + Hacim"
-  },
-  {
-   "sembol": "DERHL",
-   "fiyat": 1.82,
+   "fiyat": 45.54,
    "yon": "AL",
    "tur": "DIP DONUS (5/6)",
    "detay": "Diverjans + CiftDip + Hacim"
   },
   {
    "sembol": "ETYAT",
-   "fiyat": 10.37,
+   "fiyat": 9.34,
    "yon": "SAT",
    "tur": "TEPE DONUS (5/6)",
    "detay": "Mum + Diverjans + CiftTepe"
   },
   {
-   "sembol": "ISYAT",
-   "fiyat": 7.1,
+   "sembol": "MEPET",
+   "fiyat": 18.9,
    "yon": "AL",
    "tur": "DIP DONUS (5/6)",
    "detay": "Diverjans + CiftDip + Hacim"
   },
   {
+   "sembol": "PARSN",
+   "fiyat": 64.85,
+   "yon": "AL",
+   "tur": "DIP DONUS (5/6)",
+   "detay": "Diverjans + CiftDip + Hacim"
+  },
+  {
+   "sembol": "AKBNK",
+   "fiyat": 70.7,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (4/6)",
+   "detay": "Diverjans + CiftTepe"
+  },
+  {
+   "sembol": "AKSEN",
+   "fiyat": 65.65,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CiftDip"
+  },
+  {
+   "sembol": "ANSGR",
+   "fiyat": 27.1,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "CiftDip + CE + Hacim"
+  },
+  {
+   "sembol": "ASTOR",
+   "fiyat": 248.0,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (4/6)",
+   "detay": "Diverjans + CiftTepe"
+  },
+  {
    "sembol": "GENIL",
-   "fiyat": 9.0,
+   "fiyat": 8.16,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (4/6)",
+   "detay": "Diverjans + CiftTepe"
+  },
+  {
+   "sembol": "SAHOL",
+   "fiyat": 88.05,
    "yon": "SAT",
    "tur": "TEPE DONUS (4/6)",
    "detay": "Diverjans + CiftTepe"
   },
   {
    "sembol": "ALKIM",
-   "fiyat": 14.01,
+   "fiyat": 13.59,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
-   "sembol": "ANHYT",
-   "fiyat": 108.2,
+   "sembol": "CLEBI",
+   "fiyat": 1385.0,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
-   "detay": "Mum + Diverjans + Hacim"
+   "detay": "Diverjans + CiftDip"
+  },
+  {
+   "sembol": "DERHL",
+   "fiyat": 1.74,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "IHLGM",
-   "fiyat": 1.49,
+   "fiyat": 1.42,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
-   "sembol": "KAPLM",
-   "fiyat": 271.5,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (4/6)",
-   "detay": "Mum + CiftTepe + Hacim"
+   "sembol": "ISYAT",
+   "fiyat": 6.93,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "MAGEN",
-   "fiyat": 30.26,
+   "fiyat": 27.24,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
-   "sembol": "PARSN",
-   "fiyat": 66.85,
+   "sembol": "PKENT",
+   "fiyat": 108.6,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "POLHO",
-   "fiyat": 20.38,
+   "fiyat": 19.5,
    "yon": "SAT",
    "tur": "TEPE DONUS (4/6)",
    "detay": "Diverjans + CiftTepe"
   },
   {
-   "sembol": "AKBNK",
-   "fiyat": 71.55,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "EREGL",
-   "fiyat": 36.14,
+   "sembol": "SEKFK",
+   "fiyat": 4.06,
    "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CiftDip"
   },
   {
-   "sembol": "FROTO",
-   "fiyat": 77.45,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
-  },
-  {
-   "sembol": "GARAN",
-   "fiyat": 132.5,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "GUBRF",
-   "fiyat": 429.25,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "KCHOL",
-   "fiyat": 218.7,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "MPARK",
-   "fiyat": 435.0,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + CE + Hacim"
-  },
-  {
-   "sembol": "TAVHL",
-   "fiyat": 273.75,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + CE + Hacim"
-  },
-  {
-   "sembol": "TSKB",
-   "fiyat": 11.22,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "CMBTN",
-   "fiyat": 1520.0,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + CiftDip"
-  },
-  {
-   "sembol": "CMENT",
-   "fiyat": 241.1,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "DESPC",
-   "fiyat": 36.04,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
-  },
-  {
-   "sembol": "DURDO",
-   "fiyat": 4.98,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "GLRYH",
-   "fiyat": 2.42,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
-  },
-  {
-   "sembol": "HTTBT",
-   "fiyat": 32.7,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
-  },
-  {
-   "sembol": "HUBVC",
-   "fiyat": 2.01,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "IHLAS",
-   "fiyat": 1.03,
+   "sembol": "AGHOL",
+   "fiyat": 34.06,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
    "detay": "CiftTepe + Hacim"
   },
   {
-   "sembol": "INDES",
-   "fiyat": 10.82,
+   "sembol": "ALFAS",
+   "fiyat": 33.56,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "GESAN",
+   "fiyat": 48.36,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
    "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "LMKDC",
-   "fiyat": 22.24,
+   "sembol": "ANHYT",
+   "fiyat": 98.0,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + CE + Hacim"
+   "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "LOGO",
-   "fiyat": 138.4,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + CE + Hacim"
-  },
-  {
-   "sembol": "MEPET",
-   "fiyat": 17.85,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + CiftTepe"
-  },
-  {
-   "sembol": "PAHOL",
-   "fiyat": 1.11,
+   "sembol": "CEMTS",
+   "fiyat": 7.75,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "CiftDip + Hacim"
   },
   {
-   "sembol": "RALYH",
-   "fiyat": 220.0,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
+   "sembol": "CMENT",
+   "fiyat": 232.0,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
    "detay": "Mum + Diverjans"
   },
   {
-   "sembol": "TMSN",
-   "fiyat": 69.6,
+   "sembol": "DURDO",
+   "fiyat": 4.7,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "ERBOS",
+   "fiyat": 125.0,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
   },
   {
+   "sembol": "EUHOL",
+   "fiyat": 7.37,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Mum + CiftDip"
+  },
+  {
+   "sembol": "GLBMD",
+   "fiyat": 10.1,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Mum + Diverjans"
+  },
+  {
+   "sembol": "GWIND",
+   "fiyat": 21.48,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Mum + Diverjans"
+  },
+  {
+   "sembol": "ISBIR",
+   "fiyat": 65.0,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "CiftTepe + Hacim"
+  },
+  {
+   "sembol": "PAHOL",
+   "fiyat": 1.05,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "CiftDip + Hacim"
+  },
+  {
+   "sembol": "PENTA",
+   "fiyat": 10.65,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "CiftDip + Hacim"
+  },
+  {
+   "sembol": "RYGYO",
+   "fiyat": 46.6,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "RYSAS",
+   "fiyat": 24.18,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
    "sembol": "UNLU",
-   "fiyat": 10.54,
+   "fiyat": 11.59,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
   },
   {
    "sembol": "USAK",
-   "fiyat": 1.09,
+   "fiyat": 1.04,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "YATAS",
+   "fiyat": 26.64,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
