@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "PGSUS",
-  "fiyat": 149.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-02",
-  "zaman": "2026-09-02 18:49"
- },
- {
-  "sembol": "TURSG",
-  "fiyat": 6.06,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-02",
-  "zaman": "2026-09-02 18:49"
- },
- {
   "sembol": "DMSAS",
   "fiyat": 8.38,
   "yon": "SAT",
@@ -5237,5 +5217,25 @@
   "sistem": "donus",
   "tarih": "2026-09-17",
   "zaman": "2026-09-17 19:08"
+ },
+ {
+  "sembol": "GESAN",
+  "fiyat": 48.36,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-9.44 | Hacim: 4.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-18",
+  "zaman": "2026-09-18 17:45"
+ },
+ {
+  "sembol": "EUPWR",
+  "fiyat": 62.35,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-0.95 | Hacim: 2.6x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-18",
+  "zaman": "2026-09-18 17:45"
  }
 ]

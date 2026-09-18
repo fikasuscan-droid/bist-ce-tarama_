@@ -1,34 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-17 18:24",
+ "zaman": "2026-09-18 17:45",
  "sinyaller": [
   {
-   "sembol": "ENERY",
-   "fiyat": 12.66,
-   "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %6.03 | Hacim: 2.6x | Sabah %2-3 gorunce sat"
-  },
-  {
-   "sembol": "SASA",
-   "fiyat": 2.42,
+   "sembol": "GESAN",
+   "fiyat": 48.36,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %-3.97 | Hacim: 12.5x"
+   "detay": "Degisim: %-9.44 | Hacim: 4.0x"
   },
   {
-   "sembol": "TURSG",
-   "fiyat": 6.0,
+   "sembol": "EUPWR",
+   "fiyat": 62.35,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %0.33 | Hacim: 5.1x"
-  },
-  {
-   "sembol": "GUBRF",
-   "fiyat": 429.25,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %3.43 | Hacim: 3.0x"
+   "detay": "Degisim: %-0.95 | Hacim: 2.6x"
   }
  ]
 }
