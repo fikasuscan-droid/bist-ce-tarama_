@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "ASTOR",
-  "fiyat": 293.5,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (5/6)",
-  "detay": "Mum + Diverjans + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-09-03",
-  "zaman": "2026-09-03 18:48"
- },
- {
-  "sembol": "DMSAS",
-  "fiyat": 8.19,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (5/6)",
-  "detay": "Mum + Diverjans + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-09-03",
-  "zaman": "2026-09-03 18:48"
- },
- {
   "sembol": "ALFAS",
   "fiyat": 37.8,
   "yon": "AL",
@@ -5225,5 +5205,33 @@
   "sistem": "haftalik_ce",
   "tarih": "2026-09-18",
   "zaman": "2026-09-18 17:59"
+ },
+ {
+  "sembol": "RYGYO",
+  "fiyat": 46.6,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.1x",
+  "sl": 40.38,
+  "tp1": 52.06,
+  "tp2": 55.7,
+  "tp3": 61.16,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-18",
+  "zaman": "2026-09-18 18:22"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": 2.29,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
+  "sl": 2.67,
+  "tp1": 2.05,
+  "tp2": 1.88,
+  "tp3": 1.64,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-18",
+  "zaman": "2026-09-18 18:22"
  }
 ]
