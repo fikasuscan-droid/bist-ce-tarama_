@@ -1,28 +1,28 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-18 18:22",
+ "zaman": "2026-09-21 19:58",
  "sinyaller": [
   {
-   "sembol": "RYGYO",
-   "fiyat": 46.6,
+   "sembol": "EKGYO",
+   "fiyat": 19.2,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.1x",
-   "sl": 40.38,
-   "tp1": 52.06,
-   "tp2": 55.7,
-   "tp3": 61.16
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
+   "sl": 18.78,
+   "tp1": 20.73,
+   "tp2": 21.75,
+   "tp3": 23.28
   },
   {
-   "sembol": "ZOREN",
-   "fiyat": 2.29,
-   "yon": "SAT",
-   "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 0.7x",
-   "sl": 2.67,
-   "tp1": 2.05,
-   "tp2": 1.88,
-   "tp3": 1.64
+   "sembol": "BRSAN",
+   "fiyat": 659.0,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 643.0,
+   "tp1": 697.52,
+   "tp2": 723.2,
+   "tp3": 761.71
   }
  ]
 }
