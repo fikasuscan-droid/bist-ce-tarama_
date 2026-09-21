@@ -1,33 +1,5 @@
 [
  {
-  "sembol": "ISMEN",
-  "fiyat": 34.5,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.4x",
-  "sl": 32.1,
-  "tp1": 37.37,
-  "tp2": 39.29,
-  "tp3": 42.16,
-  "sistem": "doji_haftalik",
-  "tarih": "2026-09-04",
-  "zaman": "2026-09-04 18:22"
- },
- {
-  "sembol": "ISCTR",
-  "fiyat": 13.01,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.3x",
-  "sl": 12.46,
-  "tp1": 14.37,
-  "tp2": 15.27,
-  "tp3": 16.63,
-  "sistem": "doji_haftalik",
-  "tarih": "2026-09-04",
-  "zaman": "2026-09-04 18:22"
- },
- {
   "sembol": "BRSAN",
   "fiyat": 715.5,
   "yon": "SAT",
@@ -5229,5 +5201,25 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-21",
   "zaman": "2026-09-21 19:58"
+ },
+ {
+  "sembol": "HRKET",
+  "fiyat": 6.91,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.93)",
+  "detay": "Hacim: 2.1x | Puan: 2/3 | EMA200 UST",
+  "sistem": "tavan",
+  "tarih": "2026-09-21",
+  "zaman": "2026-09-21 20:01"
+ },
+ {
+  "sembol": "UNLU",
+  "fiyat": 12.74,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.92)",
+  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-09-21",
+  "zaman": "2026-09-21 20:01"
  }
 ]
