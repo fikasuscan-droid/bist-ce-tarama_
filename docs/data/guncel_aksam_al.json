@@ -1,20 +1,5 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-18 17:45",
- "sinyaller": [
-  {
-   "sembol": "GESAN",
-   "fiyat": 48.36,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %-9.44 | Hacim: 4.0x"
-  },
-  {
-   "sembol": "EUPWR",
-   "fiyat": 62.35,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %-0.95 | Hacim: 2.6x"
-  }
- ]
+ "zaman": "2026-09-21 19:37",
+ "sinyaller": []
 }
