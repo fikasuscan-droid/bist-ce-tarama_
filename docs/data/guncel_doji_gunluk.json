@@ -1,28 +1,160 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-21 19:58",
+ "zaman": "2026-09-22 18:49",
  "sinyaller": [
   {
-   "sembol": "EKGYO",
-   "fiyat": 19.2,
+   "sembol": "CEMTS",
+   "fiyat": 8.08,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.9x",
-   "sl": 18.78,
-   "tp1": 20.73,
-   "tp2": 21.75,
-   "tp3": 23.28
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 2.8x",
+   "sl": 7.42,
+   "tp1": 8.54,
+   "tp2": 8.85,
+   "tp3": 9.32
   },
   {
-   "sembol": "BRSAN",
-   "fiyat": 659.0,
+   "sembol": "BUCIM",
+   "fiyat": 5.21,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.7x",
-   "sl": 643.0,
-   "tp1": 697.52,
-   "tp2": 723.2,
-   "tp3": 761.71
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.8x",
+   "sl": 4.85,
+   "tp1": 5.51,
+   "tp2": 5.71,
+   "tp3": 6.02
+  },
+  {
+   "sembol": "DOAS",
+   "fiyat": 158.5,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.6x",
+   "sl": 149.6,
+   "tp1": 164.97,
+   "tp2": 169.29,
+   "tp3": 175.76
+  },
+  {
+   "sembol": "FONET",
+   "fiyat": 4.23,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.0x",
+   "sl": 3.73,
+   "tp1": 4.59,
+   "tp2": 4.83,
+   "tp3": 5.18
+  },
+  {
+   "sembol": "NUHCM",
+   "fiyat": 206.2,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.0x",
+   "sl": 196.0,
+   "tp1": 219.53,
+   "tp2": 228.41,
+   "tp3": 241.74
+  },
+  {
+   "sembol": "HTTBT",
+   "fiyat": 31.16,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 29.2,
+   "tp1": 33.27,
+   "tp2": 34.68,
+   "tp3": 36.79
+  },
+  {
+   "sembol": "MEDTR",
+   "fiyat": 20.06,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 19.06,
+   "tp1": 21.39,
+   "tp2": 22.28,
+   "tp3": 23.61
+  },
+  {
+   "sembol": "OZKGY",
+   "fiyat": 12.35,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 11.59,
+   "tp1": 12.93,
+   "tp2": 13.31,
+   "tp3": 13.89
+  },
+  {
+   "sembol": "SAYAS",
+   "fiyat": 47.44,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.8x",
+   "sl": 42.88,
+   "tp1": 51.76,
+   "tp2": 54.63,
+   "tp3": 58.95
+  },
+  {
+   "sembol": "NTGAZ",
+   "fiyat": 10.63,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 10.21,
+   "tp1": 11.18,
+   "tp2": 11.55,
+   "tp3": 12.1
+  },
+  {
+   "sembol": "CWENE",
+   "fiyat": 24.6,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.6x",
+   "sl": 22.02,
+   "tp1": 27.69,
+   "tp2": 29.75,
+   "tp3": 32.83
+  },
+  {
+   "sembol": "KORDS",
+   "fiyat": 3.16,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.6x",
+   "sl": 2.92,
+   "tp1": 3.64,
+   "tp2": 3.96,
+   "tp3": 4.44
+  },
+  {
+   "sembol": "VAKKO",
+   "fiyat": 64.5,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.6x",
+   "sl": 60.25,
+   "tp1": 69.33,
+   "tp2": 72.54,
+   "tp3": 77.37
+  },
+  {
+   "sembol": "TUPRS",
+   "fiyat": 397.0,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 1.2x",
+   "sl": 424.25,
+   "tp1": 371.04,
+   "tp2": 353.74,
+   "tp3": 327.79
   }
  ]
 }
