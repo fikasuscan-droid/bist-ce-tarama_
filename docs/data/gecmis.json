@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "GOZDE",
-  "fiyat": 21.94,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-07",
-  "zaman": "2026-09-07 19:16"
- },
- {
-  "sembol": "VKING",
-  "fiyat": 20.42,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-07",
-  "zaman": "2026-09-07 19:16"
- },
- {
-  "sembol": "GESAN",
-  "fiyat": 64.0,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-07",
-  "zaman": "2026-09-07 19:16"
- },
- {
   "sembol": "TUPRS",
   "fiyat": 394.25,
   "yon": "SAT",
@@ -5173,5 +5143,35 @@
   "sistem": "donus",
   "tarih": "2026-09-21",
   "zaman": "2026-09-21 20:02"
+ },
+ {
+  "sembol": "ECZYT",
+  "fiyat": 232.6,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.98 | Hacim: 6.9x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-22",
+  "zaman": "2026-09-22 18:11"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": 7.48,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.77 | Hacim: 2.8x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-22",
+  "zaman": "2026-09-22 18:11"
+ },
+ {
+  "sembol": "EGEEN",
+  "fiyat": 5155.0,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.39 | Hacim: 2.6x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-22",
+  "zaman": "2026-09-22 18:11"
  }
 ]

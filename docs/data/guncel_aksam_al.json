@@ -1,5 +1,27 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-21 19:37",
- "sinyaller": []
+ "zaman": "2026-09-22 18:11",
+ "sinyaller": [
+  {
+   "sembol": "ECZYT",
+   "fiyat": 232.6,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %9.98 | Hacim: 6.9x"
+  },
+  {
+   "sembol": "GENIL",
+   "fiyat": 7.48,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.77 | Hacim: 2.8x"
+  },
+  {
+   "sembol": "EGEEN",
+   "fiyat": 5155.0,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %9.39 | Hacim: 2.6x"
+  }
+ ]
 }
