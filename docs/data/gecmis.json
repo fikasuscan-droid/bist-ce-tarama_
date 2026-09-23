@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "VKING",
-  "fiyat": 20.74,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-08",
-  "zaman": "2026-09-08 18:50"
- },
- {
-  "sembol": "VAKBN",
-  "fiyat": 36.64,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Mum + CE + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-08",
-  "zaman": "2026-09-08 18:50"
- },
- {
   "sembol": "DGATE",
   "fiyat": 89.0,
   "yon": "AL",
@@ -5209,5 +5189,25 @@
   "sistem": "donus",
   "tarih": "2026-09-22",
   "zaman": "2026-09-22 19:00"
+ },
+ {
+  "sembol": "BTCIM",
+  "fiyat": 2.37,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %0.42 | Hacim: 2.6x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-23",
+  "zaman": "2026-09-23 18:29"
+ },
+ {
+  "sembol": "KONTR",
+  "fiyat": 2.54,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.96 | Hacim: 2.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-23",
+  "zaman": "2026-09-23 18:29"
  }
 ]
