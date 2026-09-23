@@ -1,45 +1,5 @@
 [
  {
-  "sembol": "DGATE",
-  "fiyat": 89.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-08",
-  "zaman": "2026-09-08 18:50"
- },
- {
-  "sembol": "DNISI",
-  "fiyat": 4.64,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + CE",
-  "sistem": "donus",
-  "tarih": "2026-09-08",
-  "zaman": "2026-09-08 18:50"
- },
- {
-  "sembol": "KUTPO",
-  "fiyat": 80.1,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + CE",
-  "sistem": "donus",
-  "tarih": "2026-09-08",
-  "zaman": "2026-09-08 18:50"
- },
- {
-  "sembol": "NIBAS",
-  "fiyat": 4.9,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-08",
-  "zaman": "2026-09-08 18:50"
- },
- {
   "sembol": "OSTIM",
   "fiyat": 1.59,
   "yon": "AL",
@@ -5209,5 +5169,61 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-23",
   "zaman": "2026-09-23 18:29"
+ },
+ {
+  "sembol": "PINSU",
+  "fiyat": 9.06,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 2.2x",
+  "sl": 8.8,
+  "tp1": 9.6,
+  "tp2": 9.96,
+  "tp3": 10.5,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-23",
+  "zaman": "2026-09-23 19:00"
+ },
+ {
+  "sembol": "ODAS",
+  "fiyat": 6.9,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
+  "sl": 6.57,
+  "tp1": 7.42,
+  "tp2": 7.76,
+  "tp3": 8.28,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-23",
+  "zaman": "2026-09-23 19:00"
+ },
+ {
+  "sembol": "PKENT",
+  "fiyat": 103.7,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+  "sl": 101.5,
+  "tp1": 109.96,
+  "tp2": 114.13,
+  "tp3": 120.39,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-23",
+  "zaman": "2026-09-23 19:00"
+ },
+ {
+  "sembol": "GENTS",
+  "fiyat": 4.49,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.6x",
+  "sl": 4.22,
+  "tp1": 4.83,
+  "tp2": 5.05,
+  "tp3": 5.39,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-23",
+  "zaman": "2026-09-23 19:00"
  }
 ]
