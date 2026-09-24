@@ -1,19 +1,5 @@
 [
  {
-  "sembol": "BRSAN",
-  "fiyat": 715.5,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.6x",
-  "sl": 731.0,
-  "tp1": 671.04,
-  "tp2": 641.39,
-  "tp3": 596.93,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-09-09",
-  "zaman": "2026-09-09 18:31"
- },
- {
   "sembol": "BVSAN",
   "fiyat": 133.8,
   "yon": "AL",
@@ -5198,5 +5184,19 @@
   "sistem": "tavan",
   "tarih": "2026-09-23",
   "zaman": "2026-09-23 19:06"
+ },
+ {
+  "sembol": "YKBNK",
+  "fiyat": 35.7,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.4x",
+  "sl": 37.34,
+  "tp1": 33.48,
+  "tp2": 32.0,
+  "tp3": 29.77,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-09-24",
+  "zaman": "2026-09-24 19:04"
  }
 ]
