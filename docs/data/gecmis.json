@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "DEVA",
-  "fiyat": 105.1,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.99)",
-  "detay": "Hacim: 2.8x | Puan: 3/3 | EMA200 UST | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-09-10",
-  "zaman": "2026-09-10 18:31"
- },
- {
   "sembol": "MRGYO",
   "fiyat": 1.95,
   "yon": "AL",
@@ -5166,5 +5156,15 @@
   "sistem": "donus",
   "tarih": "2026-09-24",
   "zaman": "2026-09-24 19:19"
+ },
+ {
+  "sembol": "ECZYT",
+  "fiyat": 241.0,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %3.48 | Hacim: 3.1x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-25",
+  "zaman": "2026-09-25 18:47"
  }
 ]

@@ -1,5 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-24 18:30",
- "sinyaller": []
+ "zaman": "2026-09-25 18:47",
+ "sinyaller": [
+  {
+   "sembol": "ECZYT",
+   "fiyat": 241.0,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %3.48 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
+  }
+ ]
 }
