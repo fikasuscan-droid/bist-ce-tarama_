@@ -1,111 +1,188 @@
 {
  "sistem": "haftalik_ce",
- "zaman": "2026-09-18 17:59",
+ "zaman": "2026-09-25 19:02",
  "sinyaller": [
   {
-   "sembol": "BIMAS",
-   "fiyat": 419.75,
-   "yon": "AL",
-   "tur": "GUCLU AL (CE+EMA200+ADX)",
-   "detay": "EMA: UST | ADX: 31.0"
+   "sembol": "GENIL",
+   "fiyat": 7.35,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 33.2"
   },
   {
-   "sembol": "ENKAI",
-   "fiyat": 85.35,
-   "yon": "AL",
-   "tur": "GUCLU AL (CE+EMA200+ADX)",
-   "detay": "EMA: UST | ADX: 39.9"
+   "sembol": "FRIGO",
+   "fiyat": 1.58,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 25.5"
   },
   {
-   "sembol": "PETKM",
-   "fiyat": 21.44,
-   "yon": "AL",
-   "tur": "GUCLU AL (CE+EMA200+ADX)",
-   "detay": "EMA: UST | ADX: 28.9"
+   "sembol": "GLRYH",
+   "fiyat": 1.82,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 38.7"
   },
   {
-   "sembol": "TTKOM",
-   "fiyat": 52.45,
-   "yon": "AL",
-   "tur": "GUCLU AL (CE+EMA200+ADX)",
-   "detay": "EMA: UST | ADX: 25.1"
+   "sembol": "ISBIR",
+   "fiyat": 60.25,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 38.8"
   },
   {
-   "sembol": "FLAP",
-   "fiyat": 11.75,
-   "yon": "AL",
-   "tur": "GUCLU AL (CE+EMA200+ADX)",
-   "detay": "EMA: UST | ADX: 28.3"
+   "sembol": "IZFAS",
+   "fiyat": 22.0,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 36.9"
   },
   {
-   "sembol": "EGEEN",
-   "fiyat": 5235.0,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 29.9"
+   "sembol": "KENT",
+   "fiyat": 290.0,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 25.2"
   },
   {
-   "sembol": "ISCTR",
-   "fiyat": 13.26,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 22.9"
+   "sembol": "KORDS",
+   "fiyat": 3.07,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 27.3"
   },
   {
-   "sembol": "SASA",
-   "fiyat": 2.35,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 25.0"
-  },
-  {
-   "sembol": "TOASO",
-   "fiyat": 284.5,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 14.4"
-  },
-  {
-   "sembol": "VAKBN",
-   "fiyat": 33.1,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 24.8"
-  },
-  {
-   "sembol": "BAGFS",
-   "fiyat": 24.4,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 25.4"
+   "sembol": "MAGEN",
+   "fiyat": 16.11,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 47.9"
   },
   {
    "sembol": "MIATK",
-   "fiyat": 25.3,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 31.0"
+   "fiyat": 27.28,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 31.5"
   },
   {
-   "sembol": "YKSLN",
-   "fiyat": 3.72,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 31.4"
+   "sembol": "MNDRS",
+   "fiyat": 9.66,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 27.3"
   },
   {
-   "sembol": "SEKUR",
-   "fiyat": 6.63,
+   "sembol": "SAYAS",
+   "fiyat": 45.28,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 28.0"
+  },
+  {
+   "sembol": "ADEL",
+   "fiyat": 26.48,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 36.7"
+   "detay": "ADX: 19.8"
   },
   {
-   "sembol": "VERUS",
-   "fiyat": 496.0,
+   "sembol": "AKMGY",
+   "fiyat": 227.3,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 30.7"
+   "detay": "ADX: 21.9"
+  },
+  {
+   "sembol": "ATATP",
+   "fiyat": 244.1,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 45.3"
+  },
+  {
+   "sembol": "AVOD",
+   "fiyat": 3.21,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 24.3"
+  },
+  {
+   "sembol": "ETYAT",
+   "fiyat": 10.06,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 43.9"
+  },
+  {
+   "sembol": "GEREL",
+   "fiyat": 29.26,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 21.8"
+  },
+  {
+   "sembol": "GSRAY",
+   "fiyat": 0.88,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 19.7"
+  },
+  {
+   "sembol": "IEYHO",
+   "fiyat": 99.2,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 80.7"
+  },
+  {
+   "sembol": "KRDMA",
+   "fiyat": 43.98,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 44.0"
+  },
+  {
+   "sembol": "POLHO",
+   "fiyat": 20.0,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 32.2"
+  },
+  {
+   "sembol": "PRZMA",
+   "fiyat": 30.14,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 54.5"
+  },
+  {
+   "sembol": "RALYH",
+   "fiyat": 117.0,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 24.5"
+  },
+  {
+   "sembol": "SELEC",
+   "fiyat": 126.0,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 52.6"
+  },
+  {
+   "sembol": "VANGD",
+   "fiyat": 60.7,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 41.1"
+  },
+  {
+   "sembol": "VBTYZ",
+   "fiyat": 27.78,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 59.3"
   }
  ]
 }
