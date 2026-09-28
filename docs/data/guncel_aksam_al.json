@@ -1,13 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-25 18:47",
+ "zaman": "2026-09-28 20:38",
  "sinyaller": [
   {
-   "sembol": "ECZYT",
-   "fiyat": 241.0,
+   "sembol": "TURSG",
+   "fiyat": 5.66,
    "yon": "AL",
-   "tur": "GUCLU - CE + Hacim + Yukselis",
-   "detay": "Degisim: %3.48 | Hacim: 3.1x | Sabah %2-3 gorunce sat"
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %-3.9 | Hacim: 3.4x"
   }
  ]
 }

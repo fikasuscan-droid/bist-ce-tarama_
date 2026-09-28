@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "SISE",
-  "fiyat": 44.98,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Mum + CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-11",
-  "zaman": "2026-09-11 18:40"
- },
- {
   "sembol": "CLEBI",
   "fiyat": 1463.0,
   "yon": "AL",
@@ -5142,5 +5132,15 @@
   "sistem": "donus",
   "tarih": "2026-09-25",
   "zaman": "2026-09-25 19:21"
+ },
+ {
+  "sembol": "TURSG",
+  "fiyat": 5.66,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-3.9 | Hacim: 3.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-28",
+  "zaman": "2026-09-28 20:38"
  }
 ]
