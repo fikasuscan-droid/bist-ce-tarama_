@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "GOZDE",
-  "fiyat": 19.95,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-22",
-  "zaman": "2026-09-22 19:00"
- },
- {
-  "sembol": "HUBVC",
-  "fiyat": 1.74,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-22",
-  "zaman": "2026-09-22 19:00"
- },
- {
   "sembol": "ISMEN",
   "fiyat": 33.5,
   "yon": "SAT",
@@ -5038,5 +5018,25 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-29",
   "zaman": "2026-09-29 19:57"
+ },
+ {
+  "sembol": "TUCLK",
+  "fiyat": 4.49,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.78)",
+  "detay": "Hacim: 3.2x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-09-29",
+  "zaman": "2026-09-29 20:03"
+ },
+ {
+  "sembol": "CMENT",
+  "fiyat": 236.4,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.95)",
+  "detay": "Hacim: 1.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-29",
+  "zaman": "2026-09-29 20:03"
  }
 ]
