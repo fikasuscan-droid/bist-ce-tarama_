@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "CEMTS",
-  "fiyat": 8.08,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-22",
-  "zaman": "2026-09-22 19:00"
- },
- {
   "sembol": "DURDO",
   "fiyat": 4.67,
   "yon": "SAT",
@@ -5030,5 +5020,15 @@
   "sistem": "aksam_al",
   "tarih": "2026-09-29",
   "zaman": "2026-09-29 19:31"
+ },
+ {
+  "sembol": "EGEEN",
+  "fiyat": 5180.0,
+  "yon": "SAT",
+  "tur": "ZAYIF SHORT 1/5 puan",
+  "detay": "",
+  "sistem": "ce_puanli",
+  "tarih": "2026-09-29",
+  "zaman": "2026-09-29 19:39"
  }
 ]
