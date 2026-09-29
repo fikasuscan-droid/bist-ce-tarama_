@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "SEKFK",
-  "fiyat": 4.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-22",
-  "zaman": "2026-09-22 19:00"
- },
- {
   "sembol": "CEMTS",
   "fiyat": 8.08,
   "yon": "AL",
@@ -5030,5 +5020,15 @@
   "sistem": "donus",
   "tarih": "2026-09-28",
   "zaman": "2026-09-28 21:18"
+ },
+ {
+  "sembol": "ALFAS",
+  "fiyat": 27.88,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-6.0 | Hacim: 2.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-29",
+  "zaman": "2026-09-29 19:31"
  }
 ]

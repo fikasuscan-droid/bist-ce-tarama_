@@ -1,13 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-28 20:38",
+ "zaman": "2026-09-29 19:31",
  "sinyaller": [
   {
-   "sembol": "TURSG",
-   "fiyat": 5.66,
+   "sembol": "ALFAS",
+   "fiyat": 27.88,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %-3.9 | Hacim: 3.4x"
+   "detay": "Degisim: %-6.0 | Hacim: 2.1x"
   }
  ]
 }
