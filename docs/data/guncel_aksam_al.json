@@ -1,13 +1,27 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-29 19:31",
+ "zaman": "2026-09-30 19:32",
  "sinyaller": [
   {
-   "sembol": "ALFAS",
-   "fiyat": 27.88,
+   "sembol": "BERA",
+   "fiyat": 11.55,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %-6.0 | Hacim: 2.1x"
+   "detay": "Degisim: %6.75 | Hacim: 3.3x"
+  },
+  {
+   "sembol": "CANTE",
+   "fiyat": 1.02,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %0.99 | Hacim: 2.9x"
+  },
+  {
+   "sembol": "MPARK",
+   "fiyat": 417.75,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %2.89 | Hacim: 2.4x"
   }
  ]
 }

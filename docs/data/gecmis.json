@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "ISMEN",
-  "fiyat": 33.5,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-09-22",
-  "zaman": "2026-09-22 19:00"
- },
- {
-  "sembol": "KBORU",
-  "fiyat": 12.6,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-22",
-  "zaman": "2026-09-22 19:00"
- },
- {
-  "sembol": "SMRTG",
-  "fiyat": 5.56,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-22",
-  "zaman": "2026-09-22 19:00"
- },
- {
   "sembol": "USAK",
   "fiyat": 0.9,
   "yon": "AL",
@@ -5038,5 +5008,35 @@
   "sistem": "tavan",
   "tarih": "2026-09-29",
   "zaman": "2026-09-29 20:03"
+ },
+ {
+  "sembol": "BERA",
+  "fiyat": 11.55,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %6.75 | Hacim: 3.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-30",
+  "zaman": "2026-09-30 19:32"
+ },
+ {
+  "sembol": "CANTE",
+  "fiyat": 1.02,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %0.99 | Hacim: 2.9x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-30",
+  "zaman": "2026-09-30 19:32"
+ },
+ {
+  "sembol": "MPARK",
+  "fiyat": 417.75,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %2.89 | Hacim: 2.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-09-30",
+  "zaman": "2026-09-30 19:32"
  }
 ]
