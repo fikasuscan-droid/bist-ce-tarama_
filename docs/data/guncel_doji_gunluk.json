@@ -1,28 +1,61 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-09-29 19:57",
+ "zaman": "2026-09-30 19:57",
  "sinyaller": [
   {
-   "sembol": "HTTBT",
-   "fiyat": 30.92,
+   "sembol": "SAFKR",
+   "fiyat": 11.6,
    "yon": "AL",
    "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.8x",
-   "sl": 29.92,
-   "tp1": 33.26,
-   "tp2": 34.82,
-   "tp3": 37.17
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.6x",
+   "sl": 10.9,
+   "tp1": 12.71,
+   "tp2": 13.45,
+   "tp3": 14.56
   },
   {
-   "sembol": "HRKET",
-   "fiyat": 7.89,
+   "sembol": "HLGYO",
+   "fiyat": 3.99,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.5x",
+   "sl": 3.86,
+   "tp1": 4.28,
+   "tp2": 4.47,
+   "tp3": 4.76
+  },
+  {
+   "sembol": "HUNER",
+   "fiyat": 4.4,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Mezartas Doji | CE: YUKARI | Hacim: 1.0x",
+   "sl": 4.7,
+   "tp1": 4.03,
+   "tp2": 3.78,
+   "tp3": 3.4
+  },
+  {
+   "sembol": "ISDMR",
+   "fiyat": 60.85,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+   "sl": 63.7,
+   "tp1": 55.55,
+   "tp2": 52.01,
+   "tp3": 46.71
+  },
+  {
+   "sembol": "RYGYO",
+   "fiyat": 48.1,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
    "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.4x",
-   "sl": 8.34,
-   "tp1": 6.86,
-   "tp2": 6.18,
-   "tp3": 5.15
+   "sl": 50.4,
+   "tp1": 43.28,
+   "tp2": 40.07,
+   "tp3": 35.25
   }
  ]
 }
