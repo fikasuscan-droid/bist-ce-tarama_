@@ -1,53 +1,5 @@
 [
  {
-  "sembol": "PKENT",
-  "fiyat": 103.7,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
-  "sl": 101.5,
-  "tp1": 109.96,
-  "tp2": 114.13,
-  "tp3": 120.39,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-09-23",
-  "zaman": "2026-09-23 19:00"
- },
- {
-  "sembol": "GENTS",
-  "fiyat": 4.49,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.6x",
-  "sl": 4.22,
-  "tp1": 4.83,
-  "tp2": 5.05,
-  "tp3": 5.39,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-09-23",
-  "zaman": "2026-09-23 19:00"
- },
- {
-  "sembol": "HRKET",
-  "fiyat": 7.93,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.99)",
-  "detay": "Hacim: 2.2x | Puan: 3/3 | EMA200 UST | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-09-23",
-  "zaman": "2026-09-23 19:06"
- },
- {
-  "sembol": "MEPET",
-  "fiyat": 21.9,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.99)",
-  "detay": "Hacim: 2.7x | Puan: 2/3 | EMA200 UST",
-  "sistem": "tavan",
-  "tarih": "2026-09-23",
-  "zaman": "2026-09-23 19:06"
- },
- {
   "sembol": "UNLU",
   "fiyat": 13.36,
   "yon": "AL",
@@ -5050,5 +5002,45 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-09-30",
   "zaman": "2026-09-30 19:57"
+ },
+ {
+  "sembol": "SEKUR",
+  "fiyat": 3.52,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 6.6x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-30",
+  "zaman": "2026-09-30 20:05"
+ },
+ {
+  "sembol": "SEYKM",
+  "fiyat": 2.7,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.76)",
+  "detay": "Hacim: 2.2x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-30",
+  "zaman": "2026-09-30 20:05"
+ },
+ {
+  "sembol": "ALTNY",
+  "fiyat": 12.84,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.93)",
+  "detay": "Hacim: 1.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-30",
+  "zaman": "2026-09-30 20:05"
+ },
+ {
+  "sembol": "BINHO",
+  "fiyat": 6.23,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.88)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-09-30",
+  "zaman": "2026-09-30 20:05"
  }
 ]
