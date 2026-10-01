@@ -1,55 +1,5 @@
 [
  {
-  "sembol": "TTKOM",
-  "fiyat": 54.55,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Diverjans + CiftDip + CE",
-  "sistem": "donus",
-  "tarih": "2026-09-24",
-  "zaman": "2026-09-24 19:19"
- },
- {
-  "sembol": "ETYAT",
-  "fiyat": 9.15,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (5/6)",
-  "detay": "Diverjans + CiftTepe + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-24",
-  "zaman": "2026-09-24 19:19"
- },
- {
-  "sembol": "MEPET",
-  "fiyat": 23.06,
-  "yon": "AL",
-  "tur": "DIP DONUS (5/6)",
-  "detay": "Diverjans + CiftDip + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-24",
-  "zaman": "2026-09-24 19:19"
- },
- {
-  "sembol": "AEFES",
-  "fiyat": 18.69,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-24",
-  "zaman": "2026-09-24 19:19"
- },
- {
-  "sembol": "AKBNK",
-  "fiyat": 70.65,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (4/6)",
-  "detay": "Diverjans + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-09-24",
-  "zaman": "2026-09-24 19:19"
- },
- {
   "sembol": "CCOLA",
   "fiyat": 77.0,
   "yon": "AL",
@@ -5038,5 +4988,55 @@
   "sistem": "donus",
   "tarih": "2026-09-30",
   "zaman": "2026-09-30 20:09"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 1.92,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %6.67 | Hacim: 21.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-01",
+  "zaman": "2026-10-01 19:39"
+ },
+ {
+  "sembol": "ASTOR",
+  "fiyat": 209.6,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.97 | Hacim: 6.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-01",
+  "zaman": "2026-10-01 19:39"
+ },
+ {
+  "sembol": "KTLEV",
+  "fiyat": 9.96,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %3.64 | Hacim: 5.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-01",
+  "zaman": "2026-10-01 19:39"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": 5.55,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-5.13 | Hacim: 3.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-01",
+  "zaman": "2026-10-01 19:39"
+ },
+ {
+  "sembol": "ASELS",
+  "fiyat": 370.0,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.96 | Hacim: 2.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-01",
+  "zaman": "2026-10-01 19:39"
  }
 ]

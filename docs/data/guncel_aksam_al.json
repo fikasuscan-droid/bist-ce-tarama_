@@ -1,27 +1,41 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-09-30 19:32",
+ "zaman": "2026-10-01 19:39",
  "sinyaller": [
   {
-   "sembol": "BERA",
-   "fiyat": 11.55,
+   "sembol": "SASA",
+   "fiyat": 1.92,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %6.75 | Hacim: 3.3x"
+   "detay": "Degisim: %6.67 | Hacim: 21.3x"
   },
   {
-   "sembol": "CANTE",
-   "fiyat": 1.02,
+   "sembol": "ASTOR",
+   "fiyat": 209.6,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %0.99 | Hacim: 2.9x"
+   "detay": "Degisim: %9.97 | Hacim: 6.1x"
   },
   {
-   "sembol": "MPARK",
-   "fiyat": 417.75,
+   "sembol": "KTLEV",
+   "fiyat": 9.96,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %2.89 | Hacim: 2.4x"
+   "detay": "Degisim: %3.64 | Hacim: 5.4x"
+  },
+  {
+   "sembol": "GENIL",
+   "fiyat": 5.55,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %-5.13 | Hacim: 3.1x"
+  },
+  {
+   "sembol": "ASELS",
+   "fiyat": 370.0,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %9.96 | Hacim: 2.3x"
   }
  ]
 }
