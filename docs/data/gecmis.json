@@ -1,163 +1,5 @@
 [
  {
-  "sembol": "AKSGY",
-  "fiyat": 9.41,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "CiftTepe + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "CEMTS",
-  "fiyat": 8.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Mum + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "ETILR",
-  "fiyat": 6.73,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "JANTS",
-  "fiyat": 14.45,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + Diverjans",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "KAYSE",
-  "fiyat": 3.35,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "ONCSM",
-  "fiyat": 89.1,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "SMRTG",
-  "fiyat": 5.39,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "TLMAN",
-  "fiyat": 65.05,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Mum + Diverjans",
-  "sistem": "donus",
-  "tarih": "2026-09-28",
-  "zaman": "2026-09-28 21:18"
- },
- {
-  "sembol": "ALFAS",
-  "fiyat": 27.88,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %-6.0 | Hacim: 2.1x",
-  "sistem": "aksam_al",
-  "tarih": "2026-09-29",
-  "zaman": "2026-09-29 19:31"
- },
- {
-  "sembol": "EGEEN",
-  "fiyat": 5180.0,
-  "yon": "SAT",
-  "tur": "ZAYIF SHORT 1/5 puan",
-  "detay": "",
-  "sistem": "ce_puanli",
-  "tarih": "2026-09-29",
-  "zaman": "2026-09-29 19:39"
- },
- {
-  "sembol": "HTTBT",
-  "fiyat": 30.92,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.8x",
-  "sl": 29.92,
-  "tp1": 33.26,
-  "tp2": 34.82,
-  "tp3": 37.17,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-09-29",
-  "zaman": "2026-09-29 19:57"
- },
- {
-  "sembol": "HRKET",
-  "fiyat": 7.89,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.4x",
-  "sl": 8.34,
-  "tp1": 6.86,
-  "tp2": 6.18,
-  "tp3": 5.15,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-09-29",
-  "zaman": "2026-09-29 19:57"
- },
- {
-  "sembol": "TUCLK",
-  "fiyat": 4.49,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.78)",
-  "detay": "Hacim: 3.2x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-09-29",
-  "zaman": "2026-09-29 20:03"
- },
- {
-  "sembol": "CMENT",
-  "fiyat": 236.4,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.95)",
-  "detay": "Hacim: 1.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-09-29",
-  "zaman": "2026-09-29 20:03"
- },
- {
-  "sembol": "BERA",
-  "fiyat": 11.55,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %6.75 | Hacim: 3.3x",
-  "sistem": "aksam_al",
-  "tarih": "2026-09-30",
-  "zaman": "2026-09-30 19:32"
- },
- {
   "sembol": "CANTE",
   "fiyat": 1.02,
   "yon": "AL",
@@ -5154,5 +4996,155 @@
   "sistem": "tavan",
   "tarih": "2026-10-05",
   "zaman": "2026-10-05 22:03"
+ },
+ {
+  "sembol": "AEFES",
+  "fiyat": 17.87,
+  "yon": "AL",
+  "tur": "DIP DONUS (4/6)",
+  "detay": "Diverjans + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "EGEEN",
+  "fiyat": 5142.5,
+  "yon": "AL",
+  "tur": "DIP DONUS (4/6)",
+  "detay": "Diverjans + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "MPARK",
+  "fiyat": 434.75,
+  "yon": "AL",
+  "tur": "DIP DONUS (4/6)",
+  "detay": "Diverjans + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "TCELL",
+  "fiyat": 97.8,
+  "yon": "AL",
+  "tur": "DIP DONUS (4/6)",
+  "detay": "Diverjans + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "TTKOM",
+  "fiyat": 52.45,
+  "yon": "AL",
+  "tur": "DIP DONUS (4/6)",
+  "detay": "Diverjans + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "GARFA",
+  "fiyat": 22.46,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "HUNER",
+  "fiyat": 4.53,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "TRGYO",
+  "fiyat": 92.7,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "BANVT",
+  "fiyat": 133.3,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Mum + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "BARMA",
+  "fiyat": 5.59,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "BOSSA",
+  "fiyat": 5.88,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Mum + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "DURDO",
+  "fiyat": 5.06,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "CiftTepe + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "ESCOM",
+  "fiyat": 4.7,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + CE",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "GEREL",
+  "fiyat": 18.0,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "KRGYO",
+  "fiyat": 3.38,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + CE",
+  "sistem": "donus",
+  "tarih": "2026-10-05",
+  "zaman": "2026-10-05 22:06"
  }
 ]
