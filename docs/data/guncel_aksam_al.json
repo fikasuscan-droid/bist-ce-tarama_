@@ -1,20 +1,5 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-10-02 19:25",
- "sinyaller": [
-  {
-   "sembol": "SASA",
-   "fiyat": 1.93,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %0.52 | Hacim: 17.3x"
-  },
-  {
-   "sembol": "ASTOR",
-   "fiyat": 220.0,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %4.96 | Hacim: 2.1x"
-  }
- ]
+ "zaman": "2026-10-05 21:33",
+ "sinyaller": []
 }
