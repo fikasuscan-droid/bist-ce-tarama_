@@ -1,410 +1,5 @@
 [
  {
-  "sembol": "PAPIL",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "PNLSN",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "RODRG",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "SEKFK",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "SONME",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "TMSN",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "VKGYO",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.7,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "DOHOL",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "ENJSA",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "HEKTS",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "VESTL",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "AKSGY",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "ASUZU",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "BAGFS",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "BFREN",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "DENGE",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "DERIM",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "EGPRO",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "EMKEL",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "GEDIK",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "GOODY",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "GRSEL",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "GSDDE",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "ICBCT",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "IHLGM",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "IHYAY",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
-  "sembol": "IMASM",
-  "tarih": "2026-09-28",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.6,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
   "sembol": "INDES",
   "tarih": "2026-09-28",
   "fiyat": NaN,
@@ -1721,8 +1316,8 @@
   "kalite": 2,
   "t1": -8.46,
   "t3": -14.25,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -18.71,
+  "tamamlandi": true
  },
  {
   "sembol": "CMENT",
@@ -1736,8 +1331,8 @@
   "kalite": 0,
   "t1": 0.08,
   "t3": 2.37,
-  "t5": null,
-  "tamamlandi": false
+  "t5": 1.52,
+  "tamamlandi": true
  },
  {
   "sembol": "SEKUR",
@@ -1810,7 +1405,7 @@
   "ce_yukari": true,
   "kalite": 2,
   "t1": 1.12,
-  "t3": null,
+  "t3": -4.25,
   "t5": null,
   "tamamlandi": false
  },
@@ -1825,7 +1420,7 @@
   "ce_yukari": false,
   "kalite": 2,
   "t1": -1.96,
-  "t3": null,
+  "t3": 1.62,
   "t5": null,
   "tamamlandi": false
  },
@@ -1840,7 +1435,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 4.96,
-  "t3": null,
+  "t3": -7.16,
   "t5": null,
   "tamamlandi": false
  },
@@ -1855,7 +1450,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 9.99,
-  "t3": null,
+  "t3": 32.96,
   "t5": null,
   "tamamlandi": false
  },
@@ -1870,7 +1465,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 1.14,
-  "t3": null,
+  "t3": 4.82,
   "t5": null,
   "tamamlandi": false
  },
@@ -1885,7 +1480,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 9.09,
-  "t3": null,
+  "t3": 30.68,
   "t5": null,
   "tamamlandi": false
  },
@@ -1900,7 +1495,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": -1.18,
-  "t3": null,
+  "t3": -0.94,
   "t5": null,
   "tamamlandi": false
  },
@@ -1915,7 +1510,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 4.96,
-  "t3": null,
+  "t3": -1.03,
   "t5": null,
   "tamamlandi": false
  },
@@ -1930,7 +1525,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 9.03,
-  "t3": null,
+  "t3": 9.68,
   "t5": null,
   "tamamlandi": false
  },
@@ -1945,7 +1540,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 8.04,
-  "t3": null,
+  "t3": 8.04,
   "t5": null,
   "tamamlandi": false
  },
@@ -1960,7 +1555,7 @@
   "ce_yukari": true,
   "kalite": 1,
   "t1": -4.85,
-  "t3": null,
+  "t3": -0.15,
   "t5": null,
   "tamamlandi": false
  },
@@ -1975,7 +1570,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": -1.55,
-  "t3": null,
+  "t3": 3.17,
   "t5": null,
   "tamamlandi": false
  },
@@ -1990,7 +1585,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 5.59,
-  "t3": null,
+  "t3": 0.57,
   "t5": null,
   "tamamlandi": false
  },
@@ -2005,7 +1600,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 5.65,
-  "t3": null,
+  "t3": 7.12,
   "t5": null,
   "tamamlandi": false
  },
@@ -2020,7 +1615,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -3.64,
-  "t3": null,
+  "t3": -8.46,
   "t5": null,
   "tamamlandi": false
  },
@@ -2035,7 +1630,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -4.39,
-  "t3": null,
+  "t3": 3.88,
   "t5": null,
   "tamamlandi": false
  },
@@ -2050,7 +1645,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 5.39,
-  "t3": null,
+  "t3": 2.69,
   "t5": null,
   "tamamlandi": false
  },
@@ -2065,7 +1660,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -1.98,
-  "t3": null,
+  "t3": -2.97,
   "t5": null,
   "tamamlandi": false
  },
@@ -2080,7 +1675,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -0.67,
-  "t3": null,
+  "t3": 7.26,
   "t5": null,
   "tamamlandi": false
  },
@@ -2095,7 +1690,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -0.48,
-  "t3": null,
+  "t3": -0.16,
   "t5": null,
   "tamamlandi": false
  },
@@ -2110,7 +1705,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 9.96,
-  "t3": null,
+  "t3": 33.03,
   "t5": null,
   "tamamlandi": false
  },
@@ -2125,7 +1720,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 8.24,
-  "t3": null,
+  "t3": -0.61,
   "t5": null,
   "tamamlandi": false
  },
@@ -2140,7 +1735,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 9.82,
-  "t3": null,
+  "t3": 32.14,
   "t5": null,
   "tamamlandi": false
  },
@@ -2155,7 +1750,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 3.7,
-  "t3": null,
+  "t3": -2.34,
   "t5": null,
   "tamamlandi": false
  },
@@ -2170,7 +1765,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 4.03,
-  "t3": null,
+  "t3": -0.92,
   "t5": null,
   "tamamlandi": false
  },
@@ -2185,7 +1780,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 3.37,
-  "t3": null,
+  "t3": 3.96,
   "t5": null,
   "tamamlandi": false
  },
@@ -2200,7 +1795,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -0.63,
-  "t3": null,
+  "t3": -2.61,
   "t5": null,
   "tamamlandi": false
  },
@@ -2215,7 +1810,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 8.64,
-  "t3": null,
+  "t3": 22.84,
   "t5": null,
   "tamamlandi": false
  },
@@ -2230,7 +1825,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -0.17,
-  "t3": null,
+  "t3": -2.03,
   "t5": null,
   "tamamlandi": false
  },
@@ -2245,7 +1840,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -1.3,
-  "t3": null,
+  "t3": -3.54,
   "t5": null,
   "tamamlandi": false
  },
@@ -2260,7 +1855,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 6.36,
-  "t3": null,
+  "t3": -0.45,
   "t5": null,
   "tamamlandi": false
  },
@@ -2275,7 +1870,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 9.35,
-  "t3": null,
+  "t3": 30.84,
   "t5": null,
   "tamamlandi": false
  },
@@ -2290,7 +1885,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 9.97,
-  "t3": null,
+  "t3": 14.2,
   "t5": null,
   "tamamlandi": false
  },
@@ -2305,7 +1900,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -0.12,
-  "t3": null,
+  "t3": 0.37,
   "t5": null,
   "tamamlandi": false
  },
@@ -2320,7 +1915,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 5.09,
-  "t3": null,
+  "t3": 0.45,
   "t5": null,
   "tamamlandi": false
  },
@@ -2335,7 +1930,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 6.56,
-  "t3": null,
+  "t3": 28.9,
   "t5": null,
   "tamamlandi": false
  },
@@ -2350,7 +1945,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -0.31,
-  "t3": null,
+  "t3": -0.54,
   "t5": null,
   "tamamlandi": false
  },
@@ -2365,7 +1960,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 9.94,
-  "t3": null,
+  "t3": 10.26,
   "t5": null,
   "tamamlandi": false
  },
@@ -2649,7 +2244,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2664,7 +2259,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2679,7 +2274,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2694,7 +2289,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2709,7 +2304,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 2,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2724,7 +2319,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2739,7 +2334,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2754,7 +2349,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2769,7 +2364,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2784,7 +2379,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2799,7 +2394,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2814,7 +2409,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2829,7 +2424,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2844,7 +2439,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2859,7 +2454,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2874,7 +2469,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2889,7 +2484,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2904,7 +2499,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2919,7 +2514,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2934,7 +2529,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2949,7 +2544,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2964,7 +2559,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2979,7 +2574,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -2994,7 +2589,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3009,7 +2604,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3024,7 +2619,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3039,7 +2634,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3054,7 +2649,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3069,7 +2664,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3084,7 +2679,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3099,7 +2694,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3114,7 +2709,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3129,7 +2724,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3144,7 +2739,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3159,7 +2754,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3174,7 +2769,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3189,7 +2784,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3204,7 +2799,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3219,7 +2814,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3234,7 +2829,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3249,7 +2844,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3264,7 +2859,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3279,7 +2874,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3294,7 +2889,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3309,7 +2904,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3324,7 +2919,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3339,7 +2934,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3354,7 +2949,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3369,7 +2964,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3384,7 +2979,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3399,7 +2994,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3414,7 +3009,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3429,7 +3024,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3444,7 +3039,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3459,7 +3054,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3474,7 +3069,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3489,7 +3084,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3504,7 +3099,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3519,7 +3114,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3534,7 +3129,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3549,7 +3144,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3564,7 +3159,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3579,7 +3174,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3594,7 +3189,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3609,7 +3204,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3624,7 +3219,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3639,7 +3234,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3654,7 +3249,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3669,7 +3264,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3684,7 +3279,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3699,7 +3294,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3714,7 +3309,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3729,7 +3324,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3744,7 +3339,7 @@
   "ema200_ust": false,
   "ce_yukari": true,
   "kalite": 1,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3759,7 +3354,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3774,7 +3369,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3789,7 +3384,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3804,7 +3399,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3819,7 +3414,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3834,7 +3429,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3849,7 +3444,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3864,7 +3459,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3879,7 +3474,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3894,7 +3489,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3909,7 +3504,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3924,7 +3519,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3939,7 +3534,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3954,7 +3549,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3969,7 +3564,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3984,7 +3579,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -3999,7 +3594,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4014,7 +3609,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4029,7 +3624,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4044,7 +3639,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4059,7 +3654,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4074,7 +3669,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4089,7 +3684,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4104,7 +3699,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4119,7 +3714,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4134,7 +3729,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4149,7 +3744,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4164,7 +3759,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4179,7 +3774,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4194,7 +3789,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4209,7 +3804,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4224,7 +3819,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4239,7 +3834,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4254,7 +3849,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4269,7 +3864,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4284,7 +3879,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4299,7 +3894,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4314,7 +3909,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4329,7 +3924,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4344,7 +3939,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4359,7 +3954,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4374,7 +3969,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4389,7 +3984,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4404,7 +3999,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4419,7 +4014,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4434,7 +4029,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4449,7 +4044,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4464,7 +4059,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4479,7 +4074,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4494,7 +4089,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4509,7 +4104,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4524,7 +4119,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4539,7 +4134,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4554,7 +4149,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4569,7 +4164,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4584,7 +4179,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4599,7 +4194,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4614,7 +4209,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4629,7 +4224,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4644,7 +4239,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4659,7 +4254,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4674,7 +4269,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4689,7 +4284,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4704,7 +4299,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4719,7 +4314,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4734,7 +4329,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4749,7 +4344,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4764,7 +4359,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4779,7 +4374,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4794,7 +4389,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4809,7 +4404,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4824,7 +4419,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4839,7 +4434,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4854,7 +4449,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4869,7 +4464,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4884,7 +4479,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4899,7 +4494,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4914,7 +4509,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4929,7 +4524,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4944,7 +4539,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4959,7 +4554,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4974,7 +4569,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -4989,7 +4584,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5004,7 +4599,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5019,7 +4614,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5034,7 +4629,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5049,7 +4644,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5064,7 +4659,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5079,7 +4674,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5094,7 +4689,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5109,7 +4704,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5124,7 +4719,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5139,7 +4734,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5154,7 +4749,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5169,7 +4764,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5184,7 +4779,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5199,7 +4794,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5214,7 +4809,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5229,7 +4824,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5244,7 +4839,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5259,7 +4854,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5274,7 +4869,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5289,7 +4884,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5304,7 +4899,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5319,7 +4914,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5334,7 +4929,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5349,7 +4944,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5364,7 +4959,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5379,7 +4974,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5394,7 +4989,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5409,7 +5004,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5424,7 +5019,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5439,7 +5034,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5454,7 +5049,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5469,7 +5064,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5484,7 +5079,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5499,7 +5094,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5514,7 +5109,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5529,7 +5124,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5544,7 +5139,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5559,7 +5154,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5574,7 +5169,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5589,7 +5184,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5604,7 +5199,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5619,7 +5214,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5634,7 +5229,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5649,7 +5244,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5664,7 +5259,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5679,7 +5274,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5694,7 +5289,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5709,7 +5304,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5724,7 +5319,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5739,7 +5334,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5754,7 +5349,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5769,7 +5364,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5784,7 +5379,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5799,7 +5394,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5814,7 +5409,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5829,7 +5424,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5844,7 +5439,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5859,7 +5454,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5874,7 +5469,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5889,7 +5484,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5904,7 +5499,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5919,7 +5514,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5934,7 +5529,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5949,7 +5544,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5964,7 +5559,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5979,7 +5574,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -5994,7 +5589,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6009,7 +5604,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6024,7 +5619,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6039,7 +5634,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6054,7 +5649,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6069,7 +5664,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6084,7 +5679,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6099,7 +5694,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6114,7 +5709,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6129,7 +5724,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6144,7 +5739,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6159,7 +5754,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6174,7 +5769,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6189,7 +5784,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6204,7 +5799,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6219,7 +5814,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6234,7 +5829,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6249,7 +5844,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6264,7 +5859,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6279,7 +5874,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6294,7 +5889,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6309,7 +5904,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6324,7 +5919,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6339,7 +5934,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6354,7 +5949,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6369,7 +5964,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6384,7 +5979,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6399,7 +5994,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6414,7 +6009,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6429,7 +6024,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6444,7 +6039,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6459,7 +6054,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6474,7 +6069,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6489,7 +6084,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6504,7 +6099,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6519,7 +6114,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6534,7 +6129,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6549,7 +6144,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6564,7 +6159,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6579,7 +6174,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6594,7 +6189,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6609,7 +6204,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6624,7 +6219,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6639,7 +6234,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6654,7 +6249,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6669,7 +6264,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6684,7 +6279,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6699,7 +6294,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6714,7 +6309,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6729,7 +6324,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6744,7 +6339,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6759,7 +6354,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6774,7 +6369,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6789,7 +6384,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6804,7 +6399,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6819,7 +6414,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6834,7 +6429,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6849,7 +6444,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6864,7 +6459,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6879,7 +6474,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6894,7 +6489,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6909,7 +6504,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6924,7 +6519,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6939,7 +6534,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6954,7 +6549,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6969,7 +6564,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6984,7 +6579,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -6999,7 +6594,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7014,7 +6609,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7029,7 +6624,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7044,7 +6639,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7059,7 +6654,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7074,7 +6669,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7089,7 +6684,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7104,7 +6699,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7119,7 +6714,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7134,7 +6729,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7149,7 +6744,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7164,7 +6759,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7179,7 +6774,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7194,7 +6789,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7209,7 +6804,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7224,7 +6819,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7239,7 +6834,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7254,7 +6849,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7269,7 +6864,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7284,7 +6879,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7299,7 +6894,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7314,7 +6909,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7329,7 +6924,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7344,7 +6939,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7359,7 +6954,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7374,7 +6969,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7389,7 +6984,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7404,7 +6999,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7419,7 +7014,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7434,7 +7029,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7449,7 +7044,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7464,7 +7059,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7479,7 +7074,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": NaN,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7491,6 +7086,411 @@
   "tam_tavan": false,
   "degisim": NaN,
   "hacim_kat": 0.0,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": NaN,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "KLRHO",
+  "tarih": "2026-10-06",
+  "fiyat": 13.62,
+  "tam_tavan": true,
+  "degisim": 9.93,
+  "hacim_kat": 3.3,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "MIATK",
+  "tarih": "2026-10-06",
+  "fiyat": 30.24,
+  "tam_tavan": true,
+  "degisim": 9.96,
+  "hacim_kat": 2.2,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "DURDO",
+  "tarih": "2026-10-06",
+  "fiyat": 6.11,
+  "tam_tavan": true,
+  "degisim": 9.89,
+  "hacim_kat": 1.8,
+  "ema200_ust": true,
+  "ce_yukari": true,
+  "kalite": 2,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "VKING",
+  "tarih": "2026-10-06",
+  "fiyat": 16.48,
+  "tam_tavan": true,
+  "degisim": 9.87,
+  "hacim_kat": 4.5,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "ULUUN",
+  "tarih": "2026-10-06",
+  "fiyat": 6.64,
+  "tam_tavan": true,
+  "degisim": 9.93,
+  "hacim_kat": 3.5,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "SKYLP",
+  "tarih": "2026-10-06",
+  "fiyat": 59.25,
+  "tam_tavan": true,
+  "degisim": 9.93,
+  "hacim_kat": 2.5,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "COSMO",
+  "tarih": "2026-10-06",
+  "fiyat": 98.85,
+  "tam_tavan": true,
+  "degisim": 9.96,
+  "hacim_kat": 2.2,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "HUBVC",
+  "tarih": "2026-10-06",
+  "fiyat": 1.67,
+  "tam_tavan": true,
+  "degisim": 9.87,
+  "hacim_kat": 2.0,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "SEKUR",
+  "tarih": "2026-10-06",
+  "fiyat": 4.02,
+  "tam_tavan": true,
+  "degisim": 9.84,
+  "hacim_kat": 1.4,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "CRFSA",
+  "tarih": "2026-10-06",
+  "fiyat": 222.4,
+  "tam_tavan": true,
+  "degisim": 9.99,
+  "hacim_kat": 1.0,
+  "ema200_ust": true,
+  "ce_yukari": false,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "ERSU",
+  "tarih": "2026-10-06",
+  "fiyat": 16.27,
+  "tam_tavan": false,
+  "degisim": 8.54,
+  "hacim_kat": 1.0,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "VANGD",
+  "tarih": "2026-10-06",
+  "fiyat": 69.35,
+  "tam_tavan": false,
+  "degisim": 8.96,
+  "hacim_kat": 0.9,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "MRGYO",
+  "tarih": "2026-10-06",
+  "fiyat": 1.48,
+  "tam_tavan": true,
+  "degisim": 9.63,
+  "hacim_kat": 0.7,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "BURVA",
+  "tarih": "2026-10-06",
+  "fiyat": 488.25,
+  "tam_tavan": true,
+  "degisim": 9.97,
+  "hacim_kat": 0.4,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "PASEU",
+  "tarih": "2026-10-06",
+  "fiyat": 41.4,
+  "tam_tavan": true,
+  "degisim": 9.99,
+  "hacim_kat": 0.3,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "CRDFA",
+  "tarih": "2026-10-06",
+  "fiyat": 10.65,
+  "tam_tavan": true,
+  "degisim": 9.91,
+  "hacim_kat": 0.2,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "MARTI",
+  "tarih": "2026-10-06",
+  "fiyat": 1.4,
+  "tam_tavan": false,
+  "degisim": 9.38,
+  "hacim_kat": 0.1,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "INFO",
+  "tarih": "2026-10-06",
+  "fiyat": 1.15,
+  "tam_tavan": true,
+  "degisim": 9.52,
+  "hacim_kat": 0.0,
+  "ema200_ust": false,
+  "ce_yukari": true,
+  "kalite": 1,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "USAK",
+  "tarih": "2026-10-06",
+  "fiyat": 0.45,
+  "tam_tavan": true,
+  "degisim": 9.76,
+  "hacim_kat": 1.6,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "GEREL",
+  "tarih": "2026-10-06",
+  "fiyat": 19.69,
+  "tam_tavan": true,
+  "degisim": 10.0,
+  "hacim_kat": 1.5,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "HDFGS",
+  "tarih": "2026-10-06",
+  "fiyat": 1.1,
+  "tam_tavan": true,
+  "degisim": 10.0,
+  "hacim_kat": 1.4,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "ICUGS",
+  "tarih": "2026-10-06",
+  "fiyat": 1.24,
+  "tam_tavan": true,
+  "degisim": 9.73,
+  "hacim_kat": 1.4,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "TRILC",
+  "tarih": "2026-10-06",
+  "fiyat": 0.88,
+  "tam_tavan": true,
+  "degisim": 10.0,
+  "hacim_kat": 1.3,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "UNLU",
+  "tarih": "2026-10-06",
+  "fiyat": 11.09,
+  "tam_tavan": true,
+  "degisim": 9.91,
+  "hacim_kat": 1.2,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "KARTN",
+  "tarih": "2026-10-06",
+  "fiyat": 91.3,
+  "tam_tavan": true,
+  "degisim": 10.0,
+  "hacim_kat": 1.1,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "YKSLN",
+  "tarih": "2026-10-06",
+  "fiyat": 2.5,
+  "tam_tavan": true,
+  "degisim": 9.65,
+  "hacim_kat": 0.6,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 0,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "HEDEF",
+  "tarih": "2026-10-06",
+  "fiyat": 10.32,
+  "tam_tavan": true,
+  "degisim": 9.9,
+  "hacim_kat": 0.1,
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
