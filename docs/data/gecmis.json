@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "CANTE",
-  "fiyat": 1.02,
-  "yon": "AL",
-  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-  "detay": "Degisim: %0.99 | Hacim: 2.9x",
-  "sistem": "aksam_al",
-  "tarih": "2026-09-30",
-  "zaman": "2026-09-30 19:32"
- },
- {
   "sembol": "MPARK",
   "fiyat": 417.75,
   "yon": "AL",
@@ -5146,5 +5136,15 @@
   "sistem": "donus",
   "tarih": "2026-10-05",
   "zaman": "2026-10-05 22:06"
+ },
+ {
+  "sembol": "OTKAR",
+  "fiyat": 341.25,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %0.22 | Hacim: 2.2x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-06",
+  "zaman": "2026-10-06 19:38"
  }
 ]
