@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "EMNIS",
-  "fiyat": 118.4,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-09-30",
-  "zaman": "2026-09-30 20:09"
- },
- {
-  "sembol": "EUKYO",
-  "fiyat": 9.48,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + Diverjans",
-  "sistem": "donus",
-  "tarih": "2026-09-30",
-  "zaman": "2026-09-30 20:09"
- },
- {
-  "sembol": "INTEM",
-  "fiyat": 190.7,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-09-30",
-  "zaman": "2026-09-30 20:09"
- },
- {
   "sembol": "ISBIR",
   "fiyat": 54.8,
   "yon": "SAT",
@@ -5134,5 +5104,47 @@
   "sistem": "tavan",
   "tarih": "2026-10-06",
   "zaman": "2026-10-06 20:23"
+ },
+ {
+  "sembol": "ESCAR",
+  "fiyat": 15.4,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 3.7x",
+  "sl": 14.52,
+  "tp1": 18.99,
+  "tp2": 21.39,
+  "tp3": 24.98,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-07",
+  "zaman": "2026-10-07 20:35"
+ },
+ {
+  "sembol": "HATEK",
+  "fiyat": 8.1,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.4x",
+  "sl": 7.65,
+  "tp1": 9.07,
+  "tp2": 9.72,
+  "tp3": 10.7,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-07",
+  "zaman": "2026-10-07 20:35"
+ },
+ {
+  "sembol": "OTKAR",
+  "fiyat": 336.75,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 2.2x",
+  "sl": 345.75,
+  "tp1": 312.56,
+  "tp2": 296.44,
+  "tp3": 272.25,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-07",
+  "zaman": "2026-10-07 20:35"
  }
 ]
