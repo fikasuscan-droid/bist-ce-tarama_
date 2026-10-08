@@ -1,47 +1,5 @@
 [
  {
-  "sembol": "ODAS",
-  "fiyat": 6.03,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.8x",
-  "sl": 5.6,
-  "tp1": 6.64,
-  "tp2": 7.04,
-  "tp3": 7.65,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:20"
- },
- {
-  "sembol": "BORLS",
-  "fiyat": 1.58,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
-  "sl": 1.45,
-  "tp1": 1.86,
-  "tp2": 2.04,
-  "tp3": 2.32,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:20"
- },
- {
-  "sembol": "KLMSN",
-  "fiyat": 21.52,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
-  "sl": 20.78,
-  "tp1": 23.54,
-  "tp2": 24.88,
-  "tp3": 26.9,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:20"
- },
- {
   "sembol": "OBAMS",
   "fiyat": 4.59,
   "yon": "AL",
@@ -5106,5 +5064,47 @@
   "sistem": "aksam_al",
   "tarih": "2026-10-08",
   "zaman": "2026-10-08 20:01"
+ },
+ {
+  "sembol": "ADEL",
+  "fiyat": 26.46,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 1.7x",
+  "sl": 23.6,
+  "tp1": 28.69,
+  "tp2": 30.18,
+  "tp3": 32.41,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-08",
+  "zaman": "2026-10-08 20:41"
+ },
+ {
+  "sembol": "KCAER",
+  "fiyat": 10.48,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.7x",
+  "sl": 10.08,
+  "tp1": 11.25,
+  "tp2": 11.77,
+  "tp3": 12.54,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-08",
+  "zaman": "2026-10-08 20:41"
+ },
+ {
+  "sembol": "AKSA",
+  "fiyat": 10.49,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.6x",
+  "sl": 10.19,
+  "tp1": 10.94,
+  "tp2": 11.24,
+  "tp3": 11.69,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-08",
+  "zaman": "2026-10-08 20:41"
  }
 ]
