@@ -1,47 +1,5 @@
 [
  {
-  "sembol": "SAYAS",
-  "fiyat": 41.96,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.1x",
-  "sl": 39.0,
-  "tp1": 46.04,
-  "tp2": 48.76,
-  "tp3": 52.83,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:20"
- },
- {
-  "sembol": "BAGFS",
-  "fiyat": 22.62,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Doji | CE: ASAGI | Hacim: 0.9x",
-  "sl": 21.12,
-  "tp1": 24.66,
-  "tp2": 26.02,
-  "tp3": 28.05,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:20"
- },
- {
-  "sembol": "GENTS",
-  "fiyat": 4.16,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Doji | CE: ASAGI | Hacim: 0.9x",
-  "sl": 3.97,
-  "tp1": 4.51,
-  "tp2": 4.75,
-  "tp3": 5.1,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:20"
- },
- {
   "sembol": "ODAS",
   "fiyat": 6.03,
   "yon": "AL",
@@ -5118,5 +5076,35 @@
   "sistem": "tavan",
   "tarih": "2026-10-07",
   "zaman": "2026-10-07 20:41"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": 4.25,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.82 | Hacim: 8.8x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-08",
+  "zaman": "2026-10-08 20:01"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 1.88,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.62 | Hacim: 8.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-08",
+  "zaman": "2026-10-08 20:01"
+ },
+ {
+  "sembol": "KTLEV",
+  "fiyat": 7.28,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.97 | Hacim: 3.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-08",
+  "zaman": "2026-10-08 20:01"
  }
 ]
