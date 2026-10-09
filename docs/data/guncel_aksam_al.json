@@ -1,27 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-10-08 20:01",
+ "zaman": "2026-10-09 19:36",
  "sinyaller": [
   {
-   "sembol": "GENIL",
-   "fiyat": 4.25,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %9.82 | Hacim: 8.8x"
-  },
-  {
    "sembol": "SASA",
-   "fiyat": 1.88,
+   "fiyat": 1.93,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %1.62 | Hacim: 8.1x"
+   "detay": "Degisim: %2.66 | Hacim: 10.6x"
   },
   {
-   "sembol": "KTLEV",
-   "fiyat": 7.28,
+   "sembol": "GENIL",
+   "fiyat": 4.67,
    "yon": "AL",
    "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %9.97 | Hacim: 3.0x"
+   "detay": "Degisim: %9.88 | Hacim: 2.3x"
   }
  ]
 }

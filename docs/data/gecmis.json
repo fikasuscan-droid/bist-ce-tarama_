@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "NETAS",
-  "fiyat": 78.75,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.99)",
-  "detay": "Hacim: 0.5x | Puan: 1/3 | EMA200 UST",
-  "sistem": "tavan",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:23"
- },
- {
-  "sembol": "AVGYO",
-  "fiyat": 15.58,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+8.57)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | EMA200 UST",
-  "sistem": "tavan",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:23"
- },
- {
   "sembol": "ESCAR",
   "fiyat": 15.95,
   "yon": "AL",
@@ -5082,5 +5062,25 @@
   "sistem": "tavan",
   "tarih": "2026-10-08",
   "zaman": "2026-10-08 20:43"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 1.93,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %2.66 | Hacim: 10.6x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-09",
+  "zaman": "2026-10-09 19:36"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": 4.67,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.88 | Hacim: 2.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-09",
+  "zaman": "2026-10-09 19:36"
  }
 ]
