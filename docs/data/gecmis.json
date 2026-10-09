@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "ESCAR",
-  "fiyat": 15.95,
-  "yon": "AL",
-  "tur": "TAVAN (%+10.00)",
-  "detay": "Hacim: 1.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:23"
- },
- {
   "sembol": "SEKUR",
   "fiyat": 3.87,
   "yon": "AL",
@@ -5082,5 +5072,15 @@
   "sistem": "aksam_al",
   "tarih": "2026-10-09",
   "zaman": "2026-10-09 19:36"
+ },
+ {
+  "sembol": "CRFSA",
+  "fiyat": 219.6,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 51.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-09",
+  "zaman": "2026-10-09 19:54"
  }
 ]

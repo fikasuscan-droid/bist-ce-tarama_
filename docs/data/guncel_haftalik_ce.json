@@ -1,90 +1,13 @@
 {
  "sistem": "haftalik_ce",
- "zaman": "2026-10-02 19:40",
+ "zaman": "2026-10-09 19:54",
  "sinyaller": [
   {
-   "sembol": "ALGYO",
-   "fiyat": 2.99,
-   "yon": "SAT",
-   "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 28.8"
-  },
-  {
-   "sembol": "BJKAS",
-   "fiyat": 1.6,
-   "yon": "SAT",
-   "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 48.6"
-  },
-  {
-   "sembol": "MARTI",
-   "fiyat": 1.17,
-   "yon": "SAT",
-   "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 27.3"
-  },
-  {
-   "sembol": "MRGYO",
-   "fiyat": 1.23,
-   "yon": "SAT",
-   "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 26.3"
-  },
-  {
-   "sembol": "YKSLN",
-   "fiyat": 2.08,
-   "yon": "SAT",
-   "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 25.2"
-  },
-  {
-   "sembol": "UNLU",
-   "fiyat": 10.28,
-   "yon": "AL",
-   "tur": "ZAYIF AL (Sadece CE)",
-   "detay": "ADX: 23.1"
-  },
-  {
-   "sembol": "SASA",
-   "fiyat": 1.93,
+   "sembol": "CRFSA",
+   "fiyat": 219.6,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 21.6"
-  },
-  {
-   "sembol": "VESTL",
-   "fiyat": 17.39,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 23.7"
-  },
-  {
-   "sembol": "BAGFS",
-   "fiyat": 22.74,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 22.2"
-  },
-  {
-   "sembol": "EUKYO",
-   "fiyat": 9.45,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 66.0"
-  },
-  {
-   "sembol": "HURGZ",
-   "fiyat": 5.3,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 25.9"
-  },
-  {
-   "sembol": "KGYO",
-   "fiyat": 9.45,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 29.3"
+   "detay": "ADX: 51.2"
   }
  ]
 }
