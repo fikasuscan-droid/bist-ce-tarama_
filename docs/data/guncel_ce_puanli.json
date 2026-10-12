@@ -1,5 +1,13 @@
 {
  "sistem": "ce_puanli",
- "zaman": "2026-10-09 19:47",
- "sinyaller": []
+ "zaman": "2026-10-12 22:15",
+ "sinyaller": [
+  {
+   "sembol": "SAHOL",
+   "fiyat": NaN,
+   "yon": "SAT",
+   "tur": "ZAYIF SHORT 3/5 puan",
+   "detay": ""
+  }
+ ]
 }

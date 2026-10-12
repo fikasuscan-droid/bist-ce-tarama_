@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "GEREL",
-  "fiyat": 19.23,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-10-01",
-  "zaman": "2026-10-01 20:24"
- },
- {
   "sembol": "KERVN",
   "fiyat": 7.75,
   "yon": "AL",
@@ -5150,5 +5140,15 @@
   "sistem": "tavan",
   "tarih": "2026-10-09",
   "zaman": "2026-10-09 20:09"
+ },
+ {
+  "sembol": "SAHOL",
+  "fiyat": NaN,
+  "yon": "SAT",
+  "tur": "ZAYIF SHORT 3/5 puan",
+  "detay": "",
+  "sistem": "ce_puanli",
+  "tarih": "2026-10-12",
+  "zaman": "2026-10-12 22:15"
  }
 ]
