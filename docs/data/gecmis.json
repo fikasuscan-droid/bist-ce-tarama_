@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "ADEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
   "sembol": "ASUZU",
   "fiyat": NaN,
   "yon": "AL",
@@ -5098,5 +5088,15 @@
   "sistem": "tavan",
   "tarih": "2026-10-12",
   "zaman": "2026-10-12 22:32"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": 5.24,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %2.14 | Hacim: 2.0x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-13",
+  "zaman": "2026-10-13 20:18"
  }
 ]
