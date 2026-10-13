@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "ASUZU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
-  "sembol": "BAGFS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
   "sembol": "BANVT",
   "fiyat": NaN,
   "yon": "AL",
@@ -5098,5 +5078,33 @@
   "sistem": "aksam_al",
   "tarih": "2026-10-13",
   "zaman": "2026-10-13 20:18"
+ },
+ {
+  "sembol": "ANSGR",
+  "fiyat": 24.32,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.6x",
+  "sl": 23.9,
+  "tp1": 25.29,
+  "tp2": 25.94,
+  "tp3": 26.91,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-13",
+  "zaman": "2026-10-13 20:38"
+ },
+ {
+  "sembol": "VERUS",
+  "fiyat": 519.0,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.6x",
+  "sl": 529.0,
+  "tp1": 474.05,
+  "tp2": 444.09,
+  "tp3": 399.14,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-13",
+  "zaman": "2026-10-13 20:38"
  }
 ]
