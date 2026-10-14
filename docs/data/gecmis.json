@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "BURVA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
   "sembol": "BVSAN",
   "fiyat": NaN,
   "yon": "AL",
@@ -5110,5 +5100,15 @@
   "sistem": "tavan",
   "tarih": "2026-10-14",
   "zaman": "2026-10-14 19:28"
+ },
+ {
+  "sembol": "ULKER",
+  "fiyat": 81.0,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "CiftDip + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-14",
+  "zaman": "2026-10-14 19:31"
  }
 ]
