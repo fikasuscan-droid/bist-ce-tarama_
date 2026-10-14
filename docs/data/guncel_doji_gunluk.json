@@ -1,28 +1,17 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-10-13 20:38",
+ "zaman": "2026-10-14 19:19",
  "sinyaller": [
   {
-   "sembol": "ANSGR",
-   "fiyat": 24.32,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.6x",
-   "sl": 23.9,
-   "tp1": 25.29,
-   "tp2": 25.94,
-   "tp3": 26.91
-  },
-  {
-   "sembol": "VERUS",
-   "fiyat": 519.0,
+   "sembol": "EBEBK",
+   "fiyat": 79.7,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.6x",
-   "sl": 529.0,
-   "tp1": 474.05,
-   "tp2": 444.09,
-   "tp3": 399.14
+   "detay": "Doji | CE: YUKARI | Hacim: 1.1x",
+   "sl": 82.95,
+   "tp1": 75.25,
+   "tp2": 72.28,
+   "tp3": 67.83
   }
  ]
 }

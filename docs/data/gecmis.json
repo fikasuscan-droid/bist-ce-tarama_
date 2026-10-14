@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "PINSU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
   "sembol": "SILVR",
   "fiyat": NaN,
   "yon": "AL",
@@ -5106,5 +5096,19 @@
   "sistem": "tavan",
   "tarih": "2026-10-13",
   "zaman": "2026-10-13 20:44"
+ },
+ {
+  "sembol": "EBEBK",
+  "fiyat": 79.7,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 1.1x",
+  "sl": 82.95,
+  "tp1": 75.25,
+  "tp2": 72.28,
+  "tp3": 67.83,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-14",
+  "zaman": "2026-10-14 19:19"
  }
 ]
