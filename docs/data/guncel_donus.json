@@ -1,13 +1,27 @@
 {
  "sistem": "donus",
- "zaman": "2026-10-14 19:31",
+ "zaman": "2026-10-15 19:16",
  "sinyaller": [
   {
-   "sembol": "ULKER",
-   "fiyat": 81.0,
+   "sembol": "AGHOL",
+   "fiyat": 31.36,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "CiftTepe + CE"
+  },
+  {
+   "sembol": "ISCTR",
+   "fiyat": 13.1,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
-   "detay": "CiftDip + Hacim"
+   "detay": "Mum + CiftDip"
+  },
+  {
+   "sembol": "MEGAP",
+   "fiyat": 1.07,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
   }
  ]
 }

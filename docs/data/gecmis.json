@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "ERBOS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
-  "sembol": "HATEK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
-  "sembol": "HEDEF",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
   "sembol": "IHEVA",
   "fiyat": NaN,
   "yon": "AL",
@@ -5134,5 +5104,35 @@
   "sistem": "tavan",
   "tarih": "2026-10-15",
   "zaman": "2026-10-15 19:13"
+ },
+ {
+  "sembol": "AGHOL",
+  "fiyat": 31.36,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "CiftTepe + CE",
+  "sistem": "donus",
+  "tarih": "2026-10-15",
+  "zaman": "2026-10-15 19:16"
+ },
+ {
+  "sembol": "ISCTR",
+  "fiyat": 13.1,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Mum + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-15",
+  "zaman": "2026-10-15 19:16"
+ },
+ {
+  "sembol": "MEGAP",
+  "fiyat": 1.07,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-15",
+  "zaman": "2026-10-15 19:16"
  }
 ]
