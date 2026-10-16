@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "MPARK",
-  "fiyat": 434.75,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
-  "sembol": "TCELL",
-  "fiyat": 97.8,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
-  "sembol": "TTKOM",
-  "fiyat": 52.45,
-  "yon": "AL",
-  "tur": "DIP DONUS (4/6)",
-  "detay": "Diverjans + CiftDip",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
   "sembol": "GARFA",
   "fiyat": 22.46,
   "yon": "SAT",
@@ -5134,5 +5104,47 @@
   "sistem": "haftalik_ce",
   "tarih": "2026-10-16",
   "zaman": "2026-10-16 18:31"
+ },
+ {
+  "sembol": "MAGEN",
+  "fiyat": 7.74,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.8x",
+  "sl": 7.07,
+  "tp1": 9.47,
+  "tp2": 10.62,
+  "tp3": 12.35,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-16",
+  "zaman": "2026-10-16 18:46"
+ },
+ {
+  "sembol": "TEZOL",
+  "fiyat": 7.16,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 1.4x",
+  "sl": 6.96,
+  "tp1": 7.58,
+  "tp2": 7.86,
+  "tp3": 8.27,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-16",
+  "zaman": "2026-10-16 18:46"
+ },
+ {
+  "sembol": "VAKBN",
+  "fiyat": 32.86,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.8x",
+  "sl": 34.68,
+  "tp1": 31.31,
+  "tp2": 30.27,
+  "tp3": 28.72,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-16",
+  "zaman": "2026-10-16 18:46"
  }
 ]
