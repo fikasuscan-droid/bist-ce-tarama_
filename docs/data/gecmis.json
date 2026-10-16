@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "GARFA",
-  "fiyat": 22.46,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (4/6)",
-  "detay": "Diverjans + CiftTepe",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
   "sembol": "HUNER",
   "fiyat": 4.53,
   "yon": "SAT",
@@ -5146,5 +5136,19 @@
   "sistem": "doji_gunluk",
   "tarih": "2026-10-16",
   "zaman": "2026-10-16 18:46"
+ },
+ {
+  "sembol": "INDES",
+  "fiyat": 11.53,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+  "sl": 12.1,
+  "tp1": 9.95,
+  "tp2": 8.9,
+  "tp3": 7.33,
+  "sistem": "doji_haftalik",
+  "tarih": "2026-10-16",
+  "zaman": "2026-10-16 18:47"
  }
 ]

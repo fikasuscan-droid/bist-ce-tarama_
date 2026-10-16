@@ -1,72 +1,17 @@
 {
  "sistem": "doji_haftalik",
- "zaman": "2026-10-02 19:56",
+ "zaman": "2026-10-16 18:47",
  "sinyaller": [
   {
-   "sembol": "AKFGY",
-   "fiyat": 2.58,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.1x",
-   "sl": 2.32,
-   "tp1": 2.9,
-   "tp2": 3.11,
-   "tp3": 3.43
-  },
-  {
-   "sembol": "ANHYT",
-   "fiyat": 99.85,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.1x",
-   "sl": 98.8,
-   "tp1": 110.76,
-   "tp2": 118.04,
-   "tp3": 128.95
-  },
-  {
-   "sembol": "SNGYO",
-   "fiyat": 2.78,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 1.0x",
-   "sl": 2.59,
-   "tp1": 3.28,
-   "tp2": 3.62,
-   "tp3": 4.12
-  },
-  {
-   "sembol": "TRGYO",
-   "fiyat": 92.7,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.8x",
-   "sl": 89.2,
-   "tp1": 100.18,
-   "tp2": 105.17,
-   "tp3": 112.66
-  },
-  {
-   "sembol": "FORTE",
-   "fiyat": 104.2,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.6x",
-   "sl": 91.45,
-   "tp1": 128.08,
-   "tp2": 144.0,
-   "tp3": 167.89
-  },
-  {
-   "sembol": "DEVA",
-   "fiyat": 89.0,
+   "sembol": "INDES",
+   "fiyat": 11.53,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 0.4x",
-   "sl": 103.1,
-   "tp1": 75.7,
-   "tp2": 66.83,
-   "tp3": 53.53
+   "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+   "sl": 12.1,
+   "tp1": 9.95,
+   "tp2": 8.9,
+   "tp3": 7.33
   }
  ]
 }
