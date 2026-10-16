@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "IHEVA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:03"
- },
- {
   "sembol": "MARTI",
   "fiyat": NaN,
   "yon": "AL",
@@ -5134,5 +5124,15 @@
   "sistem": "donus",
   "tarih": "2026-10-15",
   "zaman": "2026-10-15 19:16"
+ },
+ {
+  "sembol": "TURSG",
+  "fiyat": 5.23,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-3.15 | Hacim: 2.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-16",
+  "zaman": "2026-10-16 18:14"
  }
 ]
