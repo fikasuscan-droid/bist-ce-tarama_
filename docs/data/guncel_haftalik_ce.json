@@ -1,13 +1,55 @@
 {
  "sistem": "haftalik_ce",
- "zaman": "2026-10-09 19:54",
+ "zaman": "2026-10-16 18:31",
  "sinyaller": [
   {
-   "sembol": "CRFSA",
-   "fiyat": 219.6,
+   "sembol": "DURDO",
+   "fiyat": 5.68,
+   "yon": "AL",
+   "tur": "GUCLU AL (CE+EMA200+ADX)",
+   "detay": "EMA: UST | ADX: 31.6"
+  },
+  {
+   "sembol": "BUCIM",
+   "fiyat": 4.55,
+   "yon": "SAT",
+   "tur": "GUCLU SAT (CE+EMA200+ADX)",
+   "detay": "EMA: ALT | ADX: 32.5"
+  },
+  {
+   "sembol": "OTKAR",
+   "fiyat": 310.0,
+   "yon": "AL",
+   "tur": "ZAYIF AL (Sadece CE)",
+   "detay": "ADX: 16.4"
+  },
+  {
+   "sembol": "FRIGO",
+   "fiyat": 2.28,
+   "yon": "AL",
+   "tur": "ZAYIF AL (Sadece CE)",
+   "detay": "ADX: 21.8"
+  },
+  {
+   "sembol": "HALKB",
+   "fiyat": 42.26,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 51.2"
+   "detay": "ADX: 21.9"
+  },
+  {
+   "sembol": "SAHOL",
+   "fiyat": 85.3,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 25.5"
+  },
+  {
+   "sembol": "DEVA",
+   "fiyat": 76.35,
+   "yon": "SAT",
+   "tur": "ZAYIF SAT (Sadece CE)",
+   "detay": "ADX: 40.9"
   }
  ]
 }
