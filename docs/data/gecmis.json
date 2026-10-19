@@ -1,45 +1,5 @@
 [
  {
-  "sembol": "DURDO",
-  "fiyat": 5.06,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "CiftTepe + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
-  "sembol": "ESCOM",
-  "fiyat": 4.7,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + CE",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
-  "sembol": "GEREL",
-  "fiyat": 18.0,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
-  "sembol": "KRGYO",
-  "fiyat": 3.38,
-  "yon": "AL",
-  "tur": "DIP DONUS (3/6)",
-  "detay": "Diverjans + CE",
-  "sistem": "donus",
-  "tarih": "2026-10-05",
-  "zaman": "2026-10-05 22:06"
- },
- {
   "sembol": "OTKAR",
   "fiyat": 341.25,
   "yon": "AL",
@@ -5150,5 +5110,45 @@
   "sistem": "tavan",
   "tarih": "2026-10-16",
   "zaman": "2026-10-16 18:51"
+ },
+ {
+  "sembol": "LIDER",
+  "fiyat": 8.89,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.89)",
+  "detay": "Hacim: 1.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-10-19",
+  "zaman": "2026-10-19 20:38"
+ },
+ {
+  "sembol": "SKYLP",
+  "fiyat": 76.2,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.96)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-10-19",
+  "zaman": "2026-10-19 20:38"
+ },
+ {
+  "sembol": "PRZMA",
+  "fiyat": 13.34,
+  "yon": "AL",
+  "tur": "TAVAN (%+9.98)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-10-19",
+  "zaman": "2026-10-19 20:38"
+ },
+ {
+  "sembol": "TMSN",
+  "fiyat": 55.55,
+  "yon": "AL",
+  "tur": "TAVAN (%+10.00)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-10-19",
+  "zaman": "2026-10-19 20:38"
  }
 ]
