@@ -1,5 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-10-19 20:01",
- "sinyaller": []
+ "zaman": "2026-10-20 18:35",
+ "sinyaller": [
+  {
+   "sembol": "SOKM",
+   "fiyat": 58.05,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %-0.34 | Hacim: 2.3x | Sabah %2-3 gorunce sat"
+  },
+  {
+   "sembol": "SASA",
+   "fiyat": 1.74,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %4.19 | Hacim: 3.3x"
+  }
+ ]
 }

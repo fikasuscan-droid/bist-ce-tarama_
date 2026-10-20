@@ -1,29 +1,5 @@
 [
  {
-  "sembol": "OTKAR",
-  "fiyat": 341.25,
-  "yon": "AL",
-  "tur": "GUCLU - CE + Hacim + Yukselis",
-  "detay": "Degisim: %0.22 | Hacim: 2.2x | Sabah %2-3 gorunce sat",
-  "sistem": "aksam_al",
-  "tarih": "2026-10-06",
-  "zaman": "2026-10-06 19:38"
- },
- {
-  "sembol": "VESTL",
-  "fiyat": 18.0,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.3x",
-  "sl": 17.27,
-  "tp1": 19.71,
-  "tp2": 20.85,
-  "tp3": 22.56,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-06",
-  "zaman": "2026-10-06 20:12"
- },
- {
   "sembol": "MNDRS",
   "fiyat": 9.33,
   "yon": "AL",
@@ -5150,5 +5126,25 @@
   "sistem": "tavan",
   "tarih": "2026-10-19",
   "zaman": "2026-10-19 20:38"
+ },
+ {
+  "sembol": "SOKM",
+  "fiyat": 58.05,
+  "yon": "AL",
+  "tur": "GUCLU - CE + Hacim + Yukselis",
+  "detay": "Degisim: %-0.34 | Hacim: 2.3x | Sabah %2-3 gorunce sat",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-20",
+  "zaman": "2026-10-20 18:35"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 1.74,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %4.19 | Hacim: 3.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-20",
+  "zaman": "2026-10-20 18:35"
  }
 ]
