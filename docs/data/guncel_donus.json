@@ -1,27 +1,69 @@
 {
  "sistem": "donus",
- "zaman": "2026-10-15 19:16",
+ "zaman": "2026-10-20 19:25",
  "sinyaller": [
   {
-   "sembol": "AGHOL",
-   "fiyat": 31.36,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "CiftTepe + CE"
+   "sembol": "ATAKP",
+   "fiyat": 34.86,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Mum + Diverjans + Hacim"
   },
   {
-   "sembol": "ISCTR",
-   "fiyat": 13.1,
+   "sembol": "KRGYO",
+   "fiyat": 3.09,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (4/6)",
+   "detay": "Diverjans + CiftTepe"
+  },
+  {
+   "sembol": "BRSAN",
+   "fiyat": 687.0,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + CiftDip"
+   "detay": "CiftDip + CE"
   },
   {
-   "sembol": "MEGAP",
-   "fiyat": 1.07,
+   "sembol": "TAVHL",
+   "fiyat": 286.25,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "CiftTepe + Hacim"
+  },
+  {
+   "sembol": "EBEBK",
+   "fiyat": 78.65,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Mum + Diverjans"
+  },
+  {
+   "sembol": "HEDEF",
+   "fiyat": 17.88,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Mum + CE + Hacim"
+  },
+  {
+   "sembol": "KNFRT",
+   "fiyat": 8.12,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "POLHO",
+   "fiyat": 14.19,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + Hacim"
+  },
+  {
+   "sembol": "TRGYO",
+   "fiyat": 88.5,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Mum + CiftDip"
   }
  ]
 }
