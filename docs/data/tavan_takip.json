@@ -1,20 +1,5 @@
 [
  {
-  "sembol": "TTKOM",
-  "tarih": "2026-10-05",
-  "fiyat": NaN,
-  "tam_tavan": false,
-  "degisim": NaN,
-  "hacim_kat": 0.4,
-  "ema200_ust": false,
-  "ce_yukari": false,
-  "kalite": 0,
-  "t1": NaN,
-  "t3": NaN,
-  "t5": NaN,
-  "tamamlandi": true
- },
- {
   "sembol": "VESBE",
   "tarih": "2026-10-05",
   "fiyat": NaN,
@@ -7031,8 +7016,8 @@
   "kalite": 3,
   "t1": -9.99,
   "t3": -21.26,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -14.55,
+  "tamamlandi": true
  },
  {
   "sembol": "IZFAS",
@@ -7046,8 +7031,8 @@
   "kalite": 2,
   "t1": 9.93,
   "t3": 5.15,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -14.76,
+  "tamamlandi": true
  },
  {
   "sembol": "HEDEF",
@@ -7061,8 +7046,8 @@
   "kalite": 2,
   "t1": 9.98,
   "t3": 8.88,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -11.73,
+  "tamamlandi": true
  },
  {
   "sembol": "DGNMO",
@@ -7076,8 +7061,8 @@
   "kalite": 2,
   "t1": 0.0,
   "t3": -17.62,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -0.64,
+  "tamamlandi": true
  },
  {
   "sembol": "NIBAS",
@@ -7091,8 +7076,8 @@
   "kalite": 1,
   "t1": -8.33,
   "t3": -17.59,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -19.14,
+  "tamamlandi": true
  },
  {
   "sembol": "HUBVC",
@@ -7106,8 +7091,8 @@
   "kalite": 1,
   "t1": 9.6,
   "t3": 5.56,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -2.53,
+  "tamamlandi": true
  },
  {
   "sembol": "YKSLN",
@@ -7121,8 +7106,8 @@
   "kalite": 0,
   "t1": 9.88,
   "t3": -7.82,
-  "t5": null,
-  "tamamlandi": false
+  "t5": -9.47,
+  "tamamlandi": true
  },
  {
   "sembol": "HUBVC",
@@ -7240,7 +7225,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": -9.66,
-  "t3": null,
+  "t3": -25.52,
   "t5": null,
   "tamamlandi": false
  },
@@ -7255,7 +7240,7 @@
   "ce_yukari": false,
   "kalite": 1,
   "t1": 9.98,
-  "t3": null,
+  "t3": -10.88,
   "t5": null,
   "tamamlandi": false
  },
@@ -7270,7 +7255,7 @@
   "ce_yukari": true,
   "kalite": 1,
   "t1": -9.97,
-  "t3": null,
+  "t3": -27.02,
   "t5": null,
   "tamamlandi": false
  },
@@ -7285,7 +7270,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": 3.24,
-  "t3": null,
+  "t3": -8.02,
   "t5": null,
   "tamamlandi": false
  },
@@ -7300,7 +7285,7 @@
   "ce_yukari": false,
   "kalite": 0,
   "t1": -6.11,
-  "t3": null,
+  "t3": -9.02,
   "t5": null,
   "tamamlandi": false
  },
@@ -7374,7 +7359,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": 1.66,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7389,7 +7374,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -2.02,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7404,7 +7389,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": -1.32,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7419,7 +7404,7 @@
   "ema200_ust": true,
   "ce_yukari": false,
   "kalite": 1,
-  "t1": null,
+  "t1": 0.04,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7434,7 +7419,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": -1.94,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7449,7 +7434,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": -9.96,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7464,7 +7449,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": -2.82,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7479,7 +7464,7 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
-  "t1": null,
+  "t1": 9.86,
   "t3": null,
   "t5": null,
   "tamamlandi": false
@@ -7494,6 +7479,21 @@
   "ema200_ust": false,
   "ce_yukari": false,
   "kalite": 0,
+  "t1": -4.8,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sembol": "DGNMO",
+  "tarih": "2026-10-21",
+  "fiyat": 4.68,
+  "tam_tavan": true,
+  "degisim": 9.86,
+  "hacim_kat": 2.8,
+  "ema200_ust": false,
+  "ce_yukari": false,
+  "kalite": 1,
   "t1": null,
   "t3": null,
   "t5": null,
