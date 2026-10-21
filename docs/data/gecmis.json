@@ -1,77 +1,5 @@
 [
  {
-  "sembol": "HEDEF",
-  "fiyat": 10.32,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.90)",
-  "detay": "Hacim: 0.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-06",
-  "zaman": "2026-10-06 20:23"
- },
- {
-  "sembol": "ESCAR",
-  "fiyat": 15.4,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 3.7x",
-  "sl": 14.52,
-  "tp1": 18.99,
-  "tp2": 21.39,
-  "tp3": 24.98,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:35"
- },
- {
-  "sembol": "HATEK",
-  "fiyat": 8.1,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.4x",
-  "sl": 7.65,
-  "tp1": 9.07,
-  "tp2": 9.72,
-  "tp3": 10.7,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:35"
- },
- {
-  "sembol": "OTKAR",
-  "fiyat": 336.75,
-  "yon": "SAT",
-  "tur": "DONUS SAT ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 2.2x",
-  "sl": 345.75,
-  "tp1": 312.56,
-  "tp2": 296.44,
-  "tp3": 272.25,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:35"
- },
- {
-  "sembol": "INFO",
-  "fiyat": 1.26,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.57)",
-  "detay": "Hacim: 4.3x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:41"
- },
- {
-  "sembol": "SEKUR",
-  "fiyat": 4.42,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.95)",
-  "detay": "Hacim: 3.4x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:41"
- },
- {
   "sembol": "MARTI",
   "fiyat": 1.54,
   "yon": "AL",
@@ -5174,5 +5102,65 @@
   "sistem": "tavan",
   "tarih": "2026-10-21",
   "zaman": "2026-10-21 19:20"
+ },
+ {
+  "sembol": "KRGYO",
+  "fiyat": 3.12,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-21",
+  "zaman": "2026-10-21 19:24"
+ },
+ {
+  "sembol": "ENERY",
+  "fiyat": 12.79,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Mum + Diverjans",
+  "sistem": "donus",
+  "tarih": "2026-10-21",
+  "zaman": "2026-10-21 19:24"
+ },
+ {
+  "sembol": "TAVHL",
+  "fiyat": 287.0,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "CiftTepe + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-21",
+  "zaman": "2026-10-21 19:24"
+ },
+ {
+  "sembol": "KRPLS",
+  "fiyat": 9.01,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Mum + Diverjans",
+  "sistem": "donus",
+  "tarih": "2026-10-21",
+  "zaman": "2026-10-21 19:24"
+ },
+ {
+  "sembol": "POLHO",
+  "fiyat": 13.48,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-21",
+  "zaman": "2026-10-21 19:24"
+ },
+ {
+  "sembol": "TNZTP",
+  "fiyat": 23.2,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Mum + Diverjans",
+  "sistem": "donus",
+  "tarih": "2026-10-21",
+  "zaman": "2026-10-21 19:24"
  }
 ]
