@@ -1,28 +1,17 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-10-21 19:16",
+ "zaman": "2026-10-22 19:11",
  "sinyaller": [
   {
-   "sembol": "BOBET",
-   "fiyat": 14.96,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 4.6x",
-   "sl": 13.19,
-   "tp1": 15.93,
-   "tp2": 16.58,
-   "tp3": 17.55
-  },
-  {
-   "sembol": "ISFIN",
-   "fiyat": 15.21,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 3.9x",
-   "sl": 14.88,
-   "tp1": 15.92,
-   "tp2": 16.39,
-   "tp3": 17.09
+   "sembol": "YKBNK",
+   "fiyat": 35.32,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 1.9x",
+   "sl": 36.76,
+   "tp1": 33.92,
+   "tp2": 32.99,
+   "tp3": 31.59
   }
  ]
 }

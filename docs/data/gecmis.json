@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "MARTI",
-  "fiyat": 1.54,
-  "yon": "AL",
-  "tur": "TAVAN (%+10.00)",
-  "detay": "Hacim: 2.0x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:41"
- },
- {
   "sembol": "IZFAS",
   "fiyat": 11.58,
   "yon": "AL",
@@ -5162,5 +5152,19 @@
   "sistem": "donus",
   "tarih": "2026-10-21",
   "zaman": "2026-10-21 19:24"
+ },
+ {
+  "sembol": "YKBNK",
+  "fiyat": 35.32,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 1.9x",
+  "sl": 36.76,
+  "tp1": 33.92,
+  "tp2": 32.99,
+  "tp3": 31.59,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-22",
+  "zaman": "2026-10-22 19:11"
  }
 ]
