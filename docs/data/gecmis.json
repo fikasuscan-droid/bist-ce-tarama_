@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "SKYLP",
-  "fiyat": 65.15,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.96)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:41"
- },
- {
-  "sembol": "ICUGS",
-  "fiyat": 1.36,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.68)",
-  "detay": "Hacim: 1.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:41"
- },
- {
   "sembol": "GEREL",
   "fiyat": 21.64,
   "yon": "AL",
@@ -5166,5 +5146,25 @@
   "sistem": "tavan",
   "tarih": "2026-10-22",
   "zaman": "2026-10-22 19:15"
+ },
+ {
+  "sembol": "TAVHL",
+  "fiyat": 267.0,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "CiftTepe + CE + Hacim",
+  "sistem": "donus",
+  "tarih": "2026-10-22",
+  "zaman": "2026-10-22 19:18"
+ },
+ {
+  "sembol": "KRGYO",
+  "fiyat": 3.13,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-22",
+  "zaman": "2026-10-22 19:18"
  }
 ]

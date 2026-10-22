@@ -1,48 +1,20 @@
 {
  "sistem": "donus",
- "zaman": "2026-10-21 19:24",
+ "zaman": "2026-10-22 19:18",
  "sinyaller": [
   {
+   "sembol": "TAVHL",
+   "fiyat": 267.0,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (4/6)",
+   "detay": "CiftTepe + CE + Hacim"
+  },
+  {
    "sembol": "KRGYO",
-   "fiyat": 3.12,
+   "fiyat": 3.13,
    "yon": "SAT",
    "tur": "TEPE DONUS (4/6)",
    "detay": "Diverjans + CiftTepe"
-  },
-  {
-   "sembol": "ENERY",
-   "fiyat": 12.79,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + Diverjans"
-  },
-  {
-   "sembol": "TAVHL",
-   "fiyat": 287.0,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "CiftTepe + Hacim"
-  },
-  {
-   "sembol": "KRPLS",
-   "fiyat": 9.01,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + Diverjans"
-  },
-  {
-   "sembol": "POLHO",
-   "fiyat": 13.48,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "TNZTP",
-   "fiyat": 23.2,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + Diverjans"
   }
  ]
 }
