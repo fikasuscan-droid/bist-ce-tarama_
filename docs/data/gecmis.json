@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "GEREL",
-  "fiyat": 21.64,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.90)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-07",
-  "zaman": "2026-10-07 20:41"
- },
- {
   "sembol": "GENIL",
   "fiyat": 4.25,
   "yon": "AL",
@@ -5166,5 +5156,15 @@
   "sistem": "donus",
   "tarih": "2026-10-22",
   "zaman": "2026-10-22 19:18"
+ },
+ {
+  "sembol": "TURSG",
+  "fiyat": 4.17,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.96 | Hacim: 2.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-23",
+  "zaman": "2026-10-23 18:34"
  }
 ]
