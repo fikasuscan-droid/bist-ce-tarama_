@@ -1,55 +1,55 @@
 {
  "sistem": "tavan",
- "zaman": "2026-10-22 19:15",
+ "zaman": "2026-10-23 19:18",
  "sinyaller": [
   {
-   "sembol": "PKENT",
-   "fiyat": 110.0,
+   "sembol": "INFO",
+   "fiyat": 0.89,
    "yon": "AL",
-   "tur": "TAVAN (%+10.00)",
-   "detay": "Hacim: 2.2x | Puan: 1/3"
+   "tur": "TAVAN (%+9.88)",
+   "detay": "Hacim: 2.9x | Puan: 1/3"
   },
   {
-   "sembol": "PASEU",
-   "fiyat": 30.82,
+   "sembol": "GEREL",
+   "fiyat": 21.94,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.97)",
+   "detay": "Hacim: 2.0x | Puan: 1/3"
+  },
+  {
+   "sembol": "SANEL",
+   "fiyat": 25.76,
    "yon": "AL",
    "tur": "TAVAN (%+9.99)",
+   "detay": "Hacim: 1.8x | Puan: 0/3"
+  },
+  {
+   "sembol": "KERVN",
+   "fiyat": 5.36,
+   "yon": "AL",
+   "tur": "TAVAN (%+9.84)",
+   "detay": "Hacim: 1.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "SAFKR",
+   "fiyat": 12.54,
+   "yon": "AL",
+   "tur": "TAVAN (%+10.00)",
    "detay": "Hacim: 1.3x | Puan: 0/3"
   },
   {
    "sembol": "SELEC",
-   "fiyat": 66.3,
+   "fiyat": 72.9,
    "yon": "AL",
    "tur": "TAVAN (%+9.95)",
+   "detay": "Hacim: 1.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "DOGUB",
+   "fiyat": 13.75,
+   "yon": "AL",
+   "tur": "TAVAN (%+10.00)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "TRILC",
-   "fiyat": 0.85,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+8.97)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "ERSU",
-   "fiyat": 15.89,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.97)",
-   "detay": "Hacim: 0.9x | Puan: 0/3"
-  },
-  {
-   "sembol": "ICUGS",
-   "fiyat": 1.18,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+9.26)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "MIATK",
-   "fiyat": 26.0,
-   "yon": "AL",
-   "tur": "TAVAN (%+9.98)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
   }
  ]
 }
