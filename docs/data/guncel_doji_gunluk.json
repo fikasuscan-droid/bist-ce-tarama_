@@ -1,17 +1,50 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-10-22 19:11",
+ "zaman": "2026-10-23 19:08",
  "sinyaller": [
   {
-   "sembol": "YKBNK",
-   "fiyat": 35.32,
+   "sembol": "BORSK",
+   "fiyat": 4.87,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Doji | CE: ASAGI | Hacim: 1.6x",
+   "sl": 4.71,
+   "tp1": 5.14,
+   "tp2": 5.32,
+   "tp3": 5.59
+  },
+  {
+   "sembol": "TRGYO",
+   "fiyat": 86.7,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 1.6x",
+   "sl": 86.15,
+   "tp1": 89.89,
+   "tp2": 92.01,
+   "tp3": 95.2
+  },
+  {
+   "sembol": "CANTE",
+   "fiyat": 0.97,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.7x",
+   "sl": 0.96,
+   "tp1": 1.04,
+   "tp2": 1.08,
+   "tp3": 1.14
+  },
+  {
+   "sembol": "BORLS",
+   "fiyat": 2.46,
    "yon": "SAT",
    "tur": "DONUS SAT ONAYLANDI",
-   "detay": "Doji | CE: YUKARI | Hacim: 1.9x",
-   "sl": 36.76,
-   "tp1": 33.92,
-   "tp2": 32.99,
-   "tp3": 31.59
+   "detay": "Doji | CE: YUKARI | Hacim: 1.0x",
+   "sl": 2.93,
+   "tp1": 2.07,
+   "tp2": 1.81,
+   "tp3": 1.43
   }
  ]
 }
