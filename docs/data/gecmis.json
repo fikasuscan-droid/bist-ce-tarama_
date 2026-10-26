@@ -1,19 +1,5 @@
 [
  {
-  "sembol": "KLMSN",
-  "fiyat": 22.36,
-  "yon": "AL",
-  "tur": "DONUS AL ONAYLANDI",
-  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 0.7x",
-  "sl": 21.6,
-  "tp1": 23.75,
-  "tp2": 24.68,
-  "tp3": 26.08,
-  "sistem": "doji_gunluk",
-  "tarih": "2026-10-09",
-  "zaman": "2026-10-09 20:05"
- },
- {
   "sembol": "CANTE",
   "fiyat": 1.09,
   "yon": "AL",
@@ -5150,5 +5136,15 @@
   "sistem": "donus",
   "tarih": "2026-10-23",
   "zaman": "2026-10-23 19:22"
+ },
+ {
+  "sembol": "GUBRF",
+  "fiyat": 274.25,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %-8.12 | Hacim: 9.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-26",
+  "zaman": "2026-10-26 20:02"
  }
 ]
