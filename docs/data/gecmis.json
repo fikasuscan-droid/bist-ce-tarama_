@@ -1,45 +1,5 @@
 [
  {
-  "sembol": "BINHO",
-  "fiyat": 6.23,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+9.11)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-09",
-  "zaman": "2026-10-09 20:09"
- },
- {
-  "sembol": "ESCAR",
-  "fiyat": 16.28,
-  "yon": "AL",
-  "tur": "TAVAN (%+10.00)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-09",
-  "zaman": "2026-10-09 20:09"
- },
- {
-  "sembol": "HATEK",
-  "fiyat": 9.05,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.56)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-09",
-  "zaman": "2026-10-09 20:09"
- },
- {
-  "sembol": "EMKEL",
-  "fiyat": 7.68,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.87)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-10-09",
-  "zaman": "2026-10-09 20:09"
- },
- {
   "sembol": "USAK",
   "fiyat": 0.45,
   "yon": "AL",
@@ -5142,5 +5102,45 @@
   "sistem": "donus",
   "tarih": "2026-10-26",
   "zaman": "2026-10-26 20:38"
+ },
+ {
+  "sembol": "AKSA",
+  "fiyat": 10.75,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %4.98 | Hacim: 2.3x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-27",
+  "zaman": "2026-10-27 19:31"
+ },
+ {
+  "sembol": "CIMSA",
+  "fiyat": 39.6,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %5.26 | Hacim: 2.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-27",
+  "zaman": "2026-10-27 19:31"
+ },
+ {
+  "sembol": "DOAS",
+  "fiyat": 134.3,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %4.6 | Hacim: 2.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-27",
+  "zaman": "2026-10-27 19:31"
+ },
+ {
+  "sembol": "GUBRF",
+  "fiyat": 278.75,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.64 | Hacim: 2.0x",
+  "sistem": "aksam_al",
+  "tarih": "2026-10-27",
+  "zaman": "2026-10-27 19:31"
  }
 ]
