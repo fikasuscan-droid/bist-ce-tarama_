@@ -1,34 +1,5 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-10-27 19:31",
- "sinyaller": [
-  {
-   "sembol": "AKSA",
-   "fiyat": 10.75,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %4.98 | Hacim: 2.3x"
-  },
-  {
-   "sembol": "CIMSA",
-   "fiyat": 39.6,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %5.26 | Hacim: 2.2x"
-  },
-  {
-   "sembol": "DOAS",
-   "fiyat": 134.3,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %4.6 | Hacim: 2.2x"
-  },
-  {
-   "sembol": "GUBRF",
-   "fiyat": 278.75,
-   "yon": "AL",
-   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
-   "detay": "Degisim: %1.64 | Hacim: 2.0x"
-  }
- ]
+ "zaman": "2026-10-28 19:42",
+ "sinyaller": []
 }
