@@ -1,55 +1,5 @@
 [
  {
-  "sembol": "AKSGY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "AVGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "DZGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "KRGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "KRTEK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
   "sembol": "BURVA",
   "fiyat": NaN,
   "yon": "AL",
@@ -5206,5 +5156,55 @@
   "sistem": "tavan",
   "tarih": "2026-10-28",
   "zaman": "2026-10-28 20:20"
+ },
+ {
+  "sembol": "DZGYO",
+  "fiyat": 6.61,
+  "yon": "AL",
+  "tur": "DIP DONUS (4/6)",
+  "detay": "Diverjans + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-28",
+  "zaman": "2026-10-28 20:24"
+ },
+ {
+  "sembol": "KARTN",
+  "fiyat": 106.5,
+  "yon": "AL",
+  "tur": "DIP DONUS (4/6)",
+  "detay": "Diverjans + CiftDip",
+  "sistem": "donus",
+  "tarih": "2026-10-28",
+  "zaman": "2026-10-28 20:24"
+ },
+ {
+  "sembol": "KRGYO",
+  "fiyat": 3.23,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-10-28",
+  "zaman": "2026-10-28 20:24"
+ },
+ {
+  "sembol": "ASELS",
+  "fiyat": 358.5,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + CE",
+  "sistem": "donus",
+  "tarih": "2026-10-28",
+  "zaman": "2026-10-28 20:24"
+ },
+ {
+  "sembol": "OZKGY",
+  "fiyat": 11.46,
+  "yon": "AL",
+  "tur": "DIP DONUS (3/6)",
+  "detay": "Diverjans + CE",
+  "sistem": "donus",
+  "tarih": "2026-10-28",
+  "zaman": "2026-10-28 20:24"
  }
 ]

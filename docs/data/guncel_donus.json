@@ -1,27 +1,41 @@
 {
  "sistem": "donus",
- "zaman": "2026-10-26 20:38",
+ "zaman": "2026-10-28 20:24",
  "sinyaller": [
   {
    "sembol": "DZGYO",
-   "fiyat": 6.55,
+   "fiyat": 6.61,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CiftDip"
+  },
+  {
+   "sembol": "KARTN",
+   "fiyat": 106.5,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "KRGYO",
-   "fiyat": 3.16,
+   "fiyat": 3.23,
    "yon": "SAT",
    "tur": "TEPE DONUS (4/6)",
    "detay": "Diverjans + CiftTepe"
   },
   {
-   "sembol": "SAHOL",
-   "fiyat": 87.5,
+   "sembol": "ASELS",
+   "fiyat": 358.5,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
-   "detay": "Mum + Diverjans"
+   "detay": "Diverjans + CE"
+  },
+  {
+   "sembol": "OZKGY",
+   "fiyat": 11.46,
+   "yon": "AL",
+   "tur": "DIP DONUS (3/6)",
+   "detay": "Diverjans + CE"
   }
  ]
 }
