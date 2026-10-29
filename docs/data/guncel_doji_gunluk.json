@@ -1,6 +1,6 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-10-28 20:14",
+ "zaman": "2026-10-29 20:14",
  "sinyaller": [
   {
    "sembol": "BFREN",
@@ -9,9 +9,9 @@
    "tur": "DONUS AL ONAYLANDI",
    "detay": "Mezartas Doji | CE: ASAGI | Hacim: 2.0x",
    "sl": 87.0,
-   "tp1": 96.71,
-   "tp2": 100.59,
-   "tp3": 106.4
+   "tp1": 96.85,
+   "tp2": 100.82,
+   "tp3": 106.77
   },
   {
    "sembol": "BAGFS",
@@ -42,9 +42,9 @@
    "tur": "DONUS AL ONAYLANDI",
    "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.3x",
    "sl": 44.76,
-   "tp1": 50.27,
-   "tp2": 52.75,
-   "tp3": 56.47
+   "tp1": 50.3,
+   "tp2": 52.79,
+   "tp3": 56.52
   },
   {
    "sembol": "BIENY",

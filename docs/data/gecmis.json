@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "BURVA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "SEKFK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "AVHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "BARMA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "CRDFA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "GEDZA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
   "sembol": "METRO",
   "fiyat": NaN,
   "yon": "AL",
@@ -5206,5 +5146,89 @@
   "sistem": "donus",
   "tarih": "2026-10-28",
   "zaman": "2026-10-28 20:24"
+ },
+ {
+  "sembol": "BFREN",
+  "fiyat": 90.9,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 2.0x",
+  "sl": 87.0,
+  "tp1": 96.85,
+  "tp2": 100.82,
+  "tp3": 106.77,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-29",
+  "zaman": "2026-10-29 20:14"
+ },
+ {
+  "sembol": "BAGFS",
+  "fiyat": 16.89,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 0.7x",
+  "sl": 16.49,
+  "tp1": 18.47,
+  "tp2": 19.52,
+  "tp3": 21.1,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-29",
+  "zaman": "2026-10-29 20:14"
+ },
+ {
+  "sembol": "FENER",
+  "fiyat": 2.04,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.5x",
+  "sl": 1.96,
+  "tp1": 2.18,
+  "tp2": 2.28,
+  "tp3": 2.43,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-29",
+  "zaman": "2026-10-29 20:14"
+ },
+ {
+  "sembol": "VAKKO",
+  "fiyat": 46.56,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 0.3x",
+  "sl": 44.76,
+  "tp1": 50.3,
+  "tp2": 52.79,
+  "tp3": 56.52,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-29",
+  "zaman": "2026-10-29 20:14"
+ },
+ {
+  "sembol": "BIENY",
+  "fiyat": 11.13,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 0.2x",
+  "sl": 10.28,
+  "tp1": 12.28,
+  "tp2": 13.05,
+  "tp3": 14.21,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-29",
+  "zaman": "2026-10-29 20:14"
+ },
+ {
+  "sembol": "NTGAZ",
+  "fiyat": 9.64,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.2x",
+  "sl": 9.57,
+  "tp1": 10.09,
+  "tp2": 10.39,
+  "tp3": 10.85,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-29",
+  "zaman": "2026-10-29 20:14"
  }
 ]
