@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "DYOBY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "EBEBK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "EMNIS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
   "sembol": "GOODY",
   "fiyat": NaN,
   "yon": "AL",
@@ -5230,5 +5200,47 @@
   "sistem": "haftalik_ce",
   "tarih": "2026-10-30",
   "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "TSKB",
+  "fiyat": 8.94,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: YUKARI | Hacim: 1.6x",
+  "sl": 8.77,
+  "tp1": 9.37,
+  "tp2": 9.65,
+  "tp3": 10.08,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:55"
+ },
+ {
+  "sembol": "POLHO",
+  "fiyat": 13.37,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Doji | CE: ASAGI | Hacim: 1.2x",
+  "sl": 13.01,
+  "tp1": 14.85,
+  "tp2": 15.84,
+  "tp3": 17.32,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:55"
+ },
+ {
+  "sembol": "RYSAS",
+  "fiyat": 24.76,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Mezartas Doji | CE: YUKARI | Hacim: 0.7x",
+  "sl": 26.38,
+  "tp1": 22.92,
+  "tp2": 21.69,
+  "tp3": 19.85,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:55"
  }
 ]
