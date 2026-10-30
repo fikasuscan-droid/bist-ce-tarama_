@@ -1,135 +1,5 @@
 [
  {
-  "sembol": "ERSU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "KLMSN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "MEGAP",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "MIATK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "OSMEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "YKSLN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "ASELS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "CANTE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "TCELL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "ADEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "ANHYT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "CMENT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
-  "sembol": "CRFSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-10-12",
-  "zaman": "2026-10-12 22:32"
- },
- {
   "sembol": "DYOBY",
   "fiyat": NaN,
   "yon": "AL",
@@ -5230,5 +5100,135 @@
   "sistem": "aksam_al",
   "tarih": "2026-10-30",
   "zaman": "2026-10-30 19:33"
+ },
+ {
+  "sembol": "DOCO",
+  "fiyat": 11652.5,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 28.9",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "OYAKC",
+  "fiyat": 17.88,
+  "yon": "SAT",
+  "tur": "GUCLU SAT (CE+EMA200+ADX)",
+  "detay": "EMA: ALT | ADX: 35.1",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "FLAP",
+  "fiyat": 9.05,
+  "yon": "SAT",
+  "tur": "GUCLU SAT (CE+EMA200+ADX)",
+  "detay": "EMA: ALT | ADX: 25.9",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "AKBNK",
+  "fiyat": 60.9,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 32.1",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "ALARK",
+  "fiyat": 91.8,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 23.9",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "BIMAS",
+  "fiyat": 347.5,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 27.0",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "ISCTR",
+  "fiyat": 11.65,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 22.0",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "KCHOL",
+  "fiyat": 192.8,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 22.6",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "MPARK",
+  "fiyat": 379.0,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 33.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "TKFEN",
+  "fiyat": 191.4,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 45.5",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "VAKBN",
+  "fiyat": 28.88,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 24.3",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "TRCAS",
+  "fiyat": 43.44,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 31.4",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
+ },
+ {
+  "sembol": "UNLU",
+  "fiyat": 7.8,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 18.0",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-10-30",
+  "zaman": "2026-10-30 19:48"
  }
 ]
