@@ -1,5 +1,27 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-10-29 19:44",
- "sinyaller": []
+ "zaman": "2026-10-30 19:33",
+ "sinyaller": [
+  {
+   "sembol": "TURSG",
+   "fiyat": 3.29,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %7.17 | Hacim: 4.6x"
+  },
+  {
+   "sembol": "HEKTS",
+   "fiyat": 1.6,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.27 | Hacim: 2.8x"
+  },
+  {
+   "sembol": "AGHOL",
+   "fiyat": 25.02,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.3 | Hacim: 2.7x"
+  }
+ ]
 }
