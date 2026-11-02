@@ -1,41 +1,55 @@
 {
  "sistem": "donus",
- "zaman": "2026-10-29 20:23",
+ "zaman": "2026-11-02 23:09",
  "sinyaller": [
   {
+   "sembol": "DOAS",
+   "fiyat": 149.2,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Diverjans + CE + Hacim"
+  },
+  {
    "sembol": "DZGYO",
-   "fiyat": 6.61,
+   "fiyat": 6.65,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
+   "sembol": "ISBIR",
+   "fiyat": 48.32,
+   "yon": "AL",
+   "tur": "DIP DONUS (4/6)",
+   "detay": "Mum + Diverjans + Hacim"
+  },
+  {
    "sembol": "KARTN",
-   "fiyat": 106.5,
+   "fiyat": 108.4,
    "yon": "AL",
    "tur": "DIP DONUS (4/6)",
    "detay": "Diverjans + CiftDip"
   },
   {
    "sembol": "KRGYO",
-   "fiyat": 3.23,
+   "fiyat": 3.28,
    "yon": "SAT",
    "tur": "TEPE DONUS (4/6)",
    "detay": "Diverjans + CiftTepe"
   },
   {
-   "sembol": "ASELS",
-   "fiyat": 358.5,
+   "sembol": "TNZTP",
+   "fiyat": 21.24,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + CE"
+   "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "OZKGY",
-   "fiyat": 11.46,
+   "sembol": "VAKFN",
+   "fiyat": 0.84,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + CE"
+   "detay": "Diverjans + Hacim"
   }
  ]
 }
