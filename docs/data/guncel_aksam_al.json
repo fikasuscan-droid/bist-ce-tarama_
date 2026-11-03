@@ -1,5 +1,20 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-11-02 22:50",
- "sinyaller": []
+ "zaman": "2026-11-03 20:33",
+ "sinyaller": [
+  {
+   "sembol": "AGHOL",
+   "fiyat": 27.4,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %8.64 | Hacim: 3.5x"
+  },
+  {
+   "sembol": "SASA",
+   "fiyat": 1.5,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %1.35 | Hacim: 2.4x"
+  }
+ ]
 }

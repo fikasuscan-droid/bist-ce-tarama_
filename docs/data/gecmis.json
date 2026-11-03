@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "ENERY",
-  "fiyat": 12.79,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "Mum + Diverjans",
-  "sistem": "donus",
-  "tarih": "2026-10-21",
-  "zaman": "2026-10-21 19:24"
- },
- {
-  "sembol": "TAVHL",
-  "fiyat": 287.0,
-  "yon": "SAT",
-  "tur": "TEPE DONUS (3/6)",
-  "detay": "CiftTepe + Hacim",
-  "sistem": "donus",
-  "tarih": "2026-10-21",
-  "zaman": "2026-10-21 19:24"
- },
- {
   "sembol": "KRPLS",
   "fiyat": 9.01,
   "yon": "SAT",
@@ -5158,5 +5138,25 @@
   "sistem": "donus",
   "tarih": "2026-11-02",
   "zaman": "2026-11-02 23:09"
+ },
+ {
+  "sembol": "AGHOL",
+  "fiyat": 27.4,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %8.64 | Hacim: 3.5x",
+  "sistem": "aksam_al",
+  "tarih": "2026-11-03",
+  "zaman": "2026-11-03 20:33"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": 1.5,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %1.35 | Hacim: 2.4x",
+  "sistem": "aksam_al",
+  "tarih": "2026-11-03",
+  "zaman": "2026-11-03 20:33"
  }
 ]
