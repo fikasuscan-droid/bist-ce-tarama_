@@ -1,5 +1,5 @@
 {
- "toplam_kayit": 172,
+ "toplam_kayit": 174,
  "genel": {
   "t1_ort": NaN,
   "t1_basari": 0.0,
@@ -9,7 +9,7 @@
   "t5_basari": null
  },
  "kalite_0": {
-  "adet": 172,
+  "adet": 174,
   "t1_ort": NaN,
   "t1_basari": 0.0,
   "t3_ort": null,
