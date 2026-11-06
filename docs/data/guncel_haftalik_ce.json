@@ -1,97 +1,27 @@
 {
  "sistem": "haftalik_ce",
- "zaman": "2026-10-30 19:48",
+ "zaman": "2026-11-06 20:40",
  "sinyaller": [
   {
-   "sembol": "DOCO",
-   "fiyat": 11652.5,
-   "yon": "AL",
-   "tur": "GUCLU AL (CE+EMA200+ADX)",
-   "detay": "EMA: UST | ADX: 28.9"
-  },
-  {
-   "sembol": "OYAKC",
-   "fiyat": 17.88,
+   "sembol": "TUPRS",
+   "fiyat": 337.5,
    "yon": "SAT",
    "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 35.1"
+   "detay": "EMA: ALT | ADX: 39.5"
   },
   {
-   "sembol": "FLAP",
-   "fiyat": 9.05,
-   "yon": "SAT",
-   "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 25.9"
-  },
-  {
-   "sembol": "AKBNK",
-   "fiyat": 60.9,
+   "sembol": "KRDMD",
+   "fiyat": 36.16,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 32.1"
+   "detay": "ADX: 21.5"
   },
   {
-   "sembol": "ALARK",
-   "fiyat": 91.8,
+   "sembol": "ETILR",
+   "fiyat": 6.61,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 23.9"
-  },
-  {
-   "sembol": "BIMAS",
-   "fiyat": 347.5,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 27.0"
-  },
-  {
-   "sembol": "ISCTR",
-   "fiyat": 11.65,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 22.0"
-  },
-  {
-   "sembol": "KCHOL",
-   "fiyat": 192.8,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 22.6"
-  },
-  {
-   "sembol": "MPARK",
-   "fiyat": 379.0,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 33.2"
-  },
-  {
-   "sembol": "TKFEN",
-   "fiyat": 191.4,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 45.5"
-  },
-  {
-   "sembol": "VAKBN",
-   "fiyat": 28.88,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 24.3"
-  },
-  {
-   "sembol": "TRCAS",
-   "fiyat": 43.44,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 31.4"
-  },
-  {
-   "sembol": "UNLU",
-   "fiyat": 7.8,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 18.0"
+   "detay": "ADX: 21.6"
   }
  ]
 }

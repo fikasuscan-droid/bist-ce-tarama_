@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "BRYAT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-04",
-  "zaman": "2026-11-04 21:22"
- },
- {
-  "sembol": "GUBRF",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-04",
-  "zaman": "2026-11-04 21:22"
- },
- {
-  "sembol": "KLKIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-04",
-  "zaman": "2026-11-04 21:22"
- },
- {
   "sembol": "TAVHL",
   "fiyat": NaN,
   "yon": "AL",
@@ -4998,5 +4968,35 @@
   "sistem": "aksam_al",
   "tarih": "2026-11-06",
   "zaman": "2026-11-06 20:29"
+ },
+ {
+  "sembol": "TUPRS",
+  "fiyat": 337.5,
+  "yon": "SAT",
+  "tur": "GUCLU SAT (CE+EMA200+ADX)",
+  "detay": "EMA: ALT | ADX: 39.5",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-06",
+  "zaman": "2026-11-06 20:40"
+ },
+ {
+  "sembol": "KRDMD",
+  "fiyat": 36.16,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 21.5",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-06",
+  "zaman": "2026-11-06 20:40"
+ },
+ {
+  "sembol": "ETILR",
+  "fiyat": 6.61,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 21.6",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-06",
+  "zaman": "2026-11-06 20:40"
  }
 ]
