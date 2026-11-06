@@ -1,5 +1,28 @@
 {
  "sistem": "doji_gunluk",
- "zaman": "2026-11-05 21:27",
- "sinyaller": []
+ "zaman": "2026-11-06 20:50",
+ "sinyaller": [
+  {
+   "sembol": "KAYSE",
+   "fiyat": 2.42,
+   "yon": "AL",
+   "tur": "DONUS AL ONAYLANDI",
+   "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.6x",
+   "sl": 2.31,
+   "tp1": 2.61,
+   "tp2": 2.74,
+   "tp3": 2.93
+  },
+  {
+   "sembol": "SAFKR",
+   "fiyat": 14.3,
+   "yon": "SAT",
+   "tur": "DONUS SAT ONAYLANDI",
+   "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+   "sl": 14.54,
+   "tp1": 12.92,
+   "tp2": 12.01,
+   "tp3": 10.63
+  }
+ ]
 }

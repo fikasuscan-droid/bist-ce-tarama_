@@ -1,25 +1,5 @@
 [
  {
-  "sembol": "TAVHL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-04",
-  "zaman": "2026-11-04 21:22"
- },
- {
-  "sembol": "TUPRS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-04",
-  "zaman": "2026-11-04 21:22"
- },
- {
   "sembol": "ALGYO",
   "fiyat": NaN,
   "yon": "AL",
@@ -4998,5 +4978,33 @@
   "sistem": "haftalik_ce",
   "tarih": "2026-11-06",
   "zaman": "2026-11-06 20:40"
+ },
+ {
+  "sembol": "KAYSE",
+  "fiyat": 2.42,
+  "yon": "AL",
+  "tur": "DONUS AL ONAYLANDI",
+  "detay": "Dragonfly Doji | CE: ASAGI | Hacim: 1.6x",
+  "sl": 2.31,
+  "tp1": 2.61,
+  "tp2": 2.74,
+  "tp3": 2.93,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-11-06",
+  "zaman": "2026-11-06 20:50"
+ },
+ {
+  "sembol": "SAFKR",
+  "fiyat": 14.3,
+  "yon": "SAT",
+  "tur": "DONUS SAT ONAYLANDI",
+  "detay": "Doji | CE: YUKARI | Hacim: 0.6x",
+  "sl": 14.54,
+  "tp1": 12.92,
+  "tp2": 12.01,
+  "tp3": 10.63,
+  "sistem": "doji_gunluk",
+  "tarih": "2026-11-06",
+  "zaman": "2026-11-06 20:50"
  }
 ]
