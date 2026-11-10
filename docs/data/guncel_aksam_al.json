@@ -1,5 +1,13 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-11-09 23:29",
- "sinyaller": []
+ "zaman": "2026-11-10 20:56",
+ "sinyaller": [
+  {
+   "sembol": "PGSUS",
+   "fiyat": 154.4,
+   "yon": "AL",
+   "tur": "GUCLU - CE + Hacim + Yukselis",
+   "detay": "Degisim: %5.39 | Hacim: 2.6x | Sabah %2-3 gorunce sat"
+  }
+ ]
 }
