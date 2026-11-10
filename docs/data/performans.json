@@ -1,7 +1,7 @@
 {
- "guncelleme": "2026-11-09 23:49",
+ "guncelleme": "2026-11-10 21:23",
  "toplam_sinyal": 2000,
- "olculen": 1911,
+ "olculen": 1910,
  "sistemler": {
   "doji_gunluk": {
    "ad": "Doji Gunluk",
@@ -83,21 +83,21 @@
   },
   "donus": {
    "ad": "Donus Avcisi",
-   "adet": 874,
-   "t1_ort": -0.43,
-   "t1_basari": 45.4,
-   "t1_adet": 874,
+   "adet": 873,
+   "t1_ort": -0.44,
+   "t1_basari": 45.5,
+   "t1_adet": 873,
    "t3_ort": -0.81,
-   "t3_basari": 43.6,
-   "t3_adet": 830,
-   "t5_ort": -1.2,
+   "t3_basari": 43.7,
+   "t3_adet": 829,
+   "t5_ort": -1.19,
    "t5_basari": 42.7,
-   "t5_adet": 649
+   "t5_adet": 648
   }
  },
  "genel": {
   "t1_ort": 0.23,
-  "t1_basari": 48.1,
+  "t1_basari": 48.2,
   "t3_ort": 0.08,
   "t3_basari": 46.0,
   "t5_ort": -0.97,
@@ -1696,13 +1696,13 @@
   },
   "ISFIN": {
    "sembol": "ISFIN",
-   "adet": 7,
-   "t1_ort": -0.5,
-   "t1_basari": 28.6,
-   "t3_ort": -0.54,
-   "t3_basari": 33.3,
-   "t5_ort": 0.16,
-   "t5_basari": 50.0
+   "adet": 6,
+   "t1_ort": -0.57,
+   "t1_basari": 33.3,
+   "t3_ort": -0.34,
+   "t3_basari": 40.0,
+   "t5_ort": 0.95,
+   "t5_basari": 60.0
   },
   "ISGSY": {
    "sembol": "ISGSY",

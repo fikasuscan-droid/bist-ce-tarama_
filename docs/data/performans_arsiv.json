@@ -1,17 +1,6 @@
 [
  {
   "sistem": "donus",
-  "sembol": "ISFIN",
-  "tarih": "2026-08-13",
-  "yon": "AL",
-  "fiyat": 20.7,
-  "t1": -0.1,
-  "t3": -1.55,
-  "t5": -3.77,
-  "tamamlandi": true
- },
- {
-  "sistem": "donus",
   "sembol": "ISMEN",
   "tarih": "2026-08-13",
   "yon": "AL",
@@ -21994,6 +21983,17 @@
   "tarih": "2026-11-06",
   "yon": "AL",
   "fiyat": 7.06,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sistem": "aksam_al",
+  "sembol": "PGSUS",
+  "tarih": "2026-11-10",
+  "yon": "AL",
+  "fiyat": 154.4,
   "t1": null,
   "t3": null,
   "t5": null,
