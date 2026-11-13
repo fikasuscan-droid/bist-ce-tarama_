@@ -1,27 +1,62 @@
 {
  "sistem": "haftalik_ce",
- "zaman": "2026-11-06 20:40",
+ "zaman": "2026-11-13 21:06",
  "sinyaller": [
   {
-   "sembol": "TUPRS",
-   "fiyat": 337.5,
-   "yon": "SAT",
-   "tur": "GUCLU SAT (CE+EMA200+ADX)",
-   "detay": "EMA: ALT | ADX: 39.5"
+   "sembol": "GARAN",
+   "fiyat": 152.6,
+   "yon": "AL",
+   "tur": "GUCLU AL (CE+EMA200+ADX)",
+   "detay": "EMA: UST | ADX: 28.9"
   },
   {
-   "sembol": "KRDMD",
-   "fiyat": 36.16,
-   "yon": "SAT",
-   "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 21.5"
+   "sembol": "THYAO",
+   "fiyat": 319.0,
+   "yon": "AL",
+   "tur": "GUCLU AL (CE+EMA200+ADX)",
+   "detay": "EMA: UST | ADX: 38.3"
   },
   {
-   "sembol": "ETILR",
-   "fiyat": 6.61,
+   "sembol": "TSKB",
+   "fiyat": 10.7,
+   "yon": "AL",
+   "tur": "GUCLU AL (CE+EMA200+ADX)",
+   "detay": "EMA: UST | ADX: 37.2"
+  },
+  {
+   "sembol": "DOGUB",
+   "fiyat": 37.88,
+   "yon": "AL",
+   "tur": "GUCLU AL (CE+EMA200+ADX)",
+   "detay": "EMA: UST | ADX: 40.6"
+  },
+  {
+   "sembol": "KONTR",
+   "fiyat": 2.38,
+   "yon": "AL",
+   "tur": "ZAYIF AL (Sadece CE)",
+   "detay": "ADX: 34.9"
+  },
+  {
+   "sembol": "ACSEL",
+   "fiyat": 88.6,
+   "yon": "AL",
+   "tur": "ZAYIF AL (Sadece CE)",
+   "detay": "ADX: 50.3"
+  },
+  {
+   "sembol": "ISBIR",
+   "fiyat": 60.0,
+   "yon": "AL",
+   "tur": "ZAYIF AL (Sadece CE)",
+   "detay": "ADX: 44.2"
+  },
+  {
+   "sembol": "SOKM",
+   "fiyat": 45.44,
    "yon": "SAT",
    "tur": "ZAYIF SAT (Sadece CE)",
-   "detay": "ADX: 21.6"
+   "detay": "ADX: 27.1"
   }
  ]
 }

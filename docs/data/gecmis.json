@@ -1,85 +1,5 @@
 [
  {
-  "sembol": "TOASO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "TTRAK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "VESBE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "YKBNK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "AKMGY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "AVHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "AYEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "BNTAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
   "sembol": "BOSSA",
   "fiyat": NaN,
   "yon": "AL",
@@ -5001,5 +4921,85 @@
   "sistem": "ce_puanli",
   "tarih": "2026-11-13",
   "zaman": "2026-11-13 21:00"
+ },
+ {
+  "sembol": "GARAN",
+  "fiyat": 152.6,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 28.9",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
+ },
+ {
+  "sembol": "THYAO",
+  "fiyat": 319.0,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 38.3",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
+ },
+ {
+  "sembol": "TSKB",
+  "fiyat": 10.7,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 37.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
+ },
+ {
+  "sembol": "DOGUB",
+  "fiyat": 37.88,
+  "yon": "AL",
+  "tur": "GUCLU AL (CE+EMA200+ADX)",
+  "detay": "EMA: UST | ADX: 40.6",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
+ },
+ {
+  "sembol": "KONTR",
+  "fiyat": 2.38,
+  "yon": "AL",
+  "tur": "ZAYIF AL (Sadece CE)",
+  "detay": "ADX: 34.9",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
+ },
+ {
+  "sembol": "ACSEL",
+  "fiyat": 88.6,
+  "yon": "AL",
+  "tur": "ZAYIF AL (Sadece CE)",
+  "detay": "ADX: 50.3",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
+ },
+ {
+  "sembol": "ISBIR",
+  "fiyat": 60.0,
+  "yon": "AL",
+  "tur": "ZAYIF AL (Sadece CE)",
+  "detay": "ADX: 44.2",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
+ },
+ {
+  "sembol": "SOKM",
+  "fiyat": 45.44,
+  "yon": "SAT",
+  "tur": "ZAYIF SAT (Sadece CE)",
+  "detay": "ADX: 27.1",
+  "sistem": "haftalik_ce",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:06"
  }
 ]
