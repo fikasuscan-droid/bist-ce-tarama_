@@ -1,5 +1,27 @@
 {
  "sistem": "aksam_al",
- "zaman": "2026-11-12 21:31",
- "sinyaller": []
+ "zaman": "2026-11-13 20:56",
+ "sinyaller": [
+  {
+   "sembol": "CWENE",
+   "fiyat": 17.5,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %3.98 | Hacim: 2.7x"
+  },
+  {
+   "sembol": "EUPWR",
+   "fiyat": 40.98,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %9.98 | Hacim: 2.2x"
+  },
+  {
+   "sembol": "GESAN",
+   "fiyat": 35.8,
+   "yon": "AL",
+   "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+   "detay": "Degisim: %6.11 | Hacim: 2.1x"
+  }
+ ]
 }

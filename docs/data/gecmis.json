@@ -1,35 +1,5 @@
 [
  {
-  "sembol": "HALKB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "ISCTR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
-  "sembol": "SAHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
   "sembol": "TCELL",
   "fiyat": NaN,
   "yon": "AL",
@@ -4998,5 +4968,35 @@
   "sistem": "tavan",
   "tarih": "2026-11-12",
   "zaman": "2026-11-12 21:52"
+ },
+ {
+  "sembol": "CWENE",
+  "fiyat": 17.5,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %3.98 | Hacim: 2.7x",
+  "sistem": "aksam_al",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 20:56"
+ },
+ {
+  "sembol": "EUPWR",
+  "fiyat": 40.98,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %9.98 | Hacim: 2.2x",
+  "sistem": "aksam_al",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 20:56"
+ },
+ {
+  "sembol": "GESAN",
+  "fiyat": 35.8,
+  "yon": "AL",
+  "tur": "NORMAL - Hacim + Yukselis (CE ters)",
+  "detay": "Degisim: %6.11 | Hacim: 2.1x",
+  "sistem": "aksam_al",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 20:56"
  }
 ]
