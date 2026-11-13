@@ -1,15 +1,5 @@
 [
  {
-  "sembol": "TCELL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-11",
-  "zaman": "2026-11-11 22:00"
- },
- {
   "sembol": "TOASO",
   "fiyat": NaN,
   "yon": "AL",
@@ -4998,5 +4988,18 @@
   "sistem": "aksam_al",
   "tarih": "2026-11-13",
   "zaman": "2026-11-13 20:56"
+ },
+ {
+  "sembol": "VESBE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU LONG 4/5 puan",
+  "detay": "ADX: 47.5 | EMA200: 6.05",
+  "sl": NaN,
+  "tp1": NaN,
+  "tp2": NaN,
+  "sistem": "ce_puanli",
+  "tarih": "2026-11-13",
+  "zaman": "2026-11-13 21:00"
  }
 ]

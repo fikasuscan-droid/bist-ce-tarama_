@@ -1,5 +1,16 @@
 {
  "sistem": "ce_puanli",
- "zaman": "2026-11-12 21:36",
- "sinyaller": []
+ "zaman": "2026-11-13 21:00",
+ "sinyaller": [
+  {
+   "sembol": "VESBE",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU LONG 4/5 puan",
+   "detay": "ADX: 47.5 | EMA200: 6.05",
+   "sl": NaN,
+   "tp1": NaN,
+   "tp2": NaN
+  }
+ ]
 }
