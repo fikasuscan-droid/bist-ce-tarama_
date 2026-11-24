@@ -1,3245 +1,5 @@
 [
  {
-  "sembol": "HRKET",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "IZFAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KSTUR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ORMA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BRYAT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DOHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ENJSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "EUPWR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GENIL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PETKM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ULKER",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CEMTS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ETILR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GRSEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KERVN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KUTPO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "MAVI",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TATGD",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "VANGD",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AEFES",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CIMSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ECZYT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "HALKB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KLKIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ODAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SOKM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AKMGY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AVOD",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CEMAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DESA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ETYAT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GSDDE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "HTTBT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "IMASM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ISBIR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "LOGO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "NETAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PINSU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PLTUR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SDTTR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SEYKM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SONME",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ULUUN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AKBNK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AKSEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ALARK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ALFAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ASTOR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CWENE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DOAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ENKAI",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GARAN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "HEKTS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ISCTR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TKFEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ANHYT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BANVT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DAPGM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DERIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "EMNIS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ERCB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ESEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GEREL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ISMEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "IZMDC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KENT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "RYSAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "VKING",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AGHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BRSAN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ECILC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "EGEEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "FROTO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "MGROS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SAHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "YKBNK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ZOREN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ADEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BINHO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CASA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CLEBI",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GOZDE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GSRAY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "HUBVC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KAYSE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "MEDTR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ORGE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "OSMEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "OYLUM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PAPIL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PARSN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PCILT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "RAYSG",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TRILC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TUCLK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ANSGR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ARCLK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CANTE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "EKGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GESAN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GUBRF",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "MPARK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "OYAKC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SKBNK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ALGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AVHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BFREN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BUCIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DEVA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DZGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GARFA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GEDIK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GWIND",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "HLGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KONYA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KORDS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KRSTL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "MNDRS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "NATEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "NIBAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "NTGAZ",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "OBAMS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PAHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "PENTA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "RYGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ALTNY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TAVHL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TSKB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ALBRK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BVSAN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CMBTN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CRFSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "CUSAN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DGATE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "FMIZP",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GLBMD",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GOLTS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "HATEK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ISYAT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KAPLM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KARTN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KLSER",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "LIDFA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "LUKSK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SAFKR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TMSN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "TNZTP",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "VAKFN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "AKSGY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ANGEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "BNTAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DMSAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "GRTHO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "HURGZ",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ISFIN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ISGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "JANTS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KLMSN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "KRDMB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "MAALT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "OZKGY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "RODRG",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "SRVGY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "UNLU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "ACSEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "DOGUB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-20",
-  "zaman": "2026-11-20 22:16"
- },
- {
-  "sembol": "IHLGM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 12.2x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IDGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 6.7x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IHEVA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 5.8x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IHYAY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 4.7x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IHLAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.7x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SILVR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.6x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "FRIGO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.3x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IEYHO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.3x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ZRGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.3x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EGGUB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.2x | Puan: 2/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BURCE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 6.2x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "HEDEF",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 3.3x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "NETAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 3.1x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ISFIN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 3.0x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SASA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.9x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MAGEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.6x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BURVA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.5x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DNISI",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.4x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "PINSU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.1x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "CRFSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.0x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "OSMEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.0x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "TRGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 2.0x | Puan: 1/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IHGZT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SAYAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ERSU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "CMENT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "NUGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BJKAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GSDHO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KRDMA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "COSMO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "FLAP",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "METRO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "RALYH",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "YUNSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EMKEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "FENER",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ISSEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "OZGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "PGSUS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "THYAO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "TOASO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "VAKBN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MMCAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SKYLP",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ENERY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BAKAB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MEGAP",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "PKENT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SMART",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "YAPRK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KRDMD",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DOKTA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "OSTIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "TRCAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "VAKKO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "AKSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BTCIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KONTR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "AVGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BOSSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DESPC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DOCO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "INTEM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KNFRT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KRTEK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SEGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SEKFK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "USAK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ESCAR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MEPET",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "PRZMA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "CCOLA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ASUZU",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DGNMO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DURDO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EUHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KRPLS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SANEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SELEC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ALKIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.2x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EUKYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.1x | Puan: 1/3 | CE YUK",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "HUNER",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "CWENE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "TURSG",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IZMDC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.8x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GLRYH",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "TTRAK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GLBMD",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GRTHO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MARTI",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.6x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EGSER",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ISGSY",
-  "fiyat": 11.08,
-  "yon": "AL",
-  "tur": "TAVAN (%+9.92)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KARTN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KENT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.5x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ASELS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EREGL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DENGE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "POLHO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.4x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BANVT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DOGUB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EBEBK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ICBCT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "OYLUM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.3x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "CRDFA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EGPRO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GSRAY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "INDES",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "YEOTK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.2x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ALARK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ASTOR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BRYAT",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "CIMSA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MGROS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SISE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "TAVHL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "YKBNK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GEDZA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "INFO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KMPUR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KONYA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "LMKDC",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "LOGO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.1x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "AKBNK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BRSAN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GARAN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ISCTR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KCHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "AVOD",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BUCIM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DZGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ETILR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GRSEL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "IZFAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KERVN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 1.0x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ALFAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ARCLK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "BERA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "DOHOL",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "EUPWR",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "HALKB",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MPARK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "SOKM",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "TUPRS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "ATATP",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "AYCES",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "AYEN",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "CEMTS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GEDIK",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "GOODY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "HLGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "HRKET",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "KAYSE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "MAVI",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "PAGYO",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "PENTA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
-  "sembol": "RYSAS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.9x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-24",
-  "zaman": "2026-11-24 02:16"
- },
- {
   "sembol": "TRILC",
   "fiyat": NaN,
   "yon": "AL",
@@ -4998,5 +1758,3245 @@
   "sistem": "donus",
   "tarih": "2026-11-24",
   "zaman": "2026-11-24 02:23"
+ },
+ {
+  "sembol": "IHLGM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 6.6x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AVGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 3.4x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EGGUB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.9x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IHEVA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.4x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IDGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.3x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "YUNSA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.2x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IHYAY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.0x | Puan: 2/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MERKO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 11.2x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ERBOS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 9.3x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EGSER",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 6.7x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PENTA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 5.9x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MARTI",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 3.1x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DENGE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.9x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FMIZP",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.8x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BVSAN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.7x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BURCE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.5x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GRSEL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.5x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IZFAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.3x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ALGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.2x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IZMDC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.2x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ERCB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.1x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BURVA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.0x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EBEBK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.0x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GOLTS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.0x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HEDEF",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.0x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HUNER",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 2.0x | Puan: 1/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SILVR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.5x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SEGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.4x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AKSA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PKENT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PRZMA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FRIGO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HRKET",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IHLAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "NUGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SAYAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VAKBN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CMENT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "METRO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ZRGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "THYAO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TOASO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EUKYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ISSEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KRDMA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KRDMD",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ASUZU",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BAKAB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BOSSA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GSDHO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DOCO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IHGZT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "YAPRK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CCOLA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ENERY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DGNMO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ERSU",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KRTEK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EUHOL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FLAP",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KRPLS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MMCAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OZGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "USAK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "RALYH",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IEYHO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.0x | Puan: 1/3 | CE YUK",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "NETAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PARSN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "LIDER",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TRGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SASA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CUSAN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KRGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MAGEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EGEEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TURSG",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MEGAP",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PASEU",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BUCIM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CRFSA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GEREL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GRTHO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "JANTS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KONYA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TLMAN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VKGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EREGL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GARAN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MGROS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TAVHL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DZGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ISFIN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KATMR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KENT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VBTYZ",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.1x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TTRAK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DESA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KMPUR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "POLHO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "UNLU",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 1.0x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CWENE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MPARK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ODAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TUPRS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ULKER",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VESTL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ALBRK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AVHOL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BFREN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CEMAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CMBTN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GLRYH",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "LOGO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OBASE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PAGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PNLSN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "RAYSG",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "YATAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.9x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AKSEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ASELS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ASTOR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BRYAT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CIMSA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EKGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ENJSA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SAHOL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SISE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "YKBNK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AYEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DOKTA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GLBMD",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HLGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "IMASM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "INFO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KLSER",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OSMEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PAPIL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SELEC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SKYLP",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TUCLK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TURGG",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VERUS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.8x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ANSGR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BIMAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DOHOL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HALKB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ISCTR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KONTR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OTKAR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PETKM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TKFEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AKSGY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ANHYT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BNTAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CEMTS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ESCAR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FORMT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GOODY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GSRAY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HUBVC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KAYSE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KBORU",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MAALT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MEPET",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MRGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PINSU",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PRKME",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "RYSAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SAFKR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SMART",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TMSN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TRILC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VANGD",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.7x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AKBNK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ALTNY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BRSAN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ENKAI",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FROTO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KCHOL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PGSUS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SKBNK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SOKM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VESBE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BANVT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "COSMO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CRDFA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DERHL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DURDO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EMKEL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EMNIS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ESEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ETYAT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FENER",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HATEK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HTTBT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ICBCT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "INDES",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ISBIR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KARTN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KERVN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MAVI",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MEDTR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "NIBAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ONCSM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ORCAY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "RODRG",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SDTTR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SEYKM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ULUUN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VAKFN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VKING",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "YEOTK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.6x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AEFES",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ALARK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ALFAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BERA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BTCIM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ECILC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ECZYT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EUPWR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KTLEV",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TCELL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TTKOM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ZOREN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ATATP",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AVOD",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AYCES",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BAGFS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BJKAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CONSE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DAPGM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DERIM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EGPRO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ESCOM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ETILR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FONET",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "FORTE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GARFA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GEDIK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GEDZA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GWIND",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ISGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ISMEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KCAER",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KFEIN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KLMSN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KLRHO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KORDS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "LMKDC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ORGE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OZKGY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PAMEL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PLTUR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "VAKKO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.5x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ARCLK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CANTE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DOAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "EUREN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GENIL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GESAN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GUBRF",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HEKTS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KLKIM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OYAKC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TSKB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ADEL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ANGEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DESPC",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DNISI",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DOGUB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GOZDE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GSDDE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HURGZ",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ICUGS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KSTUR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "LIDFA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MIATK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "NTGAZ",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "NUHCM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OSTIM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PAHOL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PCILT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "RYGYO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SEKFK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SEKUR",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SRVGY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TRCAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "YKSLN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.4x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AGHOL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "AKMGY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ALKIM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ATAKP",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BARMA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BINHO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CASA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "CLEBI",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DMSAS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DYOBY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "GENTS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "HDFGS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "INTEM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KRSTL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "LUKSK",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "MNDRS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "NATEN",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OBAMS",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "OYLUM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "PRKAB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SANEL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TATGD",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "TNZTP",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.3x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "BIENY",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ACSEL",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DEVA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "DGATE",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ISYAT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KAPLM",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KNFRT",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KRDMB",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "KUTPO",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "ORMA",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SMRTG",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
+ },
+ {
+  "sembol": "SONME",
+  "fiyat": NaN,
+  "yon": "AL",
+  "tur": "GUCLU YUKSELIS (%+nan)",
+  "detay": "Hacim: 0.2x | Puan: 0/3",
+  "sistem": "tavan",
+  "tarih": "2026-11-24",
+  "zaman": "2026-11-24 23:56"
  }
 ]
