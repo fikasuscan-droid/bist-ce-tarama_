@@ -1,7 +1,7 @@
 {
- "guncelleme": "2026-11-24 02:28",
+ "guncelleme": "2026-11-25 00:00",
  "toplam_sinyal": 2000,
- "olculen": 1813,
+ "olculen": 1809,
  "sistemler": {
   "doji_gunluk": {
    "ad": "Doji Gunluk",
@@ -83,25 +83,25 @@
   },
   "donus": {
    "ad": "Donus Avcisi",
-   "adet": 814,
-   "t1_ort": -0.44,
-   "t1_basari": 45.5,
-   "t1_adet": 814,
-   "t3_ort": -0.67,
+   "adet": 810,
+   "t1_ort": -0.43,
+   "t1_basari": 45.7,
+   "t1_adet": 810,
+   "t3_ort": -0.68,
    "t3_basari": 44.4,
-   "t3_adet": 770,
-   "t5_ort": -1.03,
-   "t5_basari": 43.1,
-   "t5_adet": 589
+   "t3_adet": 766,
+   "t5_ort": -1.01,
+   "t5_basari": 43.4,
+   "t5_adet": 585
   }
  },
  "genel": {
-  "t1_ort": 0.28,
-  "t1_basari": 48.5,
+  "t1_ort": 0.29,
+  "t1_basari": 48.6,
   "t3_ort": 0.25,
   "t3_basari": 46.5,
-  "t5_ort": -0.84,
-  "t5_basari": 42.0
+  "t5_ort": -0.83,
+  "t5_basari": 42.1
  },
  "hisseler": {
   "ACSEL": {
@@ -1916,22 +1916,22 @@
   },
   "KMPUR": {
    "sembol": "KMPUR",
-   "adet": 3,
-   "t1_ort": 0.37,
-   "t1_basari": 33.3,
-   "t3_ort": 1.71,
-   "t3_basari": 66.7,
-   "t5_ort": 4.38,
-   "t5_basari": 66.7
+   "adet": 2,
+   "t1_ort": 1.55,
+   "t1_basari": 50.0,
+   "t3_ort": 2.33,
+   "t3_basari": 50.0,
+   "t5_ort": 7.61,
+   "t5_basari": 100.0
   },
   "KNFRT": {
    "sembol": "KNFRT",
-   "adet": 8,
-   "t1_ort": -1.42,
-   "t1_basari": 37.5,
-   "t3_ort": -4.31,
-   "t3_basari": 25.0,
-   "t5_ort": -6.63,
+   "adet": 7,
+   "t1_ort": -0.65,
+   "t1_basari": 42.9,
+   "t3_ort": -4.88,
+   "t3_basari": 28.6,
+   "t5_ort": -7.34,
    "t5_basari": 0.0
   },
   "KONTR": {
@@ -2404,16 +2404,6 @@
    "t5_ort": 1.02,
    "t5_basari": 100.0
   },
-  "OYLUM": {
-   "sembol": "OYLUM",
-   "adet": 1,
-   "t1_ort": -0.95,
-   "t1_basari": 0.0,
-   "t3_ort": -0.95,
-   "t3_basari": 0.0,
-   "t5_ort": -0.54,
-   "t5_basari": 0.0
-  },
   "OZKGY": {
    "sembol": "OZKGY",
    "adet": 5,
@@ -2426,13 +2416,13 @@
   },
   "PAGYO": {
    "sembol": "PAGYO",
-   "adet": 4,
-   "t1_ort": -0.65,
-   "t1_basari": 50.0,
-   "t3_ort": 0.22,
-   "t3_basari": 75.0,
-   "t5_ort": -1.63,
-   "t5_basari": 50.0
+   "adet": 3,
+   "t1_ort": -0.78,
+   "t1_basari": 66.7,
+   "t3_ort": -0.9,
+   "t3_basari": 66.7,
+   "t5_ort": 0.94,
+   "t5_basari": 66.7
   },
   "PAHOL": {
    "sembol": "PAHOL",

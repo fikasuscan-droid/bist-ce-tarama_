@@ -1,50 +1,6 @@
 [
  {
   "sistem": "donus",
-  "sembol": "KMPUR",
-  "tarih": "2026-08-14",
-  "yon": "SAT",
-  "fiyat": 21.1,
-  "t1": -1.99,
-  "t3": 0.47,
-  "t5": -2.09,
-  "tamamlandi": true
- },
- {
-  "sistem": "donus",
-  "sembol": "KNFRT",
-  "tarih": "2026-08-14",
-  "yon": "SAT",
-  "fiyat": 11.8,
-  "t1": -6.78,
-  "t3": -0.34,
-  "t5": -1.69,
-  "tamamlandi": true
- },
- {
-  "sistem": "donus",
-  "sembol": "OYLUM",
-  "tarih": "2026-08-14",
-  "yon": "AL",
-  "fiyat": 7.37,
-  "t1": -0.95,
-  "t3": -0.95,
-  "t5": -0.54,
-  "tamamlandi": true
- },
- {
-  "sistem": "donus",
-  "sembol": "PAGYO",
-  "tarih": "2026-08-14",
-  "yon": "SAT",
-  "fiyat": 154.2,
-  "t1": -0.26,
-  "t3": 3.57,
-  "t5": -9.34,
-  "tamamlandi": true
- },
- {
-  "sistem": "donus",
   "sembol": "PCILT",
   "tarih": "2026-08-14",
   "yon": "AL",
@@ -21994,6 +21950,50 @@
   "tarih": "2026-11-24",
   "yon": "AL",
   "fiyat": 104.8,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sistem": "donus",
+  "sembol": "HEDEF",
+  "tarih": "2026-11-24",
+  "yon": "AL",
+  "fiyat": 5.49,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sistem": "donus",
+  "sembol": "IHLGM",
+  "tarih": "2026-11-24",
+  "yon": "AL",
+  "fiyat": 1.76,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sistem": "donus",
+  "sembol": "NETAS",
+  "tarih": "2026-11-24",
+  "yon": "AL",
+  "fiyat": 51.7,
+  "t1": null,
+  "t3": null,
+  "t5": null,
+  "tamamlandi": false
+ },
+ {
+  "sistem": "donus",
+  "sembol": "PINSU",
+  "tarih": "2026-11-24",
+  "yon": "AL",
+  "fiyat": 6.75,
   "t1": null,
   "t3": null,
   "t5": null,
