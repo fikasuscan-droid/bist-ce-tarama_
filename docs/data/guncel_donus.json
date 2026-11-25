@@ -1,62 +1,48 @@
 {
  "sistem": "donus",
- "zaman": "2026-11-24 23:58",
+ "zaman": "2026-11-25 23:42",
  "sinyaller": [
   {
    "sembol": "GRSEL",
-   "fiyat": 240.1,
+   "fiyat": 242.0,
    "yon": "SAT",
-   "tur": "TEPE DONUS (4/6)",
-   "detay": "Diverjans + CiftTepe"
+   "tur": "TEPE DONUS (5/6)",
+   "detay": "Diverjans + CiftTepe + Hacim"
   },
   {
    "sembol": "TURGG",
-   "fiyat": 23.2,
+   "fiyat": 22.5,
    "yon": "SAT",
    "tur": "TEPE DONUS (4/6)",
    "detay": "Diverjans + CiftTepe"
   },
   {
-   "sembol": "SASA",
-   "fiyat": 1.45,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "DNISI",
-   "fiyat": 3.8,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
+   "sembol": "EBEBK",
+   "fiyat": 65.75,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "CiftTepe + Hacim"
   },
   {
    "sembol": "HEDEF",
-   "fiyat": 5.49,
+   "fiyat": 4.95,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
    "detay": "Diverjans + Hacim"
   },
   {
-   "sembol": "IHLGM",
-   "fiyat": 1.76,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
+   "sembol": "INDES",
+   "fiyat": 8.21,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Mum + CiftTepe"
   },
   {
-   "sembol": "NETAS",
-   "fiyat": 51.7,
+   "sembol": "JANTS",
+   "fiyat": 11.09,
    "yon": "AL",
    "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
-  },
-  {
-   "sembol": "PINSU",
-   "fiyat": 6.75,
-   "yon": "AL",
-   "tur": "DIP DONUS (3/6)",
-   "detay": "Diverjans + Hacim"
+   "detay": "Diverjans + CE"
   }
  ]
 }
