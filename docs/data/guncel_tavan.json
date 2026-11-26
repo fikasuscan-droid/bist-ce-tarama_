@@ -1,76 +1,62 @@
 {
  "sistem": "tavan",
- "zaman": "2026-11-25 23:40",
+ "zaman": "2026-11-26 23:53",
  "sinyaller": [
   {
-   "sembol": "BFREN",
+   "sembol": "KATMR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 11.8x | Puan: 2/3 | CE YUK"
+   "detay": "Hacim: 3.1x | Puan: 2/3 | CE YUK"
   },
   {
    "sembol": "IHEVA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 4.3x | Puan: 2/3 | CE YUK"
+   "detay": "Hacim: 2.9x | Puan: 2/3 | CE YUK"
   },
   {
-   "sembol": "JANTS",
+   "sembol": "EGGUB",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 3.3x | Puan: 2/3 | CE YUK"
-  },
-  {
-   "sembol": "DENGE",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.6x | Puan: 2/3 | CE YUK"
-  },
-  {
-   "sembol": "ERCB",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.5x | Puan: 2/3 | CE YUK"
-  },
-  {
-   "sembol": "AVGYO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.4x | Puan: 2/3 | CE YUK"
-  },
-  {
-   "sembol": "IHLGM",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.0x | Puan: 2/3 | CE YUK"
+   "detay": "Hacim: 2.2x | Puan: 2/3 | CE YUK"
   },
   {
    "sembol": "PENTA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 5.1x | Puan: 1/3"
+   "detay": "Hacim: 2.2x | Puan: 2/3 | CE YUK"
   },
   {
-   "sembol": "KATMR",
+   "sembol": "BFREN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 4.2x | Puan: 1/3"
+   "detay": "Hacim: 2.0x | Puan: 2/3 | CE YUK"
   },
   {
-   "sembol": "ERBOS",
+   "sembol": "SASA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.9x | Puan: 1/3"
+   "detay": "Hacim: 6.8x | Puan: 1/3"
+  },
+  {
+   "sembol": "IHLGM",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 3.6x | Puan: 1/3"
+  },
+  {
+   "sembol": "IEYHO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 3.3x | Puan: 1/3"
   },
   {
    "sembol": "GRTHO",
@@ -80,189 +66,105 @@
    "detay": "Hacim: 2.7x | Puan: 1/3"
   },
   {
-   "sembol": "CUSAN",
+   "sembol": "ETILR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.2x | Puan: 1/3"
-  },
-  {
-   "sembol": "VANGD",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.2x | Puan: 1/3"
-  },
-  {
-   "sembol": "GENIL",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.0x | Puan: 1/3"
-  },
-  {
-   "sembol": "SASA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.0x | Puan: 1/3"
-  },
-  {
-   "sembol": "AYCES",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.0x | Puan: 1/3"
-  },
-  {
-   "sembol": "IEYHO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.0x | Puan: 1/3"
-  },
-  {
-   "sembol": "ORMA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.0x | Puan: 1/3"
-  },
-  {
-   "sembol": "YKSLN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 2.0x | Puan: 1/3"
-  },
-  {
-   "sembol": "DOGUB",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.7x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "IHYAY",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.7x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "NUGYO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.6x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "EGGUB",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.3x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "ENERY",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.2x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "CMENT",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.2x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "HRKET",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.2x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "FRIGO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "MMCAS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "AKSA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "TOASO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "FLAP",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "RALYH",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "YUNSA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "VAKBN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK"
+   "detay": "Hacim: 2.5x | Puan: 1/3"
   },
   {
    "sembol": "ISSEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK"
+   "detay": "Hacim: 2.5x | Puan: 1/3"
   },
   {
-   "sembol": "METRO",
+   "sembol": "KCAER",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 2.3x | Puan: 1/3"
+  },
+  {
+   "sembol": "GEREL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 2.1x | Puan: 1/3"
+  },
+  {
+   "sembol": "PAMEL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 2.0x | Puan: 1/3"
+  },
+  {
+   "sembol": "AKSA",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.5x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "ERCB",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.5x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "DENGE",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.3x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "SILVR",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "SAFKR",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.0x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "BOSSA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "USAK",
+   "sembol": "CMENT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "BAKAB",
+   "sembol": "AVGYO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "HRKET",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "JANTS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -276,39 +178,39 @@
    "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "SILVR",
+   "sembol": "YUNSA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "THYAO",
+   "sembol": "KRPLS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "ZRGYO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "FRIGO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "BOSSA",
+   "sembol": "ERSU",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "DOCO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "IHLAS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 1/3 | CE YUK"
+   "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK"
   },
   {
    "sembol": "EUKYO",
@@ -318,35 +220,14 @@
    "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "KRPLS",
+   "sembol": "NUGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "KRTEK",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "ZRGYO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "ERSU",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.4x | Puan: 1/3 | CE YUK"
-  },
-  {
-   "sembol": "IHGZT",
+   "sembol": "DOCO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -360,189 +241,252 @@
    "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "IDGYO",
+   "sembol": "DOGUB",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.3x | Puan: 1/3 | CE YUK"
   },
   {
-   "sembol": "BVSAN",
+   "sembol": "IDGYO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.0x | Puan: 1/3 | CE YUK"
+  },
+  {
+   "sembol": "ANHYT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.8x | Puan: 0/3"
+  },
+  {
+   "sembol": "BIENY",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "DURDO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.7x | Puan: 0/3"
   },
   {
    "sembol": "PASEU",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "SAHOL",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.7x | Puan: 0/3"
-  },
-  {
-   "sembol": "KLSER",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.7x | Puan: 0/3"
-  },
-  {
-   "sembol": "TRGYO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.7x | Puan: 0/3"
-  },
-  {
-   "sembol": "LOGO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "MERKO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "ALBRK",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "GRSEL",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "MEPET",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "PARSN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "TRCAS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.4x | Puan: 0/3"
-  },
-  {
-   "sembol": "YATAS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.4x | Puan: 0/3"
-  },
-  {
-   "sembol": "GARAN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.3x | Puan: 0/3"
   },
   {
    "sembol": "MGROS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.3x | Puan: 0/3"
+   "detay": "Hacim: 1.6x | Puan: 0/3"
   },
   {
-   "sembol": "TTRAK",
+   "sembol": "CUSAN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "GOLTS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "IMASM",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "SKYLP",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "KARTN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "VANGD",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "DOHOL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "DMSAS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "BRSAN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.3x | Puan: 0/3"
   },
   {
-   "sembol": "HEDEF",
+   "sembol": "HEKTS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.3x | Puan: 0/3"
   },
   {
-   "sembol": "KERVN",
+   "sembol": "OYAKC",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.3x | Puan: 0/3"
   },
   {
-   "sembol": "MAALT",
+   "sembol": "SOKM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.3x | Puan: 0/3"
   },
   {
-   "sembol": "AKBNK",
+   "sembol": "ALGYO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "ORCAY",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "SRVGY",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "CIMSA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.2x | Puan: 0/3"
   },
   {
-   "sembol": "ANSGR",
+   "sembol": "CWENE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.2x | Puan: 0/3"
   },
   {
-   "sembol": "EKGYO",
+   "sembol": "ENJSA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.2x | Puan: 0/3"
   },
   {
-   "sembol": "OTKAR",
+   "sembol": "TOASO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.2x | Puan: 0/3"
   },
   {
-   "sembol": "AKSGY",
+   "sembol": "TURSG",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.2x | Puan: 0/3"
   },
   {
-   "sembol": "MAVI",
+   "sembol": "VESTL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.2x | Puan: 0/3"
   },
   {
-   "sembol": "AKSEN",
+   "sembol": "GLRYH",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "ISBIR",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "OYLUM",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "OZKGY",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "AEFES",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "ECILC",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "EUPWR",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "HALKB",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -556,140 +500,84 @@
    "detay": "Hacim: 1.1x | Puan: 0/3"
   },
   {
-   "sembol": "TAVHL",
+   "sembol": "TSKB",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.1x | Puan: 0/3"
   },
   {
-   "sembol": "ULKER",
+   "sembol": "TTKOM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "AYEN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "DESPC",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "GOLTS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "GSDHO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "HUNER",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "ISMEN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "KAYSE",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "KLRHO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "SANEL",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "SELEC",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "TMSN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.1x | Puan: 0/3"
-  },
-  {
-   "sembol": "ASTOR",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "ENJSA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "HALKB",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "MPARK",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "SISE",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "TURSG",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
    "sembol": "YKBNK",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "COSMO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "ESCAR",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "ORMA",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "TUCLK",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "FROTO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.0x | Puan: 0/3"
+  },
+  {
+   "sembol": "GENIL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.0x | Puan: 0/3"
+  },
+  {
+   "sembol": "SKBNK",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.0x | Puan: 0/3"
+  },
+  {
+   "sembol": "TCELL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.0x | Puan: 0/3"
+  },
+  {
+   "sembol": "AYCES",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -703,42 +591,49 @@
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "BURCE",
+   "sembol": "DERHL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "BURVA",
+   "sembol": "DESPC",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "EBEBK",
+   "sembol": "GEDZA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "ETYAT",
+   "sembol": "GLBMD",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "HLGYO",
+   "sembol": "HUNER",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "KGYO",
+   "sembol": "IHYAY",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 1.0x | Puan: 0/3"
+  },
+  {
+   "sembol": "IZFAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -752,46 +647,39 @@
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "LIDER",
+   "sembol": "KRTEK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "MARTI",
+   "sembol": "PARSN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "SEGYO",
+   "sembol": "PRKME",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "SKYLP",
+   "sembol": "SONME",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 1.0x | Puan: 0/3"
   },
   {
-   "sembol": "VBTYZ",
+   "sembol": "AKBNK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
-  },
-  {
-   "sembol": "VKGYO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 1.0x | Puan: 0/3"
+   "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
    "sembol": "ALARK",
@@ -801,49 +689,77 @@
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "CWENE",
+   "sembol": "ANSGR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "ENKAI",
+   "sembol": "ASELS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "PGSUS",
+   "sembol": "BIMAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "TUPRS",
+   "sembol": "EKGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "ALGYO",
+   "sembol": "GARAN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "ANHYT",
+   "sembol": "PETKM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "ATATP",
+   "sembol": "SISE",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "TKFEN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "VESBE",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "AVHOL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "AYEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -857,126 +773,98 @@
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "GEDZA",
+   "sembol": "CEMAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "INDES",
+   "sembol": "DGATE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "KARTN",
+   "sembol": "DZGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "KENT",
+   "sembol": "EBEBK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "NETAS",
+   "sembol": "FONET",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "OBAMS",
+   "sembol": "GSRAY",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "OZKGY",
+   "sembol": "HLGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "RAYSG",
+   "sembol": "IHLAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "UNLU",
+   "sembol": "KGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.9x | Puan: 0/3"
   },
   {
-   "sembol": "AEFES",
+   "sembol": "KSTUR",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "RODRG",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "TRILC",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.9x | Puan: 0/3"
+  },
+  {
+   "sembol": "ALFAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "ASELS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "CIMSA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "DOHOL",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "ECILC",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "EGEEN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "EREGL",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "EUPWR",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "KRDMD",
+   "sembol": "BRYAT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -990,42 +878,42 @@
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "SOKM",
+   "sembol": "SAHOL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "TTKOM",
+   "sembol": "TTRAK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "AVOD",
+   "sembol": "VAKBN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "DERHL",
+   "sembol": "ASUZU",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "DESA",
+   "sembol": "BANVT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "DYOBY",
+   "sembol": "BVSAN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1039,175 +927,154 @@
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "FENER",
+   "sembol": "ETYAT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "GLBMD",
+   "sembol": "INDES",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "GLRYH",
+   "sembol": "KENT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "GSRAY",
+   "sembol": "KLSER",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "GWIND",
+   "sembol": "KNFRT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "ISGYO",
+   "sembol": "KRGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "IZMDC",
+   "sembol": "LOGO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "KMPUR",
+   "sembol": "MEGAP",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "KRSTL",
+   "sembol": "MEPET",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "KSTUR",
+   "sembol": "PAPIL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "KUTPO",
+   "sembol": "SEGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "OBASE",
+   "sembol": "TRGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.8x | Puan: 0/3"
   },
   {
-   "sembol": "OYLUM",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "PAHOL",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "POLHO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "SMART",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "SRVGY",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "TURGG",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "VAKFN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "VKING",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "YEOTK",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.8x | Puan: 0/3"
-  },
-  {
-   "sembol": "BIMAS",
+   "sembol": "AKSEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "BRYAT",
+   "sembol": "ARCLK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "CANTE",
+   "sembol": "ASTOR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "FROTO",
+   "sembol": "ECZYT",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "ENERY",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "ENKAI",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "EREGL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "EUREN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "GESAN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "GUBRF",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1221,42 +1088,49 @@
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "PETKM",
+   "sembol": "PGSUS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "SKBNK",
+   "sembol": "TAVHL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "TCELL",
+   "sembol": "THYAO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "TKFEN",
+   "sembol": "TUPRS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "VESTL",
+   "sembol": "AKSGY",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "BANVT",
+   "sembol": "AVOD",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.7x | Puan: 0/3"
+  },
+  {
+   "sembol": "BAKAB",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1270,7 +1144,7 @@
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "BNTAS",
+   "sembol": "BURCE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1284,84 +1158,70 @@
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "CRFSA",
+   "sembol": "CONSE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "DGATE",
+   "sembol": "DESA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "DZGYO",
+   "sembol": "DYOBY",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "ETILR",
+   "sembol": "ICUGS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "FMIZP",
+   "sembol": "KAYSE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "IMASM",
+   "sembol": "KLRHO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "INFO",
+   "sembol": "KMPUR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "ISFIN",
+   "sembol": "KUTPO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "IZFAS",
+   "sembol": "MAALT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "LUKSK",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.7x | Puan: 0/3"
-  },
-  {
-   "sembol": "MEDTR",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.7x | Puan: 0/3"
-  },
-  {
-   "sembol": "MEGAP",
+   "sembol": "MARTI",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1375,60 +1235,60 @@
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "NIBAS",
+   "sembol": "OBASE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "NUHCM",
+   "sembol": "PINSU",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "PCILT",
+   "sembol": "RALYH",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "SAFKR",
+   "sembol": "SDTTR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "SAYAS",
+   "sembol": "SELEC",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "TLMAN",
+   "sembol": "TURGG",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "ULUUN",
+   "sembol": "VBTYZ",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
-   "sembol": "AGHOL",
+   "sembol": "YKSLN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
+   "detay": "Hacim: 0.7x | Puan: 0/3"
   },
   {
    "sembol": "ALTNY",
@@ -1445,91 +1305,56 @@
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "BRSAN",
+   "sembol": "EGEEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "CCOLA",
+   "sembol": "KRDMD",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "DOAS",
+   "sembol": "ULKER",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "EUREN",
+   "sembol": "ZOREN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "GUBRF",
+   "sembol": "ALBRK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "OYAKC",
+   "sembol": "ALKIM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "TSKB",
+   "sembol": "ATAKP",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "AKMGY",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "ASUZU",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "BARMA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "BINHO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "CASA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "CMBTN",
+   "sembol": "BURVA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1543,21 +1368,7 @@
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "DOKTA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "EGSER",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "ESCAR",
+   "sembol": "DEVA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1571,14 +1382,14 @@
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "ESEN",
+   "sembol": "FENER",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "FONET",
+   "sembol": "FLAP",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1592,63 +1403,42 @@
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "FORTE",
+   "sembol": "GARFA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "GOZDE",
+   "sembol": "GRSEL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "HUBVC",
+   "sembol": "GSDHO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "HURGZ",
+   "sembol": "ISMEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "ISYAT",
+   "sembol": "IZMDC",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "KBORU",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "KFEIN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "KRGYO",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.6x | Puan: 0/3"
-  },
-  {
-   "sembol": "LIDFA",
+   "sembol": "KERVN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1662,28 +1452,70 @@
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "OSTIM",
+   "sembol": "MAVI",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "PAPIL",
+   "sembol": "MERKO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "PINSU",
+   "sembol": "NATEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "PRKME",
+   "sembol": "NIBAS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "OBAMS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "ORGE",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "PNLSN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "POLHO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "PRZMA",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "RAYSG",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1697,7 +1529,7 @@
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "SDTTR",
+   "sembol": "SANEL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1711,63 +1543,35 @@
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "TUCLK",
+   "sembol": "USAK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "VERUS",
+   "sembol": "VKGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.6x | Puan: 0/3"
   },
   {
-   "sembol": "ALFAS",
+   "sembol": "YEOTK",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.6x | Puan: 0/3"
+  },
+  {
+   "sembol": "AGHOL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "ARCLK",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "BIENY",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "ECZYT",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "GESAN",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "HEKTS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "KLKIM",
+   "sembol": "BTCIM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1781,70 +1585,70 @@
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "VESBE",
+   "sembol": "MPARK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "ATAKP",
+   "sembol": "AKMGY",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "AVHOL",
+   "sembol": "BNTAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "CEMAS",
+   "sembol": "CASA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "CLEBI",
+   "sembol": "CRFSA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "CONSE",
+   "sembol": "EGSER",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "DAPGM",
+   "sembol": "ERBOS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "DMSAS",
+   "sembol": "FMIZP",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "DURDO",
+   "sembol": "FORTE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "EMNIS",
+   "sembol": "GENTS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1858,6 +1662,27 @@
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
+   "sembol": "GWIND",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "HEDEF",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "HURGZ",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
    "sembol": "ICBCT",
    "fiyat": NaN,
    "yon": "AL",
@@ -1865,112 +1690,105 @@
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "ICUGS",
+   "sembol": "INFO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "KAPLM",
+   "sembol": "INTEM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "KCAER",
+   "sembol": "ISGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "KORDS",
+   "sembol": "KBORU",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "MAGEN",
+   "sembol": "KONYA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "MNDRS",
+   "sembol": "KRSTL",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "NATEN",
+   "sembol": "LIDFA",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "NTGAZ",
+   "sembol": "LUKSK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "ONCSM",
+   "sembol": "METRO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "ORGE",
+   "sembol": "MIATK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "OSMEN",
+   "sembol": "NETAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "PAMEL",
+   "sembol": "OSTIM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "PNLSN",
+   "sembol": "PCILT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "PRKAB",
+   "sembol": "PLTUR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "PRZMA",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.5x | Puan: 0/3"
-  },
-  {
-   "sembol": "SEKFK",
+   "sembol": "SAYAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1984,7 +1802,21 @@
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "SONME",
+   "sembol": "SMART",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "TLMAN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "TMSN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -1998,7 +1830,21 @@
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "TRILC",
+   "sembol": "TRCAS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "UNLU",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "VAKFN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -2012,56 +1858,70 @@
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "YAPRK",
+   "sembol": "VKING",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.5x | Puan: 0/3"
   },
   {
-   "sembol": "BTCIM",
+   "sembol": "YATAS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.5x | Puan: 0/3"
+  },
+  {
+   "sembol": "CANTE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "ZOREN",
+   "sembol": "DOAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "ADEL",
+   "sembol": "KLKIM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "ALKIM",
+   "sembol": "OTKAR",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "COSMO",
+   "sembol": "ANGEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "DERIM",
+   "sembol": "ATATP",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "DEVA",
+   "sembol": "BINHO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "CMBTN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -2075,70 +1935,105 @@
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "GEDIK",
+   "sembol": "ESEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "GENTS",
+   "sembol": "GOZDE",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "GEREL",
+   "sembol": "HATEK",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "GOODY",
+   "sembol": "HTTBT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "HDFGS",
+   "sembol": "HUBVC",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "INTEM",
+   "sembol": "ISFIN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "ISBIR",
+   "sembol": "ISYAT",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "KONYA",
+   "sembol": "KFEIN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "KRDMB",
+   "sembol": "KLMSN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
-   "sembol": "ORCAY",
+   "sembol": "MEDTR",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "MMCAS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "MNDRS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "NTGAZ",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "NUHCM",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "ONCSM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -2146,6 +2041,27 @@
   },
   {
    "sembol": "OZGYO",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "PAHOL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "PRKAB",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "RYSAS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -2166,6 +2082,27 @@
    "detay": "Hacim: 0.4x | Puan: 0/3"
   },
   {
+   "sembol": "ULUUN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "YAPRK",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.4x | Puan: 0/3"
+  },
+  {
+   "sembol": "CCOLA",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.3x | Puan: 0/3"
+  },
+  {
    "sembol": "ACSEL",
    "fiyat": NaN,
    "yon": "AL",
@@ -2173,7 +2110,28 @@
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
-   "sembol": "ANGEN",
+   "sembol": "ADEL",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "CLEBI",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "DAPGM",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "DERIM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
@@ -2187,6 +2145,13 @@
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
+   "sembol": "EMNIS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.3x | Puan: 0/3"
+  },
+  {
    "sembol": "EUHOL",
    "fiyat": NaN,
    "yon": "AL",
@@ -2194,81 +2159,116 @@
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
-   "sembol": "GARFA",
+   "sembol": "GOODY",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
-   "sembol": "HTTBT",
+   "sembol": "HDFGS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
-   "sembol": "KLMSN",
+   "sembol": "KAPLM",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
-   "sembol": "KNFRT",
+   "sembol": "KORDS",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
-   "sembol": "MIATK",
+   "sembol": "KRDMB",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.3x | Puan: 0/3"
   },
   {
-   "sembol": "PLTUR",
+   "sembol": "OSMEN",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.3x | Puan: 0/3"
-  },
-  {
-   "sembol": "RODRG",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.3x | Puan: 0/3"
-  },
-  {
-   "sembol": "RYSAS",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.3x | Puan: 0/3"
-  },
-  {
-   "sembol": "HATEK",
-   "fiyat": NaN,
-   "yon": "AL",
-   "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.2x | Puan: 0/3"
   },
   {
    "sembol": "PAGYO",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "SEKFK",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.3x | Puan: 0/3"
+  },
+  {
+   "sembol": "GEDIK",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
    "detay": "Hacim: 0.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "IHGZT",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "LIDER",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "MAGEN",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "VERUS",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.2x | Puan: 0/3"
+  },
+  {
+   "sembol": "BARMA",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.1x | Puan: 0/3"
+  },
+  {
+   "sembol": "DOKTA",
+   "fiyat": NaN,
+   "yon": "AL",
+   "tur": "GUCLU YUKSELIS (%+nan)",
+   "detay": "Hacim: 0.1x | Puan: 0/3"
   },
   {
    "sembol": "KTLEV",
    "fiyat": NaN,
    "yon": "AL",
    "tur": "GUCLU YUKSELIS (%+nan)",
-   "detay": "Hacim: 0.1x | Puan: 0/3"
+   "detay": "Hacim: 0.0x | Puan: 0/3"
   }
  ]
 }
