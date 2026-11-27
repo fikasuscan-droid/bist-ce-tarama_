@@ -1,39 +1,5 @@
 {
  "sistem": "doji_haftalik",
- "zaman": "2026-11-20 22:14",
- "sinyaller": [
-  {
-   "sembol": "EGGUB",
-   "fiyat": 87.0,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 3.9x",
-   "sl": 77.7,
-   "tp1": 102.62,
-   "tp2": 113.03,
-   "tp3": 128.64
-  },
-  {
-   "sembol": "VAKKO",
-   "fiyat": 48.14,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Doji | CE: ASAGI | Hacim: 0.9x",
-   "sl": 46.16,
-   "tp1": 57.48,
-   "tp2": 63.7,
-   "tp3": 73.04
-  },
-  {
-   "sembol": "KMPUR",
-   "fiyat": 12.19,
-   "yon": "AL",
-   "tur": "DONUS AL ONAYLANDI",
-   "detay": "Mezartas Doji | CE: ASAGI | Hacim: 0.8x",
-   "sl": 11.67,
-   "tp1": 15.25,
-   "tp2": 17.3,
-   "tp3": 20.36
-  }
- ]
+ "zaman": "2026-11-27 23:25",
+ "sinyaller": []
 }
