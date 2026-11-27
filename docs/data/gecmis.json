@@ -1,65 +1,5 @@
 [
  {
-  "sembol": "CEMTS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-26",
-  "zaman": "2026-11-26 23:53"
- },
- {
-  "sembol": "CONSE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-26",
-  "zaman": "2026-11-26 23:53"
- },
- {
-  "sembol": "DESA",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-26",
-  "zaman": "2026-11-26 23:53"
- },
- {
-  "sembol": "DYOBY",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-26",
-  "zaman": "2026-11-26 23:53"
- },
- {
-  "sembol": "ICUGS",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-26",
-  "zaman": "2026-11-26 23:53"
- },
- {
-  "sembol": "KAYSE",
-  "fiyat": NaN,
-  "yon": "AL",
-  "tur": "GUCLU YUKSELIS (%+nan)",
-  "detay": "Hacim: 0.7x | Puan: 0/3",
-  "sistem": "tavan",
-  "tarih": "2026-11-26",
-  "zaman": "2026-11-26 23:53"
- },
- {
   "sembol": "KLRHO",
   "fiyat": NaN,
   "yon": "AL",
@@ -4998,5 +4938,65 @@
   "sistem": "tavan",
   "tarih": "2026-11-27",
   "zaman": "2026-11-27 23:31"
+ },
+ {
+  "sembol": "GRSEL",
+  "fiyat": 232.7,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (5/6)",
+  "detay": "Mum + Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-11-27",
+  "zaman": "2026-11-27 23:35"
+ },
+ {
+  "sembol": "TURGG",
+  "fiyat": 21.82,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (4/6)",
+  "detay": "Diverjans + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-11-27",
+  "zaman": "2026-11-27 23:35"
+ },
+ {
+  "sembol": "ASELS",
+  "fiyat": 315.0,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Mum + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-11-27",
+  "zaman": "2026-11-27 23:35"
+ },
+ {
+  "sembol": "SAHOL",
+  "fiyat": 75.15,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Mum + CiftTepe",
+  "sistem": "donus",
+  "tarih": "2026-11-27",
+  "zaman": "2026-11-27 23:35"
+ },
+ {
+  "sembol": "METRO",
+  "fiyat": 8.69,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Diverjans + CE",
+  "sistem": "donus",
+  "tarih": "2026-11-27",
+  "zaman": "2026-11-27 23:35"
+ },
+ {
+  "sembol": "PKENT",
+  "fiyat": 105.0,
+  "yon": "SAT",
+  "tur": "TEPE DONUS (3/6)",
+  "detay": "Mum + Diverjans",
+  "sistem": "donus",
+  "tarih": "2026-11-27",
+  "zaman": "2026-11-27 23:35"
  }
 ]

@@ -1,48 +1,48 @@
 {
  "sistem": "donus",
- "zaman": "2026-11-26 23:55",
+ "zaman": "2026-11-27 23:35",
  "sinyaller": [
   {
    "sembol": "GRSEL",
-   "fiyat": 233.0,
+   "fiyat": 232.7,
    "yon": "SAT",
    "tur": "TEPE DONUS (5/6)",
-   "detay": "Diverjans + CiftTepe + Hacim"
+   "detay": "Mum + Diverjans + CiftTepe"
   },
   {
    "sembol": "TURGG",
-   "fiyat": 22.0,
+   "fiyat": 21.82,
    "yon": "SAT",
    "tur": "TEPE DONUS (4/6)",
    "detay": "Diverjans + CiftTepe"
   },
   {
+   "sembol": "ASELS",
+   "fiyat": 315.0,
+   "yon": "SAT",
+   "tur": "TEPE DONUS (3/6)",
+   "detay": "Mum + CiftTepe"
+  },
+  {
    "sembol": "SAHOL",
-   "fiyat": 74.1,
+   "fiyat": 75.15,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
-   "detay": "CiftTepe + Hacim"
+   "detay": "Mum + CiftTepe"
   },
   {
-   "sembol": "VAKBN",
-   "fiyat": 31.0,
+   "sembol": "METRO",
+   "fiyat": 8.69,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
-   "detay": "CiftTepe + CE"
+   "detay": "Diverjans + CE"
   },
   {
-   "sembol": "IHYAY",
-   "fiyat": 0.86,
+   "sembol": "PKENT",
+   "fiyat": 105.0,
    "yon": "SAT",
    "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + CE + Hacim"
-  },
-  {
-   "sembol": "JANTS",
-   "fiyat": 10.05,
-   "yon": "SAT",
-   "tur": "TEPE DONUS (3/6)",
-   "detay": "Mum + CE + Hacim"
+   "detay": "Mum + Diverjans"
   }
  ]
 }
